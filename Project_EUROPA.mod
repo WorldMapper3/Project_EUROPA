@@ -1,5 +1,5 @@
 ﻿name="!Project Europa"
-path="mod/europa/"
+path="mod/Project_EUROPA/"
 tags={
 	"Map"
 	"Gameplay"
