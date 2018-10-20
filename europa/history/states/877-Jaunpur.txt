@@ -1,0 +1,33 @@
+state={
+	id=877
+	name="STATE_877"
+	resources={
+		oil=33
+		aluminium=35
+	}
+
+	history={
+		owner = JNP
+		victory_points = {
+			5055 20 
+		}
+		victory_points = {
+			9973 30 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = JNP
+
+	}
+
+	provinces={
+		2005 5055 9973 10751 12777 12786 
+	}
+	manpower=3203883
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

@@ -1,0 +1,30 @@
+state={
+	id=820
+	name="STATE_820"
+
+	history={
+		owner = VNC
+		victory_points = {
+			10203 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			10203 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = CRF
+		add_core_of = VNC
+
+	}
+
+	provinces={
+		1106 10203 
+	}
+	manpower=190476
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

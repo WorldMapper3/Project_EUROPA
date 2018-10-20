@@ -1,0 +1,31 @@
+state={
+	id=884
+	name="STATE_884"
+	resources={
+		chromium=9
+	}
+
+	history={
+		owner = VIJ
+		victory_points = {
+			1321 3 
+		}
+		buildings = {
+			infrastructure = 2
+			1321 = {
+				naval_base = 1
+
+			}
+
+		}
+		#add_core_of = VND
+
+	}
+
+	provinces={
+		1238 1321 7288 7402 
+	}
+	manpower=333738
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

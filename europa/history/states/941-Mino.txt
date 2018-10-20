@@ -1,0 +1,26 @@
+state={
+	id=941
+	name="STATE_941"
+	resources={
+		chromium=16
+	}
+	
+	history={
+		owner = ASK
+		add_core_of = ASK
+		victory_points={
+			7187 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	
+	provinces={
+		4069 4172 7187 7217 
+	}
+	manpower=398255
+	state_category=town
+	buildings_max_level_factor=1.000
+}

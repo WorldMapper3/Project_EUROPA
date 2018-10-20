@@ -1,0 +1,26 @@
+state={
+	id=578
+	name="STATE_578"
+	resources={
+		chromium=8
+	}
+
+	history={
+		owner = UZB
+		victory_points = {
+			1674 3 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = UZB
+		add_core_of = SIB
+	}
+
+	provinces={
+		1674 1765 1790 1824 4767 4827 4840 7655 7722 7793 7861 10529 10555 12510 
+	}
+	manpower=108615
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,26 @@
+state= {
+	id=183
+	name="STATE_183"
+	manpower = 225564
+	
+	state_category = town
+	resources={
+		chromium=4
+	}
+
+	history={
+		owner = CYP
+		add_core_of = CYP
+		victory_points = {
+			7193 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			11984 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces= { 7193 11984 }
+}

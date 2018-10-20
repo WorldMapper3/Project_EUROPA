@@ -1,0 +1,35 @@
+state={
+	id=829
+	name="STATE_829"
+
+	history={
+		owner = TLM
+		add_core_of = TLM
+		victory_points = {
+			4154 3 
+		}
+		victory_points = {
+			12018 1 
+		}
+		victory_points = {
+			10045 3 
+		}
+		victory_points = {
+			9960 1 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1128 3991 4018 4131 4154 7008 7033 7040 7116 7958 9960 10045 12018 12020 13074 
+	}
+	manpower=312292
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

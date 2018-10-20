@@ -1,0 +1,22 @@
+
+state={
+	id=474
+	name="STATE_474"
+
+	history={
+		owner = NAT #XIU
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = NAT #XIU
+
+	}
+
+	provinces={
+		4904 4965 12715 
+	}
+	manpower=355117
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

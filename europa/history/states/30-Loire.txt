@@ -1,0 +1,31 @@
+
+state={
+	id=30
+	name="STATE_30"
+	resources={
+		chromium=20
+		aluminium=25
+	}
+
+	history={
+		owner = PRO
+		victory_points = {
+			11613 20 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = PRO
+
+	}
+
+	provinces={
+		3659 9867 11596 11613 
+	}
+	manpower=369347
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=230
+	name="STATE_230"
+	resources={
+		oil=2
+	}
+
+	history={
+		owner = QRQ
+		victory_points = {
+			1539 3 
+		}
+		victory_points = {
+			12320 10 
+		}
+		victory_points = {
+			6997 3 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = QRQ
+		add_core_of = ARM
+
+	}
+
+	provinces={
+		1467 1539 1610 3564 4660 6642 6997 9715 11674 11704 12320 12380 12450 13123 
+	}
+	manpower=446857
+	buildings_max_level_factor=1.000
+	state_category=city
+}

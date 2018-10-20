@@ -1,0 +1,26 @@
+state={
+	id=915
+	name="STATE_915"
+	resources={
+		chromium=3
+	}
+	
+	history={
+		owner = MNG
+		victory_points = {
+			4656 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MNG
+		add_core_of = CGS
+	}
+	
+	provinces={
+		1469 1625 4077 4085 4628 4656 10459 
+	}
+	manpower=108615
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,31 @@
+state={
+	id=928
+	name="STATE_928"
+	resources={
+		oil=8
+	}
+	
+	history={
+		owner = SAV
+		victory_points = {
+			9622 10 
+		}
+		victory_points = {
+			9618 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = SAV
+		add_core_of = SWI
+	}
+	
+	provinces={
+		636 3612 6666 9587 9618 9622 11590 13124 
+	}
+	manpower=185294
+	state_category=large_town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=7
+	name="STATE_7"
+	resources={
+		oil=33
+		aluminium=65
+	}
+
+	history={
+		owner = HLD
+		add_core_of = HLD
+		victory_points = {
+			9431 15 
+		}
+		victory_points = {
+			3211 20 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+			9431 = {
+				naval_base = 4
+			}
+			3314 = {
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces={
+		68 3211 3314 9431 9498 
+	}
+	manpower=368794
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

@@ -1,0 +1,29 @@
+state={
+	id=147
+	name="STATE_147"
+	resources={
+		oil=2
+	}
+
+	history={
+		owner = LIV
+		buildings = {
+			infrastructure = 1
+			185 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = LIV
+		add_core_of = EST
+		victory_points = {
+			185 1 
+		}
+	}
+
+	provinces={
+		185 6201 
+	}
+	manpower=27201
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

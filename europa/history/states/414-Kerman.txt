@@ -1,0 +1,40 @@
+
+state={
+	id=414
+	name="STATE_414"
+	resources={
+		aluminium=5
+		tungsten=20
+	}
+
+	history={
+		owner = TIM
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			11249 20 
+		}
+		victory_points = {
+			1963 10 
+		}
+		victory_points = {
+			10890 5 
+		}
+		add_core_of = TIM
+		add_core_of = KRM
+		add_core_of = YZD
+		add_core_of = KHO
+
+	}
+
+	provinces={
+		7990 10759 10828 10873 10890 10913 11249 12739 12780 12809 12852 
+	}
+	manpower=481203
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

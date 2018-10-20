@@ -1,0 +1,34 @@
+
+state={
+	id=432
+	name="STATE_432"
+	resources={
+		chromium=25
+		aluminium=15
+	}
+
+	history={
+		owner = BNG
+		#add_core_of = ASM
+		victory_points = {
+			7455 5 
+		}
+		victory_points = {
+			1116 10 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1116 1525 7455 12322 12366 
+	}
+	manpower=1268204
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

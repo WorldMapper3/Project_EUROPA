@@ -1,0 +1,34 @@
+
+state={
+	id=17
+	name="STATE_17"
+	resources={
+		steel=60
+		chromium=48
+	}
+
+	history={
+		owner = PRO
+		victory_points = {
+			11502 15 
+		}
+		victory_points = {
+			11516 20 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		add_core_of = PRO
+
+	}
+
+	provinces={
+		521 3629 11488 11502 11516 11642 
+	}
+	manpower=615578
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

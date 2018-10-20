@@ -1,0 +1,29 @@
+state={
+	id=200
+	name="STATE_200"
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = CRI
+		victory_points = {
+			429 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			6420 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = CRI
+	}
+
+	provinces={
+		429 3399 3421 3449 3767 6420 6776 9571 9729 11405 
+	}
+	manpower=99735
+	buildings_max_level_factor=1.000
+	state_category=town
+}

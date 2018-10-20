@@ -1,0 +1,34 @@
+state={
+	id=849
+	name="STATE_849"
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = NOG
+		victory_points = {
+			7233 5 
+		}
+		victory_points = {
+			12198 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = NOG
+		add_core_of = BSH
+		add_core_of = SIB
+		add_core_of = KZH
+
+	}
+
+	provinces={
+		1360 1406 4215 4261 4383 4411 7233 7281 7300 7373 10140 10196 10224 10256 12170 12198 12200 
+	}
+	manpower=434460
+	buildings_max_level_factor=1.000
+	state_category=town
+}

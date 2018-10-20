@@ -1,0 +1,24 @@
+state={
+	id=943
+	name="STATE_943"
+	resources={
+		chromium=64
+	}
+	
+	history={
+		owner = VIJ
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		#add_core_of = MAB
+	}
+	
+	provinces={
+		7244 7391 7447 10190 
+	}
+	manpower=1268204
+	state_category=large_town
+	buildings_max_level_factor=1.000
+}

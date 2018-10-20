@@ -1,0 +1,31 @@
+state={
+	id=353
+	name="STATE_353"
+	resources={
+		tungsten=30
+	}
+
+	history={
+		owner = AQQ
+		victory_points = {
+			11853 10 
+		}
+		victory_points = {
+			9868 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = AQQ
+		add_core_of = ERE
+	}
+
+	provinces={
+		876 6919 6976 9860 9868 9886 9954 11797 11853 
+	}
+	manpower=300752
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

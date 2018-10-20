@@ -1,0 +1,43 @@
+
+state={
+	id=619
+	name="STATE_619"
+	resources={
+		oil=4
+		aluminium=40
+	}
+
+	history={
+		owner = YRK
+		add_core_of = YRK
+		victory_points = {
+			8027 3 
+		}
+		victory_points = {
+			1766 15 
+		}
+		victory_points = {
+			5087 5 
+		}
+		victory_points = {
+			8112 5 
+		}
+		victory_points = {
+			7949 5 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		1766 1970 2015 4828 5016 5087 7519 7790 7949 8112 10417 10821 12119 12805 
+	}
+	manpower=977535
+	buildings_max_level_factor=1.000
+	state_category=city
+}

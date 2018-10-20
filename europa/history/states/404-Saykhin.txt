@@ -1,0 +1,44 @@
+state={
+	id=404
+	name="STATE_404"
+	resources={
+		oil=8
+		aluminium=10
+	}
+
+	history={
+		owner = UZB
+		victory_points = {
+			12139 3 
+		}
+		victory_points = {
+			4374 5 
+		}
+		victory_points = {
+			12329 1 
+		}
+		victory_points = {
+			12487 1 
+		}
+		victory_points = {
+			4250 3 
+		}
+		victory_points = {
+			12121 20 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = UZB
+		add_core_of = KZH
+	}
+
+	provinces={
+		1243 1312 1382 1402 4227 4250 4277 4300 4374 4389 4492 4595 7243 7335 7337 7354 7392 7556 7597 7600 7657 10164 10179 10220 10268 10275 10277 10295 10452 10506 10508 12111 12121 12139 12177 12194 12329 12340 12397 12487 
+	}
+	manpower=1086150
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

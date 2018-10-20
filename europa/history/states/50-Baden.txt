@@ -1,0 +1,29 @@
+
+state={
+	id=50
+	name="STATE_50"
+	resources={
+		oil=8
+	}
+
+	history={
+		owner = WUR
+		victory_points = {
+			9517 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = WUR
+
+	}
+
+	provinces={
+		9517 11486 
+	}
+	manpower=117919
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

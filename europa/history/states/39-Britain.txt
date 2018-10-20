@@ -1,0 +1,30 @@
+
+state={
+	id=39
+	name="STATE_39"
+	resources={
+		steel=40
+	}
+
+	history={
+		owner = AUS
+		victory_points = {
+			6631 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = AUS
+		add_core_of = TIR
+
+	}
+
+	provinces={
+		6631 6675 9630 11598 11615 
+	}
+	manpower=139586
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

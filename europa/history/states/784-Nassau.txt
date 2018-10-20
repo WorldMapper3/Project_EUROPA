@@ -1,0 +1,26 @@
+state={
+	id=784
+	name="STATE_784"
+	resources={
+		tungsten=20
+		chromium=8
+	}
+	
+	history={
+		owner = NSA
+		victory_points = {
+			529 3 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NSA
+	}
+	
+	provinces={
+		529 6444 9482 9486 
+	}
+	manpower=73699
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

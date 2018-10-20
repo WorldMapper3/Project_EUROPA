@@ -1,0 +1,29 @@
+state={
+	id=836
+	name="STATE_836"
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = MUS
+		victory_points = {
+			3275 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = MUS
+		add_core_of = QAS
+
+	}
+
+	provinces={
+		283 330 397 3257 3275 3322 3339 3387 6284 6343 6362 6410 9376 9407 
+	}
+	manpower=117869
+	buildings_max_level_factor=1.000
+	state_category=town
+}

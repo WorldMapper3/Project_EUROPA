@@ -1,0 +1,31 @@
+
+state={
+	id=442
+	name="STATE_442"
+	resources={
+		aluminium=10
+	}
+
+	history={
+		owner = LDK
+		victory_points = {
+			8005 1 
+		}
+		victory_points = {
+			2084 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = LDK
+
+	}
+
+	provinces={
+		2041 2084 7273 7316 8005 12763 12884 
+	}
+	manpower=400485
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

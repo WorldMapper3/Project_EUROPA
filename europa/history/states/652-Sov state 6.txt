@@ -1,0 +1,34 @@
+
+state={
+	id=652
+	name="STATE_652"
+	resources={
+		oil=9
+		steel=60
+	}
+
+	history={
+		owner = NOG
+		victory_points = {
+			3385 3 
+		}
+		victory_points = {
+			1210 10 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = NOG
+
+	}
+
+	provinces={
+		227 298 338 393 497 1210 1254 1290 1350 1378 3216 3265 3330 3357 3385 3486 3563 4322 4324 4354 6379 6424 6515 7343 9271 9420 9445 10299 11256 11281 11348 11377 11433 12128 12242 12270 12298 
+	}
+	manpower=154136
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

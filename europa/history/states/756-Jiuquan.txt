@@ -1,0 +1,25 @@
+
+state={
+	id=756
+	name="STATE_756"
+
+	history={
+		owner = OIR
+		add_core_of = OIR
+		victory_points = {
+			4783 3 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4783 7727 7803 8102 10899 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

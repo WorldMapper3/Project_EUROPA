@@ -1,0 +1,31 @@
+state={
+	id=586
+	name="STATE_586"
+	resources={
+		oil=3
+		aluminium=10
+	}
+
+	history={
+		owner = CHG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			12385 3 
+		}
+		victory_points = {
+			4773 3 
+		}
+		add_core_of = CHG
+		add_core_of = KZH
+	}
+
+	provinces={
+		1591 1840 4224 4773 7711 10146 10603 12385 12658 13147 
+	}
+	manpower=543075
+	buildings_max_level_factor=1.000
+	state_category=town
+}

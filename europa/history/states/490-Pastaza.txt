@@ -1,0 +1,23 @@
+
+state={
+	id=490
+	name="STATE_490"
+
+	history={
+		owner = NAT #CSU
+
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = NAT #CSU
+
+	}
+
+	provinces={
+		2156 5120 5162 5190 8199 10942 12969 12983 
+	}
+	manpower=177559
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

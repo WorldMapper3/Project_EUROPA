@@ -1,0 +1,21 @@
+state={
+	id=539
+	name="STATE_539"
+	resources={
+
+	}
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		5036 5139 6039 8244 
+	}
+	manpower=156146
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

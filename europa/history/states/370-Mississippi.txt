@@ -1,0 +1,21 @@
+
+state={
+	id=370
+	name="STATE_370"
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		968 1587 1615 4510 4565 4594 4622 4650 4756 5059 7422 7464 8110 9996 10192 10410 10449 10753 11509 11717 12328 12429 12735 12803 
+	}
+	manpower=45344
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

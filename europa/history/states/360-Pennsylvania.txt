@@ -1,0 +1,21 @@
+
+state={
+	id=360
+	name="STATE_360"
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		702 734 822 847 862 880 891 894 3687 3697 3802 3824 3847 3850 3880 3897 6705 6707 6869 6872 6885 6899 9662 9664 9789 9804 9820 9836 11648 11654 11758 11769 11785 11789 11799 11800 11817 12405 
+	}
+	manpower=124696
+	buildings_max_level_factor=1.000
+	state_category=city
+}

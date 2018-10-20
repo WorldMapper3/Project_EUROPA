@@ -1,0 +1,25 @@
+
+state={
+	id=661
+	name="STATE_661"
+
+	history={
+		owner = FZA
+		victory_points = {
+			1174 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = FZA
+
+	}
+
+	provinces={
+		1174 4051 4117 4176 10037 11940 
+	}
+	manpower=58555
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

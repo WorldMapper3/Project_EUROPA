@@ -1,0 +1,37 @@
+state={
+	id=584
+	name="STATE_584"
+	resources={
+		oil=7
+		aluminium=20
+	}
+
+	history={
+		owner = TIM
+		victory_points = {
+			1593 1
+		}
+		victory_points = {
+			7635 1
+		}
+		victory_points = {
+			8099 3
+		}
+		victory_points = {
+			1576 25
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = TIM
+	}
+
+	provinces={
+		1493 1576 1593 1614 4499 4599 4618 7477 7563 7618 7635 8099 10359 10485 10510 12324 12333 12359 12465 12491 
+	}
+	manpower=1303381
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

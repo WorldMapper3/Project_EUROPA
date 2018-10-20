@@ -1,0 +1,27 @@
+state={
+	id=963
+	name="STATE_963"
+	resources={
+		oil=23
+	}
+	
+	history={
+		owner = MTU
+		victory_points = {
+			3776 20 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = MTU
+	}
+	
+	provinces={
+		773 3776 
+	}
+	manpower=341211
+	state_category=city
+	buildings_max_level_factor=1.000
+}

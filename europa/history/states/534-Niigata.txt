@@ -1,0 +1,33 @@
+
+state={
+	id=534
+	name="STATE_534"
+	resources={
+		oil=8
+	}
+
+	history={
+		owner = UES
+		add_core_of = UES
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			12007 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			12007 10 
+		}
+
+	}
+
+	provinces={
+		1117 9952 10128 11930 11989 12007 
+	}
+	manpower=398255
+	buildings_max_level_factor=1.000
+	state_category=town
+}

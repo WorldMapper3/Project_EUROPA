@@ -1,0 +1,35 @@
+
+state={
+	id=529
+	name="STATE_529"
+	resources={
+		oil=8
+	}
+
+	history={
+		owner = HSK
+		add_core_of = HSK
+		add_core_of = MRI
+		add_core_of = OUC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			11946 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			1092 10 
+		}
+
+	}
+
+	provinces={
+		1092 9968 11946 
+	}
+	manpower=398255
+	buildings_max_level_factor=1.000
+	state_category=town
+}

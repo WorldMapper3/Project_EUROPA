@@ -1,0 +1,29 @@
+state={
+	id=805
+	name="STATE_805"
+	resources={
+		chromium=20
+	}
+
+	history={
+		owner = AUS
+		victory_points = {
+			9648 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = AUS
+		add_core_of = STY
+
+	}
+
+	provinces={
+		653 6690 9648 9661 9679 11630 
+	}
+	manpower=228471
+	buildings_max_level_factor=1.000
+	state_category=town
+}

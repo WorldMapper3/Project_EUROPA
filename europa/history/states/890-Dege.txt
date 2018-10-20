@@ -1,0 +1,27 @@
+state={
+	id=890
+	name="STATE_890"
+	resources={
+		aluminium=5
+	}
+	
+	history={
+		owner = KAM
+		victory_points = {
+			4964 3 
+		}
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = KAM
+	}
+	
+	provinces={
+		4914 4964 7940 8018 8037 10750 12846 12899 13146 
+	}
+	manpower=289640
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

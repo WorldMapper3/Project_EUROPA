@@ -1,0 +1,20 @@
+
+state={
+	id=311
+	name="STATE_311"
+
+	history={
+		owner = NAT #XIU
+		add_core_of = NAT #XIU
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		2077 
+	}
+	manpower=99877
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

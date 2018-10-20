@@ -1,0 +1,48 @@
+
+state={
+	id=428
+	name="STATE_428"
+	resources={
+		oil=17
+		aluminium=20
+	}
+
+	history={
+		owner = GUJ
+		add_core_of = GUJ
+		victory_points = {
+			9975 15 
+		}
+		victory_points = {
+			1103 10 
+		}
+		victory_points = {
+			7207 5 
+		}
+		victory_points = {
+			10118 5 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+			9975 = {
+				naval_base = 3
+			}
+			7207 = {
+				naval_base = 2
+			}
+			1061 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		1061 1103 1144 4064 7207 9975 10118 12092 
+	}
+	manpower=2870146
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

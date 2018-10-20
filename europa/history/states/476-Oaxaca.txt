@@ -1,0 +1,19 @@
+state={
+	id=476
+	name="STATE_476"
+
+	history={
+		owner = NAT #AZT
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = NAT #AZT
+	}
+
+	provinces={
+		2021 8236 10889 
+	}
+	manpower=221948
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

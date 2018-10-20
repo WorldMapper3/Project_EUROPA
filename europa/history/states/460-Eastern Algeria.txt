@@ -1,0 +1,46 @@
+
+state={
+	id=460
+	name="STATE_460"
+	resources={
+		steel=30
+	}
+
+	history={
+		owner = TUN
+		add_core_of = TUN
+		add_core_of = KBA
+		victory_points = {
+			4046 10 
+		}
+		victory_points = {
+			7081 3 
+		}
+		victory_points = {
+			9976 5 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			4046 = {
+				naval_base = 2
+
+			}
+			7081 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1058 1160 4046 7065 7081 7166 9976 10059 10078 11953 12051 13077 
+	}
+	manpower=468439
+	buildings_max_level_factor=1.000
+	state_category=city
+}

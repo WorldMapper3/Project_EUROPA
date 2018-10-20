@@ -1,0 +1,27 @@
+
+state={
+	id=277
+	name="STATE_277"
+
+	history={
+		owner = NAT #AZT
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 3
+
+		}
+		add_core_of = NAT #AZT
+		victory_points = {
+			1965 50 
+		}
+
+	}
+
+	provinces={
+		1965 2011 7913 8089 12755 
+	}
+	manpower=588163
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

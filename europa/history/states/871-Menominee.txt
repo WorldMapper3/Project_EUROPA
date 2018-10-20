@@ -1,0 +1,18 @@
+state={
+	id=871
+	name="STATE_871"
+	
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	
+	provinces={
+		602 777 1299 1782 3640 4775 4784 4869 6510 6676 7366 9467 9480 10718 11602 11728 12278 12582 12701 13159 13201 
+	}
+	manpower=102024
+	state_category=large_town
+	buildings_max_level_factor=1.000
+}

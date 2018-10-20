@@ -1,0 +1,33 @@
+
+state={
+	id=209
+	name="STATE_209"
+	resources={
+		chromium=28
+	}
+
+	history={
+		owner = NOV
+		victory_points = {
+			11202 15 
+		}
+		victory_points = {
+			3310 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = NOV
+
+	}
+
+	provinces={
+		126 415 3310 3333 6242 6324 9120 9353 9408 11097 11202 11392 
+	}
+	manpower=181337
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

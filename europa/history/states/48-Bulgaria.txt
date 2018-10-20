@@ -1,0 +1,31 @@
+
+state={
+	id=48
+	name="STATE_48"
+	resources={
+		tungsten=40
+		chromium=16
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			949 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = BUL
+		add_core_of = TUR
+
+	}
+
+	provinces={
+		793 935 949 965 3908 3971 6857 9818 11754 
+	}
+	manpower=232804
+	buildings_max_level_factor=1.000
+	state_category=town
+}

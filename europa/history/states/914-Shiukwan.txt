@@ -1,0 +1,28 @@
+state={
+	id=914
+	name="STATE_914"
+	resources={
+		steel=40
+		chromium=8
+	}
+	
+	history={
+		owner = MNG
+		victory_points = {
+			10080 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = MNG
+		add_core_of = HUA
+	}
+	
+	provinces={
+		1120 9970 9997 10080 10121 12014 
+	}
+	manpower=362050
+	state_category=town
+	buildings_max_level_factor=1.000
+}

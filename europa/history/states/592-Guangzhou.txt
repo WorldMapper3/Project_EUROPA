@@ -1,0 +1,38 @@
+state={
+	id=592
+	name="STATE_592"
+	resources={
+		oil=40
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		add_core_of = YUE
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			11938 = {
+				naval_base = 5
+			}
+			9963 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			1047 25 
+		}
+		victory_points = {
+			1187 10 
+		}
+	}
+
+	provinces={
+		1047 1087 1131 1187 1202 4092 7108 7152 9963 11938 11941 12077 12095 
+	}
+	manpower=1194766
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

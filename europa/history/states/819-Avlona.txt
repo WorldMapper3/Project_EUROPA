@@ -1,0 +1,32 @@
+state={
+	id=819
+	name="STATE_819"
+	resources={
+		aluminium=5
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			11767 3 
+		}
+		buildings = {
+			infrastructure = 2
+			11767 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = TUR
+		add_core_of = ALB
+
+	}
+
+	provinces={
+		3448 6900 11767 
+	}
+	manpower=84656
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

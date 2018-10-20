@@ -1,0 +1,30 @@
+
+state={
+	id=222
+	name="STATE_222"
+	resources={
+		oil=5
+		chromium=12
+	}
+
+	history={
+		owner = LIT
+		victory_points = {
+			9355 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		#add_core_of = OKA
+
+	}
+
+	provinces={
+		246 300 6365 6411 9261 9355 9366 9384 9411 11214 11235 11242 11310 11368 
+	}
+	manpower=81602
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

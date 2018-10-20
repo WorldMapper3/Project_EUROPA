@@ -1,0 +1,130 @@
+bookmarks = {
+	bookmark = {
+		name = "RISE_OF_THE_OTTOMANS_NAME"
+		desc = "RISE_OF_THE_OTTOMANS_DESC"
+		date = 1444.11.11.12
+		picture = "GFX_select_date_1444"
+		default_country = "TUR"
+		default = yes
+		
+		"TUR"={
+			history = "TUR_RISE_OF_THE_OTTOMANS_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"AUS"={
+			history = "AUS_RISE_OF_THE_OTTOMANS_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ENG"={
+			history = "ENG_RISE_OF_THE_OTTOMANS_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"FRA"={
+			history = "FRA_RISE_OF_THE_OTTOMANS_DESC"
+			ideology = neutrality
+			ideas = {
+			}	
+			focuses = {
+			}			
+		}
+		"MUS"={
+			history = "MUS_RISE_OF_THE_OTTOMANS_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"POL"={
+			history = "POL_RISE_OF_THE_OTTOMANS_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"CST"={
+			history = "CST_RISE_OF_THE_OTTOMANS_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+
+		"---"={
+			history = "OTHER_RISE_OF_THE_OTTOMANS_DESC"
+		}
+			"WAL"={
+			minor = yes
+			history = "WAL_RISE_OF_THE_OTTOMANS_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+			"BRN"={
+			minor = yes
+			history = "BRN_RISE_OF_THE_OTTOMANS_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+			"EGY"={
+			minor = yes
+			history = "EGY_RISE_OF_THE_OTTOMANS_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+			"QRQ"={
+			minor = yes
+			history = "NZL_RISE_OF_THE_OTTOMANS_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+			"TIM"={
+			minor = yes
+			history = "SAF_RISE_OF_THE_OTTOMANS_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+			"LIT"={
+			minor = yes
+			history = "RAJ_RISE_OF_THE_OTTOMANS_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
+

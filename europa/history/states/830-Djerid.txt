@@ -1,0 +1,27 @@
+state={
+	id=830
+	name="STATE_830"
+	resources={
+		aluminium=5
+	}
+
+	history={
+		owner = TUN
+		victory_points = {
+			3987 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1141 3987 4992 7154 8061 9943 9983 10082 11935 12034 12888 13145 
+	}
+	manpower=156146
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

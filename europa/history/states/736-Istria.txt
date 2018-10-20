@@ -1,0 +1,29 @@
+state={
+	id=736
+	name="STATE_736"
+	resources={
+		chromium=12
+	}
+
+	history={
+		owner = VNC
+		add_core_of = VNC
+		victory_points = {
+			6626 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			6626 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		599 6626 11735 
+	}
+	manpower=140598
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

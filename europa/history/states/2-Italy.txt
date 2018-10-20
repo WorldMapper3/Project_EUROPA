@@ -1,0 +1,32 @@
+
+state={
+	id=2
+	name="STATE_2"
+	resources={
+		oil=25
+	}
+
+	history={
+		owner = PAP
+		victory_points = {
+			11751 30
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			11751 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = PAP
+	}
+
+	provinces={
+		6862 9904 11751 11846 
+	}
+	manpower=434269
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,27 @@
+state={
+	id=324
+	name="STATE_324"
+	manpower = 333738
+	
+	state_category = rural
+	
+	resources={
+		aluminium=10
+	}
+
+	history={
+		owner = UTS
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			8010 3 
+		}
+		add_core_of = BHU
+		add_core_of = UTS
+	}
+
+	provinces={
+		8010 12860 
+	}
+}

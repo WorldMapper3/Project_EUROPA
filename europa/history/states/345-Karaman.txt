@@ -1,0 +1,28 @@
+state={
+	id=345
+	name="STATE_345"
+	resources={
+		oil=2
+	}
+
+	history={
+		owner = KAR
+		victory_points = {
+			7026 3
+		}
+		buildings = {
+			infrastructure = 2
+			7026 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = KAR
+	}
+
+	provinces={
+		4008 4124 4127 7026 7143 
+	}
+	manpower=90226
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

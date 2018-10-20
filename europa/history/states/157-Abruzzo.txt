@@ -1,0 +1,38 @@
+
+state={
+	id=157
+	name="STATE_157"
+	resources={
+		oil=8
+	}
+
+	history={
+		owner = NAP
+		victory_points = {
+			883 10 
+		}
+		victory_points = {
+			3910 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			6980 = {
+				naval_base = 2
+			}
+			6831 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = NAP
+	}
+
+	provinces={
+		883 963 3910 3923 3966 6831 6939 6980 9838 11882 
+	}
+	manpower=356721
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,45 @@
+
+state={
+	id=431
+	name="STATE_431"
+	resources={
+		oil=73
+		aluminium=95
+	}
+
+	history={
+		owner = BNG
+		add_core_of = BNG
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+			9935 = {
+				naval_base = 5
+
+			}
+
+		}
+		victory_points = {
+			4245 25 
+		}
+		victory_points = {
+			4644 10 
+		}
+		victory_points = {
+			7662 35 
+		}
+		victory_points = {
+			7475 10 
+		}
+
+	}
+
+	provinces={
+		1159 1609 1656 2843 4204 4245 4616 4644 5310 7124 7475 7537 7565 7662 9935 10077 10443 12050 
+	}
+	manpower=3804612
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

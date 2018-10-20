@@ -1,0 +1,74 @@
+
+state={
+	id=741
+	name="STATE_741"
+	resources={
+		oil=32
+		steel=60
+		chromium=142
+	}
+
+	history={
+		add_core_of = CAM
+		owner = CAM
+		victory_points = {
+			7331 10 
+		}
+		victory_points = {
+			1423 5 
+		}
+		victory_points = {
+			4401 15 
+		}
+		victory_points = {
+			12260 10 
+		}
+		victory_points = {
+			12191 15 
+		}
+		victory_points = {
+			4302 15 
+		}
+		victory_points = {
+			10204 3 
+		}
+		victory_points = {
+			12167 10 
+		}
+		buildings = {
+			infrastructure = 10
+			arms_factory = 3
+			industrial_complex = 5
+			dockyard = 2
+			7331 = {
+				naval_base = 2
+
+			}
+			1423 = {
+				naval_base = 2
+
+			}
+			4401 = {
+				naval_base = 3
+
+			}
+			10317 = {
+				naval_base = 3
+
+			}
+			4359 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1324 1353 1396 1423 1577 1620 4223 4251 4284 4302 4330 4341 4359 4401 4596 4639 5236 7238 7303 7319 7331 7347 7376 7404 7432 7645 10134 10177 10204 10261 10289 10317 10453 10467 12133 12150 12167 12191 12232 12260 12288 12447 12460 12475 
+	}
+	manpower=3077426
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

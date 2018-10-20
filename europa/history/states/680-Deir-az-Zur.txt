@@ -1,0 +1,34 @@
+
+state={
+	id=680
+	name="STATE_680"
+	resources={
+		oil=3
+		aluminium=10
+	}
+
+	history={
+		owner = AQQ
+		victory_points = {
+			1606 1 
+		}
+		victory_points = {
+			1578 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = SYR
+		add_core_of = AQQ
+
+	}
+
+	provinces={
+		1549 1578 1606 1634 3942 6883 10882 
+	}
+	manpower=210526
+	buildings_max_level_factor=1.000
+	state_category=town
+}

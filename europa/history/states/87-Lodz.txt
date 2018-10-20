@@ -1,0 +1,29 @@
+
+state={
+	id=87
+	name="STATE_87"
+	resources={
+		oil=8
+	}
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9508 10 
+		}
+		add_core_of = POL
+
+	}
+
+	provinces={
+		493 548 3482 9400 9508 11492 11515 
+	}
+	manpower=99735
+	buildings_max_level_factor=1.000
+	state_category=town
+}

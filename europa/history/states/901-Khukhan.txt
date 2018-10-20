@@ -1,0 +1,35 @@
+state={
+	id=901
+	name="STATE_901"
+	resources={
+		oil=7
+		aluminium=10
+		chromium=12
+	}
+	
+	history={
+		owner = LAO
+		victory_points = {
+			12373 3 
+		}
+		victory_points = {
+			7516 3 
+		}
+		victory_points = {
+			12417 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = LAO
+	}
+	
+	provinces={
+		1357 1535 1548 4511 4582 7516 7601 10384 12360 12373 12402 12417 12431 
+	}
+	manpower=796510
+	state_category=city
+	buildings_max_level_factor=1.000
+}

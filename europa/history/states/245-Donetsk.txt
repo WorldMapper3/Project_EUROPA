@@ -1,0 +1,30 @@
+state={
+	id=245
+	name="STATE_245"
+	resources={
+		oil=8
+		steel=20
+	}
+
+	history={
+		owner = GOL
+		victory_points = {
+			3478 5 
+		}
+		victory_points = {
+			3519 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = GOL
+	}
+
+	provinces={
+		449 484 500 509 523 533 547 570 3478 3489 3505 3519 3540 3567 6519 6544 6566 6591 9424 9476 9488 9516 9540 9565 11459 11476 11487 11501 11513 11527 
+	}
+	manpower=117869
+	buildings_max_level_factor=1.000
+	state_category=town
+}

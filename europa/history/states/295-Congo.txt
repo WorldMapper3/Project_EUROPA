@@ -1,0 +1,21 @@
+
+state={
+	id=295
+	name="STATE_295"
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		2115 4128 5117 5158 7548 8207 8219 8248 10025 10968 12896 12925 12945 12975 
+	}
+	manpower=1014950
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

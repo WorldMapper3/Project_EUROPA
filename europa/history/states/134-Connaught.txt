@@ -1,0 +1,33 @@
+
+state={
+	id=134
+	name="STATE_134"
+	resources={
+		chromium=8
+	}
+
+	history={
+		owner = CNN
+		victory_points = {
+			9303 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			9369 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = CNN
+
+	}
+
+	provinces={
+		9255 9303 9321 9369 
+	}
+	manpower=65882
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=728
+	name="STATE_728"
+	resources={
+		oil=8
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		add_core_of = YUE
+		victory_points = {
+			7135 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4160 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		4160 7039 7135 10105 11981 
+	}
+	manpower=289640
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

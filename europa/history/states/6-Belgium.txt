@@ -1,0 +1,39 @@
+
+state={
+	id=6
+	name="STATE_6"
+	resources={
+		oil=35
+		aluminium=70
+	}
+
+	history={
+		owner = FLA
+		victory_points = {
+			11483 15 
+		}
+		victory_points = {
+			6560 20 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			6446 = {
+				naval_base = 3
+			}
+			6560 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = FLA
+	}
+
+	provinces={
+		480 575 3576 6446 6560 11483 
+	}
+	manpower=313475
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

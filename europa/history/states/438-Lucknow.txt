@@ -1,0 +1,43 @@
+
+state={
+	id=438
+	name="STATE_438"
+	resources={
+		oil=75
+	}
+
+	history={
+		owner = JNP
+		add_core_of = JNP
+		add_core_of = DLH
+		victory_points = {
+			10794 25 
+		}
+		victory_points = {
+			12137 15 
+		}
+		victory_points = {
+			4299 20 
+		}
+		victory_points = {
+			10021 15 
+		}
+		victory_points = {
+			4915 1 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 5
+			arms_factory = 2
+
+		}
+
+	}
+
+	provinces={
+		1377 4299 5002 5086 8114 9951 10794 12137 
+	}
+	manpower=4939320
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

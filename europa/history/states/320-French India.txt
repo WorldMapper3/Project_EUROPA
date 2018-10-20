@@ -1,0 +1,52 @@
+
+state={
+	id=320
+	name="STATE_320"
+	resources={
+		oil=32
+		aluminium=85
+		steel=40
+		chromium=14
+	}
+
+	history={
+		owner = VIJ
+		add_core_of = VIJ
+		add_core_of = KRK
+		victory_points = {
+			12164 20 
+		}
+		victory_points = {
+			1268 5 
+		}
+		victory_points = {
+			1344 10 
+		}
+		victory_points = {
+			10278 15 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+			12164 = {
+				naval_base = 4
+
+			}
+			10278 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1268 1344 4420 7436 8067 10149 10246 10278 10808 12164 
+	}
+	manpower=3604369
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

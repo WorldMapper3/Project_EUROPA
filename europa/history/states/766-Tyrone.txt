@@ -1,0 +1,33 @@
+state={
+	id=766
+	name="STATE_766"
+	resources={
+		aluminium=15
+		chromium=20
+	}
+
+	history={
+		owner = TYR
+		add_core_of = TYR
+		victory_points = {
+			385 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			337 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		276 337 385 11257 11303 
+	}
+	manpower=90588
+	buildings_max_level_factor=1.000
+	state_category=town
+}

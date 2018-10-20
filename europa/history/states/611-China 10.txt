@@ -1,0 +1,24 @@
+state={
+	id=611
+	name="STATE_611"
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		add_core_of = JIN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			1590 5 
+		}
+	}
+
+	provinces={
+		828 952 1137 1590 6904 9776 10397 
+	}
+	manpower=289640
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

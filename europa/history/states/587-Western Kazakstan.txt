@@ -1,0 +1,29 @@
+state={
+	id=587
+	name="STATE_587"
+
+	history={
+		owner = NOG
+		victory_points = {
+			4523 1 
+		}
+		victory_points = {
+			12383 3 
+		}
+		victory_points = {
+			10435 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = NOG
+	}
+
+	provinces={
+		475 642 1517 1721 3593 4523 4563 4620 7541 7641 10262 10348 10395 10406 10435 11701 12163 12233 12383 12454 12474 13008 
+	}
+	manpower=434460
+	buildings_max_level_factor=1.000
+	state_category=town
+}

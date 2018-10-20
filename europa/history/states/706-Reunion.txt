@@ -1,0 +1,18 @@
+state={
+	id=706
+	name="STATE_706"
+	manpower = 1
+	
+	state_category = town
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		13017 
+	}
+}

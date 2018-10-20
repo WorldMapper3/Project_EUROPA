@@ -1,0 +1,33 @@
+
+state={
+	id=248
+	name="STATE_248"
+	resources={
+		oil=12
+	}
+
+	history={
+		owner = MUS
+		victory_points = {
+			121 10 
+		}
+		victory_points = {
+			6167 3 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		#add_core_of = YAR
+
+	}
+
+	provinces={
+		121 252 6101 6167 9122 11166 11205 13128 
+	}
+	manpower=154136
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,20 @@
+state={
+	id=280
+	name="STATE_280"
+
+	impassable = yes
+	
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1979 2147 2204 2214 5232 8172 8175 10956 11010 12939 12965 
+	}
+	manpower=44390
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

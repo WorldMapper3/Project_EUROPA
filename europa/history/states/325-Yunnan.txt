@@ -1,0 +1,47 @@
+
+state={
+	id=325
+	name="STATE_325"
+	resources={
+		tungsten=60
+		chromium=12
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		add_core_of = DAL
+		victory_points = {
+			7446 15 
+		}
+		victory_points = {
+			1196 1 
+		}
+		victory_points = {
+			10776 5 
+		}
+		victory_points = {
+			12262 3 
+		}
+		victory_points = {
+			10863 10 
+		}
+		victory_points = {
+			7965 10 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+
+	}
+
+	provinces={
+		1114 1172 1196 1319 1383 1522 1653 4501 7446 7606 8023 10346 10776 12262 12282 
+	}
+	manpower=1701636
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

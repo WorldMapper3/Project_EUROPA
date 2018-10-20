@@ -1,0 +1,27 @@
+state={
+	id=264
+	name="STATE_264"
+	resources={
+		steel=50
+		chromium=20
+	}
+
+	history={
+		owner = NOV
+		victory_points = {
+			3140 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = NOV
+	}
+
+	provinces={
+		57 60 152 166 172 194 3140 3142 6017 6131 6169 9060 9082 9184 9190 11059 11062 
+	}
+	manpower=99735
+	buildings_max_level_factor=1.000
+	state_category=town
+}

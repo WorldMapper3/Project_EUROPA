@@ -1,0 +1,22 @@
+state={
+	id=635
+	name="STATE_635"
+	resources={
+
+	}
+	
+	state_category = rural
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		1237 1263 4231 4247 4268 7264 10160 12120 12132 
+	}
+	manpower=36205
+	buildings_max_level_factor=1.000
+}

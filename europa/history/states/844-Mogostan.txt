@@ -1,0 +1,35 @@
+state={
+	id=844
+	name="STATE_844"
+	resources={
+		oil=4
+	}
+
+	history={
+		owner = TIM
+		victory_points = {
+			7982 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			7982 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = TIM
+		add_core_of = BAL
+		add_core_of = HRM
+
+	}
+
+	provinces={
+		1889 1986 7982 12863 
+	}
+	manpower=270677
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

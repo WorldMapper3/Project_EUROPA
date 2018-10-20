@@ -1,0 +1,31 @@
+
+state={
+	id=8
+	name="STATE_8"
+	resources={
+		chromium=20
+	}
+
+	history={
+		owner = BUR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			6583 15 
+		}
+		add_core_of = LUX
+		add_core_of = BUR
+
+	}
+
+	provinces={
+		6583 9418 9559 
+	}
+	manpower=129078
+	buildings_max_level_factor=1.000
+	state_category=town
+}

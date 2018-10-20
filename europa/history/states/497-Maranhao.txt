@@ -1,0 +1,24 @@
+
+state={
+	id=497
+	name="STATE_497"
+	resources={
+		
+	}
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		2150 2228 5153 5204 5218 5220 10984 12853 12913 12933 12947 12999 
+	}
+	manpower=44390
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

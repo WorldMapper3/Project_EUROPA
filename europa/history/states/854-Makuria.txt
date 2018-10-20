@@ -1,0 +1,28 @@
+state={
+	id=854
+	name="STATE_854"
+
+	history={
+		owner = MAK
+		victory_points = {
+			10844 3 
+		}
+		victory_points = {
+			4138 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = MAK
+
+	}
+
+	provinces={
+		1206 4138 7156 8105 10745 10844 12771 
+	}
+	manpower=177358
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

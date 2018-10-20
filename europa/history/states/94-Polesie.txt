@@ -1,0 +1,31 @@
+
+state={
+	id=94
+	name="STATE_94"
+	resources={
+		aluminium=30
+	}
+
+	history={
+		owner = LIT
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			560 5 
+		}
+		victory_points = {
+			3392 5 
+		}
+		add_core_of = LIT
+	}
+
+	provinces={
+		535 560 3256 3309 3392 3412 3496 3556 6280 6306 6359 6415 6546 6579 9304 9359 9452 9520 11285 11341 11441 11466 11503 11528 
+	}
+	manpower=154136
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

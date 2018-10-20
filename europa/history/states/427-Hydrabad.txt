@@ -1,0 +1,45 @@
+
+state={
+	id=427
+	name="STATE_427"
+	resources={
+		oil=31
+		aluminium=55
+		chromium=32
+	}
+
+	history={
+		owner = BAH
+		add_core_of = BAH
+		add_core_of = GOK
+		victory_points = {
+			10259 15 
+		}
+		victory_points = {
+			8087 20 
+		}
+		victory_points = {
+			12226 25 
+		}
+		victory_points = {
+			12114 5 
+		}
+		victory_points = {
+			7411 15 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 4
+
+		}
+
+	}
+
+	provinces={
+		1275 1317 1359 4280 4472 5019 5063 5104 7411 8087 10171 10259 10324 10511 10799 11950 12114 12226 
+	}
+	manpower=4338592
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,31 @@
+state={
+	id=832
+	name="STATE_832"
+	resources={
+		chromium=25
+	}
+
+	history={
+		owner = NOV
+		victory_points = {
+			6189 3 
+		}
+		victory_points = {
+			3057 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = BLO
+
+	}
+
+	provinces={
+		81 93 129 160 163 3057 3085 3154 3160 3163 6034 6073 6182 6189 9102 9107 9207 11036 11071 11083 11093 11103 11165 11168 
+	}
+	manpower=108802
+	buildings_max_level_factor=1.000
+	state_category=town
+}

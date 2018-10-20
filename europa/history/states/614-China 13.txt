@@ -1,0 +1,41 @@
+state={
+	id=614
+	name="STATE_614"
+	resources={
+		oil=28
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		add_core_of = YAN
+		victory_points = {
+			4144 5
+		}
+		victory_points = {
+			12062 3
+		}
+		victory_points = {
+			10053 5
+		}
+		victory_points = {
+			11996 5
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			11944 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		1169 1188 4032 4058 4093 4114 4144 4190 4208 4538 7000 7092 10003 10053 10119 11944 11980 11996 12062 12078 
+	}
+	manpower=1086150
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

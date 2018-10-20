@@ -1,0 +1,15 @@
+state={
+	id=730
+	name="STATE_730"
+	manpower=5668
+	state_category = small_island
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
+	provinces={ 373 }
+}

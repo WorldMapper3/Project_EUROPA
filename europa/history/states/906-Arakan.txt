@@ -1,0 +1,41 @@
+state={
+	id=906
+	name="STATE_906"
+	resources={
+		steel=40
+		chromium=24
+	}
+
+	history={
+		owner = ARK
+		victory_points = {
+			12090 15 
+		}
+		victory_points = {
+			3651 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			12090 = {
+				naval_base = 2
+
+			}
+			3651 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = ARK
+
+	}
+
+	provinces={
+		1014 1142 1333 3651 4147 12090 
+	}
+	manpower=724100
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

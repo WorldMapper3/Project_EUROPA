@@ -1,0 +1,32 @@
+
+state={
+	id=610
+	name="STATE_610"
+	resources={
+		oil=9
+	}
+
+	history={
+		owner = KRC
+		add_core_of = KRC
+		victory_points = {
+			9873 5 
+		}
+		victory_points = {
+			10499 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		814 972 1489 1608 3828 3881 4495 4514 6937 6988 7575 7633 7674 9768 9873 10331 10426 10499 11801 11855 12348 
+	}
+	manpower=506870
+	buildings_max_level_factor=1.000
+	state_category=town
+}

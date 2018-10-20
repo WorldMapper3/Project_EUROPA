@@ -1,0 +1,23 @@
+state={
+	id=418
+	name="STATE_418"
+
+	history={
+		owner = TIM
+		victory_points = {
+			8093 5 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TIM
+		add_core_of = PER
+	}
+
+	provinces={
+		8093 12704 12818 
+	}
+	manpower=90226
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,18 @@
+state={
+	id=862
+	name="STATE_862"
+	
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces={
+		1951 10919 12762 12785 12843 12874 
+	}
+	manpower=117110
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

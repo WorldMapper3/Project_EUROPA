@@ -1,0 +1,18 @@
+state={
+	id=80
+	name="STATE_80"
+	manpower = 63492
+	
+	state_category = pastoral
+	
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = POL
+	}
+	provinces={
+		577 9548
+	}
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=436
+	name="STATE_436"
+	resources={
+		oil=4
+		chromium=35
+	}
+
+	history={
+		owner = MLW
+		#add_core_of = GDW
+		victory_points = {
+			10801 5 
+		}
+		victory_points = {
+			8120 5 
+		}
+		victory_points = {
+			7574 3 
+		}
+		victory_points = {
+			7497 1 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		1510 4410 4953 7497 7574 7938 8120 10332 10401 10471 10801 12420 12480 12854 
+	}
+	manpower=1601942
+	buildings_max_level_factor=1.000
+	state_category=city
+}

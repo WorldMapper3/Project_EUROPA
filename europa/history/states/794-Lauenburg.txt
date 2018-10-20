@@ -1,0 +1,25 @@
+state={
+	id=794
+	name="STATE_794"
+	resources={
+		chromium=8
+	}
+
+	history={
+		owner = SXL
+		add_core_of = SXL
+		victory_points = {
+			9320 3 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		6298 9320 
+	}
+	manpower=73699
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

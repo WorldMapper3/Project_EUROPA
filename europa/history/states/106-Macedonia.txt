@@ -1,0 +1,30 @@
+
+state={
+	id=106
+	name="STATE_106"
+	resources={
+		steel=40
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			3865 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = TUR
+		add_core_of = SER
+
+	}
+
+	provinces={
+		833 907 974 3833 3865 3882 6886 11856 
+	}
+	manpower=211640
+	buildings_max_level_factor=1.000
+	state_category=town
+}

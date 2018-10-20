@@ -1,0 +1,33 @@
+
+state={
+	id=531
+	name="STATE_531"
+	resources={
+		chromium=21
+	}
+
+	history={
+		owner = HTK
+		add_core_of = HTK
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1133={
+				naval_base=2
+			}
+		}
+		victory_points = {
+			1051 5 
+		}
+		victory_points = {
+			7113 3 
+		}
+	}
+
+	provinces={
+		1051 1133 7113 
+	}
+	manpower=325845
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,30 @@
+state={
+	id=969
+	name="STATE_969"
+	resources={
+		steel=30
+		chromium=6
+	}
+	
+	history={
+		owner = YMN
+		victory_points = {
+			1167 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			1167 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = YMN
+	}
+	
+	provinces={
+		1167 4197 7145 10055 
+	}
+	manpower=154378
+	state_category=town
+	buildings_max_level_factor=1.000
+}

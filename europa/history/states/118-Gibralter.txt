@@ -1,0 +1,21 @@
+state={
+	id=118
+	name="STATE_118"
+	manpower=82677
+	
+	state_category = rural
+	history={
+		owner = GRA
+		victory_points = { 4135 3 }
+		buildings = {
+			infrastructure = 2
+			4135 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = GRA
+	}
+	provinces={
+		4135
+	}
+}

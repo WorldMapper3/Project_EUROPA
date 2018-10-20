@@ -1,0 +1,30 @@
+state={
+	id=241
+	name="STATE_241"
+	resources={
+		oil=6
+		aluminium=15
+	}
+
+	history={
+		owner = LIT
+		victory_points = {
+			6233 3 
+		}
+		victory_points = {
+			289 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LIT
+		add_core_of = SMO
+	}
+
+	provinces={
+		289 6233 6344 6354 9247 9288 9342 9371 9396 11230 11271 11355 11383 
+	}
+	manpower=45334
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

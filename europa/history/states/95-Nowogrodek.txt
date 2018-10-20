@@ -1,0 +1,29 @@
+
+state={
+	id=95
+	name="STATE_95"
+	resources={
+		tungsten=40
+		chromium=20
+	}
+
+	history={
+		owner = KAZ
+		victory_points = {
+			7375 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = KAZ
+		add_core_of = PRM
+	}
+
+	provinces={
+		206 291 1380 4372 6246 6285 7375 7403 7416 7431 7444 10286 10314 11228 12216 12626 
+	}
+	manpower=99735
+	buildings_max_level_factor=1.000
+	state_category=town
+}

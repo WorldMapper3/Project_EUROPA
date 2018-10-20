@@ -1,0 +1,33 @@
+
+state={
+	id=250
+	name="STATE_250"
+	resources={
+		oil=5
+		steel=10
+	}
+
+	history={
+		owner = KAZ
+		victory_points = {
+			9338 1 
+		}
+		victory_points = {
+			6394 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = KAZ
+
+	}
+
+	provinces={
+		286 392 3196 3246 3276 3316 3334 3372 6226 6294 6302 6337 6366 6394 9338 11373 
+	}
+	manpower=81602
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

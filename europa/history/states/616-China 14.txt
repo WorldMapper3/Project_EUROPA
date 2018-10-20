@@ -1,0 +1,26 @@
+
+state={
+	id=616
+	name="STATE_616"
+
+	history={
+		owner = OIR
+		add_core_of = OIR
+		victory_points = {
+			12750 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		5031 7511 8055 8127 10724 10770 12750 
+	}
+	manpower=289640
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

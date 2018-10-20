@@ -1,0 +1,38 @@
+
+state={
+	id=732
+	name="STATE_732"
+	resources={
+		oil=2
+		aluminium=30
+		steel=20
+	}
+
+	history={
+		owner = CHG
+		victory_points = {
+			1483 10 
+		}
+		victory_points = {
+			7706 3 
+		}
+		victory_points = {
+			1675 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = CHG
+
+	}
+
+	provinces={
+		1483 1675 1825 2058 4316 4391 4768 4923 5062 7706 10408 10488 10530 12370 12511 12581 12583 12640 
+	}
+	manpower=687895
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

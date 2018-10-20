@@ -1,0 +1,25 @@
+state={
+	id=281
+	name="STATE_281"
+	manpower=333738
+	
+	state_category = rural
+
+	history={
+		owner = VIJ
+		add_core_of = VIJ
+		victory_points = {
+			4967 3 
+		}
+		buildings = {
+			infrastructure = 2
+			4967 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		4967 
+	}
+}

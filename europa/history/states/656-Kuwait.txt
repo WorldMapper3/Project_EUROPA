@@ -1,0 +1,30 @@
+
+state={
+	id=656
+	name="STATE_656"
+
+	history={
+		owner = QRQ
+		add_core_of = QRQ
+		victory_points = {
+			8085 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			8085 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2089 8085 12726 
+	}
+	manpower=165414
+	buildings_max_level_factor=1.000
+	state_category=town
+}

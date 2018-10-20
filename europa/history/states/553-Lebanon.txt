@@ -1,0 +1,36 @@
+state={
+	id=553
+	name="STATE_553"
+	manpower = 436090
+	resources={
+		oil=5
+	}
+	
+	state_category = city
+
+	history={
+		owner = EGY
+		victory_points = {
+			11919 15 
+		}
+		victory_points = {
+			1108 15 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			11919 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = EGY
+		add_core_of = LEB
+		add_core_of = SYR
+	}
+
+	provinces={
+		792 1108 11919 
+	}
+}

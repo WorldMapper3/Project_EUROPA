@@ -1,0 +1,44 @@
+
+state={
+	id=422
+	name="STATE_422"
+	resources={
+		oil=6
+		chromium=18
+	}
+
+	history={
+		owner = CEY
+		add_core_of = CEY
+		victory_points = {
+			7260 5 
+		}
+		victory_points = {
+			12258 5 
+		}
+		victory_points = {
+			10201 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			10229 = {
+				naval_base = 1
+			}
+			7260 = {
+				naval_base = 1
+			}
+			10201 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		1213 4219 7260 7344 10201 10229 10287 12258 
+	}
+	manpower=934466
+	buildings_max_level_factor=1.000
+	state_category=town
+}

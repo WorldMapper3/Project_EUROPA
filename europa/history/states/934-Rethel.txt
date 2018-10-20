@@ -1,0 +1,30 @@
+state={
+	id=934
+	name="STATE_934"
+	resources={
+		aluminium=30
+		chromium=24
+	}
+
+	history={
+		owner = BUR
+		victory_points = {
+			9472 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		#add_core_of = NEV
+		add_core_of = BUR
+
+	}
+
+	provinces={
+		3447 3560 9472 
+	}
+	manpower=246231
+	buildings_max_level_factor=1.000
+	state_category=town
+}

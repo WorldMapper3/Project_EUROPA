@@ -1,0 +1,29 @@
+state={
+	id=937
+	name="STATE_937"
+	resources={
+		chromium=10
+	}
+	
+	history={
+		owner = TKD
+		add_core_of = TKD
+		victory_points={
+			12072 5
+		}
+		victory_points={
+			10015 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	
+	provinces={
+		10015 10100 12072 
+	}
+	manpower=325845
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

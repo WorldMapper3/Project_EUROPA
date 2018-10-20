@@ -1,0 +1,19 @@
+state={
+	id=332
+	name="STATE_332"
+	
+	state_category = rural
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		1426 1785 4720 4787 12503 13165 13180 
+	}
+	manpower=51012
+	buildings_max_level_factor=1.000
+}

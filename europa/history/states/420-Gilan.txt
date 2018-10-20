@@ -1,0 +1,30 @@
+
+state={
+	id=420
+	name="STATE_420"
+	resources={
+		oil=20
+		aluminium=90
+	}
+
+	history={
+		owner = TAB
+		victory_points = {
+			4637 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = GIL
+
+	}
+
+	provinces={
+		4580 4609 4637 10385 10768 
+	}
+	manpower=180451
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=219
+	name="STATE_219"
+	resources={
+		oil=12
+		steel=60
+		chromium=32
+	}
+
+	history={
+		owner = MUS
+		victory_points = {
+			6380 15 
+		}
+		victory_points = {
+			9282 3 
+		}
+		victory_points = {
+			9302 5 
+		}
+		victory_points = {
+			382 5 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		add_core_of = MUS
+
+	}
+
+	provinces={
+		274 301 335 382 401 3259 3263 3290 3308 3327 3377 3391 6283 6290 6348 6380 6414 9235 9282 9302 9348 9378 9395 11217 11282 11300 11330 11369 
+	}
+	manpower=353607
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

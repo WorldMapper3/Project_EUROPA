@@ -1,0 +1,225 @@
+﻿division_template = {
+	name = "Infantry Regiment"
+	division_names_group = MNG_INF_01
+
+	regiments = {
+		pikemen = { x = 0 y = 0 }
+		arbalests = { x = 0 y = 1 }
+		pikemen = { x = 1 y = 0 }
+		archers = { x = 1 y = 1 }
+	}
+	support = {
+		arbalests_support = { x = 0 y = 0 }
+		archers_support = { x = 0 y = 1 } 
+	}
+}
+division_template = {
+	name = "Cavalry Regiment"
+	division_names_group = MNG_CAV_01
+
+	regiments = {
+		spear_cav = { x = 0 y = 0 }
+		heavy_lancers = { x = 0 y = 1 }
+		spear_cav = { x = 1 y = 0 }
+		cav_archers = { x = 1 y = 1 }
+	}
+}
+units = {
+	#CANTON#
+	division= {	
+		name = "Infantry Regiment"
+		location = 1047
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Infantry Regiment"
+		location = 1047
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Infantry Regiment"
+		location = 1047
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Cavalry Regiment"
+		location = 1047
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Cavalry Regiment"
+		location = 1047
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	#HANGZHOU#
+	division= {	
+		name = "Infantry Regiment"
+		location = 7191
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Infantry Regiment"
+		location = 7191
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Infantry Regiment"
+		location = 7191
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Cavalry Regiment"
+		location = 7191
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	#NANJING#
+	division= {	
+		name = "Infantry Regiment"
+		location = 11913
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Infantry Regiment"
+		location = 11913
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Infantry Regiment"
+		location = 11913
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Cavalry Regiment"
+		location = 11913
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	#YANGZHOU#
+	division= {	
+		name = "Infantry Regiment"
+		location = 1089
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Infantry Regiment"
+		location = 1089
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Infantry Regiment"
+		location = 1089
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Cavalry Regiment"
+		location = 1089
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	#BEIJING#
+	division= {	
+		name = "Infantry Regiment"
+		location = 9843
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Infantry Regiment"
+		location = 9843
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Infantry Regiment"
+		location = 9843
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Infantry Regiment"
+		location = 9843
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Cavalry Regiment"
+		location = 9843
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Cavalry Regiment"
+		location = 9843
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Cavalry Regiment"
+		location = 9843
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+}

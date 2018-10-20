@@ -1,0 +1,37 @@
+state={
+	id=872
+	name="STATE_872"
+	resources={
+		oil=2
+		chromium=4
+	}
+	
+	history={
+		owner = GUJ
+		victory_points = {
+			12037 3 
+		}
+		victory_points = {
+			4132 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			12037 = {
+				naval_base = 1
+			}
+			4132 = {
+				naval_base = 1
+			}
+		}
+		#add_core_of = KAT
+		add_core_of = GUJ
+	}
+	
+	provinces={
+		4090 4132 12037 
+	}
+	manpower=667476
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=399
+	name="STATE_399"
+	resources={
+		oil=10
+		chromium=12
+	}
+
+	history={
+		owner = KAZ
+		victory_points = {
+			12244 3 
+		}
+		victory_points = {
+			6388 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = KAZ
+
+	}
+
+	provinces={
+		305 370 381 3027 3294 3300 3363 3394 4356 4400 6162 6217 6224 6278 6288 6297 6388 7359 9293 11320 11365 12203 12244 
+	}
+	manpower=99735
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,29 @@
+state={
+	id=799
+	name="STATE_799"
+	resources={
+		aluminium=10
+		chromium=8
+	}
+
+	history={
+		owner = ANH
+		victory_points = {
+			9560 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = ANH
+
+	}
+
+	provinces={
+		425 6582 9560 
+	}
+	manpower=88439
+	buildings_max_level_factor=1.000
+	state_category=town
+}

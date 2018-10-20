@@ -1,0 +1,26 @@
+state={
+	id=828
+	name="STATE_828"
+	
+	history={
+		owner = MOR
+		victory_points = {
+			7215 5 
+		}
+		buildings = {
+			infrastructure = 2
+			7215 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = MOR
+		add_core_of = FEZ
+	}
+	
+	provinces={
+		4199 7215 
+	}
+	manpower=136628
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

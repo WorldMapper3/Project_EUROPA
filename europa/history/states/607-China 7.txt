@@ -1,0 +1,38 @@
+state={
+	id=607
+	name="STATE_607"
+	resources={
+		oil=53
+		aluminium=40
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		add_core_of = LNG
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		victory_points = {
+			10434 5 
+		}
+		victory_points = {
+			10098 10 
+		}
+		victory_points = {
+			9958 20 
+		}
+		victory_points = {
+			11931 15 
+		}
+	}
+
+	provinces={
+		1004 1603 4010 4066 4158 6932 7085 7126 7540 7656 9958 9995 10098 10364 10434 10446 11931 12426 
+	}
+	manpower=1918866
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

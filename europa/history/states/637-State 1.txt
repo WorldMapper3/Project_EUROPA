@@ -1,0 +1,22 @@
+
+state={
+	id=637
+	name="STATE_637"
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = NAT
+
+	}
+
+	provinces={
+		1823 1839 1863 4728 4744 5264 7878 10540 12207 12522 13063 13204 
+	}
+	manpower=108615
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

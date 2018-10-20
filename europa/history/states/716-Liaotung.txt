@@ -1,0 +1,52 @@
+
+state={
+	id=716
+	name="STATE_716"
+	resources={
+		oil=20
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			11764 = {
+				naval_base = 2
+
+			}
+			6981 = {
+				naval_base = 1
+
+			}
+			6837 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			846 10 
+		}
+		victory_points = {
+			964 5 
+		}
+		victory_points = {
+			6860 3 
+		}
+		victory_points = {
+			6837 3 
+		}
+
+	}
+
+	provinces={
+		836 846 887 892 916 934 945 964 987 3783 3814 3839 3849 3895 3934 3970 6804 6837 6852 6860 6868 6893 6898 6910 6918 6951 6981 9781 9788 9831 9835 9848 9854 9885 9927 11764 11771 11808 11815 11836 11886 
+	}
+	manpower=1086150
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

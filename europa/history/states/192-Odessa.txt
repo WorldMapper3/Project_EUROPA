@@ -1,0 +1,30 @@
+state={
+	id=192
+	name="STATE_192"
+	resources={
+		oil=3
+	}
+
+	history={
+		owner = LIT
+		victory_points = {
+			11670 3 
+		}
+		buildings = {
+			infrastructure = 2
+			11670 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = LIT
+		add_core_of = CRI
+		add_core_of = ZAZ
+	}
+
+	provinces={
+		741 754 3575 3738 3757 9576 9698 9714 11670 11703 
+	}
+	manpower=45334
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

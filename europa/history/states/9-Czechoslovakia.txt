@@ -1,0 +1,31 @@
+
+state={
+	id=9
+	name="STATE_9"
+	resources={
+		oil=18
+		aluminium=35
+	}
+
+	history={
+		owner = CZE
+		victory_points = {
+			11542 20 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = CZE
+
+	}
+
+	provinces={
+		583 9421 9429 9569 11542 11556 
+	}
+	manpower=333919
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

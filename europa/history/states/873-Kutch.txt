@@ -1,0 +1,29 @@
+state={
+	id=873
+	name="STATE_873"
+
+	history={
+		owner = GUJ
+		victory_points = {
+			1190 1 
+		}
+		buildings = {
+			infrastructure = 1
+			1190 = {
+				naval_base = 1
+
+			}
+
+		}
+		#add_core_of = KAT
+		add_core_of = GUJ
+
+	}
+
+	provinces={
+		1147 1190 7020 
+	}
+	manpower=200243
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

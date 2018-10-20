@@ -1,0 +1,26 @@
+state={
+	id=898
+	name="STATE_898"
+
+	history={
+		owner = NNB
+		victory_points = {
+			11847 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			6870 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = NNB
+	}
+
+	provinces={
+		1165 6870 6873 6994 9807 9859 11847 
+	}
+	manpower=289640
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

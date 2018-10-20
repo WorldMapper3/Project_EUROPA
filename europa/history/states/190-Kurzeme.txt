@@ -1,0 +1,35 @@
+state={
+	id=190
+	name="STATE_190"
+	manpower = 117869
+	resources={
+		oil=10
+	}
+	
+	state_category = town
+	
+	history={
+		owner = LIV
+		victory_points = {
+			3296 5 
+		}
+		victory_points = {
+			3525 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			3296 = {
+				naval_base = 1
+			}
+			3525 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = LIV
+	}
+
+	provinces={
+		265 3194 3296 3319 3525 6222 6322 6342 9262 11246 
+	}
+}

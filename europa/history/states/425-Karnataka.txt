@@ -1,0 +1,28 @@
+
+state={
+	id=425
+	name="STATE_425"
+	resources={
+		oil=5
+		steel=50
+	}
+
+	history={
+		owner = VIJ
+		#add_core_of = MYS
+		victory_points = {
+			4315 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		4315 4344 12146 
+	}
+	manpower=934466
+	buildings_max_level_factor=1.000
+	state_category=town
+}

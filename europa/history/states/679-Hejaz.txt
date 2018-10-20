@@ -1,0 +1,39 @@
+
+state={
+	id=679
+	name="STATE_679"
+	resources={
+		aluminium=35
+	}
+
+	history={
+		owner = HEJ
+		victory_points = {
+			5037 30 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			12883 = {
+				naval_base = 1
+
+			}
+			1923 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = HEJ
+
+	}
+
+	provinces={
+		1920 1923 2033 2090 4981 5037 8073 10748 10786 12883 
+	}
+	manpower=511278
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

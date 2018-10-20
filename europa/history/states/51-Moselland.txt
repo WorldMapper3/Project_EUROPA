@@ -1,0 +1,34 @@
+
+state={
+	id=51
+	name="STATE_51"
+	resources={
+		chromium=36
+		aluminium=45
+	}
+
+	history={
+		owner = KLE
+		victory_points = {
+			6469 5 
+		}
+		victory_points = {
+			3444 10 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = KLE
+
+	}
+
+	provinces={
+		495 3444 3512 6469 6570 
+	}
+	manpower=309538
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

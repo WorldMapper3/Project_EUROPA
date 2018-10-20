@@ -1,0 +1,50 @@
+
+state={
+	id=288
+	name="STATE_288"
+	resources={
+		oil=10
+		chromium=36
+	}
+
+	history={
+		owner = PEG
+		add_core_of = PEG
+		victory_points = {
+			7254 10 
+		}
+		victory_points = {
+			10154 20 
+		}
+		victory_points = {
+			1403 15 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+			7382 = {
+				naval_base = 1
+
+			}
+			10267 = {
+				naval_base = 3
+
+			}
+			1403 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1330 1403 1417 4293 4336 4408 7254 7382 10154 10182 10223 10267 12125 12127 12197 12238 12267 12284 
+	}
+	manpower=1593021
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

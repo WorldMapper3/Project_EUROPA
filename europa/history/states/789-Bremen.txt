@@ -1,0 +1,30 @@
+state={
+	id=789
+	name="STATE_789"
+	resources={
+		oil=15
+	}
+
+	history={
+		owner = HSA
+		victory_points = {
+			3326 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			3326 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = HSA
+	}
+
+	provinces={
+		3326 
+	}
+	manpower=235838
+	buildings_max_level_factor=1.000
+	state_category=city
+}

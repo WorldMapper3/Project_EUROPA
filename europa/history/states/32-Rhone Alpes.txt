@@ -1,0 +1,30 @@
+
+state={
+	id=32
+	name="STATE_32"
+	resources={
+		aluminium=20
+	}
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			3768 15 
+		}
+		add_core_of = FRA
+		add_core_of = DAU
+
+	}
+
+	provinces={
+		762 764 780 3589 3764 3768 3770 6786 9732 9736 11716 
+	}
+	manpower=263819
+	buildings_max_level_factor=1.000
+	state_category=town
+}

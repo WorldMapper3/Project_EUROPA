@@ -1,0 +1,31 @@
+
+state={
+	id=735
+	name="STATE_735"
+	resources={
+		chromium=18
+		aluminium=45
+	}
+
+	history={
+		owner = SAV
+		add_core_of = SAV
+		victory_points = {
+			6784 25 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		778 6609 6639 6784 9590 9603 11573 
+	}
+	manpower=404523
+	buildings_max_level_factor=1.000
+	state_category=city
+}

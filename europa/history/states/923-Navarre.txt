@@ -1,0 +1,28 @@
+state={
+	id=923
+	name="STATE_923"
+	resources={
+		steel=20
+	}
+	
+	history={
+		owner = NAV
+		victory_points = {
+			9857 5 
+		}
+		buildings = {
+			infrastructure = 2
+			3737 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = NAV
+	}
+	
+	provinces={
+		932 3737 3931 3933 9857 
+	}
+	manpower=96457
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=60
+	name="STATE_60"
+	resources={
+		chromium=12
+	}
+
+	history={
+		owner = SAX
+		victory_points = {
+			482 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SAX
+		add_core_of = THU
+
+	}
+
+	provinces={
+		482 3474 3500 6524 
+	}
+	manpower=103179
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

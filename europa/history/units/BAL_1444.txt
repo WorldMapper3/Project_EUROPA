@@ -1,0 +1,53 @@
+﻿division_template = {
+	name = "Infantry Regiment"
+	division_names_group = BAL_INF_01
+
+	regiments = {
+		halberdiers = { x = 0 y = 0 }
+		pikemen = { x = 0 y = 1 }
+		halberdiers = { x = 1 y = 0 }
+		pikemen = { x = 1 y = 1 }
+	}
+	support = {
+		arquebusiers_support = { x = 0 y = 0 }
+		archers_support = { x = 0 y = 1 } 
+	}
+}
+division_template = {
+	name = "Cavalry Regiment"
+	division_names_group = BAL_CAV_01
+
+	regiments = {
+		cav_archers = { x = 0 y = 0 }
+		heavy_lancers = { x = 0 y = 1 }
+		cav_archers = { x = 1 y = 0 }
+		spear_cav = { x = 1 y = 1 }
+	}
+}
+units = {
+	#QUETTA#
+	division= {	
+		name = "Infantry Regiment"
+		location = 8044
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Infantry Regiment"
+		location = 8044
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Cavalry Regiment"
+		location = 8044
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+}

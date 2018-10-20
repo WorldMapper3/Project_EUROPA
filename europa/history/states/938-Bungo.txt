@@ -1,0 +1,35 @@
+state={
+	id=938
+	name="STATE_938"
+	resources={
+		chromium=20
+	}
+	
+	history={
+		owner = OTM
+		add_core_of = OTM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			11925 = {
+				naval_base = 2
+			}
+			10092 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			11925 5 
+		}
+		victory_points = {
+			10020 3 
+		}
+	}
+	
+	provinces={
+		4027 10020 10092 11925 12006 
+	}
+	manpower=325845
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

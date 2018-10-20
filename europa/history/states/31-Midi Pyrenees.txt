@@ -1,0 +1,38 @@
+
+state={
+	id=31
+	name="STATE_31"
+	resources={
+		oil=13
+		chromium=10
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			6766 20 
+		}
+		victory_points = {
+			3946 15 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			3946 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = FRA
+		add_core_of = GUY
+		add_core_of = TOU
+	}
+
+	provinces={
+		943 3915 3946 6766 6915 6917 6931 9723 9853 
+	}
+	manpower=580402
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

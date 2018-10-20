@@ -1,0 +1,65 @@
+
+state={
+	id=426
+	name="STATE_426"
+	resources={
+		oil=20
+		aluminium=55
+		chromium=32
+	}
+
+	history={
+		owner = ORI
+		add_core_of = ORI
+		victory_points = {
+			10255 5 
+		}
+		victory_points = {
+			10001 5 
+		}
+		victory_points = {
+			10088 15 
+		}
+		victory_points = {
+			4104 10 
+		}
+		victory_points = {
+			4062 15 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+			10255 = {
+				naval_base = 2
+
+			}
+			10001 = {
+				naval_base = 2
+
+			}
+			10088 = {
+				naval_base = 3
+
+			}
+			12063 = {
+				naval_base = 2
+
+			}
+			4062 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1444 4062 4104 7220 10001 10088 10116 10255 11978 12063 12462 
+	}
+	manpower=3871359
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

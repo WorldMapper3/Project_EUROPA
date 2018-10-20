@@ -1,0 +1,34 @@
+
+state={
+	id=224
+	name="STATE_224"
+	resources={
+		oil=4
+		chromium=8
+	}
+
+	history={
+		owner = LIT
+		victory_points = {
+			3335 3 
+		}
+		victory_points = {
+			343 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = LIT
+		add_core_of = SMO
+
+	}
+
+	provinces={
+		288 315 343 371 398 3226 3306 3335 3364 3390 6305 6330 6355 6386 11229 11298 11325 
+	}
+	manpower=90668
+	buildings_max_level_factor=1.000
+	state_category=town
+}

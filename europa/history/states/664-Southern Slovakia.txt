@@ -1,0 +1,29 @@
+
+state={
+	id=664
+	name="STATE_664"
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			686 5 
+		}
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		665 686 3670 3683 3700 6672 6720 9646 11627 
+	}
+	manpower=140598
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

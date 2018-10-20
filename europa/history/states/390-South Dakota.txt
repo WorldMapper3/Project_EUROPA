@@ -1,0 +1,17 @@
+state={
+	id=390
+	name="STATE_390"
+	manpower = 68016
+	state_category = town
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		1747 1875 3750 4839 4880 7745 7771 7862 10569 10595 12620 12667 
+	}
+}

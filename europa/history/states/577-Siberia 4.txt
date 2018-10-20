@@ -1,0 +1,32 @@
+
+state={
+	id=577
+	name="STATE_577"
+	resources={
+		chromium=8
+	}
+
+	history={
+		owner = UZB
+		victory_points = {
+			1726 1 
+		}
+		victory_points = {
+			12639 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = UZB
+		add_core_of = SIB
+
+	}
+
+	provinces={
+		1726 1768 1856 4771 7685 7837 10533 10663 12542 12639 12672 
+	}
+	manpower=108615
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

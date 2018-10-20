@@ -1,0 +1,25 @@
+state={
+	id=164
+	name="STATE_164"
+	manpower = 232804
+	
+	state_category = town
+	
+	history={
+		owner = KNI
+		victory_points = {
+			10007 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			10007 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = KNI
+	}
+	provinces={
+		7003 10007 	
+	}
+}

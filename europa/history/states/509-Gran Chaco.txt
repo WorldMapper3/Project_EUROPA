@@ -1,0 +1,21 @@
+state={
+	id=509
+	name="STATE_509"
+	resources={
+
+	}
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		2106 2208 5143 5213 8169 8255 10986 12922 12943 
+	}
+	manpower=177559
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

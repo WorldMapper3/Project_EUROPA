@@ -1,0 +1,28 @@
+state={
+	id=195
+	name="STATE_195"
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = NOV
+		victory_points = {
+			9097 5 
+		}
+		buildings = {
+			infrastructure = 2
+			9097 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = NOV
+	}
+
+	provinces={
+		79 149 3151 6174 9097 11068 
+	}
+	manpower=63468
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

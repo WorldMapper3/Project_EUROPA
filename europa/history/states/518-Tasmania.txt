@@ -1,0 +1,16 @@
+state={
+	id=518
+	name="STATE_518"
+	manpower = 54308
+	
+	state_category = rural
+
+	history={
+		owner = NAT
+		buildings = {
+		}
+	}
+	provinces={
+		2183 2189 5181 5187 10665 12645
+	}
+}

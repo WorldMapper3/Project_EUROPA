@@ -1,0 +1,31 @@
+
+state={
+	id=622
+	name="STATE_622"
+	resources={
+		
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		add_core_of = CSH
+		add_core_of = QIN
+		victory_points = {
+			10257 10 
+		}
+		victory_points = {
+			12356 5 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		517 1458 4939 5007 7208 7314 7659 8049 10733 10880 12156 12356 
+	}
+	manpower=1303381
+	buildings_max_level_factor=1.000
+	state_category=town
+}

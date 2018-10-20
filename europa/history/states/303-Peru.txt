@@ -1,0 +1,22 @@
+
+state={
+	id=303
+	name="STATE_303"
+
+	history={
+		owner = NAT #CSU
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = NAT #CSU
+
+	}
+
+	provinces={
+		2162 2225 5166 12953 12997 
+	}
+	manpower=66584
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

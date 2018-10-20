@@ -1,0 +1,25 @@
+state={
+	id=450
+	name="STATE_450"
+
+	history={
+		owner = EGY
+		victory_points = {
+			11954 3 
+		}
+		buildings = {
+			infrastructure = 2
+			11954 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = EGY
+	}
+
+	provinces={
+		1127 1198 4120 10123 11954 
+	}
+	manpower=117110
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=254
+	name="STATE_254"
+	resources={
+		oil=8
+		aluminium=25
+	}
+
+	history={
+		owner = RYA
+		victory_points = {
+			11268 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = RYA
+
+	}
+
+	provinces={
+		269 350 3356 6279 9266 9313 9330 11248 11268 11294 11314 11379 
+	}
+	manpower=172270
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

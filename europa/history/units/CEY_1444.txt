@@ -1,0 +1,37 @@
+﻿division_template = {
+	name = "Infantry Regiment"
+	division_names_group = CEY_INF_01
+
+	regiments = {
+		pikemen = { x = 0 y = 0 }
+		halberdiers = { x = 0 y = 1 }
+		pikemen = { x = 1 y = 0 }
+		halberdiers = { x = 1 y = 1 }
+	}
+	support = {
+		archers_support = { x = 0 y = 0 }
+		arquebusiers_support = { x = 0 y = 1 } 
+	}
+}
+division_template = {
+	name = "Cavalry Regiment"
+	division_names_group = CEY_CAV_01
+
+	regiments = {
+		spear_cav = { x = 0 y = 0 }
+		cav_archers = { x = 0 y = 1 }
+		spear_cav = { x = 1 y = 0 }
+		cav_archers = { x = 1 y = 1 }
+	}
+}
+units = {
+	#KOTTE#
+	division= {	
+		name = "Infantry Regiment"
+		location = 7260
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+}

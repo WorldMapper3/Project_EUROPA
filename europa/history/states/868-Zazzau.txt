@@ -1,0 +1,18 @@
+state={
+	id=868
+	name="STATE_868"
+	
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	
+	provinces={
+		1891 1969 4972 8028 10758 
+	}
+	manpower=370847
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

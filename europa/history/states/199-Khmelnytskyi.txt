@@ -1,0 +1,27 @@
+state={
+	id=199
+	name="STATE_199"
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = POL
+		victory_points = {
+			6455 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = POL
+		add_core_of = VOL
+	}
+
+	provinces={
+		462 476 3430 3457 6429 6455 9423 
+	}
+	manpower=81602
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

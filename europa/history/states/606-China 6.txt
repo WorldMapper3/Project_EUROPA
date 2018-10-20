@@ -1,0 +1,44 @@
+
+state={
+	id=606
+	name="STATE_606"
+	resources={
+		oil=15
+		aluminium=30
+		chromium=12
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 5
+			arms_factory = 2
+
+		}
+		victory_points = {
+			1125 10 
+		}
+		victory_points = {
+			1083 15 
+		}
+		victory_points = {
+			7222 10 
+		}
+		victory_points = {
+			4079 3 
+		}
+		victory_points = {
+			4105 5 
+		}
+
+	}
+
+	provinces={
+		1083 1146 4079 4203 7035 7094 7222 9937 10008 10017 10040 10064 10079 11916 11994 12036 12061 
+	}
+	manpower=2751581
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

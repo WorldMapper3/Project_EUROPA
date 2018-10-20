@@ -1,0 +1,37 @@
+state={
+	id=968
+	name="STATE_968"
+	resources={
+		oil=4
+		aluminium=10
+		chromium=4
+	}
+	
+	history={
+		owner = OUC
+		victory_points = {
+			1191 3 
+		}
+		victory_points = {
+			11985 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			1191 = {
+				naval_base = 1
+			}
+			11985 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = OUC
+	}
+	
+	provinces={
+		1191 7050 10052 11985 
+	}
+	manpower=354729
+	state_category=town
+	buildings_max_level_factor=1.000
+}

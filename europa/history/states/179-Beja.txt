@@ -1,0 +1,41 @@
+
+state={
+	id=179
+	name="STATE_179"
+	manpower = 330709
+	resources={
+		oil=16
+	}
+	
+	state_category = city
+
+	history={
+		owner = POR
+		victory_points = {
+			3790 5 
+		}
+		victory_points = {
+			6933 5 
+		}
+		victory_points = {
+			6986 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard =1
+			3790 = {
+				naval_base = 2
+			}
+			980 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = POR
+	}
+
+	provinces={
+		980 3790 3846 3866 3886 3926 6880 6884 6933 6986 9765 9819 9869 
+	}
+}

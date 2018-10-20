@@ -1,0 +1,39 @@
+
+state={
+	id=640
+	name="STATE_640"
+	resources={
+		chromium=99
+	}
+
+	history={
+		owner = HSE
+		add_core_of = HSE
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+
+		}
+		victory_points = {
+			12363 20 
+		}
+		victory_points = {
+			2061 5 
+		}
+		victory_points = {
+			1607 3 
+		}
+		victory_points = {
+			7909 5 
+		}
+
+	}
+
+	provinces={
+		1170 1492 1566 1607 2061 4175 4210 4585 4654 7400 7562 7603 7647 7909 7974 12317 12363 
+	}
+	manpower=1448201
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

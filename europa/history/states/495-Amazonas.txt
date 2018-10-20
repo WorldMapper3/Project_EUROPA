@@ -1,0 +1,24 @@
+state={
+	id=495
+	name="STATE_495"
+	
+	impassable = yes
+	
+	resources={
+
+	}
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2198 5083 5216 8050 8185 8254 10792 10960 12729 12770 12825 12919 13083 
+	}
+	manpower=66584
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

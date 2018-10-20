@@ -1,0 +1,46 @@
+
+state={
+	id=282
+	name="STATE_282"
+	resources={
+		oil=2
+		chromium=18
+	}
+
+	history={
+		owner = UES
+		add_core_of = UES
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			4184={
+				naval_base=1
+			}
+			4100={
+				naval_base=1
+			}
+		}
+		victory_points = {
+			4000 5 
+		}
+		victory_points = {
+			1113 3 
+		}
+		victory_points = {
+			7016 3 
+		}
+		victory_points = {
+			4188 3 
+		}
+
+	}
+
+	provinces={
+		993 1113 4000 4100 4184 4188 7016 11908 
+	}
+	manpower=796510
+	buildings_max_level_factor=1.000
+	state_category=city
+}

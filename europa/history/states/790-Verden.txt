@@ -1,0 +1,29 @@
+state={
+	id=790
+	name="STATE_790"
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = VER
+		add_core_of = VER
+		victory_points = {
+			374 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			374 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		374 3271 6349 
+	}
+	manpower=147399
+	buildings_max_level_factor=1.000
+	state_category=town
+}

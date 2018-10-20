@@ -1,0 +1,34 @@
+state={
+	id=879
+	name="STATE_879"
+	resources={
+		chromium=22
+	}
+
+	history={
+		owner = ORI
+		victory_points = {
+			7090 1 
+		}
+		victory_points = {
+			4513 3 
+		}
+		victory_points = {
+			10060 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		#add_core_of = GRJ
+
+	}
+
+	provinces={
+		1059 1101 1538 1579 4513 7090 7372 9946 10060 10428 10469 11924 12307 12375 
+	}
+	manpower=800971
+	buildings_max_level_factor=1.000
+	state_category=town
+}

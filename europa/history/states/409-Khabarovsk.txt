@@ -1,0 +1,40 @@
+
+state={
+	id=409
+	name="STATE_409"
+	resources={
+		
+	}
+
+	history={
+		owner = MYR
+		victory_points = {
+			12189 3 
+		}
+		victory_points = {
+			1343 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			11575 = {
+				naval_base = 1
+
+			}
+			4404 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = MYR
+
+	}
+
+	provinces={
+		725 739 753 1267 1325 1343 1397 3753 3756 3963 4404 6774 7249 7266 7309 9589 9604 9733 9749 10466 11575 11719 12136 12189 
+	}
+	manpower=325845
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

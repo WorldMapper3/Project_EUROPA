@@ -1,0 +1,23 @@
+state={
+	id=116
+	name="STATE_116"
+	manpower = 124077
+	state_category = rural
+	
+	history= {
+		owner = ARA
+		add_core_of = ARA
+		add_core_of = MLT
+		victory_points = {
+			12003 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			12003 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces= { 12003 }
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=356
+	name="STATE_356"
+	resources={
+		oil=6
+		tungsten=50
+		chromium=10
+	}
+
+	history={
+		owner = CND
+		victory_points = {
+			6995 10 
+		}
+		victory_points = {
+			6920 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			3967 = {
+				naval_base = 2
+
+			}
+			11883 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = CND
+
+	}
+
+	provinces={
+		979 3967 3982 6920 6938 6995 9871 11883 
+	}
+	manpower=270677
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

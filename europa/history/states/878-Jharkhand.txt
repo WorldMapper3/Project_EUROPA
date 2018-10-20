@@ -1,0 +1,27 @@
+state={
+	id=878
+	name="STATE_878"
+	resources={
+		chromium=6
+	}
+
+	history={
+		owner = MLW
+		victory_points = {
+			12035 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = JHK
+
+	}
+
+	provinces={
+		1637 7593 10358 12035 12452 
+	}
+	manpower=400485
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

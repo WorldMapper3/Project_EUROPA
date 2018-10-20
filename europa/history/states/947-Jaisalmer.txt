@@ -1,0 +1,22 @@
+state={
+	id=947
+	name="STATE_947"
+	resources={
+		aluminium=5
+	}
+	
+	history={
+		owner = PAK
+		buildings = {
+			infrastructure = 1
+		}
+		#add_core_of = JSL
+	}
+	
+	provinces={
+		10847 10866 12718 
+	}
+	manpower=200243
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

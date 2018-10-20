@@ -1,0 +1,28 @@
+
+state={
+	id=153
+	name="STATE_153"
+
+	history={
+		owner = AUS
+		victory_points = {
+			9633 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = AUS
+		add_core_of = TIR
+
+	}
+
+	provinces={
+		673 9633 9636 11618 11620 
+	}
+	manpower=351494
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

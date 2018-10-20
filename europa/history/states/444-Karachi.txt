@@ -1,0 +1,52 @@
+
+state={
+	id=444
+	name="STATE_444"
+
+	history={
+		owner = BAL
+		victory_points = {
+			1179 3 
+		}
+		victory_points = {
+			7917 1 
+		}
+		victory_points = {
+			4891 1 
+		}
+		victory_points = {
+			13082 5 
+		}
+		victory_points = {
+			12761 3 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			1179 = {
+				naval_base = 1
+
+			}
+			7917 = {
+				naval_base = 1
+
+			}
+			4891 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = BAL
+
+	}
+
+	provinces={
+		1179 2039 2070 4891 5043 5075 7917 8013 8066 10782 12761 12774 13082 
+	}
+	manpower=2135922
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

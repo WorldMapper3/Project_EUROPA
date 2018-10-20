@@ -1,0 +1,52 @@
+state={
+	id=596
+	name="STATE_596"
+	manpower = 3077426
+	state_category = megalopolis
+	resources={
+		oil=76
+		aluminium=60
+	}
+	
+	history={
+		owner = MNG
+		add_core_of = MNG
+		add_core_of = WUU
+		victory_points = { 
+			7191 25 
+		}
+		victory_points = { 
+			1096 15 
+		}
+		victory_points = { 
+			9974 15 
+		}
+		victory_points = { 
+			4013 5 
+		}
+		victory_points = { 
+			11947 5 
+		}		
+		buildings = {
+			infrastructure = 10
+			arms_factory = 3
+			industrial_complex = 5
+			dockyard = 2
+			4042 = {
+				naval_base = 5
+			}
+			1096 = {
+				naval_base = 3
+			}
+			9974 = {
+				naval_base = 3
+			}
+			4013 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces={
+		1055 1096 1168 1195 4013 4042 4099 7058 7086 7146 7174 7191 9944 9972 9974 10014 10058 10086 10101 11920 11947 11991 12059 
+	}
+}

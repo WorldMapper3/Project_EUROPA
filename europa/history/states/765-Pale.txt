@@ -1,0 +1,33 @@
+state={
+	id=765
+	name="STATE_765"
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			11293 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			11293 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = ENG
+		add_core_of = MTH
+
+	}
+
+	provinces={
+		3242 3359 11293 
+	}
+	manpower=90588
+	buildings_max_level_factor=1.000
+	state_category=town
+}

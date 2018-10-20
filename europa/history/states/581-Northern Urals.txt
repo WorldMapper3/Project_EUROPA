@@ -1,0 +1,21 @@
+state={
+	id=581
+	name="STATE_581"
+	resources={
+
+	}
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1771 7824 10551 10648 10677 11098 12393 12502 12659 13076 
+	}
+	manpower=36205
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

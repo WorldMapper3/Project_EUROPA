@@ -1,0 +1,29 @@
+
+state={
+	id=260
+	name="STATE_260"
+	resources={
+		oil=5
+	}
+
+	history={
+		owner = GOL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			413 5 
+		}
+		add_core_of = GOL
+
+	}
+
+	provinces={
+		413 437 473 510 534 3469 3504 3527 6317 6428 6494 6553 9339 9448 9489 9529 9552 9579 11396 11412 11475 11540 
+	}
+	manpower=126936
+	buildings_max_level_factor=1.000
+	state_category=town
+}

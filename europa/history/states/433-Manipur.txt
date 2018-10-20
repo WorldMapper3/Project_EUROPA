@@ -1,0 +1,28 @@
+
+state={
+	id=433
+	name="STATE_433"
+	resources={
+		oil=6
+		aluminium=15
+		chromium=10
+	}
+
+	history={
+		owner = JNP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		#add_core_of = BND
+
+	}
+
+	provinces={
+		2036 4045 5040 5096 7080 10807 
+	}
+	manpower=1001214
+	buildings_max_level_factor=1.000
+	state_category=town
+}

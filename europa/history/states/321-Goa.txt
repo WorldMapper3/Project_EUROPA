@@ -1,0 +1,58 @@
+
+state={
+	id=321
+	name="STATE_321"
+	resources={
+		chromium=32
+	}
+
+	history={
+		owner = VIJ
+		add_core_of = VIJ
+		add_core_of = BAH
+		add_core_of = BIJ
+		victory_points = {
+			1273 10 
+		}
+		victory_points = {
+			7395 10 
+		}
+		victory_points = {
+			7232 10 
+		}
+		victory_points = {
+			12269 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			7395 = {
+				naval_base = 2
+
+			}
+			1273 = {
+				naval_base = 2
+
+			}
+			7232 = {
+				naval_base = 2
+
+			}
+			12269 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1273 4291 4395 7232 7395 12208 12269 
+	}
+	manpower=2669903
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

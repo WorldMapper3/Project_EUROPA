@@ -1,0 +1,31 @@
+
+state={
+	id=161
+	name="STATE_161"
+	resources={
+		oil=12
+	}
+
+	history={
+		owner = PAP
+		victory_points = {
+			6606 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			782 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = PAP
+	}
+
+	provinces={
+		782 6606 6985 
+	}
+	manpower=285205
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

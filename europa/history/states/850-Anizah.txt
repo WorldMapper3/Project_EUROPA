@@ -1,0 +1,37 @@
+state={
+	id=850
+	name="STATE_850"
+
+	history={
+		owner = HEJ
+		victory_points = {
+			7970 1 
+		}
+		victory_points = {
+			10815 3 
+		}
+		victory_points = {
+			2095 1 
+		}
+		victory_points = {
+			2027 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			2095 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = HEJ
+
+	}
+
+	provinces={
+		1033 2027 2095 5099 7934 7970 8092 10835 12455 12758 
+	}
+	manpower=105263
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,26 @@
+state={
+	id=945
+	name="STATE_945"
+	resources={
+		oil=3
+		tungsten=50
+	}
+
+	history={
+		owner = DLH
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		#add_core_of = DHU
+
+	}
+
+	provinces={
+		2054 4915 7905 7998 
+	}
+	manpower=1001214
+	buildings_max_level_factor=1.000
+	state_category=town
+}

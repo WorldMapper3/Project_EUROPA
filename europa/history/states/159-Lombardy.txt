@@ -1,0 +1,31 @@
+
+state={
+	id=159
+	name="STATE_159"
+	resources={
+		oil=48
+		aluminium=55
+	}
+
+	history={
+		owner = MLO
+		victory_points = {
+			3780 50 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		add_core_of = MLO
+
+	}
+
+	provinces={
+		607 3641 3780 9584 
+	}
+	manpower=870162
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

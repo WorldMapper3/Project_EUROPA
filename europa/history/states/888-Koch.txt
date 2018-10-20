@@ -1,0 +1,29 @@
+state={
+	id=888
+	name="STATE_888"
+	resources={
+		oil=4
+		chromium=9
+	}
+
+	history={
+		owner = BNG
+		victory_points = {
+			10389 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		#add_core_of = KMT
+
+	}
+
+	provinces={
+		10349 10389 12338 
+	}
+	manpower=934466
+	buildings_max_level_factor=1.000
+	state_category=town
+}

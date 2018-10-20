@@ -1,0 +1,18 @@
+state={
+	id=655
+	name="STATE_655"
+	manpower = 36205
+	
+	state_category = pastoral
+	history={
+		owner = MYR
+		add_core_of = MYR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		855 1742 1755 
+	}
+}

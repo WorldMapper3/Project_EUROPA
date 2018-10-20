@@ -1,0 +1,37 @@
+
+state={
+	id=621
+	name="STATE_621"
+	resources={
+		steel=40
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		add_core_of = MON
+		victory_points = {
+			10424 10 
+		}
+		victory_points = {
+			10451 3 
+		}
+		victory_points = {
+			1959 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		2087 4525 7631 10424 
+	}
+	manpower=760305
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

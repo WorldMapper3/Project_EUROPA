@@ -1,0 +1,26 @@
+state={
+	id=964
+	name="STATE_964"
+	resources={
+		oil=13
+	}
+	
+	history={
+		owner = SAV
+		victory_points = {
+			11723 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = SAV
+	}
+	
+	provinces={
+		11723 11730 
+	}
+	manpower=186115
+	state_category=town
+	buildings_max_level_factor=1.000
+}

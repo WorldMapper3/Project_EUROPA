@@ -1,0 +1,36 @@
+
+state={
+	id=551
+	name="STATE_551"
+	resources={
+		oil=9
+	}
+
+	history={
+		owner = ALO
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		victory_points = {
+			12881 10 
+		}
+		victory_points = {
+			12862 3 
+		}
+		victory_points = {
+			12887 3 
+		}
+		add_core_of = ALO
+
+	}
+
+	provinces={
+		1914 4918 10743 10784 12806 12862 12881 12887 
+	}
+	manpower=409884
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

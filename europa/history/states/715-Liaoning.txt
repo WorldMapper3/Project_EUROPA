@@ -1,0 +1,40 @@
+
+state={
+	id=715
+	name="STATE_715"
+	resources={
+		oil=17
+		steel=30
+	}
+
+	history={
+		owner = KRC
+		add_core_of = KRC
+		victory_points = {
+			4503 10 
+		}
+		victory_points = {
+			1499 3 
+		}
+		victory_points = {
+			1558 3 
+		}
+		victory_points = {
+			1508 5 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		930 1499 1508 1558 1627 1638 3877 3978 4503 4561 4572 4633 7812 10429 11744 11903 12337 12469 12478 
+	}
+	manpower=1194766
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

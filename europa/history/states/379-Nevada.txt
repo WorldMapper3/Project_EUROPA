@@ -1,0 +1,24 @@
+state={
+	id=379
+	name="STATE_379"
+	
+	impassable = yes
+	
+	resources={
+
+	}
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		850 868 1658 1663 1740 1756 1809 1827 1862 3869 4521 4607 4668 4736 4742 4799 4816 4865 6887 7684 7756 7764 7818 7827 7879 7999 9792 10305 10422 10535 10588 10591 10625 10651 10662 12134 12399 12425 12573 12627 12699 13153 
+	}
+	manpower=17004
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

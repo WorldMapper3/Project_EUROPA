@@ -1,0 +1,36 @@
+
+state={
+	id=676
+	name="STATE_676"
+	resources={
+		oil=7
+		aluminium=30
+	}
+
+	history={
+		owner = QRQ
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		victory_points = {
+			10106 20 
+		}
+		victory_points = {
+			901 1 
+		}
+		add_core_of = IRQ
+		add_core_of = QRQ
+		add_core_of = SYR
+
+	}
+
+	provinces={
+		901 1938 2013 3916 5014 7513 10106 10804 10811 12316 
+	}
+	manpower=315789
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

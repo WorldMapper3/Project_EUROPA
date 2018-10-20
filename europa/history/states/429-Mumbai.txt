@@ -1,0 +1,39 @@
+state={
+	id=429
+	name="STATE_429"
+	resources={
+		oil=10
+		chromium=27
+	}
+
+	history={
+		owner = BAH
+		add_core_of = BAH
+		add_core_of = BIJ
+		add_core_of = AHM
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+		}
+		victory_points = {
+			12105 10 
+		}
+		victory_points = {
+			12295 10 
+		}
+		victory_points = {
+			12182 15 
+		}
+		victory_points = {
+			12142 10 
+		}
+	}
+
+	provinces={
+		1405 4278 4353 7119 7250 10210 10270 12105 12142 12182 12295 
+	}
+	manpower=3938107
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

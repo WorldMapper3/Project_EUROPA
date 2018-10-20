@@ -1,0 +1,32 @@
+
+state={
+	id=612
+	name="STATE_612"
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = MON
+		add_core_of = MON
+		victory_points = {
+			10372 5 
+		}
+		victory_points = {
+			1871 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1551 1796 1811 1871 4222 4555 4612 4655 7048 7545 7578 7648 10363 10372 11752 12331 12448 12554 
+	}
+	manpower=470665
+	buildings_max_level_factor=1.000
+	state_category=town
+}

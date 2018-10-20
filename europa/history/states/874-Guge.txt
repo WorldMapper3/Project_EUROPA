@@ -1,0 +1,20 @@
+state={
+	id=874
+	name="STATE_874"
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4995 8062 12812 
+	}
+	manpower=108615
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

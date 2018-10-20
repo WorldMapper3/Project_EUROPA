@@ -1,0 +1,29 @@
+state={
+	id=924
+	name="STATE_924"
+	resources={
+		oil=6
+		aluminium=15
+	}
+	
+	history={
+		owner = PAP
+		victory_points = {
+			958 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = PAP
+		add_core_of = PRO
+		add_core_of = AVI
+	}
+	
+	provinces={
+		958 11713 
+	}
+	manpower=176879
+	state_category=town
+	buildings_max_level_factor=1.000
+}

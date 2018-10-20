@@ -1,0 +1,30 @@
+
+state={
+	id=401
+	name="STATE_401"
+	resources={
+		oil=3
+		steel=20
+	}
+
+	history={
+		owner = GOL
+		victory_points = {
+			499 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = GOL
+		add_core_of = AKN
+
+	}
+
+	provinces={
+		452 499 3490 3551 6430 6479 6502 6601 9432 9577 11421 11460 11523 
+	}
+	manpower=63468
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

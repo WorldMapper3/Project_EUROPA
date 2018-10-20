@@ -1,0 +1,29 @@
+state={
+	id=843
+	name="STATE_843"
+
+	history={
+		owner = EGY
+		victory_points = {
+			12442 5 
+		}
+		victory_points = {
+			1544 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = FAD
+		add_core_of = SYR
+
+	}
+
+	provinces={
+		4486 7184 10383 12442 
+	}
+	manpower=165414
+	buildings_max_level_factor=1.000
+	state_category=town
+}

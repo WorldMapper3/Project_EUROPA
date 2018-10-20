@@ -1,0 +1,25 @@
+state={
+	id=722
+	name="STATE_722"
+	resources={
+		chromium=10
+	}
+
+	history={
+		owner = NOV
+		victory_points = {
+			3050 3 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NOV
+	}
+
+	provinces={
+		52 139 2332 3050 3133 3187 6052 6150 6153 9105 9150 9176 11046 11156 11162 
+	}
+	manpower=45334
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,18 @@
+state={
+	id=494
+	name="STATE_494"
+
+	history={
+		owner = NAT #CSU
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		8160 8191 10940 
+	}
+	manpower=33292
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=654
+	name="STATE_654"
+	resources={
+		oil=2
+	}
+
+	history={
+		owner = OIR
+		victory_points = {
+			4781 1 
+		}
+		victory_points = {
+			12662 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = OIR
+
+	}
+
+	provinces={
+		1702 1749 1779 1818 1864 4674 4781 4800 7680 7784 7822 10531 10610 10680 10713 12427 12509 12528 12529 12564 12662 13149 13197 
+	}
+	manpower=217230
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

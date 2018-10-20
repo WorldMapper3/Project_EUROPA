@@ -1,0 +1,22 @@
+
+state={
+	id=556
+	name="STATE_556"
+	resources={
+
+	}
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 8
+		}
+	}
+
+	provinces={
+		4927 4957 5045 8008 8116 10829 12751 12794 
+	}
+	manpower=1171096
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

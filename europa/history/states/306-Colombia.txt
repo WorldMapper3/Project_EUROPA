@@ -1,0 +1,22 @@
+
+state={
+	id=306
+	name="STATE_306"
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = NAT
+
+	}
+
+	provinces={
+		2079 7936 7991 7993 10747 10790 10846 12845 
+	}
+	manpower=399507
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

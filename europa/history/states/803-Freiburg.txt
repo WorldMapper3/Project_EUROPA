@@ -1,0 +1,31 @@
+state={
+	id=803
+	name="STATE_803"
+	resources={
+		aluminium=35
+		chromium=22
+	}
+	
+	history={
+		owner = SAX
+		victory_points = {
+			3535 10 
+		}
+		victory_points = {
+			9441 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = SAX
+	}
+	
+	provinces={
+		538 3535 6501 9441 9471 9497 
+	}
+	manpower=250578
+	state_category=large_town
+	buildings_max_level_factor=1.000
+}

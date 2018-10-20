@@ -1,0 +1,22 @@
+state={
+	id=949
+	name="STATE_949"
+	resources={
+		chromium=4
+	}
+	
+	history={
+		owner = DLH
+		buildings = {
+			infrastructure = 2
+		}
+		#add_core_of = KGR
+	}
+	
+	provinces={
+		2076 7106 
+	}
+	manpower=333738
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

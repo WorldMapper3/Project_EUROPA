@@ -1,0 +1,52 @@
+
+state={
+	id=536
+	name="STATE_536"
+	resources={
+		oil=2
+		chromium=2
+	}
+
+	history={
+		owner = ANU
+		add_core_of = ANU
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			10444 = {
+				naval_base = 1
+
+			}
+			1512 = {
+				naval_base = 1
+
+			}
+			12352 = {
+				naval_base = 1
+
+			}
+			3962 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			1512 1 
+		}
+		victory_points = {
+			10444 1 
+		}
+		victory_points = {
+			12352 1 
+		}
+		victory_points = {
+			3962 1 
+		}
+	}
+
+	provinces={
+		1512 1642 3962 4576 4646 7532 7595 10444 10512 12352 12421 12493 13037 
+	}
+	manpower=325845
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

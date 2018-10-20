@@ -1,0 +1,41 @@
+state={
+	id=838
+	name="STATE_838"
+	resources={
+		oil=9
+	}
+
+	history={
+		owner = GEN
+		victory_points = {
+			9680 10 
+		}
+		victory_points = {
+			11668 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			9680 = {
+				naval_base = 2
+
+			}
+			11668 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = GEN
+		add_core_of = CRI
+		add_core_of = CIR
+
+	}
+
+	provinces={
+		6741 9677 9680 11668 
+	}
+	manpower=136003
+	buildings_max_level_factor=1.000
+	state_category=town
+}

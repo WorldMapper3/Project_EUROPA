@@ -1,0 +1,21 @@
+state={
+	id=468
+	name="STATE_468"
+	resources={
+
+	}
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 7
+		}
+	}
+
+	provinces={
+		1284 3605 3608 3635 3661 3778 4270 4305 4345 4417 4422 6625 6630 7289 7291 7345 7433 9601 9634 10174 10230 10320 11567 12149 12291 
+	}
+	manpower=300405
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

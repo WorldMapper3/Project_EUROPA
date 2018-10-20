@@ -1,0 +1,38 @@
+state={
+	id=825
+	name="STATE_825"
+	resources={
+		oil=3
+	}
+	
+	history={
+		owner = MOR
+		victory_points = {
+			7203 20 
+		}
+		victory_points = {
+			8038 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			7203 = {
+				naval_base = 2
+			}
+			8038 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = MOR
+		add_core_of = SUS
+	}
+	
+	provinces={
+		4022 5046 7203 8038 8111 12857 
+	}
+	manpower=448920
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,56 @@
+state={
+	id=895
+	name="STATE_895"
+	resources={
+		oil=6
+		steel=20
+		chromium=16
+	}
+
+	history={
+		owner = YMN
+		victory_points = {
+			7212 10 
+		}
+		victory_points = {
+			9985 10 
+		}
+		victory_points = {
+			1136 3 
+		}
+		victory_points = {
+			12031 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			7212 = {
+				naval_base = 2
+
+			}
+			9985 = {
+				naval_base = 2
+
+			}
+			1136 = {
+				naval_base = 1
+
+			}
+			12031 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = YMN
+		add_core_of = HSKs
+	}
+
+	provinces={
+		1136 7212 9985 12031 
+	}
+	manpower=760305
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

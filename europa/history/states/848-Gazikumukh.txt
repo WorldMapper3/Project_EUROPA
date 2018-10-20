@@ -1,0 +1,33 @@
+state={
+	id=848
+	name="STATE_848"
+	resources={
+		oil=3
+		steel=30
+	}
+
+	history={
+		owner = GAZ
+		victory_points = {
+			3711 5 
+		}
+		victory_points = {
+			6701 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = GAZ
+
+	}
+
+	provinces={
+		666 700 1450 1455 3667 3668 3672 3682 3711 4463 6689 6701 7554 7624 9645 
+	}
+	manpower=310857
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

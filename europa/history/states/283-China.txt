@@ -1,0 +1,40 @@
+
+state={
+	id=283
+	name="STATE_283"
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		add_core_of = CSH
+		victory_points = {
+			7397 3 
+		}
+		victory_points = {
+			7911 3 
+		}
+		victory_points = {
+			2022 15 
+		}
+		victory_points = {
+			5025 3 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		531 556 1647 1933 1985 2022 3742 3745 4313 5025 6638 7397 7911 8081 12797 12882 
+	}
+	manpower=1593021
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

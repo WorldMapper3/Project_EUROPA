@@ -1,0 +1,29 @@
+
+state={
+	id=292
+	name="STATE_292"
+	resources={
+		aluminium=5
+	}
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			12727 10 
+		}
+		add_core_of = SAU
+
+	}
+
+	provinces={
+		5024 5081 7995 8060 10870 12727 12870 
+	}
+	manpower=165414
+	buildings_max_level_factor=1.000
+	state_category=town
+}

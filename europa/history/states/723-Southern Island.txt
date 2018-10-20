@@ -1,0 +1,20 @@
+state={
+	id=723
+	name="STATE_723"
+	manpower = 90513
+	resources={
+
+	}
+
+	state_category = large_town
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		2197 2203 2211 4819 5195 7839 8204 8212 8232 8241 10650 12632 12966 12974 12980 12988 
+	}
+}

@@ -1,0 +1,31 @@
+state={
+	id=889
+	name="STATE_889"
+
+	history={
+		owner = UTS
+		victory_points = {
+			5033 5 
+		}
+		victory_points = {
+			10918 1 
+		}
+		victory_points = {
+			8041 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = UTS
+
+	}
+
+	provinces={
+		4994 5018 5080 7926 8041 8059 10741 10918 
+	}
+	manpower=506870
+	buildings_max_level_factor=1.000
+	state_category=town
+}

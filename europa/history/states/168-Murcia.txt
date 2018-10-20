@@ -1,0 +1,36 @@
+
+state={
+	id=168
+	name="STATE_168"
+	resources={
+		oil=8
+	}
+
+	history={
+		owner = CST
+		victory_points = {
+			10024 15 
+		}
+		victory_points = {
+			12083 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			10024 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = CST
+
+	}
+
+	provinces={
+		832 1093 1192 3835 4095 4195 7111 9903 10024 10109 11807 11884 12083 
+	}
+	manpower=192913
+	buildings_max_level_factor=1.000
+	state_category=town
+}

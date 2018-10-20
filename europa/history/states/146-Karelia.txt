@@ -1,0 +1,25 @@
+state={
+	id=146
+	name="STATE_146"
+	resources={
+		chromium=5
+	}
+
+	history={
+		owner = NOV
+		add_core_of = NOV
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			3185 1 
+		}
+	}
+
+	provinces={
+		193 3030 3068 3185 6210 9061 9169 9181 13114 13115 
+	}
+	manpower=27201
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,25 @@
+state={
+	id=851
+	name="STATE_851"
+
+	history={
+		owner = SHM
+		victory_points = {
+			5058 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = SHM
+
+	}
+
+	provinces={
+		4968 5027 8004 10850 10892 10923 12749 12813 
+	}
+	manpower=135338
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

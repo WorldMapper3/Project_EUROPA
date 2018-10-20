@@ -1,0 +1,34 @@
+
+state={
+	id=105
+	name="STATE_105"
+	resources={
+		
+	}
+
+	history={
+		owner = SER
+		add_core_of = MNT
+		victory_points = {
+			11858 3 
+		}
+		buildings = {
+			infrastructure = 2
+			9809 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SER
+		add_core_of = VNC
+
+	}
+
+	provinces={
+		9809 9821 
+	}
+	manpower=105820
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

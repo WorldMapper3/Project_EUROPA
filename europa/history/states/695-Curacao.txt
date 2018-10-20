@@ -1,0 +1,18 @@
+state={
+	id=695
+	name="STATE_695"
+	manpower = 77682
+	
+	state_category = rural
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		153 
+	}
+}

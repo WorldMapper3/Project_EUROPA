@@ -1,0 +1,31 @@
+
+state={
+	id=5
+	name="STATE_5"
+	resources={
+		chromium=10
+	}
+
+	history={
+		owner = TEU
+		controller = TEU
+		victory_points = {
+			6332 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			6332 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		395 6332 11265 
+	}
+	manpower=117869
+	buildings_max_level_factor=1.000
+	state_category=town
+}

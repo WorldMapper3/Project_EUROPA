@@ -1,0 +1,25 @@
+state={
+	id=892
+	name="STATE_892"
+
+	history={
+		owner = KRD
+		victory_points = {
+			4843 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = KRD
+
+	}
+
+	provinces={
+		4704 12598 12671 
+	}
+	manpower=289640
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

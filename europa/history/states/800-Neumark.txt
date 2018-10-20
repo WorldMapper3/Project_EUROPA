@@ -1,0 +1,28 @@
+state={
+	id=800
+	name="STATE_800"
+	resources={
+		chromium=12
+	}
+
+	history={
+		owner = TEU
+		victory_points = {
+			6236 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = TEU
+
+	}
+
+	provinces={
+		537 6236 6309 9277 9306 9387 
+	}
+	manpower=132659
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=653
+	name="STATE_653"
+	resources={
+		chromium=20
+	}
+
+	history={
+		owner = UZB
+		victory_points = {
+			1659 3 
+		}
+		victory_points = {
+			4710 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = UZB
+		add_core_of = SIB
+
+	}
+
+	provinces={
+		1659 1812 1841 4710 4846 7733 7867 10592 10604 10620 10720 12630 12700 
+	}
+	manpower=543075
+	buildings_max_level_factor=1.000
+	state_category=town
+}

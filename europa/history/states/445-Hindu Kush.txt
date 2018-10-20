@@ -1,0 +1,37 @@
+
+state={
+	id=445
+	name="STATE_445"
+	resources={
+		oil=1
+		aluminium=5
+	}
+
+	history={
+		owner = BAL
+		victory_points = {
+			10813 1 
+		}
+		victory_points = {
+			8044 10 
+		}
+		victory_points = {
+			8098 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = BAL
+		add_core_of = SND
+
+	}
+
+	provinces={
+		5105 7847 7975 8044 8098 10813 
+	}
+	manpower=800971
+	buildings_max_level_factor=1.000
+	state_category=town
+}

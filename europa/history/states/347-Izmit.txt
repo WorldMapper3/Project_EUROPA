@@ -1,0 +1,40 @@
+
+state={
+	id=347
+	name="STATE_347"
+	resources={
+		chromium=16
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			890 3 
+		}
+		victory_points = {
+			11811 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			904 = {
+				naval_base = 1
+
+			}
+			11829 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = TUR
+
+	}
+
+	provinces={
+		890 904 3851 3905 3919 6871 11811 11829 11866 
+	}
+	manpower=225564
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,26 @@
+state={
+	id=259
+	name="STATE_259"
+	resources={
+		oil=5
+	}
+
+	history={
+		owner = LIT
+		victory_points = {
+			11504 3 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LIT
+		add_core_of = CHR
+	}
+
+	provinces={
+		511 559 3557 3584 6495 6507 6578 6605 9413 9463 9479 9491 9519 11504 11530 
+	}
+	manpower=45334
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

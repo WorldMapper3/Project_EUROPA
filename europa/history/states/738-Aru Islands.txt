@@ -1,0 +1,18 @@
+state={
+	id=738
+	name="STATE_738"
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		4579 
+	}
+	manpower=434460
+	buildings_max_level_factor=1	
+	state_category=town
+}

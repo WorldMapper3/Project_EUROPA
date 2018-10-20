@@ -1,0 +1,30 @@
+state={
+	id=809
+	name="STATE_809"
+	resources={
+		oil=16
+	}
+	
+	history={
+		owner = TEU
+		victory_points = {
+			3380 10 
+		}
+		victory_points = {
+			6402 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = TEU
+	}
+	
+	provinces={
+		3351 3380 6402 
+	}
+	manpower=172270
+	state_category=large_town
+	buildings_max_level_factor=1.000
+}

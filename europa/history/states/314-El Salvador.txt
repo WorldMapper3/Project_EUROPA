@@ -1,0 +1,20 @@
+state={
+	id=314
+	name="STATE_314"
+	manpower = 33292
+	resources={
+
+	}
+	
+	state_category = pastoral
+	
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		12823 13093 
+	}
+}

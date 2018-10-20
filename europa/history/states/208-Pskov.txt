@@ -1,0 +1,32 @@
+
+state={
+	id=208
+	name="STATE_208"
+	resources={
+		chromium=12
+	}
+
+	history={
+		owner = NOV
+		victory_points = {
+			104 5 
+		}
+		buildings = {
+			infrastructure = 2
+			104 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = NOV
+
+	}
+
+	provinces={
+		104 181 3053 3120 6139 6197 9098 11032 11080 11139 11186 
+	}
+	manpower=63468
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

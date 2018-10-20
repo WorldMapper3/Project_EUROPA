@@ -1,0 +1,31 @@
+state={
+	id=608
+	name="STATE_608"
+	resources={
+		oil=33
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			10068 = {
+				naval_base = 6
+			}
+		}
+		victory_points = {
+			9843 30 
+		}
+	}
+
+	provinces={
+		1134 4137 4140 6828 7109 9843 9969 10022 10068 11761 12026 
+	}
+	manpower=1122356
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

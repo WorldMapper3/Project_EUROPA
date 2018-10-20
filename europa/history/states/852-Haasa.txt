@@ -1,0 +1,37 @@
+state={
+	id=852
+	name="STATE_852"
+
+	history={
+		owner = HAA
+		victory_points = {
+			12702 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			12702 = {
+				naval_base = 1
+
+			}
+			10791 = {
+				naval_base = 1
+
+			}
+			1955 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = HAA
+
+	}
+
+	provinces={
+		1955 10791 12702 
+	}
+	manpower=150376
+	buildings_max_level_factor=1.000
+	state_category=town
+}

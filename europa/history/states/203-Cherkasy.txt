@@ -1,0 +1,26 @@
+state={
+	id=203
+	name="STATE_203"
+	resources={
+		oil=2
+	}
+
+	history={
+		owner = LIT
+		victory_points = {
+			488 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LIT
+		add_core_of = KIE
+	}
+
+	provinces={
+		434 458 488 3452 3468 11424 11438 11454 
+	}
+	manpower=27201
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

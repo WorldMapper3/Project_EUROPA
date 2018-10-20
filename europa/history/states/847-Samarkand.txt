@@ -1,0 +1,39 @@
+state={
+	id=847
+	name="STATE_847"
+	resources={
+		oil=16
+		aluminium=10
+		tungsten=10
+	}
+	
+	history={
+		owner = TIM
+		victory_points = {
+			7560 5 
+		}
+		victory_points = {
+			10742 3 
+		}
+		victory_points = {
+			12161 20 
+		}
+		victory_points = {
+			10671 25 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 4
+			arms_factory = 2
+		}
+		add_core_of = TIM
+	}
+	
+	provinces={
+		756 1216 1573 1623 1632 1649 4482 4549 4958 5003 7491 7560 7639 7775 7924 9605 10205 10357 10414 10470 10671 10742 12161 12239 12722 
+	}
+	manpower=2172301
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+}

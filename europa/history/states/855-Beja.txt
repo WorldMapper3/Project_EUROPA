@@ -1,0 +1,31 @@
+state={
+	id=855
+	name="STATE_855"
+	resources={
+		oil=2
+	}
+
+	history={
+		owner = BEJ
+		victory_points = {
+			7989 3 
+		}
+		victory_points = {
+			2088 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		#add_core_of = BEJ
+
+	}
+
+	provinces={
+		2046 2088 4910 7989 10902 
+	}
+	manpower=214701
+	buildings_max_level_factor=1.000
+	state_category=town
+}

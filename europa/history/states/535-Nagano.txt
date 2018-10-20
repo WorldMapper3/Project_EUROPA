@@ -1,0 +1,30 @@
+
+state={
+	id=535
+	name="STATE_535"
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = HTK
+		add_core_of = HTK
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+			10032 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			10032 5 
+		}
+	}
+
+	provinces={
+		998 10032 
+	}
+	manpower=325845
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

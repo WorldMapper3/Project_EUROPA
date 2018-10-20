@@ -1,0 +1,39 @@
+state={
+	id=882
+	name="STATE_882"
+	resources={
+		oil=28
+		aluminium=95
+		chromium=10
+	}
+
+	history={
+		owner = GUJ
+		victory_points = {
+			1349 10 
+		}
+		victory_points = {
+			4187 20 
+		}
+		victory_points = {
+			11952 15 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+
+		}
+		add_core_of = GUJ
+		add_core_of = BDA
+
+	}
+
+	provinces={
+		1349 4187 7013 7150 7165 8076 11952 
+	}
+	manpower=2870146
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

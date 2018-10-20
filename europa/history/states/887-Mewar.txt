@@ -1,0 +1,34 @@
+state={
+	id=887
+	name="STATE_887"
+	resources={
+		oil=9
+		chromium=8
+	}
+
+	history={
+		owner = MER
+		victory_points = {
+			1199 25 
+		}
+		victory_points = {
+			12886 20 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+
+		}
+		add_core_of = MER
+		add_core_of = MAW
+
+	}
+
+	provinces={
+		1199 2092 4149 4971 4984 12743 12829 12886 
+	}
+	manpower=2936893
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

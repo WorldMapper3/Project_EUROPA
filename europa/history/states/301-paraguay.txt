@@ -1,0 +1,20 @@
+
+state={
+	id=301
+	name="STATE_301"
+	manpower = 133169
+	
+	state_category = town
+	
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		2152 2173 2194 11023 12901 
+	}
+	
+}

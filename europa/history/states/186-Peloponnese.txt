@@ -1,0 +1,35 @@
+state={
+	id=186
+	name="STATE_186"
+	manpower=380952
+	
+	state_category = large_town
+
+	history={
+		owner = BYZ
+		victory_points = {
+			1173 5 
+		}
+		victory_points = {
+			4178 5 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			1173 = {
+				naval_base = 2
+			}
+			4178 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = BYZ
+		add_core_of = ACH
+		add_core_of = MOE
+	}
+
+	provinces={
+		1173 4078 4178 4193 7096 7211 11965 
+	}
+}

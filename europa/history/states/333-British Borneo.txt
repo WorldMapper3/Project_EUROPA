@@ -1,0 +1,55 @@
+state={
+	id=333
+	name="STATE_333"
+	resources={
+		chromium=63
+	}
+
+	history={
+		owner = BEI
+		victory_points = {
+			4216 5 
+		}
+		victory_points = {
+			4396 15 
+		}
+		victory_points = {
+			7371 20 
+		}
+		victory_points = {
+			4282 5 
+		}
+		victory_points = {
+			10240 5 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+			1208 = {
+				naval_base = 2
+			}
+			4396 = {
+				naval_base = 3
+			}
+			10199 = {
+				naval_base = 2
+			}
+			4282 = {
+				naval_base = 2
+			}
+			7387 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = BEI
+	}
+
+	provinces={
+		1208 1230 1306 1335 2117 2222 4216 4282 4338 4396 7358 7371 7387 7443 8091 10143 10199 10212 10240 10269 10285 12171 12186 12228 12283 12905 
+	}
+	manpower=2027481
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

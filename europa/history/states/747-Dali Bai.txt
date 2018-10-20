@@ -1,0 +1,28 @@
+
+state={
+	id=747
+	name="STATE_747"
+	resources={
+		chromium=13
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		victory_points = {
+			7965 3 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1999 4559 4937 5009 7965 7976 8126 10413 10726 10863 12789 12898 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,46 @@
+
+state={
+	id=355
+	name="STATE_355"
+	resources={
+		aluminium=25
+		chromium=14
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			11881 3 
+		}
+		victory_points = {
+			3935 5 
+		}
+		victory_points = {
+			9900 10 
+		}
+		victory_points = {
+			6978 3 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			11894 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = TUR
+		add_core_of = ERE
+
+	}
+
+	provinces={
+		933 960 3935 6978 9844 9900 9915 11839 11881 11894 11897 
+	}
+	manpower=375940
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,27 @@
+state={
+	id=226
+	name="STATE_226"
+	resources={
+		oil=2
+	}
+
+	history={
+		owner = LIT
+		victory_points = {
+			11422 3 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LIT
+		add_core_of = CRI
+		add_core_of = ZAZ
+	}
+
+	provinces={
+		6423 6451 6478 9419 9433 11422 11437 11561 
+	}
+	manpower=36267
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

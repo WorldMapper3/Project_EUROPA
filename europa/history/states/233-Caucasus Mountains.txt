@@ -1,0 +1,31 @@
+
+state={
+	id=233
+	name="STATE_233"
+	resources={
+		aluminium=10
+	}
+
+	history={
+		owner = CIR
+		victory_points = {
+			9628 1 
+		}
+		victory_points = {
+			11633 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = CIR
+
+	}
+
+	provinces={
+		670 685 714 731 6718 6733 9628 9649 11609 11614 11633 
+	}
+	manpower=136000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

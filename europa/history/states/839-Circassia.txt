@@ -1,0 +1,35 @@
+state={
+	id=839
+	name="STATE_839"
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = CIR
+		victory_points = {
+			719 3 
+		}
+		victory_points = {
+			6736 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			719 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CIR
+
+	}
+
+	provinces={
+		717 719 735 3698 3717 3720 3760 6692 6721 6736 6738 9674 9691 9694 9696 9709 11681 
+	}
+	manpower=252571
+	buildings_max_level_factor=1.000
+	state_category=town
+}

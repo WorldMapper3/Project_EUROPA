@@ -1,0 +1,33 @@
+state={
+	id=127
+	name="STATE_127" # Sussex
+	manpower = 384466
+	state_category = city
+	resources={
+		oil=30
+		aluminium=25
+	}
+
+	history={
+		owner = ENG
+		victory_points = { 11446 15 }
+		victory_points = { 9458 10 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			11446 = {
+				naval_base = 3
+			}
+			9458 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		507 3501 6489 9458 11446 13070 
+	}
+}

@@ -1,0 +1,33 @@
+state={
+	id=842
+	name="STATE_842"
+	resources={
+		oil=4
+		aluminium=30
+	}
+
+	history={
+		owner = AQQ
+		victory_points = {
+			9823 5 
+		}
+		victory_points = {
+			4512 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = AQQ
+
+	}
+
+	provinces={
+		652 4512 9823 9858 10399 11739 11759 11871 11880 12416 
+	}
+	manpower=375940
+	buildings_max_level_factor=1.000
+	state_category=city
+}

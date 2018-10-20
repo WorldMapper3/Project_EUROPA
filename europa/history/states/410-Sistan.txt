@@ -1,0 +1,30 @@
+state={
+	id=410
+	name="STATE_410"
+	resources={
+		aluminium=10
+	}
+
+	history={
+		owner = TIM
+		victory_points = {
+			2101 5 
+		}
+		victory_points = {
+			4949 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = SIS
+		add_core_of = KHO
+	}
+
+	provinces={
+		1948 2101 4949 12895 
+	}
+	manpower=934466
+	buildings_max_level_factor=1.000
+	state_category=town
+}

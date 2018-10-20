@@ -1,0 +1,48 @@
+state={
+	id=613
+	name="STATE_613" # Shanghai
+	manpower = 2099891
+	resources={
+		oil=103
+		aluminium=120
+	}
+	
+	state_category = metropolis
+	
+	history={
+		owner = MNG
+		add_core_of = MNG
+		add_core_of = WUU
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 1
+			7014 = {
+				naval_base = 4
+			}
+			10076 = {
+				naval_base = 2
+			}
+			4091 = {
+				naval_base = 5
+			}
+		}
+		victory_points = {
+			11913 35 
+		}
+		victory_points = {
+			7014 20
+		}
+		victory_points = {
+			10076 10
+		}
+		victory_points = {
+			1089 25
+		}
+	}
+
+	provinces={
+		996 1089 4091 7014 7120 10034 10076 11913 11928 11982 12052 12076 13142 
+	}
+}

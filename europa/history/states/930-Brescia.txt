@@ -1,0 +1,38 @@
+state={
+	id=930
+	name="STATE_930"
+	resources={
+		oil=20
+		aluminium=40
+		chromium=16
+	}
+
+	history={
+		owner = VNC
+		victory_points = {
+			603 20 
+		}
+		victory_points = {
+			3776 20 
+		}
+		victory_points = {
+			6661 20 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = VNC
+		add_core_of = MLO
+
+	}
+
+	provinces={
+		603 969 6661 11568 11587 
+	}
+	manpower=651403
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,25 @@
+state={
+	id=626
+	name="STATE_626"
+	manpower = 470665
+	
+	state_category = town
+	
+	history={
+		owner = BEI
+		victory_points = {
+			4429 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			4429 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = BEI
+	}
+	provinces={
+		4429 7419 10145 
+	}
+}

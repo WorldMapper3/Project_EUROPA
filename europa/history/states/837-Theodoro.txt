@@ -1,0 +1,32 @@
+state={
+	id=837
+	name="STATE_837"
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = GEN
+		victory_points = {
+			3686 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			3686 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = GEN
+
+	}
+
+	provinces={
+		3686 6704 
+	}
+	manpower=81602
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

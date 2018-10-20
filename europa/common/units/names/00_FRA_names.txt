@@ -1,0 +1,185 @@
+﻿FRA = {
+	submarine = {
+		prefix = ""
+		generic = { "Submarine" }
+		unique = {}
+	}
+	destroyer = {
+		prefix = ""
+		generic = { "Destroyer" }
+		unique = {}
+	}
+	light_cruiser = {
+		prefix = ""
+		generic = { "Light Cruiser" }
+		unique = {}
+	}
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Heavy Cruiser" }
+		unique = {}
+	}
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Battlecruiser" }
+		unique = {}
+	}
+	battleship = {
+		prefix = ""
+		generic = { "Battleship" }
+		unique = {}
+	}
+	SH_battleship = {
+		prefix = ""
+		generic = { "Super Heavy Battleship" }
+		unique = {}
+	}
+	carrier = {
+		prefix = ""
+		generic = { "Carrier" }
+		unique = {}
+	}
+
+	air_wing_names_template = AIR_WING_NAME_GER_FALLBACK
+
+	#Air wings can only be named through archetype
+	fighter_equipment = {
+		prefix = ""
+		generic = { "Groupe de Chasse" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	jet_fighter_equipment = {
+		prefix = ""
+		generic = { "Groupe de Chasse" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	heavy_fighter_equipment = {
+		prefix = ""
+		generic = { "Groupe de Chasse" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	CAS_equipment = {
+		prefix = ""
+		generic = { "Groupe de Attaque" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	cv_fighter_equipment = {
+		prefix = ""
+		generic = { "Flotille" }
+		generic_pattern = AIR_WING_NAME_FRA_CARRIER
+		unique = {
+		}	
+	}
+
+	cv_CAS_equipment = {
+		prefix = ""
+		generic = { "Flotille" }
+		generic_pattern = AIR_WING_NAME_FRA_CARRIER
+		unique = {
+		}	
+	}
+	cv_nav_bomber_equipment = {
+		prefix = ""
+		generic = { "Flotille" }
+		generic_pattern = AIR_WING_NAME_FRA_CARRIER
+		unique = {
+		}	
+	}
+
+	tac_bomber_equipment = {
+		prefix = ""
+		generic = { "Groupe de Bombardement" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	jet_tac_bomber_equipment = {
+		prefix = ""
+		generic = { "Groupe de Bombardement" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	nav_bomber_equipment = {
+		prefix = ""
+		generic = { "Flotille" }
+		generic_pattern = AIR_WING_NAME_FRA_CARRIER
+		unique = {
+		}	
+	}
+
+	strat_bomber_equipment = {
+		prefix = ""
+		generic = { "Groupe de Bombardement" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	jet_strat_bomber_equipment = {
+		prefix = ""
+		generic = { "Groupe de Bombardement" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	transport_plane_equipment = {
+		prefix = ""
+		generic = { "Escadron de Transport" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	infantry = {
+		prefix = ""
+		generic = { "Division d'Infanterie" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+	motorized = {
+		prefix = ""
+		generic = { "Div. d'Infanterie Motorisée" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+	mountaineers = {
+		prefix = ""
+		generic = { "Division d'Infanterie Alpine" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+	cavalry = {
+		prefix = ""
+		generic = { "Division de Cavalerie" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+	light_armor = {
+		prefix = ""
+		generic = { "Brigade de Chars de Combat" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+	medium_armor = {
+		prefix = ""
+		generic = { "Brigade de Chars de Combat" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+}

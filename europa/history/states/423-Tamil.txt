@@ -1,0 +1,48 @@
+
+state={
+	id=423
+	name="STATE_423"
+	resources={
+		oil=29
+		aluminium=80
+		chromium=8
+	}
+
+	history={
+		owner = VIJ
+		add_core_of = VIJ
+		add_core_of = MAD
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+			7265 = {
+				naval_base = 4
+
+			}
+			1381 = {
+				naval_base = 4
+
+			}
+
+		}
+		victory_points = {
+			1409 20 
+		}
+		victory_points = {
+			4416 30 
+		}
+		victory_points = {
+			7363 5 
+		}
+
+	}
+
+	provinces={
+		1381 1409 4327 4416 7265 7363 10130 10274 12247 12275 
+	}
+	manpower=3737864
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

@@ -1,0 +1,27 @@
+state={
+	id=880
+	name="STATE_880"
+	resources={
+		chromium=13
+	}
+
+	history={
+		owner = BAH
+		victory_points = {
+			7465 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = BST
+
+	}
+
+	provinces={
+		1622 7428 7465 12241 12490 
+	}
+	manpower=200243
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

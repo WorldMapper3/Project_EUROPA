@@ -1,0 +1,25 @@
+
+state={
+	id=752
+	name="STATE_752"
+	resources={
+		aluminium=5
+	}
+
+	history={
+		owner = KAM
+		add_core_of = KAM
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1918 4999 7988 9966 10787 10903 12837 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

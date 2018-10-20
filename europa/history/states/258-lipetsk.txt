@@ -1,0 +1,32 @@
+
+state={
+	id=258
+	name="STATE_258"
+	resources={
+		oil=8
+		steel=20
+	}
+
+	history={
+		owner = RYA
+		victory_points = {
+			6230 3 
+		}
+		victory_points = {
+			3291 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = RYA
+
+	}
+
+	provinces={
+		302 328 356 3199 3291 3318 3346 3554 6230 6341 6398 6477 11337 
+	}
+	manpower=63468
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

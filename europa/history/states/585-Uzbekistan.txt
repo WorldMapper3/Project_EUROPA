@@ -1,0 +1,41 @@
+
+state={
+	id=585
+	name="STATE_585"
+	resources={
+		aluminium=15
+	}
+
+	history={
+		owner = UZB
+		victory_points = {
+			1479 5 
+		}
+		victory_points = {
+			4638 3 
+		}
+		victory_points = {
+			1532 1 
+		}
+		victory_points = {
+			7501 1 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = UZB
+		add_core_of = TRS
+		add_core_of = KZH
+
+	}
+
+	provinces={
+		1479 1532 1554 4488 4578 4581 4629 4636 4638 7486 7501 7507 7682 7777 10353 10366 10420 12471 13206 
+	}
+	manpower=760305
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

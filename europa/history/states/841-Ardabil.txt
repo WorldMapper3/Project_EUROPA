@@ -1,0 +1,22 @@
+state={
+	id=841
+	name="STATE_841"
+
+	history={
+		owner = ADA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = ADA
+
+	}
+
+	provinces={
+		7980 12714 12757 
+	}
+	manpower=135338
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

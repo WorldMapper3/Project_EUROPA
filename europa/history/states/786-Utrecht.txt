@@ -1,0 +1,32 @@
+state={
+	id=786
+	name="STATE_786"
+	resources={
+		oil=20
+		aluminium=25
+	}
+
+	history={
+		owner = HLD
+		add_core_of = HLD
+		victory_points = {
+			391 20 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			391 = {
+				naval_base = 3
+
+			}
+		}
+	}
+
+	provinces={
+		391 
+	}
+	manpower=156738
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=18
+	name="STATE_18"
+	resources={
+		oil=38
+		steel=50
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			9490 20 
+		}
+		victory_points = {
+			6545 20 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		add_core_of = FRA
+		add_core_of = CHP
+
+	}
+
+	provinces={
+		551 3506 3533 6545 9490 11732 13011 
+	}
+	manpower=703518
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

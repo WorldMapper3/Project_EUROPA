@@ -1,0 +1,32 @@
+
+state={
+	id=13
+	name="STATE_13"
+	resources={
+		oil=8
+	}
+
+	history={
+		owner = LIV
+		victory_points = {
+			3152 10 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+			3152 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = EST
+		add_core_of = LIV
+	}
+
+	provinces={
+		83 496 567 3074 3152 3174 6381 9079 11127 11426 
+	}
+	manpower=90668
+	buildings_max_level_factor=1.000
+	state_category=town
+}

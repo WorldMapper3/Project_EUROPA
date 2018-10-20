@@ -1,0 +1,43 @@
+
+state={
+	id=407
+	name="STATE_407"
+	resources={
+		oil=7
+		steel=20
+	}
+
+	history={
+		owner = NOG
+		victory_points = {
+			11538 1 
+		}
+		victory_points = {
+			6491 3 
+		}
+		victory_points = {
+			11537 3 
+		}
+		victory_points = {
+			11510 1 
+		}
+		victory_points = {
+			11480 3 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		add_core_of = NOG
+
+	}
+
+	provinces={
+		410 432 468 470 508 545 566 576 1318 3404 3406 3467 3502 3515 3538 4351 6473 6491 6525 6551 6564 6574 6588 7438 9447 9462 9473 9487 9513 9526 9528 9538 9549 11321 11457 11472 11473 11480 11482 11510 11524 11537 11538 11552 
+	}
+	manpower=217604
+	buildings_max_level_factor=1.000
+	state_category=city
+}

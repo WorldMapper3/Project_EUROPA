@@ -1,0 +1,26 @@
+state={
+	id=795
+	name="STATE_795"
+	resources={
+		chromium=12
+	}
+
+	history={
+		owner = LUN
+		victory_points = {
+			6263 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = LUN
+	}
+
+	provinces={
+		6218 6263 6325 9264 
+	}
+	manpower=117919
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

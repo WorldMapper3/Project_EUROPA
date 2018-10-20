@@ -1,0 +1,30 @@
+state={
+	id=936
+	name="STATE_936"
+	resources={
+		oil=12
+	}
+	
+	history={
+		owner = IMG
+		add_core_of = IMG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			7087={
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			7087 3 
+		}
+	}
+	
+	provinces={
+		7087 12097 
+	}
+	manpower=398255
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=870
+	name="STATE_870"
+	
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	
+	provinces={
+		761 4753 6728 7185 7782 9615 9740 10605 10621 13182 
+	}
+	manpower=147368
+	state_category=city
+	buildings_max_level_factor=1.000
+}

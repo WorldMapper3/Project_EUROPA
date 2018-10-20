@@ -1,0 +1,30 @@
+state={
+	id=135
+	name="STATE_135"
+	resources={
+		tungsten=30
+		chromium=16
+	}
+
+	history={
+		owner = THO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			7394 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			7394 10 
+		}
+		#add_core_of = DES
+	}
+
+	provinces={
+		7394 9284 9310 9405 11237 11267 
+	}
+	manpower=82353
+	buildings_max_level_factor=1.000
+	state_category=town
+}

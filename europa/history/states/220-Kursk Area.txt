@@ -1,0 +1,29 @@
+
+state={
+	id=220
+	name="STATE_220"
+	resources={
+		chromium=4
+	}
+
+	history={
+		owner = LIT
+		victory_points = {
+			3580 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = LIT
+		add_core_of = CHR
+
+	}
+
+	provinces={
+		457 558 580 3580 6254 6304 6543 6603 9260 9328 9542 11244 11283 11526 
+	}
+	manpower=36267
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

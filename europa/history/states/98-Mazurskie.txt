@@ -1,0 +1,32 @@
+
+state={
+	id=98
+	name="STATE_98"
+	resources={
+		chromium=16
+	}
+
+	history={
+		owner = MAZ
+		victory_points = {
+			11274 3 
+		}
+		victory_points = {
+			6259 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = MAZ
+
+	}
+
+	provinces={
+		3230 6259 6401 6567 9290 11274 11385 
+	}
+	manpower=99735
+	buildings_max_level_factor=1.000
+	state_category=town
+}

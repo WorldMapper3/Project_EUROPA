@@ -1,0 +1,37 @@
+
+state={
+	id=86
+	name="STATE_86"
+	resources={
+		oil=38
+		aluminium=30
+	}
+
+	history={
+		owner = POL
+		victory_points = {
+			6558 20 
+		}
+		victory_points = {
+			9532 15 
+		}
+		victory_points = {
+			3381 5 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		add_core_of = POL
+
+	}
+
+	provinces={
+		17 243 388 3381 3460 3532 6558 9252 9532 11232 11260 
+	}
+	manpower=371741
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

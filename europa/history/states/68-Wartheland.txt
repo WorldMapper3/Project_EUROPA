@@ -1,0 +1,27 @@
+
+state={
+	id=68
+	name="STATE_68"
+	resources={
+		aluminium=15
+		chromium=12
+	}
+
+	history={
+		owner = BRN
+		victory_points = {
+			3473 5 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BRN
+	}
+
+	provinces={
+		444 3473 9496 11478 
+	}
+	manpower=103179
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

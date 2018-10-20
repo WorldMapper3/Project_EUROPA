@@ -1,0 +1,40 @@
+
+state={
+	id=532
+	name="STATE_532"
+	resources={
+		oil=15
+		steel=20
+		chromium=8
+	}
+
+	history={
+		owner = ASK
+		add_core_of = ASK
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			dockyard = 1
+			industrial_complex = 2
+			1182 = {
+				naval_base = 3
+			}
+			9998 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			1182 15 
+		}
+		victory_points = {
+			9998 10 
+		}
+	}
+
+	provinces={
+		1097 1182 7157 9998 
+	}
+	manpower=617400
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

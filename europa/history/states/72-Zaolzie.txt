@@ -1,0 +1,29 @@
+
+state={
+	id=72
+	name="STATE_72"
+	resources={
+		steel=30
+	}
+
+	history={
+		owner = HUN
+		victory_points = {
+			3484 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = HUN
+		add_core_of = SLO
+
+	}
+
+	provinces={
+		581 3484 6576 9539 9551 11539 11554 
+	}
+	manpower=105448
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

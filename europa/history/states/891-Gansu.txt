@@ -1,0 +1,39 @@
+state={
+	id=891
+	name="STATE_891"
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = MNG
+		victory_points = {
+			7971 3 
+		}
+		victory_points = {
+			5100 5 
+		}
+		victory_points = {
+			12776 5 
+		}
+		victory_points = {
+			12732 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = MNG
+		add_core_of = CSH
+		add_core_of = OIR
+
+	}
+
+	provinces={
+		1630 1698 1778 2028 4888 5057 5076 7971 12327 12596 12732 12776 12820 
+	}
+	manpower=289640
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

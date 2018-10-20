@@ -1,0 +1,21 @@
+state={
+	id=683
+	name="STATE_683"
+	resources={
+
+	}
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2947 3800 4695 5239 6779 7901 8962 10585 10721 12682 13168 13183 13185 13187 13188 13189 13190 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

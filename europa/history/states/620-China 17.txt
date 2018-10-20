@@ -1,0 +1,42 @@
+
+state={
+	id=620
+	name="STATE_620"
+	resources={
+		oil=28
+		chromium=8
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		add_core_of = CHC
+		add_core_of = CXI
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			4619 25 
+		}
+		victory_points = {
+			4130 5 
+		}
+		victory_points = {
+			4009 10 
+		}
+		victory_points = {
+			10757 5 
+		}
+
+	}
+
+	provinces={
+		1036 1612 4009 4130 4619 4631 7019 7167 7580 7596 7609 7625 7637 8072 9934 9959 10462 10474 12408 12467 
+	}
+	manpower=1846456
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

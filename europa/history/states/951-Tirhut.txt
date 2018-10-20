@@ -1,0 +1,23 @@
+state={
+	id=951
+	name="STATE_951"
+	resources={
+		oil=15
+	}
+	
+	history={
+		owner = JNP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		#add_core_of = TRT
+	}
+	
+	provinces={
+		1541 4459 10878 
+	}
+	manpower=1001214
+	state_category=town
+	buildings_max_level_factor=1.000
+}

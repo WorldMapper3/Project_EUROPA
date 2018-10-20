@@ -1,0 +1,29 @@
+state={
+	id=960
+	name="STATE_960"
+	resources={
+		chromium=10
+	}
+	
+	history={
+		owner = PAP
+		add_core_of = PAP
+		victory_points = {
+			9924 10 
+		}
+		buildings={
+			infrastructure = 3
+			industrial_complex = 1
+			9924 = {
+				naval_base = 2
+			}
+		}
+	}
+	
+	provinces={
+		9924 11861 
+	}
+	manpower=186115
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=514
+	name="STATE_514"
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1043 1095 1901 5004 5095 10731 10749 12711 12842 12849 13207 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

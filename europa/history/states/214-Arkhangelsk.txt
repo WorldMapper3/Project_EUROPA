@@ -1,0 +1,61 @@
+
+state={
+	id=214
+	name="STATE_214"
+	resources={
+		chromium=50
+	}
+
+	history={
+		owner = NOV
+		victory_points = {
+			72 1 
+		}
+		victory_points = {
+			3031 5 
+		}
+		victory_points = {
+			9248 1 
+		}
+		victory_points = {
+			312 3 
+		}
+		victory_points = {
+			9041 1 
+		}
+		victory_points = {
+			3081 1 
+		}
+		victory_points = {
+			11089 1 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			9248 = {
+				naval_base = 1
+
+			}
+			312 = {
+				naval_base = 1
+
+			}
+			9041 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = NOV
+
+	}
+
+	provinces={
+		3 18 26 72 87 89 127 138 140 180 183 312 3031 3064 3065 3075 3080 3081 3086 3092 3130 3157 3168 3338 6051 6075 6102 6105 6109 7330 9041 9101 9130 9187 9248 11038 11042 11061 11089 11137 11171 11178 
+	}
+	manpower=244805
+	buildings_max_level_factor=1.000
+	state_category=city
+}

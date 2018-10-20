@@ -1,0 +1,31 @@
+state={
+	id=193
+	name="STATE_193"
+	resources={
+		oil=10
+		steel=20
+	}
+
+	history={
+		owner = LIT
+		victory_points = {
+			9437 3 
+		}
+		victory_points = {
+			3568 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = LIT
+		add_core_of = CHR
+	}
+
+	provinces={
+		238 546 582 3480 3542 3568 6458 6508 6532 6589 9437 9506 9543 11425 11489 
+	}
+	manpower=90668
+	buildings_max_level_factor=1.000
+	state_category=town
+}

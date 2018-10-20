@@ -1,0 +1,24 @@
+state={
+	id=952
+	name="STATE_952"
+	resources={
+		aluminium=5
+	}
+
+	history={
+		owner = UTS
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = GUG
+
+	}
+
+	provinces={
+		1961 8029 10802 
+	}
+	manpower=108615
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

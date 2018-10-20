@@ -1,0 +1,29 @@
+state={
+	id=833
+	name="STATE_833"
+	resources={
+		oil=12
+	}
+
+	history={
+		owner = MUS
+		victory_points = {
+			9345 5 
+		}
+		victory_points = {
+			9046 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = MUS
+	}
+
+	provinces={
+		231 6346 9046 9345 11039 11236 
+	}
+	manpower=72535
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

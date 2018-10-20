@@ -1,0 +1,33 @@
+
+state={
+	id=290
+	name="STATE_290"
+	resources={
+		oil=3
+		aluminium=15
+	}
+
+	history={
+		owner = MOR
+		add_core_of = MOR
+		victory_points = {
+			9945 5 
+		}
+		buildings = {
+			infrastructure = 2
+			9945 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1194 9945 10113 
+	}
+	manpower=136628
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

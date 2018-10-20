@@ -1,0 +1,20 @@
+state={
+	id=318
+	name="STATE_318"
+	manpower = 122072
+	
+	state_category = town
+	
+	resources={
+
+	}
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		1594 1635 4641
+	}
+}

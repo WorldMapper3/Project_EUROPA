@@ -1,0 +1,32 @@
+
+state={
+	id=175
+	name="STATE_175"
+	resources={
+		oil=11
+		aluminium=20
+	}
+
+	history={
+		owner = CST
+		victory_points = {
+			9778 5 
+		}
+		victory_points = {
+			6879 10 
+		}
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 1
+			infrastructure = 6
+		}
+		add_core_of = CST
+	}
+
+	provinces={
+		888 942 3891 3945 3953 6800 6832 6879 6896 9757 9778 9828 9852 9881 11742 11812 11863 12081 
+	}
+	manpower=496063
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

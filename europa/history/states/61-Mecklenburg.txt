@@ -1,0 +1,38 @@
+
+state={
+	id=61
+	name="STATE_61"
+	resources={
+		aluminium=10
+		chromium=24
+	}
+
+	history={
+		owner = MKL
+		victory_points = {
+			321 10 
+		}
+		victory_points = {
+			9294 3 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			11305 = {
+				naval_base = 1
+			}
+			321 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = MKL
+	}
+
+	provinces={
+		268 293 321 9294 11276 11305 
+	}
+	manpower=235838
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

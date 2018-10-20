@@ -1,0 +1,33 @@
+state={
+	id=911
+	name="STATE_911"
+	resources={
+		aluminium=15
+	}
+	
+	history={
+		owner = OIR
+		victory_points = {
+			10623 3 
+		}
+		victory_points = {
+			1728 5 
+		}
+		victory_points = {
+			7799 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = OIR
+	}
+	
+	provinces={
+		1725 1728 1791 1798 1834 4697 4882 7881 10623 10704 12579 12614 12649 12675 
+	}
+	manpower=868920
+	state_category=city
+	buildings_max_level_factor=1.000
+}

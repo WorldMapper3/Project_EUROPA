@@ -1,0 +1,27 @@
+state={
+	id=954
+	name="STATE_954"
+	resources={
+		oil=10
+		aluminium=10
+	}
+
+	history={
+		owner = QRQ
+		add_core_of = QRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1600 2004 3795 7994 8001 10876 12046 12372 12413 12839 
+	}
+	manpower=265823
+	buildings_max_level_factor=1.000
+	state_category=town
+}

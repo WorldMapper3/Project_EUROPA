@@ -1,0 +1,63 @@
+
+state={
+	id=289
+	name="STATE_289"
+	resources={
+		oil=35
+		aluminium=10
+		chromium=51
+	}
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 9
+			arms_factory = 2
+			industrial_complex = 5
+			dockyard = 2
+			12122 = {
+				naval_base = 2
+
+			}
+			7408 = {
+				naval_base = 4
+
+			}
+			1244 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			12122 5 
+		}
+		victory_points = {
+			7587 5 
+		}
+		victory_points = {
+			7338 20 
+		}
+		victory_points = {
+			10398 10 
+		}
+		victory_points = {
+			10438 3 
+		}
+		victory_points = {
+			4251 3 
+		}
+		victory_points = {
+			1244 10 
+		}
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		1244 1427 4319 4348 4388 4392 4433 7225 7292 7338 7367 7408 7572 7587 10193 10221 10250 10293 10398 10411 10425 10438 12122 12173 12195 12220 12224 12264 12345 12388 
+	}
+	manpower=2570556
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

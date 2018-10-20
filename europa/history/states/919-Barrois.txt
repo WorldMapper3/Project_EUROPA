@@ -1,0 +1,31 @@
+state={
+	id=919
+	name="STATE_919"
+	resources={
+		aluminium=25
+		steel=50
+		chromium=20
+	}
+
+	history={
+		owner = PRO
+		victory_points = {
+			5291 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = PRO
+		add_core_of = BAR
+
+	}
+
+	provinces={
+		3546 5291 9505 
+	}
+	manpower=263819
+	buildings_max_level_factor=1.000
+	state_category=town
+}

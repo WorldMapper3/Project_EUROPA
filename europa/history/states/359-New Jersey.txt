@@ -1,0 +1,21 @@
+
+state={
+	id=359
+	name="STATE_359"
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		6845 9801 9864 11740 11782 11900 
+	}
+	manpower=56680
+	buildings_max_level_factor=1.000
+	state_category=town
+}

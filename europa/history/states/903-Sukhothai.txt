@@ -1,0 +1,33 @@
+state={
+	id=903
+	name="STATE_903"
+	resources={
+		chromium=83
+	}
+
+	history={
+		owner = SIA
+		victory_points = {
+			7353 15 
+		}
+		victory_points = {
+			7544 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		#add_core_of = SUK
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		4566 7312 7353 7492 7544 7559 
+	}
+	manpower=1013740
+	buildings_max_level_factor=1.000
+	state_category=city
+}

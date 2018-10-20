@@ -1,0 +1,20 @@
+state={
+	id=243
+	name="STATE_243"
+
+	history={
+		owner = LIT
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LIT
+		add_core_of = SMO
+	}
+
+	provinces={
+		223 236 3210 3278 3297 6243 9351 11336 
+	}
+	manpower=27201
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

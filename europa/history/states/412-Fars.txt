@@ -1,0 +1,52 @@
+
+state={
+	id=412
+	name="STATE_412"
+	resources={
+		oil=5
+		aluminium=35
+		steel=20
+	}
+
+	history={
+		owner = TIM
+		victory_points = {
+			4966 30 
+		}
+		victory_points = {
+			4959 15 
+		}
+		victory_points = {
+			10797 15 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+			4959 = {
+				naval_base = 1
+
+			}
+			12832 = {
+				naval_base = 1
+
+			}
+			10797 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = TIM
+		add_core_of = PER
+
+	}
+
+	provinces={
+		4959 4966 8117 10797 10881 12832 
+	}
+	manpower=857143
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

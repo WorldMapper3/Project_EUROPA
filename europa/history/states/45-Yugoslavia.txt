@@ -1,0 +1,35 @@
+
+state={
+	id=45
+	name="STATE_45"
+	resources={
+		oil=18
+	}
+
+	history={
+		owner = HUN
+		victory_points = {
+			11787 5
+		}
+		victory_points = {
+			619 3
+		}
+		victory_points = {
+			11580 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = HUN
+		add_core_of = SER
+	}
+
+	provinces={
+		614 619 3614 3617 3623 6643 9608 9621 11580 11787 
+	}
+	manpower=140598
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,19 @@
+state={
+	id=946
+	name="STATE_946"
+	
+	history={
+		owner = MER
+		buildings = {
+			infrastructure = 2
+		}
+		#add_core_of = NGA
+	}
+	
+	provinces={
+		1908 12844 
+	}
+	manpower=333738
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

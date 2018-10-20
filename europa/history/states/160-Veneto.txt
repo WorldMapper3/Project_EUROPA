@@ -1,0 +1,35 @@
+
+state={
+	id=160
+	name="STATE_160"
+	resources={
+		chromium=14
+	}
+
+	history={
+		owner = VNC
+		victory_points = {
+			11584 45 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			11584 = {
+				naval_base = 9
+
+			}
+
+		}
+		add_core_of = VNC
+
+	}
+
+	provinces={
+		656 3604 6656 9598 11584 
+	}
+	manpower=1023634
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

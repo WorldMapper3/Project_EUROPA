@@ -1,0 +1,30 @@
+
+state={
+	id=246
+	name="STATE_246"
+	resources={
+		chromium=20
+	}
+
+	history={
+		owner = MUS
+		victory_points = {
+			11349 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = MUS
+		add_core_of = TVE
+
+	}
+
+	provinces={
+		8 226 366 3321 6225 6264 6303 9242 9265 9333 11224 11349 11384 
+	}
+	manpower=117869
+	buildings_max_level_factor=1.000
+	state_category=town
+}

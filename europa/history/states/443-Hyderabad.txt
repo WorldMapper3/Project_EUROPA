@@ -1,0 +1,45 @@
+
+state={
+	id=443
+	name="STATE_443"
+	resources={
+		oil=9
+		aluminium=25
+	}
+
+	history={
+		owner = SND
+		victory_points = {
+			3456 10 
+		}
+		victory_points = {
+			4110 5 
+		}
+		victory_points = {
+			7049 5 
+		}
+		victory_points = {
+			10735 3 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			3456 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = SND
+
+	}
+
+	provinces={
+		1971 1980 3456 4003 4110 4382 7049 7084 10108 10735 
+	}
+	manpower=2202670
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

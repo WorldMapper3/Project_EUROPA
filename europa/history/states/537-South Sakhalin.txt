@@ -1,0 +1,26 @@
+state= {
+	id=537
+	name="STATE_537"
+	manpower = 72410
+	resources={
+		chromium=4
+	}
+	
+	state_category = pastoral
+	history= {
+		owner = MYR
+		add_core_of = MYR
+		buildings = {
+			infrastructure = 1
+			1820 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			1820 1
+		}
+	}
+	provinces={
+		1322 1820 12446 	
+	}
+}

@@ -1,0 +1,40 @@
+state={
+	id=883
+	name="STATE_883"
+	resources={
+		oil=10
+		chromium=16
+	}
+	
+	history={
+		owner = VIJ
+		victory_points = {
+			1412 3 
+		}
+		victory_points = {
+			8011 10 
+		}
+		victory_points = {
+			5032 15 
+		}
+		victory_points = {
+			10296 5 
+		}
+		victory_points = {
+			7310 10 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		add_core_of = VIJ
+	}
+	
+	provinces={
+		1412 4414 5032 7310 8011 8100 10208 10296 10756 10897 12734 12779 
+	}
+	manpower=3404126
+	state_category=metropolis
+	buildings_max_level_factor=1.000
+}

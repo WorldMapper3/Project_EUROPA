@@ -1,0 +1,48 @@
+
+state={
+	id=605
+	name="STATE_605"
+	resources={
+		oil=33
+		aluminium=45
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		add_core_of = CXI
+		add_core_of = SHU
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 5
+			arms_factory = 2
+
+		}
+		victory_points = {
+			12705 3 
+		}
+		victory_points = {
+			4925 20 
+		}
+		victory_points = {
+			12141 5 
+		}
+		victory_points = {
+			1893 20 
+		}
+		victory_points = {
+			12274 3 
+		}
+		victory_points = {
+			10144 3 
+		}
+
+	}
+
+	provinces={
+		1367 1395 1893 2030 2091 4041 4141 4431 4925 5048 6999 7240 7256 7948 8026 10144 10304 10841 11865 12141 12274 12705 12767 
+	}
+	manpower=2606761
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

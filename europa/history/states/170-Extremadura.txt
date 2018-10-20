@@ -1,0 +1,36 @@
+
+state={
+	id=170
+	name="STATE_170"
+	manpower = 509843
+	
+	state_category = large_city
+	
+	resources={
+		oil=12
+	}
+
+	history={
+		owner = CST
+		victory_points = {
+			11851 10 
+		}
+		victory_points = {
+			9877 3 
+		}
+		victory_points = {
+			6867 20 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = CST
+		add_core_of = LEO
+	}
+
+	provinces={
+		794 809 874 931 985 3874 3930 6866 6867 6902 6948 6954 9770 9839 9877 9917 9925 11756 11780 11798 11851 
+	}
+}

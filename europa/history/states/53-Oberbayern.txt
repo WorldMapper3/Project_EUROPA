@@ -1,0 +1,37 @@
+
+state={
+	id=53
+	name="STATE_53"
+	resources={
+		oil=38
+		aluminium=30
+	}
+
+	history={
+		owner = BAV
+		victory_points = {
+			6725 10 
+		}
+		victory_points = {
+			3541 10 
+		}
+		victory_points = {
+			3299 15 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		add_core_of = BAV
+
+	}
+
+	provinces={
+		532 571 3299 3541 6725 7857 9515 9681 11497 
+	}
+	manpower=353757
+	buildings_max_level_factor=1.000
+	state_category=city
+}

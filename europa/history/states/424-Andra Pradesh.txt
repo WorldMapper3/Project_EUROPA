@@ -1,0 +1,50 @@
+
+state={
+	id=424
+	name="STATE_424"
+	resources={
+		oil=32
+		steel=50
+	}
+
+	history={
+		owner = ORI
+		#add_core_of = YOR
+		victory_points = {
+			1430 10 
+		}
+		victory_points = {
+			4321 15 
+		}
+		victory_points = {
+			7297 10 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			7297 = {
+				naval_base = 2
+
+			}
+			10152 = {
+				naval_base = 2
+
+			}
+			7340 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1228 1430 4237 4321 4365 7297 7340 10152 12180 
+	}
+	manpower=2469660
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

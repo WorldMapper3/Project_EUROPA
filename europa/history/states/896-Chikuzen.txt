@@ -1,0 +1,38 @@
+state={
+	id=896
+	name="STATE_896"
+	resources={
+		oil=6
+		chromium=8
+	}
+
+	history={
+		owner = OUC
+		victory_points = {
+			1025 10 
+		}
+		victory_points = {
+			7110 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			1158 = {
+				naval_base = 2
+			}
+			1025 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = OUC
+	}
+
+	provinces={
+		1025 1158 4164 7110 9950 10011 
+	}
+	manpower=525845
+	buildings_max_level_factor=1.000
+	state_category=city
+}

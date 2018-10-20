@@ -1,0 +1,28 @@
+
+state={
+	id=533
+	name="STATE_533"
+	resources={
+		chromium=15
+	}
+
+	history={
+		owner = DTE
+		victory_points={
+			1024 5
+		}
+		buildings = {
+			infrastructure = 2
+			7169={
+				naval_base=2
+			}
+		}
+	}
+
+	provinces={
+		1024 4118 4122 4153 7169 
+	}
+	manpower=217230
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

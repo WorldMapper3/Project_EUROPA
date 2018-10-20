@@ -1,0 +1,36 @@
+
+state={
+	id=601
+	name="STATE_601"
+
+	history={
+		owner = KAM
+		add_core_of = KAM
+		victory_points = {
+			4999 3 
+		}
+		victory_points = {
+			4407 3 
+		}
+		victory_points = {
+			7988 5 
+		}
+		victory_points = {
+			10856 3 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		4407 5102 8104 10856 12724 
+	}
+	manpower=796510
+	buildings_max_level_factor=1.000
+	state_category=city
+}

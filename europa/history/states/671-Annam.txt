@@ -1,0 +1,66 @@
+state={
+	id=671
+	name="STATE_671"
+	resources={
+		oil=18
+		chromium=49
+	}
+
+	history={
+		add_core_of = VIN
+		owner = VIN
+		add_core_of = TOK
+		victory_points = {
+			4529 3 
+		}
+		victory_points = {
+			7518 5 
+		}
+		victory_points = {
+			12075 20 
+		}
+		victory_points = {
+			4119 15 
+		}
+		victory_points = {
+			11909 3 
+		}
+		victory_points = {
+			4397 3 
+		}
+		victory_points = {
+			4379 15 
+		}
+		victory_points = {
+			10137 10 
+		}
+		buildings = {
+			infrastructure = 9
+			arms_factory = 2
+			industrial_complex = 5
+			dockyard = 2
+			1185 = {
+				naval_base = 3
+			}
+			10016 = {
+				naval_base = 1
+			}
+			12297 = {
+				naval_base = 1
+			}
+			4379 = {
+				naval_base = 3
+			}
+			10137 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		1073 1157 1185 1302 4075 4119 4255 4379 4397 4529 7015 7093 7229 7280 7518 9948 9988 10016 10075 10103 10129 10137 10180 10309 11909 11936 12008 12048 12065 12075 12297 12319 
+	}
+	manpower=2860196
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

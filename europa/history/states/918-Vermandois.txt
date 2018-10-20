@@ -1,0 +1,30 @@
+state={
+	id=918
+	name="STATE_918"
+	resources={
+		oil=13
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			9561 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = FRA
+		add_core_of = PIC
+		add_core_of = CHP
+
+	}
+
+	provinces={
+		6585 9561 11549 
+	}
+	manpower=246231
+	buildings_max_level_factor=1.000
+	state_category=town
+}

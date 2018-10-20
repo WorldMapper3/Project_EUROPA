@@ -1,0 +1,28 @@
+state={
+	id=857
+	name="STATE_857"
+
+	history={
+		owner = DON
+		victory_points = {
+			4963 5 
+		}
+		victory_points = {
+			4961 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = DON
+
+	}
+
+	provinces={
+		4961 4963 12796 12826 12836 
+	}
+	manpower=253738
+	buildings_max_level_factor=1.000
+	state_category=town
+}

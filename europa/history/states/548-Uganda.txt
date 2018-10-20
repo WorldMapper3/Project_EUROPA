@@ -1,0 +1,22 @@
+
+state={
+	id=548
+	name="STATE_548"
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 4
+
+		}
+		#add_core_of = BNY
+
+	}
+
+	provinces={
+		3854 7088 8223 12929 12989 13177 
+	}
+	manpower=331811
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

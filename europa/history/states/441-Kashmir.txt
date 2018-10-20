@@ -1,0 +1,34 @@
+
+state={
+	id=441
+	name="STATE_441"
+	resources={
+		steel=30
+		chromium=6
+	}
+
+	history={
+		owner = DLH
+		victory_points = {
+			10905 20 
+		}
+		victory_points = {
+			8022 20 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		#add_core_of = KSH
+
+	}
+
+	provinces={
+		1910 8022 10905 12754 
+	}
+	manpower=1067961
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

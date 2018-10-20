@@ -1,0 +1,32 @@
+state={
+	id=802
+	name="STATE_802"
+	resources={
+		aluminium=15
+		chromium=24
+	}
+
+	history={
+		owner = CZE
+		victory_points = {
+			11415 5 
+		}
+		victory_points = {
+			3514 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = CZE
+
+	}
+
+	provinces={
+		478 3514 3572 9535 11401 11415 11517 
+	}
+	manpower=206358
+	buildings_max_level_factor=1.000
+	state_category=town
+}

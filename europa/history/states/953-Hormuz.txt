@@ -1,0 +1,25 @@
+state={
+	id=953
+	name="STATE_953"
+	resources={
+		oil=3
+	}
+	
+	history={
+		owner=HRM
+		add_core_of=HRM
+		victory_points = {
+			13205 3 
+		}
+		buildings={
+			infrastructure=3
+			industrial_complex=1
+		}
+	}
+	provinces={
+		13205 
+	}
+	manpower=210677
+	state_category=town
+	buildings_max_level_factor=1.000
+}

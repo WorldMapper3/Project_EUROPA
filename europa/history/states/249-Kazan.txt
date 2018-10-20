@@ -1,0 +1,36 @@
+state={
+	id=249
+	name="STATE_249"
+	resources={
+		oil=18
+	}
+
+	history={
+		owner = KAZ
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			6338 15 
+		}
+		victory_points = {
+			11496 3 
+		}
+		victory_points = {
+			9385 3 
+		}
+		victory_points = {
+			11292 3 
+		}
+		add_core_of = KAZ
+	}
+
+	provinces={
+		228 260 292 355 372 403 404 3214 3251 3328 3348 3365 6308 6323 6338 6352 6368 9336 9354 9385 9401 9514 10301 11243 11292 11339 11389 11496 
+	}
+	manpower=299206
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

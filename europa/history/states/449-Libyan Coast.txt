@@ -1,0 +1,25 @@
+state={
+	id=449
+	name="STATE_449"
+
+	history={
+		owner = FZA
+		victory_points = {
+			10117 1 
+		}
+		buildings = {
+			infrastructure = 1
+			4057 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = FZA
+	}
+
+	provinces={
+		1041 4047 4057 7136 7194 10046 10117 12088 13073 
+	}
+	manpower=58555
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

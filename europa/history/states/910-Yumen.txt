@@ -1,0 +1,30 @@
+state={
+	id=910
+	name="STATE_910"
+
+	history={
+		owner = OIR
+		victory_points = {
+			12598 1 
+		}
+		victory_points = {
+			4858 3 
+		}
+		victory_points = {
+			10689 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = OIR
+
+	}
+
+	provinces={
+		1781 1855 4786 4858 7806 7864 10558 10560 10634 10689 12541 12669 
+	}
+	manpower=217230
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

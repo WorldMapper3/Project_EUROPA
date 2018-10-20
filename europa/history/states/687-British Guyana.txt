@@ -1,0 +1,19 @@
+
+state={
+	id=687
+	name="STATE_687"
+	impassable=yes
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1928 5008 5214 8107 10934 
+	}
+	manpower=33292
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

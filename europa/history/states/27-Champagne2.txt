@@ -1,0 +1,30 @@
+
+state={
+	id=27
+	name="STATE_27"
+	resources={
+		oil=28
+	}
+
+	history={
+		owner = BUR
+		victory_points = {
+			680 25 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = BUR
+
+	}
+
+	provinces={
+		680 3652 3669 6531 9658 11628 
+	}
+	manpower=404523
+	buildings_max_level_factor=1.000
+	state_category=city
+}

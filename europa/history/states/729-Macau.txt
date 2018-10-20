@@ -1,0 +1,29 @@
+state={
+	id=729
+	name="STATE_729"
+	manpower = 253435
+	resources={
+		oil=6
+	}
+	
+	state_category = rural
+	
+	history={
+		owner = MNG
+		add_core_of = MNG
+		add_core_of = YUE
+		victory_points = {
+			4189 5 
+		}
+		buildings = {
+			infrastructure = 2
+			4189 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		4189 
+	}
+}

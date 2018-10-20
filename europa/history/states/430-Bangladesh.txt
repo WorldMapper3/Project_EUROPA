@@ -1,0 +1,57 @@
+
+state={
+	id=430
+	name="STATE_430"
+	resources={
+		oil=8
+		aluminium=30
+		chromium=61
+	}
+
+	history={
+		owner = BNG
+		victory_points = {
+			11911 1 
+		}
+		victory_points = {
+			11929 15 
+		}
+		victory_points = {
+			9991 15 
+		}
+		victory_points = {
+			7634 5 
+		}
+		victory_points = {
+			10416 10 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+			11911 = {
+				naval_base = 3
+
+			}
+			12010 = {
+				naval_base = 3
+
+			}
+			9991 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = BNG
+
+	}
+
+	provinces={
+		997 1075 1497 4162 7078 7179 7634 9991 9993 10035 10090 10416 11911 11929 11968 12010 12395 12423 
+	}
+	manpower=5273058
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

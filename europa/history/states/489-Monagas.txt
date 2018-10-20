@@ -1,0 +1,22 @@
+state={
+	id=489
+	name="STATE_489" # Zulia
+	manpower = 221948
+	
+	state_category = large_town
+	
+	resources={
+
+	}
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		1944 1997 2052 4526 5088 10855 12772 
+	}
+}

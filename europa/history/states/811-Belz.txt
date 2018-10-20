@@ -1,0 +1,29 @@
+state={
+	id=811
+	name="STATE_811"
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = MAZ
+		victory_points = {
+			422 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = MAZ
+		add_core_of = VOL
+
+	}
+
+	provinces={
+		422 536 6580 9558 11479 
+	}
+	manpower=81602
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

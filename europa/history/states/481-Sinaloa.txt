@@ -1,0 +1,21 @@
+state={
+	id=481
+	name="STATE_481"
+	resources={
+
+	}
+
+	history={
+		owner = NAT
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		1945 2008 4946 5052 7921 8003 8057 10172 10853 10871 10895 12804 12873 
+	}
+	manpower=177559
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

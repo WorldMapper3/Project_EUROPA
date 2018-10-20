@@ -1,0 +1,35 @@
+
+state={
+	id=65
+	name="STATE_65"
+	resources={
+		aluminium=20
+		steel=60
+		chromium=40
+	}
+
+	history={
+		owner = SAX
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			11545 10 
+		}
+		victory_points = {
+			514 15 
+		}
+		add_core_of = SAX
+
+	}
+
+	provinces={
+		514 573 6441 6559 11481 11545 
+	}
+	manpower=353757
+	buildings_max_level_factor=1.000
+	state_category=city
+}

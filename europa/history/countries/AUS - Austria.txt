@@ -1,0 +1,198 @@
+﻿capital = 4
+
+oob = "AUS_1444"
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+}
+set_technology = {
+	#late_medieval_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_support = 1		
+	tech_recon = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	transport = 1
+}
+
+set_convoys = 50
+
+set_politics = {
+
+	parties = {
+		neutrality={
+			popularity=100
+		}
+		protestant={
+			popularity=0
+		}
+		reformed={
+			popularity=0
+		}
+		orthodox={
+			popularity=0
+		}
+		coptic={
+			popularity=0
+		}
+		anglican={
+			popularity=0
+		}
+		fascism={
+			popularity=0
+		}
+		shia={
+			popularity=0
+		}
+		ibadi={
+			popularity=0
+		}
+		theravada={
+			popularity=0
+		}
+		vajrayana={
+			popularity=0
+		}
+		mahayana={
+			popularity=0
+		}
+		confucian={
+			popularity=0
+		}
+		shinto={
+			popularity=0
+		}
+		hindu={
+			popularity=0
+		}
+		sikh={
+			popularity=0
+		}
+		communism={
+			popularity=0
+		}
+		fetishist={
+			popularity=0
+		}
+		totemist={
+			popularity=0
+		}
+		inti={
+			popularity=0
+		}
+		nahuatl={
+			popularity=0
+		}
+		mayan={
+			popularity=0
+		}
+		tengri={
+			popularity=0
+		}
+		norse={
+			popularity=0
+		}
+		democratic={
+			popularity=0
+		}
+		zoroastrian={
+			popularity=0
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1439.10.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+
+create_country_leader = {
+	name = "Emperor Friedrich III"
+	desc = ""
+	picture = "Friedrich_III_vonHabsburg.dds"
+	expire = "9999.1.1"
+	ideology = cat
+	traits = {
+		#
+	}
+}
+give_guarantee = SWI
+give_guarantee = HLS
+give_guarantee = ALS
+give_guarantee = AAC
+give_guarantee = ANH
+give_guarantee = ANS
+give_guarantee = AUG
+give_guarantee = BAD
+give_guarantee = BAV
+give_guarantee = BRN
+give_guarantee = BRE
+give_guarantee = BRU
+give_guarantee = FRN
+give_guarantee = HAM
+give_guarantee = HAN
+give_guarantee = HES
+give_guarantee = KLE
+give_guarantee = KOL
+give_guarantee = SXL
+give_guarantee = LOR
+give_guarantee = LUN
+give_guarantee = MAG
+give_guarantee = MAI
+give_guarantee = MEI
+give_guarantee = MKL
+give_guarantee = MUN
+give_guarantee = MVA
+give_guarantee = CZE
+give_guarantee = OLD
+give_guarantee = PLA
+give_guarantee = POM
+give_guarantee = SAX
+give_guarantee = SIL
+give_guarantee = SLZ
+give_guarantee = STY
+give_guarantee = THU
+give_guarantee = TIR
+give_guarantee = TRI
+give_guarantee = ULM
+give_guarantee = WBG
+give_guarantee = WES
+give_guarantee = WUR
+give_guarantee = NUM
+give_guarantee = MEM
+give_guarantee = VER
+give_guarantee = NSA
+give_guarantee = RAV
+give_guarantee = DTT
+give_guarantee = ETR
+give_guarantee = FER
+give_guarantee = GEN
+give_guarantee = MTU
+give_guarantee = MLO
+give_guarantee = MOD
+give_guarantee = PMA
+give_guarantee = PIS
+give_guarantee = SAV
+give_guarantee = SIE
+give_guarantee = TUS
+give_guarantee = MFA
+give_guarantee = LUC
+give_guarantee = FLO
+give_guarantee = BRB
+give_guarantee = FLA
+give_guarantee = FRI
+give_guarantee = GEL
+give_guarantee = HAT
+give_guarantee = HLD
+give_guarantee = LIE
+give_guarantee = UTR
+give_guarantee = BAR
+give_guarantee = HSA

@@ -1,0 +1,37 @@
+
+state={
+	id=528
+	name="STATE_528"
+	resources={
+		oil=6
+		chromium=4
+	}
+
+	history={
+		owner = SMZ
+		add_core_of = SMZ
+		victory_points={
+			4102 5
+		}
+		victory_points={
+			1020 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1020={
+				naval_base=1
+			}
+			4102={
+				naval_base=2
+			}
+		}
+	}
+
+	provinces={
+		1020 1183 4102 4198 7178 11949 12032 
+	}
+	manpower=289640
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

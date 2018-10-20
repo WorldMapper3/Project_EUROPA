@@ -1,0 +1,32 @@
+state={
+	id=845
+	name="STATE_845"
+	resources={
+		aluminium=10
+		tungsten=40
+	}
+	
+	history={
+		owner = TIM
+		victory_points = {
+			5073 5 
+		}
+		victory_points = {
+			5029 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = TIM
+		add_core_of = KHO
+	}
+	
+	provinces={
+		1888 1957 2000 5029 5073 8009 10806 
+	}
+	manpower=270677
+	state_category=large_town
+	buildings_max_level_factor=1.000
+}

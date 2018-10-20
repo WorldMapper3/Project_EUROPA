@@ -1,0 +1,27 @@
+state={
+	id=798
+	name="STATE_798"
+	resources={
+		aluminium=20
+		chromium=16
+	}
+
+	history={
+		owner = MAG
+		add_core_of = MAG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			6487 10 
+		}
+	}
+
+	provinces={
+		6487 9456 11468 
+	}
+	manpower=147399
+	buildings_max_level_factor=1.000
+	state_category=town
+}

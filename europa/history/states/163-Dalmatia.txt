@@ -1,0 +1,35 @@
+
+state={
+	id=163
+	name="STATE_163"
+	resources={
+		chromium=20
+		aluminium=25
+	}
+
+	history={
+		owner = HUN
+		add_core_of = HUN
+		add_core_of = CRO
+		victory_points = {
+			11564 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			11564 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		591 984 3601 6611 11564 11901 
+	}
+	manpower=210896
+	buildings_max_level_factor=1.000
+	state_category=town
+}

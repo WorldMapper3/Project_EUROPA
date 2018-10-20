@@ -1,0 +1,35 @@
+state={
+	id=939
+	name="STATE_939"
+	resources={
+		oil=14
+	}
+	
+	history={
+		owner = SBA
+		add_core_of = SBA
+		victory_points={
+			10125 10
+		}
+		victory_points={
+			4054 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			10125={
+				naval_base=3
+			}
+			4054={
+				naval_base=2
+			}
+		}
+	}
+	
+	provinces={
+		4054 4142 10125 
+	}
+	manpower=325845
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

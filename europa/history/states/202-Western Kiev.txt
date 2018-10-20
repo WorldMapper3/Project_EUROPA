@@ -1,0 +1,27 @@
+state={
+	id=202
+	name="STATE_202"
+	resources={
+		oil=10
+	}
+
+	history={
+		owner = LIT
+		victory_points = {
+			525 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = LIT
+		add_core_of = KIE
+	}
+
+	provinces={
+		489 504 525 3494 3543 9465 9568 11557 
+	}
+	manpower=117869
+	buildings_max_level_factor=1.000
+	state_category=town
+}

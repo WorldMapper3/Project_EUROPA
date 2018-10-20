@@ -1,0 +1,22 @@
+state={
+	id=950
+	name="STATE_950"
+	resources={
+		chromium=4
+	}
+	
+	history={
+		owner = DLH
+		buildings = {
+			infrastructure = 2
+		}
+		#add_core_of = GHR
+	}
+	
+	provinces={
+		5157 10021 12708 
+	}
+	manpower=400485
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

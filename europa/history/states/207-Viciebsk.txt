@@ -1,0 +1,35 @@
+state={
+	id=207
+	name="STATE_207"
+	resources={
+		steel=60
+		chromium=32
+	}
+
+	history={
+		owner = LIT
+		victory_points = {
+			11241 3 
+		}
+		victory_points = {
+			9241 3 
+		}
+		victory_points = {
+			6249 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = LIT
+		add_core_of = PLT
+	}
+
+	provinces={
+		323 387 3219 3331 6220 6249 6293 6326 6371 9241 9323 9386 11220 11241 11259 
+	}
+	manpower=172270
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}
