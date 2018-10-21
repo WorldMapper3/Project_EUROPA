@@ -23,6 +23,26 @@ set_technology = {
 
 set_convoys = 50
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = JFN
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = JFN
+	}
+}
+
+create_faction = "Vijayanagar Alliance"
+add_to_faction = VIJ
+add_to_faction = MYS
+add_to_faction = YOR
+
+give_guarantee = MAB
+
 set_politics = {
 
 	parties = {
@@ -112,8 +132,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-
-
 create_country_leader = {
 	name = "Maharaja Devaraya II Sangama"
 	desc = ""
@@ -124,26 +142,3 @@ create_country_leader = {
 		#
 	}
 }
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = JFN
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = JFN
-		autonomous_state = autonomy_puppet
-	}
-}
-
-create_faction = "Vijayanagar Alliance"
-add_to_faction = VIJ
-add_to_faction = MYS
-add_to_faction = YOR
-
-give_guarantee = MAB
-
-

@@ -23,6 +23,39 @@ set_technology = {
 
 set_convoys = 50
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = PSK
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = YAR
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = PRM
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = RSO
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = BLO
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = PSK
+		puppet = YAR
+		puppet = PRM
+		puppet = RSO
+		puppet = BLO
+	}
+}
+
 set_politics = {
 
 	parties = {
@@ -112,8 +145,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-
-
 create_country_leader = {
 	name = "Grand Kniaz Vasiliy II"
 	desc = ""
@@ -122,71 +153,5 @@ create_country_leader = {
 	ideology = ort
 	traits = {
 		#
-	}
-}
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = PSK
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = PSK
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = YAR
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = YAR
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = PRM
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = PRM
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = RSO
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = RSO
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = BLO
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = BLO
-		autonomous_state = autonomy_puppet
 	}
 }

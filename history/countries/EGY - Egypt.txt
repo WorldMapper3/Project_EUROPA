@@ -23,6 +23,27 @@ set_technology = {
 
 set_convoys = 50
 
+give_guarantee = CYP
+give_guarantee = MDA
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = HEJ
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = FAD
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = HEJ
+		puppet = FAD
+	}
+}
+
 set_politics = {
 
 	parties = {
@@ -112,8 +133,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-
-
 create_country_leader = {
 	name = "Sultan Jaqmaq Burji"
 	desc = ""
@@ -122,35 +141,5 @@ create_country_leader = {
 	ideology = sun
 	traits = {
 		#
-	}
-}
-
-give_guarantee = CYP
-give_guarantee = MDA
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = HEJ
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = HEJ
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = FAD
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = FAD
-		autonomous_state = autonomy_puppet
 	}
 }

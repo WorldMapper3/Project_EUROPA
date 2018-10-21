@@ -23,6 +23,39 @@ set_technology = {
 
 set_convoys = 50
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = AFG
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = KHO
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = TRS
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = SIS
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = FRS
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = AFG
+		puppet = KHO
+		puppet = TRS
+		puppet = SIS
+		puppet = FRS
+	}
+}
+
 set_politics = {
 
 	parties = {
@@ -112,8 +145,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-
-
 create_country_leader = {
 	name = "Shah Rukh"
 	desc = ""
@@ -122,71 +153,5 @@ create_country_leader = {
 	ideology = sun
 	traits = {
 		#
-	}
-}
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = AFG
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = AFG
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = KHO
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = KHO
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = TRS
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = TRS
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = SIS
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = SIS
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = FRS
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = FRS
-		autonomous_state = autonomy_puppet
 	}
 }

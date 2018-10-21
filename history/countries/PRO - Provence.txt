@@ -23,6 +23,19 @@ set_technology = {
 
 set_convoys = 50
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = LOR
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = LOR
+	}
+}
+
 set_politics = {
 
 	parties = {
@@ -112,8 +125,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-
-
 create_country_leader = {
 	name = "Duke Rene I"
 	desc = ""
@@ -122,19 +133,5 @@ create_country_leader = {
 	ideology = cat
 	traits = {
 		#
-	}
-}
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = LOR
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = LOR
-		autonomous_state = autonomy_puppet
 	}
 }

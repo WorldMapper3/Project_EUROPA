@@ -23,6 +23,19 @@ set_technology = {
 
 set_convoys = 50
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = ATH
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = ATH
+	}
+}
+
 set_politics = {
 
 	parties = {
@@ -122,19 +135,5 @@ create_country_leader = {
 	ideology = ort
 	traits = {
 		#
-	}
-}
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = ATH
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = ATH
-		autonomous_state = autonomy_puppet
 	}
 }

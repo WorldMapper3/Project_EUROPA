@@ -23,6 +23,24 @@ set_technology = {
 
 set_convoys = 50
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = NDO
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = LOA
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = NDO
+		puppet = LOA
+	}
+}
+
 set_politics = {
 
 	parties = {

@@ -23,95 +23,119 @@ set_technology = {
 
 set_convoys = 50
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = NOR
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = SWE
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = HLS
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = NOR
+		puppet = SWE
+		puppet = HLS
+	}
+}
+
 1439.1.1={
 	set_politics = {
 
-	parties = {
-		neutrality={
-			popularity=100
+		parties = {
+			neutrality={
+				popularity=100
+			}
+			protestant={
+				popularity=0
+			}
+			reformed={
+				popularity=0
+			}
+			orthodox={
+				popularity=0
+			}
+			coptic={
+				popularity=0
+			}
+			anglican={
+				popularity=0
+			}
+			fascism={
+				popularity=0
+			}
+			shia={
+				popularity=0
+			}
+			ibadi={
+				popularity=0
+			}
+			theravada={
+				popularity=0
+			}
+			vajrayana={
+				popularity=0
+			}
+			mahayana={
+				popularity=0
+			}
+			confucian={
+				popularity=0
+			}
+			shinto={
+				popularity=0
+			}
+			hindu={
+				popularity=0
+			}
+			sikh={
+				popularity=0
+			}
+			communism={
+				popularity=0
+			}
+			fetishist={
+				popularity=0
+			}
+			totemist={
+				popularity=0
+			}
+			inti={
+				popularity=0
+			}
+			nahuatl={
+				popularity=0
+			}
+			mayan={
+				popularity=0
+			}
+			tengri={
+				popularity=0
+			}
+			norse={
+				popularity=0
+			}
+			democratic={
+				popularity=0
+			}
+			zoroastrian={
+				popularity=0
+			}
 		}
-		protestant={
-			popularity=0
-		}
-		reformed={
-			popularity=0
-		}
-		orthodox={
-			popularity=0
-		}
-		coptic={
-			popularity=0
-		}
-		anglican={
-			popularity=0
-		}
-		fascism={
-			popularity=0
-		}
-		shia={
-			popularity=0
-		}
-		ibadi={
-			popularity=0
-		}
-		theravada={
-			popularity=0
-		}
-		vajrayana={
-			popularity=0
-		}
-		mahayana={
-			popularity=0
-		}
-		confucian={
-			popularity=0
-		}
-		shinto={
-			popularity=0
-		}
-		hindu={
-			popularity=0
-		}
-		sikh={
-			popularity=0
-		}
-		communism={
-			popularity=0
-		}
-		fetishist={
-			popularity=0
-		}
-		totemist={
-			popularity=0
-		}
-		inti={
-			popularity=0
-		}
-		nahuatl={
-			popularity=0
-		}
-		mayan={
-			popularity=0
-		}
-		tengri={
-			popularity=0
-		}
-		norse={
-			popularity=0
-		}
-		democratic={
-			popularity=0
-		}
-		zoroastrian={
-			popularity=0
-		}
+	
+		ruling_party = neutrality
+		last_election = "1439.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
 	
-	ruling_party = neutrality
-	last_election = "1439.1.1"
-	election_frequency = 48
-	elections_allowed = no
-	}
 	create_country_leader = {
 		name = "~Interregnum~"
 		desc = ""
@@ -212,7 +236,8 @@ set_convoys = 50
 	last_election = "1440.4.9"
 	election_frequency = 48
 	elections_allowed = no
-	}
+}
+	
 	create_country_leader = {
 		name = "King Christopher III"
 		desc = ""
@@ -222,44 +247,5 @@ set_convoys = 50
 		traits = {
 			#
 		}
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = NOR
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = NOR
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = SWE
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = SWE
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = HLS
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = HLS
-		autonomous_state = autonomy_puppet
 	}
 }

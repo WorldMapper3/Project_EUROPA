@@ -1,4 +1,4 @@
-add_namespace = random
+﻿add_namespace = random
 
 country_event = {
 	id = random.1
@@ -8,51 +8,22 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	trigger = {}
+	trigger = {	}
 
 	mean_time_to_happen = {
 		days = 1
-		
-		modifier = {
-			factor = 0.1
-			OR = {
-				has_idea = comets
-				ruler_has_personality = scholar_personality
-			}
-		}
-		
-		modifier = {
-			factor = 0.5
-			has_idea = natural_scientist
-		}
-		modifier = {
-			factor = 0.5
-			luck = yes
-		}
-		modifier = {
-			factor = 1.1
-			has_stability > 0.667
-		}
-		modifier = {
-			factor = 1.1
-			has_stability > 0.833
-		}
 	}
 	
 	option = {
-		name = random.1.aa		# Fascinating!
+		name = random.1.a		# Fascinating!
 		ai_chance = {
 			factor = 1
-		}
-		highlight = yes
-		trigger = {
-			has_idea = natural_scientist
 		}
 		add_political_power = 20
 	}
 	
 	option = {
-		name = random.1.bb		# It's an omen
+		name = random.1.b		# It's an omen
 		if = {
 			limit = { NOT = { has_stability > 0.166 } }
 			add_political_power = -100
@@ -63,7 +34,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = random.1.cc		# The end is nigh!
+		name = random.1.c		# The end is nigh!
 		if = {
 			limit = { NOT = { has_stability > 0.166 } }
 			add_political_power = -100
@@ -74,7 +45,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = random.1.dd		# The economy, fools!
+		name = random.1.d		# The economy, fools!
 		if = {
 			limit = { NOT = { has_stability > 0.166 } }
 			add_political_power = -100
@@ -85,7 +56,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = random.1.ee		# I wish I lived in more enlightened times.
+		name = random.1.e		# I wish I lived in more enlightened times.
 		if = {
 			limit = { NOT = { has_stability > 0.166 } }
 			add_political_power = -100
@@ -96,7 +67,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = random.1.ff		# Sacrifice a human heart to appease the comet!
+		name = random.1.f		# Sacrifice a human heart to appease the comet!
 		if = {
 			limit = { NOT = { has_stability > 0.166 } }
 			add_political_power = -100
@@ -107,7 +78,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = random.1.gg		# If only we had comet sense!
+		name = random.1.g		# If only we had comet sense!
 		if = {
 			limit = { NOT = { has_stability > 0.166 } }
 			add_political_power = -100
@@ -118,7 +89,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = random.1.hh		# Oh comet, devil's kith and kin...
+		name = random.1.h		# Oh comet, devil's kith and kin...
 		if = {
 			limit = { NOT = { has_stability > 0.166 } }
 			add_political_power = -100

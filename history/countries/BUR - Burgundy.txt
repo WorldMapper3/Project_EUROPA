@@ -23,6 +23,38 @@ set_technology = {
 
 set_convoys = 50
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = NEV
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = BRB
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = FLA
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = HLD
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = NEV
+		puppet = BRB
+		puppet = FLA
+		puppet = HLD
+	}
+}
+
+create_faction = "Burgundian Alliance"
+add_to_faction = BUR
+add_to_faction = BRI
+
 set_politics = {
 
 	parties = {
@@ -112,8 +144,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-
-
 create_country_leader = {
 	name = "Duke Philippe III"
 	desc = ""
@@ -124,60 +154,3 @@ create_country_leader = {
 		#
 	}
 }
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = NEV
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = NEV
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = BRB
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = BRB
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = FLA
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = FLA
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = HLD
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = HLD
-		autonomous_state = autonomy_puppet
-	}
-}
-
-create_faction = "Burgundian Alliance"
-add_to_faction = BUR
-add_to_faction = BRI

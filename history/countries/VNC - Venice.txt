@@ -23,6 +23,26 @@ set_technology = {
 
 set_convoys = 50
 
+give_guarantee = KNI
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = CRF
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = NAX
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = CRF
+		puppet = NAX
+	}
+}
+
 set_politics = {
 
 	parties = {
@@ -124,32 +144,3 @@ create_country_leader = {
 		#
 	}
 }
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = CRF
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = CRF
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = NAX
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = NAX
-		autonomous_state = autonomy_puppet
-	}
-}
-
-give_guarantee = KNI

@@ -23,6 +23,24 @@ set_technology = {
 
 set_convoys = 50
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = HDY
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = DAM
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = HDY
+		puppet = DAM
+	}
+}
+
 set_politics = {
 
 	parties = {
@@ -112,8 +130,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-
-
 create_country_leader = {
 	name = "Nagusa Nagast Zara Yakob"
 	desc = ""
@@ -122,32 +138,5 @@ create_country_leader = {
 	ideology = cpt
 	traits = {
 		#
-	}
-}
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = DAM
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = DAM
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = HDY
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = HDY
-		autonomous_state = autonomy_puppet
 	}
 }
