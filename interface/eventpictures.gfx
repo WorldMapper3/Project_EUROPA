@@ -1932,7 +1932,5 @@ spriteTypes = {
 		name = "COMET_SIGHTED_eventPicture"
 		texturefile = "gfx/event_pictures/COMET_SIGHTED_eventPicture.dds"
 	}
+	
 }
-	
-	
-	

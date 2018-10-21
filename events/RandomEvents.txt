@@ -45,7 +45,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = random.1.d		# The economy, fools!
+		name = random.1.dd		# The economy, fools!
 		if = {
 			limit = { NOT = { has_stability > 0.166 } }
 			add_political_power = -100
