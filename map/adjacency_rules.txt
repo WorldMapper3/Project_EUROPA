@@ -8,35 +8,29 @@
 
 #Name is how you refer to the rule in adjecencies.csv
 
-
 #Gibraltar Strait
-adjacency_rule
-{
+adjacency_rule {
 	name = "GIBRALTAR_STRAIT"
 
-	contested =
-	{
+	contested = {
 		army = no
 		navy = no
 		submarine = yes
 		trade = no
 	}
-	enemy =
-	{
+	enemy = {
 		army = no
 		navy = no
 		submarine = yes
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral = {
 		army = yes
 		navy = yes
 		submarine = yes
@@ -50,33 +44,28 @@ adjacency_rule
 }
 
 #Øresund - (Østersøen <-> Kattegat/Skagerak/Nordsøen)
-adjacency_rule
-{
+adjacency_rule {
 	name = "DANISH_BELTS_STRAIT"
 
-	contested =
-	{
+	contested = {
 		army = no
 		navy = no
 		submarine = yes
 		trade = no
 	}
-	enemy =
-	{
+	enemy = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral = {
 		army = yes
 		navy = yes
 		submarine = yes
@@ -89,35 +78,29 @@ adjacency_rule
 	offset = { -26 0 -13 }
 }
 
-
 #Turkish Straits
-adjacency_rule
-{
+adjacency_rule {
 	name = "BOSPHORUS_STRAIT"
 
-	contested =
-	{
+	contested = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	enemy =
-	{
+	enemy = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral = {
 		army = no
 		navy = no
 		submarine = no
