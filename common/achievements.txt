@@ -603,8 +603,7 @@ big_entente = {
 	}
 	
 	happened = {
-		is_faction_leader = yes
-		has_completed_focus = FRA_little_entente		
+		is_faction_leader = yes	
 		all_state = {
 			OR = {
 				NOT = { is_core_of = GER }
@@ -679,7 +678,6 @@ brains = {
 	}
 	
 	happened = {
-		has_completed_focus = CAN_send_in_the_zombies
 	}
 }
 
@@ -730,7 +728,6 @@ crusader_kings = {
 	}
 	
 	happened = {
-		has_idea = SAF_king_edward
 		controls_state = 454
 	}
 }
@@ -747,7 +744,6 @@ crusader_kings_2 = {
 	}
 	
 	happened = {
-		has_completed_focus = SAF_anti_colonialist_crusade
 		has_country_flag = SAF_released_ANG
 		has_country_flag = SAF_released_MZB
 		has_country_flag = SAF_released_ZIM
@@ -997,10 +993,7 @@ death_or_dishonor_or_cake = {
 		custom_trigger_tooltip = {
 			tooltip = achievement_carol_II_is_leader
 			has_country_leader = { id = 550 }			
-		}		
-		NOT = { has_completed_focus = ROM_force_abdication }
-		NOT = { has_completed_focus = ROM_handle_the_king }
-		NOT = { has_completed_focus = ROM_all_parties_must_end }
+		}
 
 		any_state = {
 			is_core_of = BUL
@@ -1418,7 +1411,6 @@ hail_to_the_qing = {
 	}
 	
 	happened = {
-		has_completed_focus = MAN_claim_the_mandate_of_heaven
 	}
 }
 
@@ -1586,7 +1578,6 @@ our_other_place_in_the_sun = {
 	}
 	
 	happened = {
-		has_completed_focus = GER_our_place_in_the_sun
 		custom_trigger_tooltip = {
 			tooltip = place_in_the_sun_tt
 			any_state = {

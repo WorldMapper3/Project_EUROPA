@@ -383,7 +383,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Name"
 			position = { x = 5 y = 0 }
-			font = "hoi_16bs"
+			font = "hoi4_cg_16b"
 			maxWidth = 340
 			maxHeight = 27
 			format = center
