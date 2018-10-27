@@ -33,11 +33,6 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_infantry_dagger_equipment_0_medium"
-		texturefile = "gfx/interface/technologies/infantry_dagger_equipment_0.dds"
-	}
-	
-	SpriteType = {
 		name = "GFX_infantry_sword_equipment_0_medium"
 		texturefile = "gfx/interface/technologies/infantry_sword_equipment_0.dds"
 	}
@@ -75,11 +70,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_regimental_gun_equipment_0_medium"
 		texturefile = "gfx/interface/technologies/regimental_gun_equipment_0.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_shields_equipment_0_medium"
-		texturefile = "gfx/interface/technologies/shields_equipment_0.dds"
 	}
 	
 	SpriteType = {
