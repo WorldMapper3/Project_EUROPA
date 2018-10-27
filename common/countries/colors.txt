@@ -204,8 +204,8 @@ SIA = {
 	color_ui = rgb { 60  152  70 }
 }
 SIK = {
-	color = rgb { 71 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 255  245  220 }
+	color_ui = rgb { 255  245  220 }
 }
 TIB = {
 	color = rgb { 177  207  205 }
@@ -1160,3 +1160,4 @@ XSM = {
 	color = rgb { 105 90 132 }
 	color_ui = rgb { 105 90 132 }
 }
+

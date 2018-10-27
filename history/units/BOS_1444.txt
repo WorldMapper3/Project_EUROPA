@@ -27,7 +27,6 @@ division_template = {
 units = {
 	#VISOKI#
 	division= {	
-		name = "Infantry Regiment"
 		location = 11899
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -35,7 +34,6 @@ units = {
 
 	}
 	division= {	
-		name = "Infantry Regiment"
 		location = 11899
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
