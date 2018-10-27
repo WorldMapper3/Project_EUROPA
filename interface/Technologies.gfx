@@ -1,6 +1,93 @@
 spriteTypes = {	
 
-	### generic equipment archetypes ###
+	###MOD STUFF###
+	
+	SpriteType = {
+		name = "GFX_arbalest_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/arbalest_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_arquebus_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/arquebus_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_bow_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/bow_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_field_gun_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/field_gun_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_halberd_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/halberd_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_attire_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/heavy_attire_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_dagger_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/infantry_dagger_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_sword_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/infantry_sword_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_sword_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/infantry_sword_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_lance_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/lance_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_late_medieval_weapons_medium"
+		texturefile = "gfx/interface/technologies/late_medieval_weapons.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_light_attire_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/light_attire_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mortar_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/mortar_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_pike_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/pike_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_regimental_gun_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/regimental_gun_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_shields_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/shields_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_war_horse_0_medium"
+		texturefile = "gfx/interface/technologies/war_horse_0.dds"
+	}
+	
+	###BASE GAME STUFF###
 
 	SpriteType = {
 		name = "GFX_archetype_heavy_fighter_equipment_medium"
@@ -167,63 +254,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/infantry_equipment_0.dds"
-	}
-	
-	###MOD STUFF###
-	
-	SpriteType = {
-		name = "GFX_pike_equipment_0_medium"
-		texturefile = "gfx/interface/pike_equipment_0.dds"
-	}
-	SpriteType = {
-		name = "GFX_halberd_equipment_0_medium"
-		texturefile = "gfx/interface/halberd_equipment_0.dds"
-	}
-	SpriteType = {
-		name = "GFX_arbalest_equipment_0_medium"
-		texturefile = "gfx/interface/arbalest_equipment_0.dds"
-	}
-	SpriteType = {
-		name = "GFX_bow_equipment_0_medium"
-		texturefile = "gfx/interface/bow_equipment_0.dds"
-	}
-	SpriteType = {
-		name = "GFX_infantry_sword_equipment_0_medium"
-		texturefile = "gfx/interface/infantry_sword_equipment_0.dds"
-	}
-	SpriteType = {
-		name = "GFX_arquebus_equipment_0_medium"
-		texturefile = "gfx/interface/arquebus_equipment_0.dds"
-	}
-	SpriteType = {
-		name = "GFX_light_attire_equipment_0_medium"
-		texturefile = "gfx/interface/light_attire_equipment_0.dds"
-	}
-	SpriteType = {
-		name = "GFX_heavy_attire_equipment_0_medium"
-		texturefile = "gfx/interface/heavy_attire_equipment_0.dds"
-	}
-	SpriteType = {
-		name = "GFX_war_horse_0_medium"
-		texturefile = "gfx/interface/war_horse_0.dds"
-	}
-	SpriteType = {
-		name = "GFX_lance_equipment_0_medium"
-		texturefile = "gfx/interface/lance_equipment_0.dds"
-	}
-	SpriteType = {
-		name = "GFX_field_gun_equipment_0_medium"
-		texturefile = "gfx/interface/field_gun_equipment_0.dds"
-	}
-	SpriteType = {
-		name = "GFX_mortar_equipment_0_medium"
-		texturefile = "gfx/interface/mortar_equipment_0.dds"
-	}
-	SpriteType = {
-		name = "GFX_regimental_gun_equipment_0_medium"
-		texturefile = "gfx/interface/regimental_gun_equipment_0.dds"
-	}
-	###BASE GAME STUFF###
+	}		
 	
 	SpriteType = {
 		name = "GFX_infantry_weapons1_medium"
