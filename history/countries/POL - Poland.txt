@@ -36,8 +36,14 @@ if = {
 		autonomous_state = autonomy_integrated_puppet
 	}
 	else = {
-		puppet = MOL
-		puppet = MAZ
+		set_autonomy = {
+			target = MOL
+			autonomous_state = autonomy_puppet
+		}
+		set_autonomy = {
+			target = MAZ
+			autonomous_state = autonomy_puppet
+		}
 	}
 }
 

@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Infantry Regiment"
-	division_names_group = TIM_INF_01
+	division_names_group = PER_INF_01
 
 	regiments = {
 		halberdiers = { x = 0 y = 0 }
@@ -15,7 +15,7 @@
 }
 division_template = {
 	name = "Cavalry Regiment"
-	division_names_group = TIM_CAV_01
+	division_names_group = PER_CAV_01
 
 	regiments = {
 		cav_archers = { x = 0 y = 0 }
@@ -27,7 +27,6 @@ division_template = {
 units = {
 	#GAMRUN#
 	division= {	
-		name = "Infantry Regiment"
 		location = 7982
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -35,7 +34,6 @@ units = {
 
 	}
 	division= {	
-		name = "Infantry Regiment"
 		location = 7982
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -43,7 +41,6 @@ units = {
 
 	}
 	division= {	
-		name = "Cavalry Regiment"
 		location = 7982
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
@@ -52,7 +49,6 @@ units = {
 	}
 	#HERAT#
 	division= {	
-		name = "Infantry Regiment"
 		location = 4893
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -60,7 +56,6 @@ units = {
 
 	}
 	division= {	
-		name = "Infantry Regiment"
 		location = 4893
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -68,7 +63,6 @@ units = {
 
 	}
 	division= {	
-		name = "Cavalry Regiment"
 		location = 4893
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
@@ -77,7 +71,6 @@ units = {
 	}
 	#QOM#
 	division= {	
-		name = "Infantry Regiment"
 		location = 1982
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -85,7 +78,6 @@ units = {
 
 	}
 	division= {	
-		name = "Infantry Regiment"
 		location = 1982
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -93,7 +85,6 @@ units = {
 
 	}
 	division= {	
-		name = "Infantry Regiment"
 		location = 1982
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -101,7 +92,6 @@ units = {
 
 	}
 	division= {	
-		name = "Cavalry Regiment"
 		location = 1982
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
@@ -109,7 +99,6 @@ units = {
 
 	}
 	division= {	
-		name = "Cavalry Regiment"
 		location = 1982
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1

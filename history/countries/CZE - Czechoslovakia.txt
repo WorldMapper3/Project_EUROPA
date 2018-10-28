@@ -32,7 +32,10 @@ if = {
 		autonomous_state = autonomy_integrated_puppet
 	}
 	else = {
-		puppet = SIL
+		set_autonomy = {
+			target = SIL
+			autonomous_state = autonomy_puppet
+		}
 	}
 }
 

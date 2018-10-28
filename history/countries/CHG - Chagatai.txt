@@ -28,11 +28,14 @@ if = {
 		has_dlc = "Together for Victory"
 	}
 	set_autonomy = {
-		target = YRK
+		target = SIK
 		autonomous_state = autonomy_integrated_puppet
 	}
 	else = {
-		puppet = YRK
+		set_autonomy = {
+			target = SIK
+			autonomous_state = autonomy_puppet
+		}
 	}
 }
 

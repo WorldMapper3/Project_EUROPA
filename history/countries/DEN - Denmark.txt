@@ -35,14 +35,15 @@ if = {
 		target = SWE
 		autonomous_state = autonomy_integrated_puppet
 	}
-	set_autonomy = {
-		target = HLS
-		autonomous_state = autonomy_integrated_puppet
-	}
 	else = {
-		puppet = NOR
-		puppet = SWE
-		puppet = HLS
+		set_autonomy = {
+			target = NOR
+			autonomous_state = autonomy_puppet
+		}
+		set_autonomy = {
+			target = SWE
+			autonomous_state = autonomy_puppet
+		}
 	}
 }
 

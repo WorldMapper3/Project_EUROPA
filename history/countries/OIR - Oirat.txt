@@ -32,7 +32,10 @@ if = {
 		autonomous_state = autonomy_integrated_puppet
 	}
 	else = {
-		puppet = MON
+		set_autonomy = {
+			target = MON
+			autonomous_state = autonomy_puppet
+		}
 	}
 }
 
