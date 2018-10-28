@@ -1,6 +1,6 @@
 ﻿capital = 619
 
-oob = "YRK_1444"
+oob = "SIK_1444"
 
 set_research_slots = 3
 
