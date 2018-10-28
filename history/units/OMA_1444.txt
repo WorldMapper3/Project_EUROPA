@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Infantry Regiment"
-	division_names_group = OMA_INF_01
+	division_names_group = ARB_INF_01
 
 	regiments = {
 		swordsmen = { x = 0 y = 0 }
@@ -15,7 +15,7 @@
 }
 division_template = {
 	name = "Cavalry Regiment"
-	division_names_group = OMA_CAV_01
+	division_names_group = ARB_CAV_01
 
 	regiments = {
 		cav_archers = { x = 0 y = 0 }
@@ -27,7 +27,6 @@ division_template = {
 units = {
 	#MASQAT#
 	division= {	
-		name = "Infantry Regiment"
 		location = 10760
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -35,7 +34,6 @@ units = {
 
 	}
 	division= {	
-		name = "Infantry Regiment"
 		location = 10760
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1

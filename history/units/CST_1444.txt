@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Infantry Regiment"
-	division_names_group = CST_INF_01
+	division_names_group = SPR_INF_01
 
 	regiments = {
 		halberdiers = { x = 0 y = 0 }
@@ -15,7 +15,7 @@
 }
 division_template = {
 	name = "Cavalry Regiment"
-	division_names_group = CST_CAV_01
+	division_names_group = SPR_CAV_01
 
 	regiments = {
 		spear_cav = { x = 0 y = 0 }
@@ -27,7 +27,6 @@ division_template = {
 units = {
 	#TOLEDO#
 	division= {	
-		name = "Infantry Regiment"
 		location = 858
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -35,7 +34,6 @@ units = {
 
 	}
 	division= {	
-		name = "Infantry Regiment"
 		location = 858
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -43,7 +41,6 @@ units = {
 
 	}
 	division= {	
-		name = "Infantry Regiment"
 		location = 858
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -51,7 +48,6 @@ units = {
 
 	}
 	division= {	
-		name = "Cavalry Regiment"
 		location = 858
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
@@ -60,7 +56,6 @@ units = {
 	}
 	#OVIEDO
 	division= {	
-		name = "Infantry Regiment"
 		location = 11707
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -68,7 +63,6 @@ units = {
 
 	}
 	division= {	
-		name = "Infantry Regiment"
 		location = 11707
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -76,7 +70,6 @@ units = {
 
 	}
 	division= {	
-		name = "Infantry Regiment"
 		location = 11707
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -84,7 +77,6 @@ units = {
 
 	}
 	division= {	
-		name = "Cavalry Regiment"
 		location = 11707
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1

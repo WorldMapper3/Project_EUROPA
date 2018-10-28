@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Infantry Regiment"
-	division_names_group = AUS_INF_01
+	division_names_group = GER_INF_01
 
 	regiments = {
 		pikemen = { x = 0 y = 0 }
@@ -15,7 +15,7 @@
 }
 division_template = {
 	name = "Cavalry Regiment"
-	division_names_group = AUS_CAV_01
+	division_names_group = GER_CAV_01
 
 	regiments = {
 		spear_cav = { x = 0 y = 0 }
@@ -26,24 +26,21 @@ division_template = {
 }
 units = {
 	#VIENNA#
-	division= {	
-		name = "Infantry Regiment"
+	division= {
 		location = 11666
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
-	division= {	
-		name = "Infantry Regiment"
+	division= {
 		location = 11666
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
-	division= {	
-		name = "Cavalry Regiment"
+	division= {
 		location = 11666
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
@@ -51,24 +48,21 @@ units = {
 
 	}
 	#LAIBACH#
-	division= {	
-		name = "Infantry Regiment"
+	division= {
 		location = 596
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
-	division= {	
-		name = "Infantry Regiment"
+	division= {
 		location = 596
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
-	division= {	
-		name = "Cavalry Regiment"
+	division= {
 		location = 596
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1

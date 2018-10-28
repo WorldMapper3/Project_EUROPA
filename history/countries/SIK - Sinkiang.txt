@@ -1,6 +1,6 @@
-﻿capital = 617
+﻿capital = 619
 
-oob = "SIK_1444"
+oob = "YRK_1444"
 
 set_research_slots = 3
 
@@ -45,10 +45,10 @@ set_politics = {
 			popularity = 0
 		}
 		fascism = {
-			popularity = 100
+			popularity = 70
 		}
 		shia = {
-			popularity = 0
+			popularity = 10
 		}
 		ibadi = {
 			popularity = 0
@@ -57,7 +57,7 @@ set_politics = {
 			popularity = 0
 		}
 		vajrayana = {
-			popularity = 0
+			popularity = 20
 		}
 		mahayana = {
 			popularity = 0
@@ -107,9 +107,18 @@ set_politics = {
 	}
 	
 	ruling_party = fascism
-	last_election = "1444.11.11"
+	last_election = "1434.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-
+create_country_leader = {
+	name = "Sultan Sayyid Ali Dughlat"
+	desc = ""
+	picture = ""
+	expire = "9999.1.1"
+	ideology = sun
+	traits = {
+		#
+	}
+}

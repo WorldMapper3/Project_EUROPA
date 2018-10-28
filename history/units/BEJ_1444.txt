@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Infantry Regiment"
-	division_names_group = BEJ_INF_01
+	division_names_group = ETH_INF_01
 
 	regiments = {
 		pikemen = { x = 0 y = 0 }
@@ -15,7 +15,7 @@
 }
 division_template = {
 	name = "Cavalry Regiment"
-	division_names_group = BEJ_CAV_01
+	division_names_group = ETH_CAV_01
 
 	regiments = {
 		spear_cav = { x = 0 y = 0 }
@@ -27,7 +27,6 @@ division_template = {
 units = {
 	#QOZ RAJIB#
 	division= {	
-		name = "Infantry Regiment"
 		location = 2088
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
