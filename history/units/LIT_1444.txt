@@ -27,6 +27,7 @@ division_template = {
 units = {
 	#VILNIUS#
 	division= {	
+		name = "Infantry Regiment"
 		location = 3320
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -34,6 +35,7 @@ units = {
 
 	}
 	division= {	
+		name = "Infantry Regiment"
 		location = 3320
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -41,6 +43,7 @@ units = {
 
 	}
 	division= {	
+		name = "Infantry Regiment"
 		location = 3320
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -48,6 +51,7 @@ units = {
 
 	}
 	division= {	
+		name = "Cavalry Regiment"
 		location = 3320
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
@@ -55,6 +59,7 @@ units = {
 
 	}
 	division= {	
+		name = "Cavalry Regiment"
 		location = 3320
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
@@ -63,6 +68,7 @@ units = {
 	}
 	#VOLODYMYR#
 	division= {	
+		name = "Infantry Regiment"
 		location = 474
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -70,6 +76,7 @@ units = {
 
 	}
 	division= {	
+		name = "Infantry Regiment"
 		location = 474
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -77,6 +84,7 @@ units = {
 
 	}
 	division= {	
+		name = "Cavalry Regiment"
 		location = 474
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1

@@ -26,83 +26,83 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		neutrality={
-			popularity=0
+		neutrality = {
+			popularity = 0
 		}
-		protestant={
-			popularity=0
+		protestant = {
+			popularity = 0
 		}
-		reformed={
-			popularity=0
+		reformed = {
+			popularity = 0
 		}
-		orthodox={
-			popularity=0
+		orthodox = {
+			popularity = 0
 		}
-		coptic={
-			popularity=0
+		coptic = {
+			popularity = 0
 		}
-		anglican={
-			popularity=0
+		anglican = {
+			popularity = 0
 		}
-		fascism={
-			popularity=0
+		fascism = {
+			popularity = 0
 		}
-		shia={
-			popularity=0
+		shia = {
+			popularity = 0
 		}
-		ibadi={
-			popularity=0
+		ibadi = {
+			popularity = 0
 		}
-		theravada={
-			popularity=77.7
+		theravada = {
+			popularity = 77.7
 		}
-		vajrayana={
-			popularity=0
+		vajrayana = {
+			popularity = 0
 		}
-		mahayana={
-			popularity=0
+		mahayana = {
+			popularity = 0
 		}
-		confucian={
-			popularity=0
+		confucian = {
+			popularity = 0
 		}
-		shinto={
-			popularity=0
+		shinto = {
+			popularity = 0
 		}
-		hindu={
-			popularity=0
+		hindu = {
+			popularity = 0
 		}
-		sikh={
-			popularity=0
+		sikh = {
+			popularity = 0
 		}
-		communism={
-			popularity=22.3
+		communism = {
+			popularity = 22.3
 		}
-		fetishist={
-			popularity=0
+		fetishist = {
+			popularity = 0
 		}
-		totemist={
-			popularity=0
+		totemist = {
+			popularity = 0
 		}
-		inti={
-			popularity=0
+		inti = {
+			popularity = 0
 		}
-		nahuatl={
-			popularity=0
+		nahuatl = {
+			popularity = 0
 		}
-		mayan={
-			popularity=0
+		mayan = {
+			popularity = 0
 		}
-		tengri={
-			popularity=0
+		tengri = {
+			popularity = 0
 		}
-		norse={
-			popularity=0
+		norse = {
+			popularity = 0
 		}
-		democratic={
-			popularity=0
+		democratic = {
+			popularity = 0
 		}
-		zoroastrian={
-			popularity=0
+		zoroastrian = {
+			popularity = 0
 		}
 	}
 	

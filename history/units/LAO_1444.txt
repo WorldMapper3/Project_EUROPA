@@ -27,6 +27,7 @@ division_template = {
 units = {
 	#XIENG TONG#
 	division= {	
+		name = "Infantry Regiment"
 		location = 10456
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -34,6 +35,7 @@ units = {
 
 	}
 	division= {	
+		name = "Infantry Regiment"
 		location = 10456
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -41,6 +43,7 @@ units = {
 
 	}
 	division= {	
+		name = "Infantry Regiment"
 		location = 10456
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -48,6 +51,7 @@ units = {
 
 	}
 	division= {	
+		name = "Cavalry Regiment"
 		location = 10456
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1

@@ -1,4 +1,3 @@
-
 state={
 	id=2
 	name="STATE_2"
@@ -9,7 +8,7 @@ state={
 	history={
 		owner = PAP
 		victory_points = {
-			11751 30
+			9904 30
 		}
 		buildings = {
 			infrastructure = 5

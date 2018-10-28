@@ -27,6 +27,7 @@ division_template = {
 units = {
 	#KOTTE#
 	division= {	
+		name = "Infantry Regiment"
 		location = 7260
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1

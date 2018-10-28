@@ -27,6 +27,7 @@ division_template = {
 units = {
 	#PAMPLONA#
 	division= {	
+		name = "Infantry Regiment"
 		location = 9857
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1

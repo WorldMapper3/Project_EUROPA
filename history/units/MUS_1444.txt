@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Infantry Regiment"
-	division_names_group = RUS_INF_01
+	division_names_group = MUS_INF_01
 
 	regiments = {
 		halberdiers = { x = 0 y = 0 }
@@ -15,7 +15,7 @@
 }
 division_template = {
 	name = "Cavalry Regiment"
-	division_names_group = RUS_CAV_01
+	division_names_group = MUS_CAV_01
 
 	regiments = {
 		cav_archers = { x = 0 y = 0 }
@@ -27,6 +27,7 @@ division_template = {
 units = {
 	#MOSKVA#
 	division= {	
+		name = "Infantry Regiment"
 		location = 6380
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -34,6 +35,7 @@ units = {
 
 	}
 	division= {	
+		name = "Infantry Regiment"
 		location = 6380
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -41,6 +43,7 @@ units = {
 
 	}
 	division= {	
+		name = "Infantry Regiment"
 		location = 6380
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -48,6 +51,7 @@ units = {
 
 	}
 	division= {	
+		name = "Cavalry Regiment"
 		location = 6380
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
@@ -55,6 +59,7 @@ units = {
 
 	}
 	division= {	
+		name = "Cavalry Regiment"
 		location = 6380
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
@@ -63,6 +68,7 @@ units = {
 	}
 	#KASIMOV#
 	division= {	
+		name = "Infantry Regiment"
 		location = 3275
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -70,6 +76,7 @@ units = {
 
 	}
 	division= {	
+		name = "Infantry Regiment"
 		location = 3275
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -77,6 +84,7 @@ units = {
 
 	}
 	division= {	
+		name = "Infantry Regiment"
 		location = 3275
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -84,6 +92,7 @@ units = {
 
 	}
 	division= {	
+		name = "Cavalry Regiment"
 		location = 3275
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1

@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Infantry Regiment"
-	division_names_group = GER_INF_01
+	division_names_group = AUG_INF_01
 
 	regiments = {
 		pikemen = { x = 0 y = 0 }
@@ -15,7 +15,7 @@
 }
 division_template = {
 	name = "Cavalry Regiment"
-	division_names_group = GER_CAV_01
+	division_names_group = AUG_CAV_01
 
 	regiments = {
 		spear_cav = { x = 0 y = 0 }
@@ -27,6 +27,7 @@ division_template = {
 units = {
 	#AUGSBURG
 	division= {	
+		name = "Infantry Regiment"
 		location = 708
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1

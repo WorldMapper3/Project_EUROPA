@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Infantry Regiment"
-	division_names_group = PUN_INF_01
+	division_names_group = LDK_INF_01
 
 	regiments = {
 		pikemen = { x = 0 y = 0 }
@@ -15,7 +15,7 @@
 }
 division_template = {
 	name = "Cavalry Regiment"
-	division_names_group = PUN_CAV_01
+	division_names_group = LDK_CAV_01
 
 	regiments = {
 		spear_cav = { x = 0 y = 0 }
@@ -27,6 +27,7 @@ division_template = {
 units = {
 	#LEH#
 	division= {	
+		name = "Infantry Regiment"
 		location = 8005
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
