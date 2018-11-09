@@ -37,31 +37,31 @@ BOS_INF_01 = {
 
 	division_types = { "infantry" }
 
-	fallback_name = "%d. Pešadijska Divizija"
+	fallback_name = "%d. Pješadijska Divizija"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%d. Pešadijska Divizija" }
-		2 = { "%d. Pešadijska Divizija" }
-		3 = { "%d. Pešadijska Divizija" }
-		4 = { "%d. Pešadijska Divizija" }
-		5 = { "%d. Pešadijska Divizija" }
-		6 = { "%d. Pešadijska Divizija" }
-		7 = { "%d. Pešadijska Divizija" }
-		8 = { "%d. Pešadijska Divizija" }
-		9 = { "%d. Pešadijska Divizija" }
-		10 = { "%d. Pešadijska Divizija" }
-		11 = { "%d. Pešadijska Divizija" }
-		12 = { "%d. Pešadijska Divizija" }
-		13 = { "%d. Pešadijska Divizija" }
-		14 = { "%d. Pešadijska Divizija" }
-		15 = { "%d. Pešadijska Divizija" }
-		16 = { "%d. Pešadijska Divizija" }
-		17 = { "%d. Pešadijska Divizija" }
-		18 = { "%d. Pešadijska Divizija" }
-		19 = { "%d. Pešadijska Divizija" }
-		20 = { "%d. Pešadijska Divizija" }
+		1 = { "%d. Pješadijska Divizija" }
+		2 = { "%d. Pješadijska Divizija" }
+		3 = { "%d. Pješadijska Divizija" }
+		4 = { "%d. Pješadijska Divizija" }
+		5 = { "%d. Pješadijska Divizija" }
+		6 = { "%d. Pješadijska Divizija" }
+		7 = { "%d. Pješadijska Divizija" }
+		8 = { "%d. Pješadijska Divizija" }
+		9 = { "%d. Pješadijska Divizija" }
+		10 = { "%d. Pješadijska Divizija" }
+		11 = { "%d. Pješadijska Divizija" }
+		12 = { "%d. Pješadijska Divizija" }
+		13 = { "%d. Pješadijska Divizija" }
+		14 = { "%d. Pješadijska Divizija" }
+		15 = { "%d. Pješadijska Divizija" }
+		16 = { "%d. Pješadijska Divizija" }
+		17 = { "%d. Pješadijska Divizija" }
+		18 = { "%d. Pješadijska Divizija" }
+		19 = { "%d. Pješadijska Divizija" }
+		20 = { "%d. Pješadijska Divizija" }
 	}
 }
 
