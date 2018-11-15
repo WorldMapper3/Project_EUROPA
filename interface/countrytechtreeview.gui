@@ -75,19 +75,6 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-				
-				instantTextBoxType = {
-					name = "infantry_subtitle_specialists"
-					position = { x = 30 y = 740 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_SPECIAL"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
 
 				instantTextBoxType = {
 					name = "infantry_subtitle_motorized"
@@ -290,8 +277,29 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 	
-			}			
-
+			}
+			
+			gridboxtype = {
+				name = "padded_armour_tech_tree"
+				position = { x = 140 y = 620 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			
+			gridboxtype = {
+				name = "mail_armour_tech_tree"
+				position = { x = 140 y = 735 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			
+			gridboxtype = {
+				name = "plate_armour_tech_tree"
+				position = { x = 140 y = 850 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			
 			gridboxtype = {
 				name = "motorised_infantry_tree"
 				position = { x = 140 y = 620 }
@@ -328,7 +336,6 @@ guiTypes = {
 				format = "LEFT"
 			}
 		}
-
 		containerWindowType = {
 			name = "support_folder"
 			position = { x=0 y=47 }

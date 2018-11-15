@@ -209,6 +209,12 @@
  regimental_guns_desc:0 "Small shooty things that go bang bang at close range."
  mortars:0 "Mortars"
  mortars_desc:0 "Big shooty things that go bang bang at a distance."
+ category_pikemen:0 "Pikemen"
+ category_halberdiers:0 "Halberdiers"
+ category_swordsmen:0 "Swordsmen"
+ category_archers:0 "Archers"
+ category_arbalests:0 "Arbalests"
+ category_arquebusiers:0 "Arquebusiers"
  #########BASE GAME SHIT##########
  bicycle_battalion:0 "Bicycle Battalion"
  bicycle_battalion_desc:0 "Meat for the meat grinder, but with extra bits of metal."

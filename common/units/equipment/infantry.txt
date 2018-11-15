@@ -53,6 +53,15 @@ equipments = {
 		visual_level = 0
 	}
 	
+	pike_equipment_1 = {
+		year = 1300
+	
+		archetype = pike_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
 	#pike_equipment_1 = {
 	#	year = 1440
 	#
@@ -125,6 +134,14 @@ equipments = {
 		visual_level = 0
 	}
 	
+	halberd_equipment_1 = {
+		year = 1300
+	
+		archetype = halberd_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
 	#BOWS#
 	
 	bow_equipment = {
@@ -279,13 +296,22 @@ equipments = {
 		visual_level = 0
 	}
 	
-	#LIGHT ATTIRE#
+	infantry_sword_equipment_1 = {
+		year = 1300
+	
+		archetype = infantry_sword_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	#PADDED ARMOUR#
 
-	light_attire_equipment = {
+	padded_armour_equipment = {
 		year = 1300
 	
 		is_archetype = yes
-		picture = archetype_light_attire_equipment		
+		picture = archetype_padded_armour_equipment		
 		is_buildable = no
 		type = infantry
 		group_by = archetype
@@ -321,22 +347,30 @@ equipments = {
 		
 	}
 	
-	light_attire_equipment_0 = {
+	padded_armour_equipment_0 = {
 		year = 1300
 	
-		archetype = light_attire_equipment
+		archetype = padded_armour_equipment
 		active = yes
 		priority = 05
 		visual_level = 0
 	}
 	
-	#HEAVY ATTIRE#
+	padded_armour_equipment_1 = {
+		year = 1300
 	
-	heavy_attire_equipment = {
+		archetype = padded_armour_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	#PLATE ARMOUR#
+	
+	plate_armour_equipment = {
 		year = 1300
 	
 		is_archetype = yes
-		picture = archetype_heavy_attire_equipment		
+		picture = archetype_plate_armour_equipment		
 		is_buildable = no
 		type = infantry
 		group_by = archetype
@@ -372,10 +406,79 @@ equipments = {
 		
 	}
 	
-	heavy_attire_equipment_0 = {
+	plate_armour_equipment_0 = {
 		year = 1300
 	
-		archetype = heavy_attire_equipment
+		archetype = plate_armour_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	plate_armour_equipment_1 = {
+		year = 1300
+	
+		archetype = plate_armour_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	#MAIL ARMOUR#
+	
+	mail_armour_equipment = {
+		year = 1300
+	
+		is_archetype = yes
+		picture = archetype_mail_armour_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		#Misc Abilities
+		reliability = 0.9
+		maximum_speed = 6
+
+		#Defensive Abilities
+		defense = 20
+		breakthrough = 0
+		hardness = 0.8
+		armor_value = 1
+
+		#Offensive Abilities
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 1
+		resources = {
+			steel = 3
+			aluminium = 1
+		}
+		
+	}
+	
+	mail_armour_equipment_0 = {
+		year = 1300
+	
+		archetype = mail_armour_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	mail_armour_equipment_1 = {
+		year = 1300
+	
+		archetype = mail_armour_equipment
 		active = yes
 		priority = 05
 		visual_level = 0
