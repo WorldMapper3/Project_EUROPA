@@ -235,6 +235,50 @@ spriteTypes = {
 		name = "GFX_infantry_sword_weapons_medium"
 		texturefile = "gfx/interface/technologies/infantry_sword_weapons.dds"
 	}
+	SpriteType = {
+		name = "GFX_infantry_sword_weapons0_medium"
+		texturefile = "gfx/interface/technologies/infantry_sword_weapons0.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_sword_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry_sword_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_plate_armour_tech_medium"
+		texturefile = "gfx/interface/technologies/plate_armour_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_plate_armour_tech0_medium"
+		texturefile = "gfx/interface/technologies/plate_armour_tech0.dds"
+	}
+	SpriteType = {
+		name = "GFX_plate_armour_tech1_medium"
+		texturefile = "gfx/interface/technologies/plate_armour_tech1.dds"
+	}
+	SpriteType = {
+		name = "GFX_mail_armour_tech_medium"
+		texturefile = "gfx/interface/technologies/mail_armour_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_mail_armour_tech0_medium"
+		texturefile = "gfx/interface/technologies/mail_armour_tech0.dds"
+	}
+	SpriteType = {
+		name = "GFX_mail_armour_tech1_medium"
+		texturefile = "gfx/interface/technologies/mail_armour_tech1.dds"
+	}
+	SpriteType = {
+		name = "GFX_padded_armour_tech_medium"
+		texturefile = "gfx/interface/technologies/padded_armour_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_padded_armour_tech0_medium"
+		texturefile = "gfx/interface/technologies/padded_armour_tech0.dds"
+	}
+	SpriteType = {
+		name = "GFX_padded_armour_tech1_medium"
+		texturefile = "gfx/interface/technologies/padded_armour_tech1.dds"
+	}
 	###BASE GAME STUFF###
 
 	SpriteType = {
