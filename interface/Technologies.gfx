@@ -79,6 +79,162 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/war_horse_0.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_improved_fauld_medium"
+		texturefile = "gfx/interface/technologies/improved_fauld.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_fauld0_medium"
+		texturefile = "gfx/interface/technologies/improved_fauld0.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_fauld1_medium"
+		texturefile = "gfx/interface/technologies/improved_fauld1.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_fauld2_medium"
+		texturefile = "gfx/interface/technologies/improved_fauld2.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_honing_medium"
+		texturefile = "gfx/interface/technologies/improved_honing.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_honing0_medium"
+		texturefile = "gfx/interface/technologies/improved_honing0.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_honing1_medium"
+		texturefile = "gfx/interface/technologies/improved_honing1.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_honing2_medium"
+		texturefile = "gfx/interface/technologies/improved_honing2.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_cuirass_medium"
+		texturefile = "gfx/interface/technologies/improved_cuirass.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_cuirass0_medium"
+		texturefile = "gfx/interface/technologies/improved_cuirass0.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_cuirass1_medium"
+		texturefile = "gfx/interface/technologies/improved_cuirass1.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_cuirass2_medium"
+		texturefile = "gfx/interface/technologies/improved_cuirass2.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_daggers_medium"
+		texturefile = "gfx/interface/technologies/improved_daggers.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_daggers0_medium"
+		texturefile = "gfx/interface/technologies/improved_daggers0.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_daggers1_medium"
+		texturefile = "gfx/interface/technologies/improved_daggers1.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_daggers2_medium"
+		texturefile = "gfx/interface/technologies/improved_daggers2.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_piercing_medium"
+		texturefile = "gfx/interface/technologies/improved_piercing.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_piercing0_medium"
+		texturefile = "gfx/interface/technologies/improved_piercing0.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_piercing1_medium"
+		texturefile = "gfx/interface/technologies/improved_piercing1.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_piercing2_medium"
+		texturefile = "gfx/interface/technologies/improved_piercing2.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_langets_medium"
+		texturefile = "gfx/interface/technologies/improved_langets.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_langets0_medium"
+		texturefile = "gfx/interface/technologies/improved_langets0.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_langets1_medium"
+		texturefile = "gfx/interface/technologies/improved_langets1.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_langets2_medium"
+		texturefile = "gfx/interface/technologies/improved_langets2.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_hauberk_medium"
+		texturefile = "gfx/interface/technologies/improved_hauberk.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_hauberk0_medium"
+		texturefile = "gfx/interface/technologies/improved_hauberk0.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_hauberk1_medium"
+		texturefile = "gfx/interface/technologies/improved_hauberk1.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_hauberk2_medium"
+		texturefile = "gfx/interface/technologies/improved_hauberk2.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_quilt_medium"
+		texturefile = "gfx/interface/technologies/improved_quilt.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_quilt0_medium"
+		texturefile = "gfx/interface/technologies/improved_quilt0.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_quilt1_medium"
+		texturefile = "gfx/interface/technologies/improved_quilt1.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_quilt2_medium"
+		texturefile = "gfx/interface/technologies/improved_quilt2.dds"
+	}
+	SpriteType = {
+		name = "GFX_pike_weapons_medium"
+		texturefile = "gfx/interface/technologies/pike_weapons.dds"
+	}
+	SpriteType = {
+		name = "GFX_pike_weapons0_medium"
+		texturefile = "gfx/interface/technologies/pike_weapons0.dds"
+	}
+	SpriteType = {
+		name = "GFX_pike_weapons1_medium"
+		texturefile = "gfx/interface/technologies/pike_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_polearm_weapons_medium"
+		texturefile = "gfx/interface/technologies/polearm_weapons.dds"
+	}
+	SpriteType = {
+		name = "GFX_polearm_weapons0_medium"
+		texturefile = "gfx/interface/technologies/polearm_weapons0.dds"
+	}
+	SpriteType = {
+		name = "GFX_polearm_weapons1_medium"
+		texturefile = "gfx/interface/technologies/polearm_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_sword_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry_sword_weapons.dds"
+	}
 	###BASE GAME STUFF###
 
 	SpriteType = {

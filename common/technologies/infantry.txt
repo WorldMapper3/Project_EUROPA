@@ -10,7 +10,9 @@ technologies = {
 	@1446 = 16
 	@1447 = 18
 	@1448 = 20
+	@1449 = 22
 	@1450 = 24
+	@1451 = 26
 	@1452 = 28
 	@1454 = 32
 	@1456 = 36
@@ -424,9 +426,9 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = improved_daggers
+			leads_to_tech = improved_honing
 			research_cost_coeff = 1
-		}		
+		}
 
 		research_cost = 1.5
 		start_year = 1300
@@ -450,10 +452,13 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = improved_daggers0
+			leads_to_tech = improved_honing0
 			research_cost_coeff = 1
 		}		
-
+		path = {
+			leads_to_tech = improved_daggers
+			research_cost_coeff = 0.5
+		}
 		research_cost = 1.5
 		start_year = 1443
 		folder = {
@@ -469,10 +474,145 @@ technologies = {
 			factor = 1
 		}
 	}
+	infantry_sword_weapons1 = {
+
+		enable_equipments = {
+			infantry_sword_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = improved_honing2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1450
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1450 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	improved_daggers = {
 
 		category_light_infantry = {
-			soft_attack = 0.05
+			soft_attack = 0.03
+			breakthrough = 0.01
+		}
+		
+		path = {
+			leads_to_tech = improved_daggers0
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1443
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1443 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_daggers0 = {
+
+		category_light_infantry = {
+			soft_attack = 0.03
+			breakthrough = 0.01
+		}
+		
+		path = {
+			leads_to_tech = improved_daggers1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1446
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1446 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_daggers1 = {
+
+		category_light_infantry = {
+			soft_attack = 0.03
+			breakthrough = 0.01
+		}
+		
+		path = {
+			leads_to_tech = improved_daggers2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1449
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1449 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_daggers2 = {
+
+		category_light_infantry = {
+			soft_attack = 0.03
+			breakthrough = 0.01
+		}
+		
+		path = {
+			leads_to_tech = improved_daggers3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1451
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1451 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_honing = {
+
+		category_swordsmen = {
+			soft_attack = 0.03
+			hard_attack = 0.02
 			breakthrough = 0.01
 		}
 		
@@ -496,16 +636,16 @@ technologies = {
 			factor = 1
 		}
 	}
-	improved_daggers0 = {
+	improved_honing0 = {
 
-		category_light_infantry = {
-			soft_attack = 0.05
+		category_swordsmen = {
+			soft_attack = 0.03
+			hard_attack = 0.02
 			breakthrough = 0.01
 		}
 		
 		path = {
-			leads_to_tech = improved_daggers1
-			leads_to_tech = improved_bucklers
+			leads_to_tech = improved_honing1
 			research_cost_coeff = 1
 		}
 
@@ -514,6 +654,62 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1445 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_honing1 = {
+
+		category_swordsmen = {
+			soft_attack = 0.03
+			hard_attack = 0.02
+			breakthrough = 0.01
+		}
+		
+		path = {
+			leads_to_tech = infantry_sword_weapons1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1447
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1447 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_honing2 = {
+
+		category_swordsmen = {
+			soft_attack = 0.03
+			hard_attack = 0.02
+			breakthrough = 0.01
+		}
+		
+		path = {
+			leads_to_tech = infantry_sword_equipment_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1452
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1452 }
 		}
 		
 		categories = {
@@ -644,6 +840,40 @@ technologies = {
 			factor = 1
 		}
 	}
+	improved_quilt1 = {
+
+		category_pikemen = {
+			defense = 0.02
+			armor_value = 0.01
+			breakthrough = 0.01
+		}
+		
+		category_archers = {
+			defense = 0.02
+			armor_value = 0.01
+			breakthrough = 0.01
+		}
+		
+		path = {
+			leads_to_tech = improved_quilt1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1448
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1448 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	mail_armour_tech = {
 
 		enable_equipments = {
@@ -696,6 +926,32 @@ technologies = {
 			factor = 1
 		}
 	}
+	mail_armour_tech1 = {
+
+		enable_equipments = {
+			mail_armour_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = improved_hauberk2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1448
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1448 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	improved_hauberk = {
 
 		category_halberdiers = {
@@ -722,10 +978,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1442
+		start_year = 1440
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1442 }
+			position = { x = 0 y = @1440 }
 		}
 		
 		categories = {
@@ -776,6 +1032,46 @@ technologies = {
 			factor = 1
 		}
 	}
+	improved_hauberk1 = {
+
+		category_halberdiers = {
+			defense = 0.03
+			breakthrough = 0.02
+			armor_value = 0.015
+		}
+		
+		category_arbalests = {
+			defense = 0.03
+			breakthrough = 0.02
+			armor_value = 0.015
+		}
+		
+		category_arquebusiers = {
+			defense = 0.03
+			breakthrough = 0.02
+			armor_value = 0.015
+		}
+		
+		path = {
+			leads_to_tech = mail_armour_tech1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1446
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1446 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	plate_armour_tech = {
 
 		enable_equipments = {
@@ -812,7 +1108,11 @@ technologies = {
 			leads_to_tech = improved_fauld0
 			research_cost_coeff = 1
 		}		
-
+		path = {
+			leads_to_tech = improved_cuirass
+			research_cost_coeff = 0.5
+		}
+		
 		research_cost = 1.5
 		start_year = 1444
 		folder = {
@@ -828,12 +1128,38 @@ technologies = {
 			factor = 1
 		}
 	}
+	plate_armour_tech1 = {
+
+		enable_equipments = {
+			plate_armour_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = improved_fauld1
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1450
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1450 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	improved_fauld = {
 
 		category_swordsmen = {
-			defense = 0.03
-			breakthrough = 0.05
-			armor_value = 0.03
+			defense = 0.02
+			breakthrough = 0.03
+			armor_value = 0.02
 			hardness = 0.02
 		}
 		
@@ -847,6 +1173,64 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1441 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_fauld0 = {
+
+		category_swordsmen = {
+			defense = 0.02
+			breakthrough = 0.03
+			armor_value = 0.02
+			hardness = 0.02
+		}
+		
+		path = {
+			leads_to_tech = plate_armour_tech1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1446
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1446 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_cuirass = {
+
+		category_swordsmen = {
+			defense = 0.04
+			breakthrough = 0.03
+			armor_value = 0.03
+			hardness = 0.03
+		}
+		
+		path = {
+			leads_to_tech = improved_cuirass0
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1444
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1444 }
 		}
 		
 		categories = {
