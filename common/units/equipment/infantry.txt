@@ -418,6 +418,13 @@ equipments = {
 		priority = 05
 		visual_level = 0
 	}
+	plate_armour_equipment_2 = {
+		year = 1300
+	
+		archetype = plate_armour_equipment
+		priority = 05
+		visual_level = 0
+	}
 	
 	#MAIL ARMOUR#
 	
