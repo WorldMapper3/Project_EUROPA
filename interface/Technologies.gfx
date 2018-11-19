@@ -256,6 +256,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/plate_armour_tech1.dds"
 	}
 	SpriteType = {
+		name = "GFX_plate_armour_tech2_medium"
+		texturefile = "gfx/interface/technologies/plate_armour_tech2.dds"
+	}
+	SpriteType = {
 		name = "GFX_mail_armour_tech_medium"
 		texturefile = "gfx/interface/technologies/mail_armour_tech.dds"
 	}

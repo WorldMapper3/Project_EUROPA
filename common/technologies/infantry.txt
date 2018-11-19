@@ -1286,7 +1286,7 @@ technologies = {
 	plate_armour_tech2 = {
 
 		enable_equipments = {
-			plate_armour_equipment_1
+			plate_armour_equipment_2
 		}
 		
 		path = {
