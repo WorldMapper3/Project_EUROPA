@@ -21,6 +21,8 @@ sub_units = {
 		categories = {
 			category_front_line
 			category_army
+			category_cavalry
+			category_heavy_lancers
 		}
 
 		
@@ -44,7 +46,7 @@ sub_units = {
 	
 		need = {
 			war_horse = 60
-			heavy_attire_equipment = 60
+			plate_armour_equipment = 60
 			lance_equipment = 60
 		}
 
@@ -89,6 +91,8 @@ sub_units = {
 		categories = {
 			category_front_line
 			category_army
+			category_cavalry
+			category_spear_cav
 		}
 
 		
@@ -112,7 +116,7 @@ sub_units = {
 	
 		need = {
 			war_horse = 60
-			light_attire_equipment = 60
+			mail_armour_equipment = 60
 			pike_equipment = 60
 		}
 
@@ -157,6 +161,8 @@ sub_units = {
 		categories = {
 			category_front_line
 			category_army
+			category_cavalry
+			category_cav_archers
 		}
 
 		
@@ -180,7 +186,7 @@ sub_units = {
 	
 		need = {
 			war_horse = 60
-			light_attire_equipment = 60
+			padded_armour_equipment = 60
 			bow_equipment = 60
 		}
 
@@ -209,3 +215,4 @@ sub_units = {
 			attack = -0.4
 		}
 	}
+}

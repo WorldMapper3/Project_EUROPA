@@ -1,0 +1,791 @@
+technologies = {
+	
+	@1300 = 0
+	@1440 = 4
+	@1441 = 6
+	@1442 = 8
+	@1443 = 10
+	@1444 = 12
+	@1445 = 14
+	@1446 = 16
+	@1447 = 18
+	@1448 = 20
+	@1449 = 22
+	@1450 = 24
+	@1451 = 26
+	@1452 = 28
+	@1454 = 32
+	@1456 = 36
+	@1458 = 40
+
+	#PADDED ARMOUR#
+	padded_armour_tech = {
+
+		enable_equipments = {
+			padded_armour_equipment_0
+		}
+		
+		path = {
+			leads_to_tech = improved_quilt
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1300
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1300 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	padded_armour_tech0 = {
+
+		enable_equipments = {
+			padded_armour_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = improved_quilt0
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1442
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1442 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	padded_armour_tech1 = {
+
+		enable_equipments = {
+			padded_armour_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = improved_quilt2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1450
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1450 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#IMPROVED QUILT#
+	improved_quilt = {
+
+		category_pikemen = {
+			defense = 0.02
+			armor_value = 0.01
+			breakthrough = 0.01
+		}
+		
+		category_archers = {
+			defense = 0.02
+			armor_value = 0.01
+			breakthrough = 0.01
+		}
+		
+		path = {
+			leads_to_tech = padded_armour_tech0
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1440
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1440 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_quilt0 = {
+
+		category_pikemen = {
+			defense = 0.02
+			armor_value = 0.01
+			breakthrough = 0.01
+		}
+		
+		category_archers = {
+			defense = 0.02
+			armor_value = 0.01
+			breakthrough = 0.01
+		}
+		
+		path = {
+			leads_to_tech = improved_quilt1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1444
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1444 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_quilt1 = {
+
+		category_pikemen = {
+			defense = 0.02
+			armor_value = 0.01
+			breakthrough = 0.01
+		}
+		
+		category_archers = {
+			defense = 0.02
+			armor_value = 0.01
+			breakthrough = 0.01
+		}
+		
+		path = {
+			leads_to_tech = padded_armour_tech1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1448
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1448 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_quilt2 = {
+
+		category_pikemen = {
+			defense = 0.02
+			armor_value = 0.01
+			breakthrough = 0.01
+		}
+		
+		category_archers = {
+			defense = 0.02
+			armor_value = 0.01
+			breakthrough = 0.01
+		}
+		
+		path = {
+			leads_to_tech = padded_armour_tech2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1452
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1452 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#MAIL ARMOUR#
+	mail_armour_tech = {
+
+		enable_equipments = {
+			mail_armour_equipment_0
+		}
+		
+		path = {
+			leads_to_tech = improved_hauberk
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1300
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1300 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mail_armour_tech0 = {
+
+		enable_equipments = {
+			mail_armour_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = improved_hauberk1
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1444
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1444 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mail_armour_tech1 = {
+
+		enable_equipments = {
+			mail_armour_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = improved_hauberk2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1448
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1448 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#IMPROVED HAUBERK#
+	improved_hauberk = {
+
+		category_halberdiers = {
+			defense = 0.03
+			breakthrough = 0.02
+			armor_value = 0.015
+		}
+		
+		category_arbalests = {
+			defense = 0.03
+			breakthrough = 0.02
+			armor_value = 0.015
+		}
+		
+		category_arquebusiers = {
+			defense = 0.03
+			breakthrough = 0.02
+			armor_value = 0.015
+		}
+		
+		path = {
+			leads_to_tech = improved_hauberk0
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1440
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1440 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_hauberk0 = {
+
+		category_halberdiers = {
+			defense = 0.03
+			breakthrough = 0.02
+			armor_value = 0.015
+		}
+		
+		category_arbalests = {
+			defense = 0.03
+			breakthrough = 0.02
+			armor_value = 0.015
+		}
+		
+		category_arquebusiers = {
+			defense = 0.03
+			breakthrough = 0.02
+			armor_value = 0.015
+		}
+		
+		path = {
+			leads_to_tech = mail_armour_tech0
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1442
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1442 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_hauberk1 = {
+
+		category_halberdiers = {
+			defense = 0.03
+			breakthrough = 0.02
+			armor_value = 0.015
+		}
+		
+		category_arbalests = {
+			defense = 0.03
+			breakthrough = 0.02
+			armor_value = 0.015
+		}
+		
+		category_arquebusiers = {
+			defense = 0.03
+			breakthrough = 0.02
+			armor_value = 0.015
+		}
+		
+		path = {
+			leads_to_tech = mail_armour_tech1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1446
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1446 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_hauberk2 = {
+
+		category_halberdiers = {
+			defense = 0.03
+			breakthrough = 0.02
+			armor_value = 0.015
+		}
+		
+		category_arbalests = {
+			defense = 0.03
+			breakthrough = 0.02
+			armor_value = 0.015
+		}
+		
+		category_arquebusiers = {
+			defense = 0.03
+			breakthrough = 0.02
+			armor_value = 0.015
+		}
+		
+		path = {
+			leads_to_tech = mail_armour_tech2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1451
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1451 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#PLATE ARMOUR#
+	plate_armour_tech = {
+
+		enable_equipments = {
+			plate_armour_equipment_0
+		}
+		
+		path = {
+			leads_to_tech = improved_fauld
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1300
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1300 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	plate_armour_tech0 = {
+
+		enable_equipments = {
+			plate_armour_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = improved_fauld0
+			research_cost_coeff = 1
+		}		
+		path = {
+			leads_to_tech = improved_cuirass
+			research_cost_coeff = 0.5
+		}
+		
+		research_cost = 1.5
+		start_year = 1444
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1444 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	plate_armour_tech1 = {
+
+		enable_equipments = {
+			plate_armour_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = improved_fauld1
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1448
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1448 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	plate_armour_tech2 = {
+
+		enable_equipments = {
+			plate_armour_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = improved_fauld2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1452
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1452 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#IMPROVED FAULD#
+	improved_fauld = {
+
+		category_swordsmen = {
+			defense = 0.02
+			breakthrough = 0.03
+			armor_value = 0.02
+			hardness = 0.02
+		}
+		
+		path = {
+			leads_to_tech = plate_armour_tech0
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1441
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1441 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_fauld0 = {
+
+		category_swordsmen = {
+			defense = 0.02
+			breakthrough = 0.03
+			armor_value = 0.02
+			hardness = 0.02
+		}
+		
+		path = {
+			leads_to_tech = plate_armour_tech1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1446
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1446 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_fauld1 = {
+
+		category_swordsmen = {
+			defense = 0.02
+			breakthrough = 0.03
+			armor_value = 0.02
+			hardness = 0.02
+		}
+		
+		path = {
+			leads_to_tech = plate_armour_tech2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1450
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1450 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#IMPROVED CUIRASS#
+	improved_cuirass = {
+
+		category_swordsmen = {
+			defense = 0.04
+			breakthrough = 0.03
+			armor_value = 0.03
+			hardness = 0.03
+		}
+		
+		path = {
+			leads_to_tech = improved_cuirass0
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1444
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @1444 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_cuirass0 = {
+
+		category_swordsmen = {
+			defense = 0.04
+			breakthrough = 0.03
+			armor_value = 0.03
+			hardness = 0.03
+		}
+		
+		path = {
+			leads_to_tech = improved_cuirass1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1447
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @1447 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_cuirass1 = {
+
+		category_swordsmen = {
+			defense = 0.04
+			breakthrough = 0.03
+			armor_value = 0.03
+			hardness = 0.03
+		}
+		
+		path = {
+			leads_to_tech = improved_cuirass2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1449
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @1449 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improved_cuirass2 = {
+
+		category_swordsmen = {
+			defense = 0.04
+			breakthrough = 0.03
+			armor_value = 0.03
+			hardness = 0.03
+		}
+		
+		path = {
+			leads_to_tech = improved_cuirass3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1451
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @1451 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

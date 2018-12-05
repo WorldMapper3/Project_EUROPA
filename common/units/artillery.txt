@@ -25,9 +25,9 @@ sub_units = {
 
 		need = {
 			field_gun_equipment = 20
-			light_attire_equipment = 100
+			padded_armour_equipment = 60
 		}
-		manpower = 1000
+		manpower = 600
 		training_time = 120
 		max_organisation = 0
 		default_morale = 0.1
@@ -71,9 +71,9 @@ sub_units = {
 
 		need = {
 			mortar_equipment = 20
-			light_attire_equipment = 100
+			padded_armour_equipment = 60
 		}
-		manpower = 1000
+		manpower = 600
 		training_time = 120
 		max_organisation = 0
 		default_morale = 0.1
@@ -117,9 +117,9 @@ sub_units = {
 
 		need = {
 			regimental_gun_equipment = 20
-			light_attire_equipment = 100
+			padded_armour_equipment = 60
 		}
-		manpower = 1000
+		manpower = 600
 		training_time = 120
 		max_organisation = 0
 		default_morale = 0.1
@@ -133,96 +133,6 @@ sub_units = {
 		#breakthrough = -0.4
 		#soft_attack = -0.4
 		#hard_attack = -0.4
-
-
-		can_be_parachuted = yes
-	}
-	#######################################
-	artillery = {
-		sprite = artillery
-		map_icon_category = infantry
-		priority = 0
-		ai_priority = 0
-		active = yes
-		
-		type = {
-			infantry
-			support
-		}
-		
-		group = support
-		
-		categories = {
-			category_support_battalions
-			category_army
-			category_artillery
-		}
-
-
-		combat_width = 0
-
-		need = {
-			artillery_equipment = 12
-		}
-		manpower = 300
-		training_time = 120
-		max_organisation = 0
-		default_morale = 0.1
-		max_strength = 0.2
-		weight = 0.1
-		
-		supply_consumption = 0.16
-
-		# Support nerfs to combat abilities
-		defense = -0.4
-		breakthrough = -0.4
-		soft_attack = -0.4
-		hard_attack = -0.4
-
-
-		can_be_parachuted = yes
-	}
-	
-	rocket_artillery = {
-		sprite = "artillery"
-		map_icon_category = infantry
-		priority = 0
-		ai_priority = 0
-		active = yes
-		
-		type = {
-			infantry
-			support
-		}
-		
-		group = support
-
-		categories = {
-			category_support_battalions
-			category_army
-			category_artillery
-		}		
-
-		combat_width = 0
-
-		need = {
-			rocket_artillery_equipment = 24
-		}
-
-		manpower = 300
-		training_time = 120
-		max_organisation = 0
-		default_morale = 0.1
-		max_strength = 0.2
-		weight = 0.1
-		
-		supply_consumption = 0.16
-
-		# Support nerfs to combat abilities
-		defense = -0.5
-		breakthrough = -0.5
-		soft_attack = -0.5
-		hard_attack = -0.5
 
 
 		can_be_parachuted = yes

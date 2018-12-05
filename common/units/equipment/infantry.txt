@@ -45,7 +45,7 @@ equipments = {
 	}
 	
 	pike_equipment_0 = {
-		year = 1440
+		year = 1300
 	
 		archetype = pike_equipment
 		active = yes
@@ -54,9 +54,19 @@ equipments = {
 	}
 	
 	pike_equipment_1 = {
-		year = 1446
+		year = 1300
 	
 		archetype = pike_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	
+	pike_equipment_2 = {
+		year = 1300
+	
+		archetype = pike_equipment
+		active = no
 		priority = 05
 		visual_level = 0
 	}
@@ -125,7 +135,7 @@ equipments = {
 	}
 	
 	halberd_equipment_0 = {
-		year = 1444
+		year = 1300
 	
 		archetype = halberd_equipment
 		active = yes
@@ -134,9 +144,19 @@ equipments = {
 	}
 	
 	halberd_equipment_1 = {
-		year = 1448
+		year = 1300
 	
 		archetype = halberd_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	
+	halberd_equipment_2 = {
+		year = 1300
+	
+		archetype = halberd_equipment
+		active = no
 		priority = 05
 		visual_level = 0
 	}
@@ -187,6 +207,24 @@ equipments = {
 	
 		archetype = bow_equipment
 		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	bow_equipment_1 = {
+		year = 1300
+	
+		archetype = bow_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	
+	bow_equipment_2 = {
+		year = 1300
+	
+		archetype = bow_equipment
+		active = no
 		priority = 05
 		visual_level = 0
 	}
@@ -243,6 +281,24 @@ equipments = {
 		visual_level = 0
 	}
 	
+	arbalest_equipment_1 = {
+		year = 1300
+	
+		archetype = arbalest_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	
+	arbalest_equipment_2 = {
+		year = 1300
+	
+		archetype = arbalest_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	
 	#INFANTRY SWORDS#
 	
 	infantry_sword_equipment = {
@@ -286,7 +342,7 @@ equipments = {
 	}
 	
 	infantry_sword_equipment_0 = {
-		year = 1443
+		year = 1300
 	
 		archetype = infantry_sword_equipment
 		active = yes
@@ -295,9 +351,19 @@ equipments = {
 	}
 	
 	infantry_sword_equipment_1 = {
-		year = 1450
+		year = 1300
 	
 		archetype = infantry_sword_equipment
+		active = no	
+		priority = 05
+		visual_level = 0
+	}
+	
+	infantry_sword_equipment_2 = {
+		year = 1300
+	
+		archetype = infantry_sword_equipment
+		active = no	
 		priority = 05
 		visual_level = 0
 	}
@@ -357,6 +423,16 @@ equipments = {
 		year = 1300
 	
 		archetype = padded_armour_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	
+	padded_armour_equipment_2 = {
+		year = 1300
+	
+		archetype = padded_armour_equipment
+		active = no
 		priority = 05
 		visual_level = 0
 	}
@@ -415,13 +491,25 @@ equipments = {
 		year = 1300
 	
 		archetype = plate_armour_equipment
+		active = no
 		priority = 05
 		visual_level = 0
 	}
+	
 	plate_armour_equipment_2 = {
 		year = 1300
 	
 		archetype = plate_armour_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	
+	plate_armour_equipment_3 = {
+		year = 1300
+	
+		archetype = plate_armour_equipment
+		active = no
 		priority = 05
 		visual_level = 0
 	}
@@ -481,10 +569,19 @@ equipments = {
 		year = 1300
 	
 		archetype = mail_armour_equipment
+		active = no
 		priority = 05
 		visual_level = 0
 	}
 	
+	mail_armour_equipment_2 = {
+		year = 1300
+	
+		archetype = mail_armour_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
 	#ARQUEBUS#
 	
 	arquebus_equipment = {
@@ -533,6 +630,24 @@ equipments = {
 	
 		archetype = arquebus_equipment
 		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	arquebus_equipment_1 = {
+		year = 1300
+	
+		archetype = arquebus_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	
+	arquebus_equipment_2 = {
+		year = 1300
+	
+		archetype = arquebus_equipment
+		active = no
 		priority = 05
 		visual_level = 0
 	}
@@ -589,6 +704,24 @@ equipments = {
 		visual_level = 0
 	}
 	
+	war_horse_1 = {
+		year = 1300
+	
+		archetype = war_horse
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	
+	war_horse_2 = {
+		year = 1300
+	
+		archetype = war_horse
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	
 	#CAV LANCE#
 	
 	lance_equipment = {
@@ -636,6 +769,33 @@ equipments = {
 	
 		archetype = lance_equipment
 		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	lance_equipment_1 = {
+		year = 1300
+	
+		archetype = lance_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	
+	lance_equipment_2 = {
+		year = 1300
+	
+		archetype = lance_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	
+	lance_equipment_3 = {
+		year = 1300
+	
+		archetype = lance_equipment
+		active = no
 		priority = 05
 		visual_level = 0
 	}
@@ -795,3 +955,243 @@ equipments = {
 		priority = 05
 		visual_level = 0
 	}
+	
+	#CAVALRY TEMPS#
+	#HEAVY LANCER TEMP#
+	heavy_lancer_equipment = {
+		year = 1300
+	
+		is_archetype = yes
+		picture = archetype_heavy_lancer_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		#Misc Abilities
+		reliability = 0
+		maximum_speed = 4
+
+		#Defensive Abilities
+		defense = 0
+		breakthrough = 0
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 12
+		resources = {
+			oil = 2
+			steel = 2
+		}
+		
+	}
+	
+	heavy_lancer_equipment_0 = {
+		year = 1300
+	
+		is_buildable = no
+		archetype = heavy_lancer_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	heavy_lancer_equipment_1 = {
+		year = 1300
+	
+		is_buildable = no
+		archetype = heavy_lancer_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	
+	heavy_lancer_equipment_2 = {
+		year = 1300
+	
+		is_buildable = no
+		archetype = heavy_lancer_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	heavy_lancer_equipment_3 = {
+		year = 1300
+	
+		is_buildable = no
+		archetype = heavy_lancer_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	#SPEAR CAV TEMP#
+	spear_cav_equipment = {
+		year = 1300
+	
+		is_archetype = yes
+		picture = archetype_spear_cav_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		#Misc Abilities
+		reliability = 0
+		maximum_speed = 4
+
+		#Defensive Abilities
+		defense = 0
+		breakthrough = 0
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 12
+		resources = {
+			oil = 2
+			steel = 2
+		}
+		
+	}
+	
+	spear_cav_equipment_0 = {
+		year = 1300
+	
+		is_buildable = no
+		archetype = spear_cav_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	spear_cav_equipment_1 = {
+		year = 1300
+	
+		is_buildable = no
+		archetype = spear_cav_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	
+	spear_cav_equipment_2 = {
+		year = 1300
+	
+		is_buildable = no
+		archetype = spear_cav_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	spear_cav_equipment_3 = {
+		year = 1300
+	
+		is_buildable = no
+		archetype = spear_cav_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	#CAV ARCHER TEMP#
+	cav_archer_equipment = {
+		year = 1300
+	
+		is_archetype = yes
+		picture = archetype_cav_archer_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		#Misc Abilities
+		reliability = 0
+		maximum_speed = 4
+
+		#Defensive Abilities
+		defense = 0
+		breakthrough = 0
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 12
+		resources = {
+			oil = 2
+			steel = 2
+		}
+		
+	}
+	
+	cav_archer_equipment_0 = {
+		year = 1300
+	
+		is_buildable = no
+		archetype = cav_archer_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+	
+	cav_archer_equipment_1 = {
+		year = 1300
+	
+		is_buildable = no
+		archetype = cav_archer_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	
+	cav_archer_equipment_2 = {
+		year = 1300
+	
+		is_buildable = no
+		archetype = cav_archer_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+	cav_archer_equipment_3 = {
+		year = 1300
+	
+		is_buildable = no
+		archetype = cav_archer_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+}
