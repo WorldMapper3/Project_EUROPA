@@ -1,0 +1,55 @@
+equipments = {
+
+	cog = {
+		year = 1300
+
+		is_archetype = yes
+		type = convoy
+		picture = archetype_convoy		
+		group_by = archetype
+		is_buildable = no
+		sprite = convoy
+		
+		interface_category = interface_category_other_ships
+
+		# Unused by convoys
+		surface_detection = 15
+		sub_detection = 15
+		port_capacity_usage = 0
+
+		# Combat abilities
+		ap_attack = 4
+		armor_value = 12
+		reliability = 0.8
+		surface_visibility = 10
+		fire_range = 4
+		evasion = 25
+		attack = 4
+		naval_speed = 5
+		max_strength = 120
+		max_organisation = 40
+		naval_range = 600
+
+
+        #Space taken in convoy
+        lend_lease_cost = 0
+		
+		build_cost_ic = 1200
+		resources = {
+			chromium = 6
+			steel = 1
+			rubber = 1
+		}
+	}
+
+	cog_1 = {
+		year = 1300
+
+		archetype = cog
+		type = { 
+			convoy
+		}
+		active = yes
+		priority = 10
+	}
+}

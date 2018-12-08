@@ -1,0 +1,63 @@
+equipments = {
+
+	barque = {
+		year = 1300
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_gun_upgrade
+			ship_anti_air_upgrade
+		}
+		
+		interface_category = interface_category_screen_ships
+
+		ap_attack = 10
+		attack = 10
+		fire_range = 4
+		
+		armor_value = 8
+		evasion = 50
+		
+		surface_detection = 15
+		surface_visibility = 15
+		naval_speed = 10
+		reliability = 0.8
+		shore_bombardment = 2.5
+
+		
+		naval_range = 600
+		
+		max_strength = 80		
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 2000
+		resources = {
+			chromium = 10
+			steel = 2
+			rubber = 1
+		}
+		
+		manpower = 50
+	}
+
+	barque_1 = {
+		year = 1300
+
+		archetype = barque
+		priority = 30
+		active = yes
+
+
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+	}
+}

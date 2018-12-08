@@ -1,0 +1,58 @@
+equipments = {
+
+	galley = {
+		year = 1300
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		
+		interface_category = interface_category_screen_ships
+		
+		upgrades = {
+			ship_torpedo_upgrade
+			destroyer_engine_upgrade
+			ship_ASW_upgrade
+			ship_anti_air_upgrade
+		}
+
+		ap_attack = 12
+		attack = 12
+		fire_range = 4
+				
+		armor_value = 8
+		evasion = 40
+		
+		surface_detection = 15
+		surface_visibility = 15
+		naval_speed = 8
+		reliability = 0.80
+		shore_bombardment = 3
+
+		
+		naval_range = 600
+		
+		max_strength = 80		
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 1000
+		resources = {
+			chromium = 5
+			steel = 2
+		}
+		
+		manpower = 100
+	}
+
+	galley_1 = {
+		year = 1300
+
+		archetype = galley
+		active = yes
+		priority = 20
+		type = { 
+			screen_ship
+		}
+	}
+}

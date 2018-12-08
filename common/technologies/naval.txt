@@ -1,0 +1,111 @@
+technologies = {
+	
+	@1300 = 0
+	@1440 = 4
+	@1441 = 6
+	@1442 = 8
+	@1443 = 10
+	@1444 = 12
+	@1445 = 14
+	@1446 = 16
+	@1447 = 18
+	@1448 = 20
+	@1449 = 22
+	@1450 = 24
+	@1451 = 26
+	@1452 = 28
+	@1454 = 32
+	@1456 = 36
+	@1458 = 40
+	
+	cog_tech = {
+		
+		enable_subunits = {
+			cog
+		}
+		
+		enable_equipments = {
+			cog_1
+		}
+		
+		path = {
+			leads_to_tech = improved_nada
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1300
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = @1300 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	barque_tech = {
+		
+		enable_subunits = {
+			barque
+		}
+		
+		enable_equipments = {
+			barque_1
+		}
+		
+		path = {
+			leads_to_tech = improved_nada
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1300
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = @1300 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	galley_tech = {
+		
+		enable_subunits = {
+			galley
+		}
+		
+		enable_equipments = {
+			galley_1
+		}
+		
+		path = {
+			leads_to_tech = improved_nada
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1300
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = @1300 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

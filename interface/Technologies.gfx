@@ -658,6 +658,31 @@ spriteTypes = {
 		name = "GFX_improved_serpentine2_medium"
 		texturefile = "gfx/interface/technologies/improved_serpentine2.dds"
 	}
+	#
+	SpriteType = {
+		name = "GFX_cog_tech_medium"
+		texturefile = "gfx/interface/technologies/merchant_cog.dds"
+	}
+	SpriteType = {
+		name = "GFX_galley_tech_medium"
+		texturefile = "gfx/interface/technologies/galley.dds"
+	}
+	SpriteType = {
+		name = "GFX_barque_tech_medium"
+		texturefile = "gfx/interface/technologies/barque.dds"
+	}
+	SpriteType = {
+		name = "GFX_cog_1_medium"
+		texturefile = "gfx/interface/technologies/merchant_cog.dds"
+	}
+	SpriteType = {
+		name = "GFX_galley_1_medium"
+		texturefile = "gfx/interface/technologies/galley.dds"
+	}
+	SpriteType = {
+		name = "GFX_barque_1_medium"
+		texturefile = "gfx/interface/technologies/barque.dds"
+	}
 	###BASE GAME STUFF###
 
 	SpriteType = {

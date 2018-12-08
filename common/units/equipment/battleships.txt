@@ -1,0 +1,55 @@
+equipments = {
+
+	carrack = { 
+		year = 1440
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		group_by = archetype
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_armor_upgrade
+			ship_gun_upgrade
+		}
+
+		ap_attack = 40
+		attack = 40
+		fire_range = 4
+		shore_bombardment = 10
+				
+		armor_value = 20
+		evasion = 25
+		
+		surface_detection = 15
+		surface_visibility = 30
+		naval_speed = 5
+		reliability = 0.80
+
+		naval_range = 700
+		
+		max_strength = 200
+		port_capacity_usage = 2
+		
+		build_cost_ic = 5000
+		resources = {
+			steel = 5
+			chromium = 20
+			rubber = 2
+		}
+
+		manpower = 6000
+	}
+
+	carrack_1 = {
+		year = 1440
+		
+		archetype = carrack
+		priority = 60
+
+	}
+}
