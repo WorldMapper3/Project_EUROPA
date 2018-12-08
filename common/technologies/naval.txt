@@ -108,4 +108,34 @@ technologies = {
 			factor = 1
 		}
 	}
+	carrack_tech = {
+		
+		enable_subunits = {
+			carrack
+		}
+		
+		enable_equipments = {
+			carrack_1
+		}
+		
+		path = {
+			leads_to_tech = improved_nada
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1440
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = @1440 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

@@ -658,7 +658,7 @@ spriteTypes = {
 		name = "GFX_improved_serpentine2_medium"
 		texturefile = "gfx/interface/technologies/improved_serpentine2.dds"
 	}
-	#
+	#NAVAL
 	SpriteType = {
 		name = "GFX_cog_tech_medium"
 		texturefile = "gfx/interface/technologies/merchant_cog.dds"
@@ -672,6 +672,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/barque.dds"
 	}
 	SpriteType = {
+		name = "GFX_carrack_tech_medium"
+		texturefile = "gfx/interface/technologies/carrack.dds"
+	}
+	SpriteType = {
 		name = "GFX_cog_1_medium"
 		texturefile = "gfx/interface/technologies/merchant_cog.dds"
 	}
@@ -682,6 +686,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_barque_1_medium"
 		texturefile = "gfx/interface/technologies/barque.dds"
+	}
+	SpriteType = {
+		name = "GFX_carrack_1_medium"
+		texturefile = "gfx/interface/technologies/carrack.dds"
 	}
 	###BASE GAME STUFF###
 

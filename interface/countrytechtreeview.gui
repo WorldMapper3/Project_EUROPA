@@ -1382,7 +1382,7 @@ guiTypes = {
 			
 				instantTextBoxType = {
 					name = "naval_subtitle_barque"
-					position = { x = 140 y = 330 }
+					position = { x = 100 y = 280 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 0}
@@ -1396,7 +1396,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_galley"
-					position = { x = 140 y = 560 }
+					position = { x = 100 y = 460 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 0}
@@ -1407,10 +1407,22 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WIP"
 				}
-
+				instantTextBoxType = {
+					name = "naval_subtitle_carrack"
+					position = { x = 380 y = 640 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 0}
+					text = "NAVAL_TITLE_CARRACKS"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "WIP"
+				}
 				instantTextBoxType = {
 					name = "naval_subtitle_cog"
-					position = { x = 140 y = 100 }
+					position = { x = 100 y = 100 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 0}
@@ -1445,19 +1457,19 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "barque_tech_tree"
-				position = { x = 140 y = 440}
+				position = { x = 140 y = 390}
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "galley_tech_tree"
-				position = { x = 140 y = 670}
+				position = { x = 140 y = 570}
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "carrack_tech_tree"
-				position = { x = 140 y = 900}
+				position = { x = 140 y = 750}
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
