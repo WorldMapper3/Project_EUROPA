@@ -1,0 +1,557 @@
+ideas = {
+
+	gov_rank = { 
+		law = yes
+		duchy_rank = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				NOT = { has_idea = kingdom_rank }
+				NOT = { has_idea = empire_rank }
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		kingdom_rank = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				num_of_factories > 30
+				is_subject = no
+				NOT = { has_idea = empire_rank }
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.125
+				justify_war_goal_time = -0.1
+				industrial_capacity_factory = 0.025
+				industrial_capacity_dockyard = 0.025
+			}
+			
+			cancel_if_invalid = no
+		}
+		empire_rank = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				num_of_factories > 100
+				is_subject = no
+				NOT = {has_idea = duchy_rank }
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.25
+				justify_war_goal_time = -0.2
+				war_support_factor = 0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	gov_type = { 
+		law = yes
+		monarchy_type = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		republic_type = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always = no
+
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		theocracy_type = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	gov_subtype = { 
+		law = yes
+		#GENERIC MONARCHY SUBTYPES#
+		despotic_monarchy = {
+			
+			removal_cost = -1
+			
+			cost = 100
+			
+			visible = {
+				has_idea = monarchy_type
+			}
+			
+			available = {
+				has_tech = feudal_monarchy_tech
+			}
+			
+			modifier = {
+				war_support_factor = 0.05
+				production_speed_buildings_factor = 0.025
+				resistance_tick_auto = -1
+				industrial_capacity_factory = 0.025
+				industrial_capacity_dockyard = 0.025
+			}
+			
+			cancel_if_invalid = no
+		}
+		feudal_monarchy = {
+			
+			removal_cost = -1
+			
+			visible = {
+				has_idea = monarchy_type
+			}
+			
+			available = {
+				has_tech = feudal_monarchy_tech
+			}
+			
+			cost = 100
+			
+			modifier = {
+				cic_to_target_factor = -0.25
+				mic_to_target_factor = -0.25	
+				conscription_factor = 0.1
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.025
+				industrial_capacity_dockyard = 0.025
+			}
+			
+			cancel_if_invalid = no
+		}
+		administrative_monarchy = {
+			
+			removal_cost = -1
+			
+			visible = {
+				has_idea = monarchy_type
+			}
+			
+			available = {
+				has_tech = early_modern_administration_tech
+			}
+			
+			cost = 100
+			
+			modifier = {	
+				production_speed_buildings_factor = 0.075
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				political_power_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+		constitutional_monarchy = {
+			
+			removal_cost = -1
+			
+			visible = {
+				has_idea = monarchy_type
+			}
+			
+			available = {
+				has_tech = the_constitution_tech
+			}
+			
+			cost = 100
+			
+			modifier = {	
+				war_support_factor = -0.3
+				production_speed_buildings_factor = 0.075
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				political_power_gain = 1
+			}
+			
+			cancel_if_invalid = no
+		}
+		enlightened_despotism = {
+			
+			removal_cost = -1
+			
+			visible = {
+				has_idea = monarchy_type
+			}
+			
+			available = {
+				has_tech = rights_of_man_tech
+			}
+			
+			cost = 100
+			
+			modifier = {	
+				political_power_factor = 0.075
+				conscription_factor = 0.1
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.075
+				war_support_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+		revolutionary_empire = {
+			
+			removal_cost = -1
+			
+			visible = {
+				has_idea = monarchy_type
+			}
+			
+			available = {
+				has_tech = revolutionary_ideals_tech
+				has_idea = empire_rank
+			}
+			
+			cost = 100
+			
+			modifier = {
+				army_org_Factor = 0.1
+				conscription_factor = 0.25
+				production_speed_buildings_factor = 0.075
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2				
+			}
+			
+			cancel_if_invalid = no
+		}
+		#UNIQUE MONARCHY SUBTYPES#
+		elective_monarchy = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				original_tag = POL
+			}
+			
+			visible = {
+				has_idea = monarchy_type
+			}
+			
+			available = {
+				has_idea = monarchy_type
+				always = no
+			}
+			
+			cost = 100
+			
+			modifier = {
+				cic_to_target_factor = -0.25
+				mic_to_target_factor = -0.25
+				production_speed_buildings_factor = 0.05
+				war_support_factor = -0.3
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				resistance_tick_auto = -1
+			}
+			
+			cancel_if_invalid = no
+			
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		#GENERIC REPUBLIC SUBTYPES#
+		merchant_republic = {
+			
+			removal_cost = -1
+			
+			cost = 100
+			
+			visible = {
+				has_idea = republic_type
+			}
+			
+			available = {
+				has_tech = feudal_monarchy_tech
+				num_of_controlled_states < 10
+			}
+			
+			modifier = {
+				extra_trade_to_target_factor = 0.5
+				trade_cost_for_target_factor = -0.5
+				political_power_factor = 0.05
+				production_speed_buildings_factor = 0.025
+				industrial_capacity_factory = 0.025
+				industrial_capacity_dockyard = 0.025
+				local_resources_factor=0.2
+				war_support_factor = -0.5
+			}
+			
+			cancel_if_invalid = no
+		}
+		oligarchic_republic = {
+			
+			removal_cost = -1
+			
+			cost = 100
+			
+			visible = {
+				has_idea = republic_type
+			}
+			
+			available = {
+				has_tech = feudal_monarchy_tech
+			}
+			
+			modifier = {
+				political_power_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				stability_cost_factor = -0.05
+				war_support_factor = -0.5
+			}
+			
+			cancel_if_invalid = no
+		}
+		administrative_republic = {
+			
+			removal_cost = -1
+			
+			visible = {
+				has_idea = republic_type
+			}
+			
+			available = {
+				has_tech = early_modern_administration_tech
+			}
+			
+			cost = 100
+			
+			modifier = {	
+				industrial_capacity_factory = 0.175
+				industrial_capacity_dockyard = 0.175
+				production_speed_buildings_factor = 0.075
+				war_support_factor = -0.3
+			}
+			
+			cancel_if_invalid = no
+		}
+		republican_dictatorship = {
+			
+			removal_cost = -1
+			
+			visible = {
+				has_idea = republic_type
+			}
+			
+			available = {
+				always = no
+			}
+			
+			cost = 100
+			
+			modifier = {	
+				resistance_tick_auto = -1
+				army_org_Factor = 0.1
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.075
+				war_support_factor_weekly = -0.001
+			}
+			
+			cancel_if_invalid = no
+		}
+		constitutional_republic = {
+			
+			removal_cost = -1
+			
+			visible = {
+				has_idea = republic_type
+			}
+			
+			available = {
+				has_tech = the_constitution_tech
+			}
+			
+			cost = 100
+			
+			modifier = {	
+				extra_trade_to_target_factor = 0.1
+				trade_cost_for_target_factor = -0.1
+				local_resources_factor=0.1
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
+				production_speed_buildings_factor = 0.075
+				war_support_factor = -0.3
+			}
+			
+			cancel_if_invalid = no
+		}
+		bureaucratic_despotism = {
+			
+			removal_cost = -1
+			
+			visible = {
+				has_idea = republic_type
+			}
+			
+			available = {
+				always = no
+			}
+			
+			cost = 100
+			
+			modifier = {	
+				stability_cost_factor=-0.2
+				industrial_capacity_factory=0.1
+				industrial_capacity_dockyard=0.1
+				production_speed_buildings_factor=0.075
+			}
+			
+			cancel_if_invalid = no
+		}
+		revolutionary_republic = {
+			
+			removal_cost = -1
+			
+			visible = {
+				has_idea = republic_type
+			}
+			
+			available = {
+				has_tech = revolutionary_ideals_tech
+				has_idea = empire_rank
+			}
+			
+			cost = 100
+			
+			modifier = {
+				resistance_tick_auto=-2
+				army_org_Factor = 0.1
+				conscription_factor = 0.25
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
+				production_speed_buildings_factor = 0.075
+			}
+			
+			cancel_if_invalid = no
+		}
+		#UNIQUE REPUBLIC SUBTYPES#
+		
+		#THEOCRACY SUBTYPES#
+		papacy = {
+			
+			removal_cost = -1
+			
+			cost = 100
+			
+			visible = {
+				has_idea = theocracy_type
+			}
+			
+			available = {
+				has_idea = theocracy_type
+				original_tag = PAP
+				has_idea = kingdom_rank
+			}
+			
+			modifier = {
+				resistance_tick_auto = -1
+				prestige_cost_factor = -0.1
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = 0.025
+			}
+			
+			allowed_to_remove = {
+				always=no
+			}
+			
+			cancel_if_invalid = no
+		}
+		theocracy = {
+			
+			removal_cost = -1
+			
+			cost = 100
+			
+			visible = {
+				has_idea = theocracy_type
+			}
+			
+			available = {
+				has_idea = theocracy_type
+			}
+			
+			modifier = {
+				resistance_tick_auto = -1
+				drift_defence_factor = 0.2
+				prestige_cost_factor = -0.1
+				industrial_capacity_factory = 0.025
+				industrial_capacity_dockyard = 0.025
+				production_speed_buildings_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+		monastic_order = {
+			
+			removal_cost = -1
+			
+			cost = 100
+			
+			visible = {
+				has_idea = theocracy_type
+			}
+			
+			available = {
+				has_idea = theocracy_type
+			}
+			
+			modifier = {
+				resistance_tick_auto = -1
+				production_speed_bunker_factor = 0.2
+				production_speed_buildings_factor = 0.025
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

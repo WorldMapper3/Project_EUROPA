@@ -1,0 +1,171 @@
+technologies = {
+	
+	@1300 = 0
+	@1440 = 4
+	@1441 = 6
+	@1442 = 8
+	@1443 = 10
+	@1444 = 12
+	@1445 = 14
+	@1446 = 16
+	@1447 = 18
+	@1448 = 20
+	@1449 = 22
+	@1450 = 24
+	@1451 = 26
+	@1452 = 28
+	@1454 = 32
+	@1456 = 36
+	@1458 = 40
+
+	feudal_monarchy_tech = {
+		
+		enable_subunits = {
+		
+		}
+		
+		enable_equipments = {
+			
+		}
+		
+		path = {
+			leads_to_tech = na
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 3
+		start_year = 1420
+		folder = {
+			name = admin_tech_folder
+			position = { x = 0 y = @1420 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	early_modern_administration_tech = {
+		
+		enable_subunits = {
+		
+		}
+		
+		enable_equipments = {
+			
+		}
+		
+		path = {
+			leads_to_tech = na
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 3
+		start_year = 1557
+		folder = {
+			name = admin_tech_folder
+			position = { x = 0 y = @1557 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	the_constitution_tech = {
+		
+		enable_subunits = {
+		
+		}
+		
+		enable_equipments = {
+			
+		}
+		
+		path = {
+			leads_to_tech = na
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 3
+		start_year = 1687
+		folder = {
+			name = admin_tech_folder
+			position = { x = 0 y = @1687 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	rights_of_man_tech = {
+		
+		enable_subunits = {
+		
+		}
+		
+		enable_equipments = {
+			
+		}
+		
+		path = {
+			leads_to_tech = na
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 3
+		start_year = 1790
+		folder = {
+			name = admin_tech_folder
+			position = { x = 0 y = @1790 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	revolutionary_ideals_tech = {
+		
+		enable_subunits = {
+		
+		}
+		
+		enable_equipments = {
+			
+		}
+		
+		path = {
+			leads_to_tech = na
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 3
+		start_year = 1820
+		folder = {
+			name = admin_tech_folder
+			position = { x = 0 y = @1820 }
+		}
+		
+		categories = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

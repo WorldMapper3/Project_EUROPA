@@ -6,6 +6,9 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	kingdom_rank
+	republic_type
+	administrative_republic
 }
 set_technology = {
 	pike_weapons = 1

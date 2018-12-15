@@ -9,6 +9,7 @@ equipments = {
 		group_by = archetype
 		is_buildable = no
 		sprite = convoy
+		manpower = 50
 		
 		interface_category = interface_category_other_ships
 

@@ -6,6 +6,9 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	theocracy_type
+	kingdom_rank
+	papacy
 }
 set_technology = {
 	pike_weapons = 1
