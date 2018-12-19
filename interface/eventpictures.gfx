@@ -1,5 +1,39 @@
 spriteTypes = {
 	
+	#MOD STUFF#
+	spriteType = {
+		name = "DIPLOMACY_eventPicture"
+		texturefile = "gfx/event_pictures/DIPLOMACY_eventPicture.dds"
+	}
+	spriteType = {
+		name = "LIBERUM_VETO_eventPicture"
+		texturefile = "gfx/event_pictures/LIBERUM_VETO_eventPicture.dds"
+	}
+	spriteType = {
+		name = "SIEGE_eventPicture"
+		texturefile = "gfx/event_pictures/SIEGE_eventPicture.dds"
+	}
+	spriteType = {
+		name = "COA_POL_eventPicture"
+		texturefile = "gfx/event_pictures/COA_POL.dds"
+	}
+	spriteType = {
+		name = "COA_FRA_eventPicture"
+		texturefile = "gfx/event_pictures/COA_FRA.dds"
+	}
+	spriteType = {
+		name = "COA_ENG_eventPicture"
+		texturefile = "gfx/event_pictures/COA_ENG.dds"
+	}
+	spriteType = {
+		name = "COA_CST_eventPicture"
+		texturefile = "gfx/event_pictures/COA_CST.dds"
+	}
+	spriteType = {
+		name = "COA_MOD_eventPicture"
+		texturefile = "gfx/event_pictures/MOD.dds"
+	}
+	#BASE GAME#
 	spriteType = {
 		name = "GFX_report_event_canada_ronnie"
 		texturefile = "gfx/event_pictures/report_event_canada_ronnie.dds"

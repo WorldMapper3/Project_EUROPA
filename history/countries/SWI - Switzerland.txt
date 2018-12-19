@@ -17,6 +17,7 @@ set_technology = {
 	padded_armour_tech = 1
 	mail_armour_tech = 1
 	plate_armour_tech = 1
+	feudal_monarchy_tech = 1
 }
 
 

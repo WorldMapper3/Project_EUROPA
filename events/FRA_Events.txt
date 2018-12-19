@@ -1,0 +1,91 @@
+	add_namespace=FRA_event
+
+	# The Birth of a Permanent Taxation System	
+country_event = {
+	id = FRA_event.1
+	title = FRA_event.1.t
+	desc = FRA_event.1.d
+	picture = COA_FRA_eventPicture
+
+	fire_only_once = yes
+
+
+	trigger = {
+		tag = FRA
+		date < 1500.01.01
+		owns_state = 16
+	}
+
+	mean_time_to_happen = {
+		days = 9000
+	}
+	
+	
+	option = {		# Issue it
+		name = FRA_event.1.a
+		16 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_state = {
+			limit = { NOT = { state = 16 } }
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	option = {		# Issue it
+		name = FRA_event.1.b
+		add_stability = 0.1
+	}
+}
+	
+	# The State take control of the Guilds
+country_event = {
+	id = FRA_event.2
+	title = FRA_event.2.t
+	desc = FRA_event.2.d
+	picture = COA_FRA_eventPicture
+	
+	fire_only_once = yes
+	trigger = {
+		tag = FRA
+		date < 1550.01.01
+	}
+	
+	mean_time_to_happen = {
+		days = 9125
+	}
+	
+
+	option = {		# Take Control of the Guilds
+		name = FRA_event.2.a
+		random_owned_state = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_state = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	option = {		# Do not mess with the Guilds
+		name = FRA_event.2.b
+		add_stability = 0.1
+	}
+	option = {		# Give more control to the Guilds
+		name = FRA_event.2.c
+		add_political_power=75
+	}
+}

@@ -1,0 +1,327 @@
+	add_namespace = HYW_event
+	
+# The Surrender of Maine
+country_event = {
+	id = HYW_event.1
+	title = HYW_event.1.t
+	desc = HYW_event.1.d
+	picture = COA_ENG_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ENG
+		country_exists = FRA
+		NOT = { is_in_faction_with = FRA }
+		NOT = { has_war_with = FRA }
+		date < 1450.01.01
+		917 = {
+			owned_by = ENG
+		}
+		FRA = {
+			is_subject = no
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 365
+	}
+
+	option = {
+		name = HYW_event.1.a
+		ai_chance = { factor = 25 }
+		FRA = { country_event = { id = HYW_event.3 days = 1 } }
+		add_stability = -0.1
+		add_political_power = -10
+	}
+	option = {
+		name = HYW_event.1.b
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			modifier = {
+				factor = 0
+				has_civil_war = yes
+			}
+		}
+		tooltip = HYW_event.1.b.tt
+		FRA = { country_event = { id = HYW_event.2 days = 1 } }
+	}
+}
+
+	# England Refuses
+country_event = {
+	id = HYW_event.2
+	title = HYW_event.2.t
+	desc = HYW_event.2.d
+	picture = COA_FRA_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = HYW_event.2.a #'teach them how to war' /Reversed Henry V
+		ai_chance = {
+			factor = 100 #Shouldn't take this from them really.
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			modifier = {
+				factor = 0
+				has_civil_war = yes
+			}
+		}
+		ENG = {
+			declare_war_on = {
+				target = FRA
+				type = puppet_wargoal_focus
+			}
+		}
+		FRA = {
+			set_state_controller = 917
+		}
+		hidden_effect = {
+			news_event = { id = news_event.6 days = 1 }
+		}
+	}
+	option = {
+		name = HYW_event.2.b #Unpopular but preserves the peace?
+		ai_chance = {
+			factor = 1
+		}
+		set_truce = {
+			target = ENG
+			days = 365
+		}
+		if = {
+			limit = { country_exists = PRO }
+			add_opinion_modifier = { target = PRO modifier = fra_gave_up_on_maine }
+		}
+		add_political_power=-10
+		hidden_effect = {
+			news_event = { id = news_event.7 days = 1 }
+		}
+	}
+}
+
+	# English Accepts
+country_event = {
+	id = HYW_event.3
+	title = HYW_event.3.t
+	desc = HYW_event.3.d
+	picture = COA_FRA_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = HYW_event.3.a
+		add_political_power = 10
+		set_truce = {
+			target = ENG
+			days = 365
+		}
+		FRA = {
+			transfer_state = 917
+		}
+		hidden_effect = {
+			news_event = { id = news_event.8 days = 1 }
+		}
+	}
+}
+	# French End of HYW
+country_event = {
+	id = HYW_event.4
+	title = HYW_event.4.t
+	desc = HYW_event.4.d
+	picture = COA_FRA_eventPicture
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = FRA
+		date < 1500.01.01
+		NOT = { has_country_flag = FRA_had_end_of_HYW }
+		every_state = {
+			AND = {
+				OR = { 
+					region = 19
+					region = 20
+				}
+				is_core_of = FRA
+				NOT = {
+					OR = {
+						is_owned_by = ENG
+						is_owned_by = GBR
+					}
+				}
+			}
+		}
+		NOT = { has_war_with = ENG }
+		NOT = { is_subject_of = ENG }
+		NOT = { has_war_with = GBR }
+		NOT = { is_subject_of = GBR }
+	}
+	
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = FRA_had_end_of_HYW
+			if = {
+				limit = {
+					country_exists = ENG
+					NOT = { country_exists = GBR }
+					ENG = {
+						NOT = { has_country_flag = ENG_had_end_of_HYW }
+					}
+				}
+				ENG = { country_event = { id = HYW_event.5 days = 1 } }
+			}
+			if = {
+				limit = {
+					country_exists = GBR
+					GBR = {
+						NOT = { has_country_flag = ENG_had_end_of_HYW }
+					}
+				}
+				GBR = { country_event = { id = HYW_event.5 days = 1 } }
+			}
+		}
+	}
+
+	option = {			# Time to build a stronger nation
+		name = HYW_event.4.a
+		add_stability = 0.1
+		hidden_effect = {
+			limit = {
+				AND = {
+					FRA = {
+						has_country_flag = FRA_had_end_of_HYW
+					}
+					ENG = {
+						has_country_flag = ENG_had_end_of_HYW
+					}
+				}
+			}
+			news_event = { id = news_event.1 days = 1 }
+		}
+	}
+}
+
+	# English End of HYW
+country_event = {
+	id = HYW_event.5
+	title = HYW_event.5.t
+	desc = HYW_event.5.d
+	picture = COA_ENG_eventPicture
+	
+	trigger = {
+		date < 1500.01.01
+		NOT = { has_country_flag = ENG_had_end_of_HYW }
+		OR = {
+			AND = {
+				tag = ENG
+				NOT = { country_exists = GBR }
+			}
+			tag = GBR
+		}
+		every_state = {
+			AND = {
+				OR = { 
+					region = 19
+					region = 20
+				}
+				is_core_of = FRA
+				NOT = {
+					is_owned_by = ENG
+				}
+			}
+		}
+		FRA = {
+			exists = yes
+			NOT = { has_war_with = ENG }
+			NOT = { is_subject_of = ENG }
+			NOT = { has_war_with = GBR }
+			NOT = { is_subject_of = GBR }
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = ENG_had_end_of_HYW
+			if = {
+				limit = {
+					FRA = { NOT = { has_country_flag = FRA_had_end_of_HYW } }
+				}
+				FRA = { country_event = { id = HYW_event.4 days = 1 } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {		# We have lost our foothold in France
+		name = HYW_event.5.a
+		ai_chance = { factor = 80 }
+		add_stability = 0.1
+		every_state = {
+			limit = {
+				AND = {
+					OR = { 
+						region = 19
+						region = 20
+					}
+					is_core_of = FRA
+					is_core_of = ENG
+					NOT = {
+						OR = {
+							is_owned_by = ENG
+							is_owned_by = GBR
+						}
+					}
+				}
+			}
+			remove_core_of = ENG
+		}
+		add_opinion_modifier = { target = FRA modifier = no_english_in_france }
+		hidden_effect = {
+			limit = {
+				AND = {
+					FRA = {
+						has_country_flag = FRA_had_end_of_HYW
+					}
+					ENG = {
+						has_country_flag = ENG_had_end_of_HYW
+					}
+				}
+			}
+			news_event = { id = news_event.1 days = 1 }
+		}
+	}
+	option = {		# We will never give this up!
+		name = HYW_event.5.b
+		ai_chance = { factor = 20 }
+		add_stability = -0.1
+		add_opinion_modifier = { target = FRA modifier = eng_refuse_to_give_up_france }
+		hidden_effect = {
+			limit = {
+				AND = {
+					FRA = {
+						has_country_flag = FRA_had_end_of_HYW
+					}
+					ENG = {
+						has_country_flag = ENG_had_end_of_HYW
+					}
+				}
+			}
+			news_event = { id = news_event.1 days = 1 }
+		}
+	}
+}

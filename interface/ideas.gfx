@@ -96,6 +96,100 @@ spriteTypes = {
 		name = "GFX_idea_monastic_order"
 		texturefile = "gfx/interface/ideas/theocracy_type.dds"
 	}
+	#MONARCH POINTS#
+	spriteType = {
+		name = "GFX_idea_adm0"
+		texturefile = "gfx/interface/ideas/adm.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_adm1"
+		texturefile = "gfx/interface/ideas/adm.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_adm2"
+		texturefile = "gfx/interface/ideas/adm.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_adm3"
+		texturefile = "gfx/interface/ideas/adm.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_adm4"
+		texturefile = "gfx/interface/ideas/adm.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_adm5"
+		texturefile = "gfx/interface/ideas/adm.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_adm6"
+		texturefile = "gfx/interface/ideas/adm.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dip0"
+		texturefile = "gfx/interface/ideas/dip.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dip1"
+		texturefile = "gfx/interface/ideas/dip.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dip2"
+		texturefile = "gfx/interface/ideas/dip.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dip3"
+		texturefile = "gfx/interface/ideas/dip.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dip4"
+		texturefile = "gfx/interface/ideas/dip.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dip5"
+		texturefile = "gfx/interface/ideas/dip.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dip6"
+		texturefile = "gfx/interface/ideas/dip.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mil0"
+		texturefile = "gfx/interface/ideas/mil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mil1"
+		texturefile = "gfx/interface/ideas/mil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mil2"
+		texturefile = "gfx/interface/ideas/mil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mil3"
+		texturefile = "gfx/interface/ideas/mil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mil4"
+		texturefile = "gfx/interface/ideas/mil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mil5"
+		texturefile = "gfx/interface/ideas/mil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mil6"
+		texturefile = "gfx/interface/ideas/mil.dds"
+	}
+	#EVENT IDEAS#
+	spriteType = {
+		name = "GFX_idea_catholic_cross"
+		texturefile = "gfx/interface/ideas/catholic_cross.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_catholic_cross_burning"
+		texturefile = "gfx/interface/ideas/catholic_cross_burning.dds"
+	}
 	#BASE GAME#
 	SpriteType = {
 		name = "GFX_idea_traits_strip"

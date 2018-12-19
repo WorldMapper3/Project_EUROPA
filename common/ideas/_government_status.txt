@@ -31,10 +31,10 @@ ideas = {
 			}
 			
 			modifier = {
-				production_speed_buildings_factor = 0.125
+				political_power_gain = -0.1
+				production_speed_buildings_factor = 0.1
 				justify_war_goal_time = -0.1
-				industrial_capacity_factory = 0.025
-				industrial_capacity_dockyard = 0.025
+				consumer_goods_factor = -0.025
 			}
 			
 			cancel_if_invalid = no
@@ -52,11 +52,10 @@ ideas = {
 			}
 			
 			modifier = {
-				production_speed_buildings_factor = 0.25
+				political_power_gain = -0.2
+				production_speed_buildings_factor = 0.2
 				justify_war_goal_time = -0.2
-				war_support_factor = 0.05
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
+				consumer_goods_factor = -0.05
 			}
 			
 			cancel_if_invalid = no
@@ -70,7 +69,7 @@ ideas = {
 			
 			cost = 0
 			
-			available = {
+			allowed_to_remove = {
 				always = no
 			}
 			
@@ -85,9 +84,8 @@ ideas = {
 			
 			cost = 0
 			
-			available = {
+			allowed_to_remove = {
 				always = no
-
 			}
 			
 			modifier = {
@@ -101,7 +99,7 @@ ideas = {
 			
 			cost = 0
 			
-			available = {
+			allowed_to_remove = {
 				always = no
 			}
 			
@@ -132,8 +130,7 @@ ideas = {
 				war_support_factor = 0.05
 				production_speed_buildings_factor = 0.025
 				resistance_tick_auto = -1
-				industrial_capacity_factory = 0.025
-				industrial_capacity_dockyard = 0.025
+				consumer_goods_factor = -0.025
 			}
 			
 			cancel_if_invalid = no
@@ -157,8 +154,7 @@ ideas = {
 				mic_to_target_factor = -0.25	
 				conscription_factor = 0.1
 				production_speed_buildings_factor = 0.05
-				industrial_capacity_factory = 0.025
-				industrial_capacity_dockyard = 0.025
+				consumer_goods_factor = -0.025
 			}
 			
 			cancel_if_invalid = no
@@ -178,10 +174,11 @@ ideas = {
 			cost = 100
 			
 			modifier = {	
-				production_speed_buildings_factor = 0.075
-				industrial_capacity_factory = 0.15
-				industrial_capacity_dockyard = 0.15
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
 				political_power_factor = 0.05
+				production_speed_buildings_factor = 0.075
+				consumer_goods_factor = -0.05
 			}
 			
 			cancel_if_invalid = no
@@ -202,10 +199,9 @@ ideas = {
 			
 			modifier = {	
 				war_support_factor = -0.3
-				production_speed_buildings_factor = 0.075
-				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.1
 				political_power_gain = 1
+				production_speed_buildings_factor = 0.075
+				consumer_goods_factor = -0.1				
 			}
 			
 			cancel_if_invalid = no
@@ -227,8 +223,7 @@ ideas = {
 			modifier = {	
 				political_power_factor = 0.075
 				conscription_factor = 0.1
-				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.1
+				consumer_goods_factor = -0.1
 				production_speed_buildings_factor = 0.075
 				war_support_factor = 0.1
 			}
@@ -254,8 +249,7 @@ ideas = {
 				army_org_Factor = 0.1
 				conscription_factor = 0.25
 				production_speed_buildings_factor = 0.075
-				industrial_capacity_factory = 0.2
-				industrial_capacity_dockyard = 0.2				
+				consumer_goods_factor = -0.2			
 			}
 			
 			cancel_if_invalid = no
@@ -285,8 +279,7 @@ ideas = {
 				mic_to_target_factor = -0.25
 				production_speed_buildings_factor = 0.05
 				war_support_factor = -0.3
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
+				consumer_goods_factor = -0.05
 				resistance_tick_auto = -1
 			}
 			
@@ -315,10 +308,8 @@ ideas = {
 			modifier = {
 				extra_trade_to_target_factor = 0.5
 				trade_cost_for_target_factor = -0.5
-				political_power_factor = 0.05
 				production_speed_buildings_factor = 0.025
-				industrial_capacity_factory = 0.025
-				industrial_capacity_dockyard = 0.025
+				consumer_goods_factor = -0.025
 				local_resources_factor=0.2
 				war_support_factor = -0.5
 			}
@@ -341,10 +332,9 @@ ideas = {
 			
 			modifier = {
 				political_power_factor = 0.05
+				stability_factor = 0.05
 				production_speed_buildings_factor = 0.05
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
-				stability_cost_factor = -0.05
+				consumer_goods_factor = -0.05
 				war_support_factor = -0.5
 			}
 			
@@ -365,8 +355,9 @@ ideas = {
 			cost = 100
 			
 			modifier = {	
-				industrial_capacity_factory = 0.175
-				industrial_capacity_dockyard = 0.175
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				consumer_goods_factor = -0.075
 				production_speed_buildings_factor = 0.075
 				war_support_factor = -0.3
 			}
@@ -390,10 +381,9 @@ ideas = {
 			modifier = {	
 				resistance_tick_auto = -1
 				army_org_Factor = 0.1
-				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.1
+				consumer_goods_factor = -0.1
 				production_speed_buildings_factor = 0.075
-				war_support_factor_weekly = -0.001
+				war_support_factor_weekly = -0.01
 			}
 			
 			cancel_if_invalid = no
@@ -416,8 +406,9 @@ ideas = {
 				extra_trade_to_target_factor = 0.1
 				trade_cost_for_target_factor = -0.1
 				local_resources_factor=0.1
-				industrial_capacity_factory = 0.2
-				industrial_capacity_dockyard = 0.2
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				consumer_goods_factor = -0.1
 				production_speed_buildings_factor = 0.075
 				war_support_factor = -0.3
 			}
@@ -439,10 +430,9 @@ ideas = {
 			cost = 100
 			
 			modifier = {	
-				stability_cost_factor=-0.2
-				industrial_capacity_factory=0.1
-				industrial_capacity_dockyard=0.1
-				production_speed_buildings_factor=0.075
+				stability_factor = 0.2
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.075
 			}
 			
 			cancel_if_invalid = no
@@ -465,9 +455,7 @@ ideas = {
 			modifier = {
 				resistance_tick_auto=-2
 				army_org_Factor = 0.1
-				conscription_factor = 0.25
-				industrial_capacity_factory = 0.2
-				industrial_capacity_dockyard = 0.2
+				consumer_goods_factor = -0.2
 				production_speed_buildings_factor = 0.075
 			}
 			
@@ -487,16 +475,13 @@ ideas = {
 			}
 			
 			available = {
-				has_idea = theocracy_type
 				original_tag = PAP
 				has_idea = kingdom_rank
 			}
 			
 			modifier = {
 				resistance_tick_auto = -1
-				prestige_cost_factor = -0.1
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
+				consumer_goods_factor = -0.05
 				production_speed_buildings_factor = 0.025
 			}
 			
@@ -516,16 +501,10 @@ ideas = {
 				has_idea = theocracy_type
 			}
 			
-			available = {
-				has_idea = theocracy_type
-			}
-			
 			modifier = {
 				resistance_tick_auto = -1
 				drift_defence_factor = 0.2
-				prestige_cost_factor = -0.1
-				industrial_capacity_factory = 0.025
-				industrial_capacity_dockyard = 0.025
+				consumer_goods_factor = -0.025
 				production_speed_buildings_factor = 0.05
 			}
 			
@@ -538,10 +517,6 @@ ideas = {
 			cost = 100
 			
 			visible = {
-				has_idea = theocracy_type
-			}
-			
-			available = {
 				has_idea = theocracy_type
 			}
 			

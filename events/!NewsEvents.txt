@@ -1,0 +1,178 @@
+	add_namespace = news_event
+	
+#End of the HYW
+news_event = {
+	id = news_event.1
+	title = news_event.1.t
+	desc = news_event.1.d
+	picture = DIPLOMACY_eventPicture
+		
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	option = {
+		name = news_event.1.a # Peace at last
+	}
+}
+#Election of Kasimir | Jagiellon Dynasty
+news_event = {
+	id = news_event.2
+	title = news_event.2.t
+	desc = news_event.2.d
+	picture = LIBERUM_VETO_eventPicture
+		
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	option = {
+		name = news_event.2.a # Good news for Christendom
+		trigger = {
+			OR = {
+				has_government = neutrality
+				has_government = protestant
+				has_government = anglican
+				has_government = reformed
+				has_government = orthodox
+			}
+		}
+	}
+	option = {
+		name = news_event.2.b # Interesting
+		trigger = {
+			NOT = {
+				OR = {
+					has_government = neutrality
+					has_government = protestant
+					has_government = anglican
+					has_government = reformed
+					has_government = orthodox
+				}
+			}
+		}
+	}
+}
+	#Election of Kasimir | A Local Noble
+news_event = {
+	id = news_event.3
+	title = news_event.3.t
+	desc = news_event.3.d
+	picture = LIBERUM_VETO_eventPicture
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	option = {
+		name = news_event.3.a # Interesting
+	}
+}
+#Iberian Wedding | Successful Union
+news_event = {
+	id = news_event.4
+	title = news_event.4.t
+	desc = news_event.4.d
+	picture = DIPLOMACY_eventPicture
+		
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	option = {
+		name = news_event.4.a # Let us send our regards
+		trigger = {
+			has_opinion = {
+				target = CST
+				value > 0
+			}
+		}
+	}
+	option = {
+		name = news_event.4.b # Interesting
+		trigger = {
+			NOT = {
+				has_opinion = {
+					target = CST
+					value > 0
+				}
+			}
+		}
+	}
+}
+#Iberian Wedding | A Union Divided
+news_event = {
+	id = news_event.5
+	title = news_event.5.t
+	desc = news_event.5.d
+	picture = DIPLOMACY_eventPicture
+		
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	option = {
+		name = news_event.5.a # Let us send our regards
+	}
+}
+#Surrender of Maine | England Refuses | France Retaliates
+news_event = {
+	id = news_event.6
+	title = news_event.6.t
+	desc = news_event.6.d
+	picture = SIEGE_eventPicture
+		
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	option = {
+		name = news_event.6.a # Peace is fragile, isn't it?
+	}
+}
+#Surrender of Maine | England Refuses | France Backs Down
+news_event = {
+	id = news_event.7
+	title = news_event.7.t
+	desc = news_event.6.d
+	picture = SIEGE_eventPicture
+		
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	option = {
+		name = news_event.7.a # Interesting
+	}
+}
+#Surrender of Maine | England Accepts
+news_event = {
+	id = news_event.8
+	title = news_event.8.t
+	desc = news_event.6.d
+	picture = SIEGE_eventPicture
+		
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	option = {
+		name = news_event.8.a # Peace, for now.
+	}
+}

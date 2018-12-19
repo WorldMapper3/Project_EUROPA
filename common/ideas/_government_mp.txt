@@ -1,0 +1,366 @@
+ideas = {
+
+	gov_adm = { 
+		law = yes
+		#RULER ADMIN#
+		adm0 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				production_speed_infrastructure_factor=-0.3
+				political_power_gain=-0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+		adm1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				production_speed_infrastructure_factor=-0.2
+				political_power_gain=-0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+		adm2 = {
+			
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cost = 0
+			
+			modifier = {
+				production_speed_infrastructure_factor=-0.1
+				political_power_gain=-0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+		adm3 = {
+			
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cost = 0
+			
+			modifier = {	
+			}
+			
+			cancel_if_invalid = no
+		}
+		adm4 = {
+			
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cost = 0
+			
+			modifier = {	
+				production_speed_infrastructure_factor=0.1
+				political_power_gain=0.05		
+			}
+			
+			cancel_if_invalid = no
+		}
+		adm5 = {
+			
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cost = 0
+			
+			modifier = {	
+				production_speed_infrastructure_factor=0.2
+				political_power_gain=0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+		adm6 = {
+			
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cost = 0
+			
+			modifier = {
+				production_speed_infrastructure_factor=0.3
+				political_power_gain=0.15		
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	gov_dip = { 
+		law = yes
+		#RULER DIPLO#
+		dip0 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				local_resources=-0.3
+				political_power_gain=-0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+		dip1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				local_resources=-0.2
+				political_power_gain=-0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+		dip2 = {
+			
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cost = 0
+			
+			modifier = {
+				local_resources=-0.1
+				political_power_gain=-0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+		dip3 = {
+			
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cost = 0
+			
+			modifier = {	
+			}
+			
+			cancel_if_invalid = no
+		}
+		dip4 = {
+			
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cost = 0
+			
+			modifier = {	
+				local_resources=0.1
+				political_power_gain=0.05		
+			}
+			
+			cancel_if_invalid = no
+		}
+		dip5 = {
+			
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cost = 0
+			
+			modifier = {	
+				local_resources=0.2
+				political_power_gain=0.10	
+			}
+			
+			cancel_if_invalid = no
+		}
+		dip6 = {
+			
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cost = 0
+			
+			modifier = {
+				local_resources=0.3
+				political_power_gain=0.15	
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	gov_mil = { 
+		law = yes
+		#RULER MIL#
+		mil0 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				military_leader_cost_factor=0.3
+				political_power_gain=-0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+		mil1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				military_leader_cost_factor=0.2
+				political_power_gain=-0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+		mil2 = {
+			
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cost = 0
+			
+			modifier = {
+				military_leader_cost_factor=0.1
+				political_power_gain=-0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+		mil3 = {
+			
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cost = 0
+			
+			modifier = {	
+			}
+			
+			cancel_if_invalid = no
+		}
+		mil4 = {
+			
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cost = 0
+			
+			modifier = {	
+				military_leader_cost_factor=-0.1
+				political_power_gain=0.05		
+			}
+			
+			cancel_if_invalid = no
+		}
+		mil5 = {
+			
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cost = 0
+			
+			modifier = {	
+				military_leader_cost_factor=-0.2
+				political_power_gain=0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+		mil6 = {
+			
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cost = 0
+			
+			modifier = {
+				military_leader_cost_factor=-0.3
+				political_power_gain=0.15	
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

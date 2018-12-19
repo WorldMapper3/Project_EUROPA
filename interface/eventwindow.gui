@@ -98,7 +98,7 @@ guiTypes = {
 			iconType = {
 				name ="event_picture"
 				spriteType = "GFX_report_event_001"
-				position = { x = 5 y = 5 }
+				position = { x = 15 y = -25 }
 				Orientation = "UPPER_LEFT"
 				allwaystransparent = yes				
 			}
@@ -114,8 +114,8 @@ guiTypes = {
 			gridBoxType = {
 				name = "options_grid"
 				position = { x = 215 y = -1 }
-				size = { width = 300 height = 25 }
-				slotsize = { width = 300 height = 25 }
+				size = { width = 300 height = 30 }
+				slotsize = { width = 300 height = 47 }
 				max_slots_horizontal = 1
 				format = "UPPER_LEFT"
 			}
@@ -383,9 +383,9 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Name"
 			position = { x = 5 y = 0 }
-			font = "hoi4_cg_16b"
+			font = "hoi_20bs"
 			maxWidth = 340
-			maxHeight = 27
+			maxHeight = 40
 			format = center
 			vertical_alignment = center
 			alwaystransparent = yes

@@ -40,4 +40,17 @@ idea_categories = {
 		removal_cost = 0
 	}
 	
+	government_mp = {
+		slot = mp_nat_focus
+		slot = gov_adm
+		slot = adv_adm
+		slot = gov_dip
+		slot = adv_dip
+		slot = gov_mil
+		slot = adv_mil
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
 }

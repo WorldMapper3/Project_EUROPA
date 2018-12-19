@@ -41,7 +41,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -71,7 +71,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -101,7 +101,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -128,7 +128,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -155,7 +155,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -182,7 +182,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -209,7 +209,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -239,7 +239,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -265,7 +265,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -291,7 +291,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -317,7 +317,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -345,7 +345,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -373,7 +373,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -401,7 +401,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -429,7 +429,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -455,7 +455,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -481,7 +481,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -507,7 +507,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -534,7 +534,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -561,7 +561,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -588,7 +588,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -618,7 +618,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -644,7 +644,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -670,7 +670,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -696,7 +696,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -723,7 +723,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -750,7 +750,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -777,7 +777,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
@@ -804,7 +804,7 @@ technologies = {
 		}
 		
 		categories = {
-			infantry_weapons
+			cavalry
 		}
 		
 		ai_will_do = {
