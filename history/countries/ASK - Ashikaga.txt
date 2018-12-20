@@ -17,7 +17,7 @@ set_technology = {
 }
 
 
-set_convoys = 50
+set_convoys = 5
 
 give_guarantee = AMA
 give_guarantee = DTE

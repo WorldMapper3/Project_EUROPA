@@ -47,4 +47,15 @@ units = {
 		start_equipment_factor = 1
 
 	}
+	navy = {
+		base = 1013
+		location = 1013
+		#Barques
+		ship = { name = "Barque 1" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = TLM } } }
+		#Galleys
+		ship = { name = "Galley 1" definition = destroyer equipment = { galley_1 = {amount = 1 owner = TLM } } }
+		ship = { name = "Galley 2" definition = destroyer equipment = { galley_1 = {amount = 1 owner = TLM } } }
+		ship = { name = "Galley 3" definition = destroyer equipment = { galley_1 = {amount = 1 owner = TLM } } }
+		ship = { name = "Galley 4" definition = destroyer equipment = { galley_1 = {amount = 1 owner = TLM } } }
+	}
 }

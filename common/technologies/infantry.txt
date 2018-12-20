@@ -106,7 +106,6 @@ technologies = {
 		category_heavy_lancers = {
 			soft_attack = 0.02
 			hard_attack = 0.02
-			piercing = 0.01
 			breakthrough = 0.01
 		}
 		
@@ -136,7 +135,6 @@ technologies = {
 		category_heavy_lancers = {
 			soft_attack = 0.02
 			hard_attack = 0.02
-			piercing = 0.01
 			breakthrough = 0.01
 		}
 		
@@ -166,7 +164,6 @@ technologies = {
 		category_heavy_lancers = {
 			soft_attack = 0.02
 			hard_attack = 0.02
-			piercing = 0.01
 			breakthrough = 0.01
 		}
 		
@@ -196,7 +193,6 @@ technologies = {
 		category_heavy_lancers = {
 			soft_attack = 0.02
 			hard_attack = 0.02
-			piercing = 0.01
 			breakthrough = 0.01
 		}
 		
@@ -316,7 +312,6 @@ technologies = {
 		category_pikemen = {
 			soft_attack = 0.02
 			hard_attack = 0.02
-			piercing = 0.01
 			breakthrough = 0.01
 		}
 		
@@ -345,7 +340,6 @@ technologies = {
 		category_pikemen = {
 			soft_attack = 0.02
 			hard_attack = 0.02
-			piercing = 0.01
 			breakthrough = 0.01
 		}
 		
@@ -374,7 +368,6 @@ technologies = {
 		category_pikemen = {
 			soft_attack = 0.02
 			hard_attack = 0.02
-			piercing = 0.01
 			breakthrough = 0.01
 		}
 		
@@ -403,7 +396,6 @@ technologies = {
 		category_pikemen = {
 			soft_attack = 0.02
 			hard_attack = 0.02
-			piercing = 0.01
 			breakthrough = 0.01
 		}
 		
@@ -516,7 +508,6 @@ technologies = {
 		category_halberdiers = {
 			soft_attack = 0.02
 			hard_attack = 0.02
-			piercing = 0.01
 			breakthrough = 0.01
 		}
 		
@@ -545,7 +536,6 @@ technologies = {
 		category_halberdiers = {
 			soft_attack = 0.02
 			hard_attack = 0.02
-			piercing = 0.01
 			breakthrough = 0.01
 		}
 		
@@ -574,7 +564,6 @@ technologies = {
 		category_halberdiers = {
 			soft_attack = 0.02
 			hard_attack = 0.02
-			piercing = 0.01
 			breakthrough = 0.01
 		}
 		
@@ -603,7 +592,6 @@ technologies = {
 		category_halberdiers = {
 			soft_attack = 0.02
 			hard_attack = 0.02
-			piercing = 0.01
 			breakthrough = 0.01
 		}
 		
@@ -632,7 +620,6 @@ technologies = {
 		category_halberdiers = {
 			soft_attack = 0.02
 			hard_attack = 0.02
-			piercing = 0.01
 			breakthrough = 0.01
 		}
 		

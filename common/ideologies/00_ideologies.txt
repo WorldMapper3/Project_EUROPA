@@ -41,11 +41,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -84,11 +80,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -127,11 +119,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -170,11 +158,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -213,11 +197,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -256,11 +236,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -312,11 +288,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -355,11 +327,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -398,11 +366,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -441,11 +405,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -484,11 +444,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -527,11 +483,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -570,11 +522,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -613,11 +561,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -656,11 +600,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -699,11 +639,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -757,11 +693,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -800,11 +732,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -843,11 +771,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -886,11 +810,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -929,11 +849,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -972,11 +888,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -1015,11 +927,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -1058,11 +966,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -1110,11 +1014,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {
@@ -1153,11 +1053,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			
 		}
 		
 		faction_modifiers = {

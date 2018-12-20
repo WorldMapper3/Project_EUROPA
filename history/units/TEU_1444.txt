@@ -6,10 +6,10 @@
 		pikemen = { x = 0 y = 0 }
 		halberdiers = { x = 0 y = 1 }
 		pikemen = { x = 1 y = 0 }
-		arquebusiers = { x = 1 y = 1 }
+		arquebuTEUrs = { x = 1 y = 1 }
 	}
 	support = {
-		arquebusiers_support = { x = 0 y = 0 }
+		arquebuTEUrs_support = { x = 0 y = 0 }
 		arbalests_support = { x = 0 y = 1 } 
 	}
 }
@@ -53,5 +53,18 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
+	}
+	navy = {
+		base = 6332
+		location = 6332
+		#Barques
+		ship = { name = "Barque 1" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = TEU } } }
+		ship = { name = "Barque 2" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = TEU } } }
+		#Galleys
+		ship = { name = "Galley 1" definition = destroyer equipment = { galley_1 = {amount = 1 owner = TEU } } }
+		ship = { name = "Galley 2" definition = destroyer equipment = { galley_1 = {amount = 1 owner = TEU } } }
+		ship = { name = "Galley 3" definition = destroyer equipment = { galley_1 = {amount = 1 owner = TEU } } }
+		ship = { name = "Galley 4" definition = destroyer equipment = { galley_1 = {amount = 1 owner = TEU } } }
+		ship = { name = "Galley 5" definition = destroyer equipment = { galley_1 = {amount = 1 owner = TEU } } }
 	}
 }

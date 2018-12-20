@@ -33,4 +33,17 @@ units = {
 		start_equipment_factor = 1
 
 	}
+	navy = {
+		base = 11984
+		location = 11984
+		#Barques
+		ship = { name = "Barque 1" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = CYP } } }
+		ship = { name = "Barque 2" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = CYP } } }
+		#Galleys
+		ship = { name = "Galley 1" definition = destroyer equipment = { galley_1 = {amount = 1 owner = CYP } } }
+		ship = { name = "Galley 2" definition = destroyer equipment = { galley_1 = {amount = 1 owner = CYP } } }
+		ship = { name = "Galley 3" definition = destroyer equipment = { galley_1 = {amount = 1 owner = CYP } } }
+		ship = { name = "Galley 4" definition = destroyer equipment = { galley_1 = {amount = 1 owner = CYP } } }
+		ship = { name = "Galley 5" definition = destroyer equipment = { galley_1 = {amount = 1 owner = CYP } } }
+	}
 }

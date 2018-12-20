@@ -69,4 +69,21 @@ units = {
 		start_equipment_factor = 1
 
 	}
+	navy = {
+		base = 11584
+		location = 11584
+		#Barques
+		ship = { name = "Barque 1" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = VNC } } }
+		ship = { name = "Barque 2" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = VNC } } }
+		ship = { name = "Barque 3" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = VNC } } }
+		ship = { name = "Barque 4" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = VNC } } }
+		ship = { name = "Barque 5" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = VNC } } }
+		ship = { name = "Barque 6" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = VNC } } }
+		ship = { name = "Barque 7" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = VNC } } }
+		#Galleys
+		ship = { name = "Galley 1" definition = destroyer equipment = { galley_1 = {amount = 1 owner = VNC } } }
+		ship = { name = "Galley 2" definition = destroyer equipment = { galley_1 = {amount = 1 owner = VNC } } }
+		ship = { name = "Galley 3" definition = destroyer equipment = { galley_1 = {amount = 1 owner = VNC } } }
+		ship = { name = "Galley 4" definition = destroyer equipment = { galley_1 = {amount = 1 owner = VNC } } }
+	}
 }

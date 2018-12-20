@@ -17,7 +17,7 @@ set_technology = {
 }
 
 
-set_convoys = 50
+set_convoys = 7
 
 1439.1.1 = {
 	set_politics = {

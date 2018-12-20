@@ -13,7 +13,9 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-
+			9317 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = LIV
 		add_core_of = LAT

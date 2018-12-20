@@ -90,4 +90,16 @@ units = {
 		start_equipment_factor = 1
 
 	}
+	navy = {
+		base = 3946
+		location = 3946
+		#Carracks
+		ship = { name = "Early Carrack 1" definition = battleship equipment = { carrack_1 = {amount = 1 owner = FRA } } }
+		ship = { name = "Early Carrack 2" definition = battleship equipment = { carrack_1 = {amount = 1 owner = FRA } } }
+		#Barques
+		ship = { name = "Barque 1" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = FRA } } }
+		ship = { name = "Barque 2" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = FRA } } }
+		ship = { name = "Barque 3" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = FRA } } }
+		ship = { name = "Barque 4" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = FRA } } }
+	}
 }

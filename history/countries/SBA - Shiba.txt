@@ -17,7 +17,7 @@ set_technology = {
 }
 
 
-set_convoys = 50
+set_convoys = 3
 
 set_politics = {
 
@@ -120,7 +120,3 @@ create_country_leader = {
 		#
 	}
 }
-
-create_faction = "Shiba Alliance"
-add_to_faction = SBA
-add_to_faction = ODA

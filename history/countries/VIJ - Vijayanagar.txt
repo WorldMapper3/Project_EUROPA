@@ -17,7 +17,7 @@ set_technology = {
 }
 
 
-set_convoys = 50
+set_convoys = 11
 
 if = {
 	limit = {
@@ -31,11 +31,6 @@ if = {
 		puppet = JFN
 	}
 }
-
-create_faction = "Vijayanagar Alliance"
-add_to_faction = VIJ
-add_to_faction = MYS
-add_to_faction = YOR
 
 give_guarantee = MAB
 
