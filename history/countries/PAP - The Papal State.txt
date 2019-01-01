@@ -17,6 +17,17 @@ set_technology = {
 	padded_armour_tech = 1
 	mail_armour_tech = 1
 	plate_armour_tech = 1
+	bow_weapons = 1
+	arbalest_weapons = 1
+	arquebus_weapons = 1
+	war_horse_tech = 1
+	spear_cav_tech = 1
+	heavy_lancers_tech = 1
+	cav_archers_tech = 1
+	cog_tech = 1
+	barque_tech = 1
+	galley_tech = 1
+	carrack_tech = 1
 	feudal_monarchy_tech = 1
 }
 

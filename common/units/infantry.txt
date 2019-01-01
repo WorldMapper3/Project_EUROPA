@@ -37,7 +37,7 @@ sub_units = {
 		#Misc Abilities
 		training_time = 90
 		suppression = 1
-		weight = 0.5
+		weight = 0.6
 		
 		supply_consumption = 0.06
 	
@@ -80,7 +80,7 @@ sub_units = {
 		#Misc Abilities
 		training_time = 90
 		suppression = 1
-		weight = 0.5
+		weight = 0.6
 		
 		supply_consumption = 0.065
 	
@@ -123,7 +123,7 @@ sub_units = {
 		#Misc Abilities
 		training_time = 90
 		suppression = 1
-		weight = 0.5
+		weight = 0.6
 		
 		supply_consumption = 0.075
 	
@@ -166,7 +166,7 @@ sub_units = {
 		#Misc Abilities
 		training_time = 90
 		suppression = 1
-		weight = 0.5
+		weight = 0.6
 		
 		supply_consumption = 0.07
 	
@@ -209,8 +209,8 @@ sub_units = {
 		max_organisation = 0
 		default_morale = 0.1
 		training_time = 120
-		weight = 0.5
-		supply_consumption = 0.2
+		weight = 0.3
+		supply_consumption = 0.04
 		
 	}
 	
@@ -247,7 +247,7 @@ sub_units = {
 		#Misc Abilities
 		training_time = 90
 		suppression = 1
-		weight = 0.5
+		weight = 0.6
 		
 		supply_consumption = 0.08
 	
@@ -290,7 +290,7 @@ sub_units = {
 		#Misc Abilities
 		training_time = 90
 		suppression = 1
-		weight = 0.5
+		weight = 0.3
 		
 		supply_consumption = 0.08
 	
@@ -333,7 +333,7 @@ sub_units = {
 		#Misc Abilities
 		training_time = 90
 		suppression = 1
-		weight = 0.5
+		weight = 0.6
 		
 		supply_consumption = 0.1
 	
@@ -376,7 +376,7 @@ sub_units = {
 		#Misc Abilities
 		training_time = 90
 		suppression = 1
-		weight = 0.5
+		weight = 0.3
 		
 		supply_consumption = 0.1
 	

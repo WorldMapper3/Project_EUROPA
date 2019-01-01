@@ -24,6 +24,8 @@ technologies = {
 			cog
 		}
 		
+		naval_invasion_capacity = 100
+		
 		enable_equipments = {
 			cog_1
 		}

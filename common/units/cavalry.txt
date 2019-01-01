@@ -37,7 +37,7 @@ sub_units = {
 		#Misc Abilities
 		maximum_speed = 0.6
 		training_time = 120		
-		weight = 1
+		weight = 0.6
 		
 		supply_consumption = 0.12
 
@@ -107,7 +107,7 @@ sub_units = {
 		#Misc Abilities
 		maximum_speed = 0.6
 		training_time = 120		
-		weight = 1
+		weight = 0.6
 		
 		supply_consumption = 0.08
 
@@ -177,7 +177,7 @@ sub_units = {
 		#Misc Abilities
 		maximum_speed = 0.6
 		training_time = 120		
-		weight = 1
+		weight = 0.6
 		
 		supply_consumption = 0.01
 

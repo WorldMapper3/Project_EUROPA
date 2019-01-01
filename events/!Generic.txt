@@ -1,9 +1,9 @@
-	add_namespace = mp_assign
+	add_namespace = generic_event
 
 country_event = {
-	id = mp_assign.1
-	title = mp_assign.1.t
-	desc = mp_assign.1.d
+	id = generic_event.1
+	title = generic_event.1.t
+	desc = generic_event.1.d
 	picture = COA_MOD_eventPicture
 	
 	#CHECK FOR NO MONARCH POINT IDEAS#
@@ -39,7 +39,7 @@ country_event = {
 	}
 
 	option = {
-		name=mp_assign.1.a
+		name=generic_event.1.a
 		#ADMIN ASSIGN
 		hidden_effect = {
 			random_list = {
