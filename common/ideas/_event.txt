@@ -36,5 +36,37 @@ ideas = {
 				factor = 0
 			}
 		}
+		receiving_war_reparations = {
+			
+			allowed = {
+				always = no #Triggered via event
+			}
+			
+			picture = generic_foreign_capital
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		paying_war_reparations = {
+			
+			allowed = {
+				always = no #Triggered via event
+			}
+			
+			picture = great_depression
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
 	}
 }

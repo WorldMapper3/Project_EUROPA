@@ -60,6 +60,9 @@ buildings = {
 		icon_frame = 7
 		max_level = 10
 		value = 1
+		category_heavy_lancers = {
+			defense = 0.02
+		}
 	}
 
 	coastal_bunker = {

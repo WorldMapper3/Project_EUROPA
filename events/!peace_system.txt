@@ -1,0 +1,1857 @@
+	add_namespace = peace_system
+
+	#DEMANDS/CONCESSION EVENT#
+country_event = {
+	id = peace_system.1
+	title = peace_system.1.t
+	desc = peace_system.1.d
+	picture = TREATY_countryeventPicture
+	
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = demanding_break_alliance
+			clr_country_flag = demanding_claimed_states
+			clr_country_flag = demanding_claim_revocation
+			clr_country_flag = demanding_neighbour_states
+			clr_country_flag = demanding_occupied_states
+			clr_country_flag = demanding_monetary_sum
+			clr_country_flag = demanding_vassalisation
+			clr_country_flag = demanding_war_reparations
+			clr_country_flag = offering_break_alliance
+			clr_country_flag = offering_claimed_states
+			clr_country_flag = offering_claim_revocation
+			clr_country_flag = offering_neighbour_states
+			clr_country_flag = offering_occupied_states
+			clr_country_flag = offering_monetary_sum
+			clr_country_flag = offering_vassalisation
+			clr_country_flag = offering_war_reparations
+		}
+	}
+	option = { #MAKE DEMANDS
+		name=peace_system.1.a
+		country_event = { days = 0 id = peace_system.2 }
+	}
+	option = { #MAKE CONCESSIONS
+		name=peace_system.1.b
+		country_event = { days = 0 id = peace_system.6 }
+	}
+	option = { #WHITE PEACE
+		name=peace_system.1.c
+		country_event = { days = 0 id = peace_system.10 } #FINALISE PEACE#
+	}
+}
+	#PEACE DEMANDS EVENT#
+country_event = {
+	id = peace_system.2
+	title = peace_system.2.t
+	desc = peace_system.2.desc
+	picture = TREATY_countryeventPicture
+	
+	is_triggered_only = yes
+
+	
+	option = { #TERRITORIAL OPTIONS
+		name=peace_system.2.a
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = demanding_occupied_states
+					has_country_flag = demanding_neighbour_states
+					has_country_flag = demanding_claimed_states
+				}
+			}
+		}
+		country_event = { days = 0 id = peace_system.3 }
+	}
+	option = { #POLITICAL OPTIONS
+		name=peace_system.2.b
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = demanding_claim_revocation
+					has_country_flag = demanding_break_alliance
+					has_country_flag = demanding_vassalisation
+				}
+			}
+		}
+			country_event = { days = 0 id = peace_system.4 }
+	}
+	option = { #ECONOMIC OPTIONS
+		name=peace_system.2.c
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = demanding_war_reparations
+					has_country_flag = demanding_monetary_sum
+				}
+			}
+		}
+		country_event = { days = 0 id = peace_system.5 }
+	}
+	option = { #FINALISE PEACE
+		name=peace_system.2.d
+		country_event = { days = 0 id = peace_system.10 }
+	}
+}
+	#PEACE CONCESSIONS EVENT#
+country_event = {
+	id = peace_system.6
+	title = peace_system.6.t
+	desc = peace_system.6.desc
+	picture = TREATY_countryeventPicture
+	
+	is_triggered_only = yes
+
+	
+	option = { #TERRITORIAL OPTIONS
+		name=peace_system.6.a
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = offering_occupied_states
+					has_country_flag = offering_neighbour_states
+					has_country_flag = offering_claimed_states
+				}
+			}
+		}
+		country_event = { days = 0 id = peace_system.7 }
+	}
+	option = { #POLITICAL OPTIONS
+		name=peace_system.6.b
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = offering_claim_revocation
+					has_country_flag = offering_break_alliance
+					has_country_flag = offering_vassalisation
+				}
+			}
+		}
+		country_event = { days = 0 id = peace_system.8 }
+	}
+	option = { #ECONOMIC OPTIONS
+		name=peace_system.6.c
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = offering_war_reparations
+					has_country_flag = offering_monetary_sum
+				}
+			}
+		}
+		country_event = { days = 0 id = peace_system.9 }
+	}
+	option = { #FINALISE PEACE
+		name=peace_system.2.d
+		country_event = { days = 0 id = peace_system.11 }
+	}
+}
+	#TERRITORIAL DEMANDS#
+country_event = {
+	id = peace_system.3
+	title = peace_system.3.t
+	desc = peace_system.3.desc
+	picture = CONQUEST_countryeventPicture
+	
+	is_triggered_only = yes
+
+	
+	option = { #DEMAND ALL CORES/CLAIMS
+		name=peace_system.3.a 
+		country_event = { days = 0 id = peace_system.2 }
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = demanding_occupied_states
+					has_country_flag = demanding_neighbour_states
+				}
+			}
+		}	
+		set_country_flag = demanding_claimed_states
+	}
+	option = { #DEMAND ALL NEIGHBOUR STATES
+		name=peace_system.3.b #DEMAND/CEDE ALL NEIGHBOUR STATES
+		country_event = { days = 0 id = peace_system.2 }
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = demanding_occupied_states
+					has_country_flag = demanding_claimed_states
+				}
+			}
+		}
+		set_country_flag = demanding_neighbour_states
+	}
+	option = { #DEMAND ALL OCCUPIED STATES
+		name=peace_system.3.c
+		country_event = { days = 0 id = peace_system.2 }
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = demanding_neighbour_states
+					has_country_flag = demanding_claimed_states
+				}
+			}
+		}
+		set_country_flag = demanding_occupied_states
+	}
+	option = {
+		name=peace_system.3.d
+		country_event = { days = 0 id = peace_system.2 }
+	}
+}
+#TERRITORIAL CONCESSIONS#
+country_event = {
+	id = peace_system.7
+	title = peace_system.7.t
+	desc = peace_system.7.desc
+	picture = CONQUEST_countryeventPicture
+	
+	is_triggered_only = yes
+
+	
+	option = { #CEDE ALL CORES/CLAIMS
+		name=peace_system.7.a 
+		country_event = { days = 0 id = peace_system.6 }
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = offering_occupied_states
+					has_country_flag = offering_neighbour_states
+				}
+			}
+		}	
+		set_country_flag = offering_claimed_states
+	}
+	option = { #CEDE ALL NEIGHBOUR STATES
+		name=peace_system.7.b #DEMAND/CEDE ALL NEIGHBOUR STATES
+		country_event = { days = 0 id = peace_system.6 }
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = offering_occupied_states
+					has_country_flag = offering_claimed_states
+				}
+			}
+		}
+		set_country_flag = offering_neighbour_states
+	}
+	option = { #CEDE ALL OCCUPIED STATES
+		name=peace_system.7.c
+		country_event = { days = 0 id = peace_system.6 }
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = offering_neighbour_states
+					has_country_flag = offering_claimed_states
+				}
+			}
+		}
+		set_country_flag = offering_occupied_states
+	}
+	option = {
+		name=peace_system.3.d
+		country_event = { days = 0 id = peace_system.6 }
+	}
+}
+	#POLITICAL DEMANDS#
+country_event = {
+	id = peace_system.4
+	title = peace_system.4.t
+	desc = peace_system.4.desc
+	picture = DIPLOMACY_countryeventPicture
+	
+	is_triggered_only = yes
+
+	
+	option = {
+		name=peace_system.4.a
+		country_event = { days = 0 id = peace_system.2 }
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = demanding_claim_revocation
+					has_country_flag = demanding_break_alliance
+				}
+			}
+		}
+		set_country_flag = demanding_vassalisation
+	}
+	option = {
+		name=peace_system.4.b
+		country_event = { days = 0 id = peace_system.2 }
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = demanding_vassalisation
+					has_country_flag = demanding_break_alliance
+				}
+			}
+		}
+		set_country_flag = demanding_claim_revocation
+	}
+	option = {
+		name=peace_system.4.c
+		country_event = { days = 0 id = peace_system.2 }
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = demanding_vassalisation
+					has_country_flag = demanding_claim_revocation
+				}
+			}
+		}
+		set_country_flag = demanding_break_alliance
+	}
+	option = {
+		name=peace_system.4.d
+		country_event = { days = 0 id = peace_system.2 }
+	}
+}
+	#POLITICAL CONCESSIONS#
+country_event = {
+	id = peace_system.8
+	title = peace_system.8.t
+	desc = peace_system.8.d
+	picture = DIPLOMACY_countryeventPicture
+	
+	is_triggered_only = yes
+
+	
+	option = {
+		name=peace_system.8.a
+		country_event = { days = 0 id = peace_system.6 }
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = offering_break_alliance
+					has_country_flag = offering_claim_revocation
+				}
+			}
+		}
+		set_country_flag = offering_vassalisation
+	}
+	option = {
+		name=peace_system.8.b
+		country_event = { days = 0 id = peace_system.6 }
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = offering_break_alliance
+					has_country_flag = offering_vassalisation
+				}
+			}
+		}
+		set_country_flag = offering_claim_revocation
+	}
+	option = {
+		name=peace_system.8.c
+		country_event = { days = 0 id = peace_system.6 }
+		trigger = {
+			NOT = { 
+				OR = {
+					has_country_flag = offering_vassalisation
+					has_country_flag = offering_claim_revocation
+				}
+			}
+		}
+		set_country_flag = offering_break_alliance
+	}
+	option = {
+		name=peace_system.4.d
+		country_event = { days = 0 id = peace_system.6 }
+	}
+}
+	#ECONOMIC DEMANDS#
+country_event = {
+	id = peace_system.5
+	title = peace_system.5.t
+	desc = peace_system.5.d
+	picture = CORRUPTION_countryeventPicture
+	
+	is_triggered_only = yes
+
+	
+	option = {
+		name=peace_system.5.a
+		country_event = { days = 0 id = peace_system.2 }
+		trigger = {
+			NOT = { 
+				has_country_flag = demanding_monetary_sum
+			}
+		}
+		set_country_flag = demanding_war_reparations
+	}
+	option = {
+		name=peace_system.5.b
+		country_event = { days = 0 id = peace_system.2 }
+		trigger = {
+			NOT = { 
+				has_country_flag = demanding_war_reparations
+			}
+		}
+		set_country_flag = demanding_monetary_sum
+	}
+	option = {
+		name=peace_system.5.c
+		country_event = { days = 0 id = peace_system.2 }
+	}
+}
+	#ECONOMIC CONCESSIONS#
+country_event = {
+	id = peace_system.9
+	title = peace_system.9.t
+	desc = peace_system.9.d
+	picture = CORRUPTION_countryeventPicture
+	
+	is_triggered_only = yes
+
+	
+	option = {
+		name=peace_system.9.a
+		country_event = { days = 0 id = peace_system.6 }
+		trigger = {
+			NOT = { 
+				has_country_flag = offering_monetary_sum
+			}
+		}
+		set_country_flag = offering_war_reparations
+	}
+	option = {
+		name=peace_system.9.b
+		country_event = { days = 0 id = peace_system.6 }
+		trigger = {
+			NOT = { 
+				has_country_flag = offering_war_reparations
+			}
+		}
+		set_country_flag = offering_monetary_sum
+	}
+	option = {
+		name=peace_system.5.c
+		country_event = { days = 0 id = peace_system.6 }
+	}
+}
+	#FINALISE PEACE | DEMANDS#
+country_event = {
+	id = peace_system.10
+	title = peace_system.10.t
+	desc = peace_system.10.d
+	picture = TREATY_countryeventPicture
+	
+	is_triggered_only = yes
+
+	
+	option = { #YES
+		name=peace_system.10.a
+		every_country = {
+			limit = { has_country_flag = receiving_peace_from_@ROOT}
+			country_event = { days = 1 id = peace_system.12 }
+		}
+	}
+	option = { #NO, ADD MORE - SENDS BACK TO EVENT 2
+		name=peace_system.10.b
+		country_event = { days = 0 id = peace_system.2 }
+	}
+	option = { #NO, CLEAR ALL - SENDS BACK TO EVENT 1 AND CLEARS COUNTRY FLAGS
+		name=peace_system.10.c
+		country_event = { days = 0 id = peace_system.1 }
+	}
+}
+	#FINALISE PEACE | CONCESSIONS#
+country_event = {
+	id = peace_system.11
+	title = peace_system.11.t
+	desc = peace_system.11.d
+	picture = TREATY_countryeventPicture
+	
+	is_triggered_only = yes
+
+	
+	option = { #YES
+		name=peace_system.11.a
+		every_country = {
+			limit = { has_country_flag = receiving_peace_from_@ROOT}
+			country_event = { days = 1 id = peace_system.12 }
+		}
+	}
+	option = { #NO, ADD MORE - SENDS BACK TO EVENT 2
+		name=peace_system.11.b
+		country_event = { days = 0 id = peace_system.6 }
+	}
+	option = { #NO, CLEAR ALL - SENDS BACK TO EVENT 1 AND CLEARS COUNTRY FLAGS
+		name=peace_system.11.c
+		country_event = { days = 0 id = peace_system.1 }
+	}
+}
+	#FROM IS WINNER, ROOT IS LOSER ACCEPTING THE DEAL
+country_event = {
+	id = peace_system.12
+	title = peace_system.12.t
+	desc = peace_system.12.d
+	picture = LIBERUM_VETO_countryeventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = { #FLAGS ALL STATES OCCUPIED BY FROM
+			limit = { 
+				FROM = { has_country_flag = demanding_occupied_states }
+			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
+				}
+				every_owned_state = {
+					limit = {
+						is_controlled_by = FROM
+					}
+					set_state_flag = demanded_by_@FROM
+				}
+			}
+		}
+		if = { #STORES POLITICAL INFORMATION
+			limit = { FROM = { has_country_flag = demanding_vassalisation } }
+			ROOT = {
+				clr_country_flag = was_catholic
+				clr_country_flag = was_protestant
+				clr_country_flag = was_reformed
+				clr_country_flag = was_orthodox
+				clr_country_flag = was_coptic
+				clr_country_flag = was_anglican
+				clr_country_flag = was_sunni
+				clr_country_flag = was_shia
+				clr_country_flag = was_ibadi
+				clr_country_flag = was_theravada
+				clr_country_flag = was_vajrayana
+				clr_country_flag = was_mahayana
+				clr_country_flag = was_confucian
+				clr_country_flag = was_shinto
+				clr_country_flag = was_hindu
+				clr_country_flag = was_sikh
+				clr_country_flag = was_animist
+				clr_country_flag = was_fetishist
+				clr_country_flag = was_totemist
+				clr_country_flag = was_inti
+				clr_country_flag = was_nahuatl
+				clr_country_flag = was_mayan
+				clr_country_flag = was_tengri
+				clr_country_flag = was_norse
+				clr_country_flag = was_jewish
+				clr_country_flag = was_zoroastrian
+				
+				set_variable = { var = last_catholic_pop value = party_popularity@neutrality }
+				set_variable = { var = last_protestant_pop value = party_popularity@protestant }
+				set_variable = { var = last_reformed_pop value = party_popularity@reformed }
+				set_variable = { var = last_orthodox_pop value = party_popularity@orthodox }
+				set_variable = { var = last_coptic_pop value = party_popularity@coptic }
+				set_variable = { var = last_anglican_pop value = party_popularity@anglican }
+				set_variable = { var = last_sunni_pop value = party_popularity@fascism }
+				set_variable = { var = last_shia_pop value = party_popularity@shia }
+				set_variable = { var = last_ibadi_pop value = party_popularity@ibadi }
+				set_variable = { var = last_theravada_pop value = party_popularity@theravada }
+				set_variable = { var = last_vajrayana_pop value = party_popularity@vajrayana }
+				set_variable = { var = last_mahayana_pop value = party_popularity@mahayana }
+				set_variable = { var = last_confucian_pop value = party_popularity@confucian }
+				set_variable = { var = last_shinto_pop value = party_popularity@shinto }
+				set_variable = { var = last_hindu_pop value = party_popularity@hindu }
+				set_variable = { var = last_sikh_pop value = party_popularity@sikh }
+				set_variable = { var = last_animist_pop value = party_popularity@communism }
+				set_variable = { var = last_fetishist_pop value = party_popularity@fetishist }
+				set_variable = { var = last_totemist_pop value = party_popularity@totemist }
+				set_variable = { var = last_inti_pop value = party_popularity@inti }
+				set_variable = { var = last_nahuatl_pop value = party_popularity@nahuatl }
+				set_variable = { var = last_mayan_pop value = party_popularity@mayan }
+				set_variable = { var = last_tengri_pop value = party_popularity@tengri }
+				set_variable = { var = last_norse_pop value = party_popularity@norse }
+				set_variable = { var = last_jewish_pop value = party_popularity@democratic }
+				set_variable = { var = last_zoroastrian_pop value = party_popularity@zoroastrian }
+				if = {
+					limit = { has_government = neutrality }
+					set_country_flag = was_catholic
+				}
+				else_if = {
+					limit = { has_government = protestant }
+					set_country_flag = was_protestant
+				}
+				else_if = {
+					limit = { has_government = reformed }
+					set_country_flag = was_reformed
+				}
+				else_if = {
+					limit = { has_government = orthodox }
+					set_country_flag = was_orthodox
+				}
+				else_if = {
+					limit = { has_government = coptic }
+					set_country_flag = was_coptic
+				}
+				else_if = {
+					limit = { has_government = anglican }
+					set_country_flag = was_anglican
+				}
+				else_if = {
+					limit = { has_government = fascism }
+					set_country_flag = was_sunni
+				}
+				else_if = {
+					limit = { has_government = shia }
+					set_country_flag = was_shia
+				}
+				else_if = {
+					limit = { has_government = ibadi }
+					set_country_flag = was_ibadi
+				}
+				else_if = {
+					limit = { has_government = theravada }
+					set_country_flag = was_theravada
+				}
+				else_if = {
+					limit = { has_government = vajrayana }
+					set_country_flag = was_vajrayana
+				}
+				else_if = {
+					limit = { has_government = mahayana }
+					set_country_flag = was_mahayana
+				}
+				else_if = {
+					limit = { has_government = confucian }
+					set_country_flag = was_confucian
+				}
+				else_if = {
+					limit = { has_government = shinto }
+					set_country_flag = was_shinto
+				}
+				else_if = {
+					limit = { has_government = hindu }
+					set_country_flag = was_hindu
+				}
+				else_if = {
+					limit = { has_government = sikh }
+					set_country_flag = was_sikh
+				}
+				else_if = {
+					limit = { has_government = communism }
+					set_country_flag = was_animist
+				}
+				else_if = {
+					limit = { has_government = fetishist }
+					set_country_flag = was_fetishist
+				}
+				else_if = {
+					limit = { has_government = totemist }
+					set_country_flag = was_totemist
+				}
+				else_if = {
+					limit = { has_government = inti }
+					set_country_flag = was_inti
+				}
+				else_if = {
+					limit = { has_government = nahuatl }
+					set_country_flag = was_nahuatl
+				}
+				else_if = {
+					limit = { has_government = mayan }
+					set_country_flag = was_mayan
+				}
+				else_if = {
+					limit = { has_government = tengri }
+					set_country_flag = was_tengri
+				}
+				else_if = {
+					limit = { has_government = norse }
+					set_country_flag = was_norse
+				}
+				else_if = {
+					limit = { has_government = democratic }
+					set_country_flag = was_jewish
+				}
+				else_if = {
+					limit = { has_government = zoroastrian }
+					set_country_flag = was_zoroastrian
+				}
+			}
+		}
+	}
+	
+	option = { #YES
+		name=peace_system.12.a
+		news_event = { id = news_event.9 days = 1 }
+		#ROOT CEDES ALL OCCUPIED STATES
+		if = {
+			limit = {
+				FROM = { has_country_flag = demanding_occupied_states }
+			}
+			every_state = {
+				limit = {
+					has_state_flag = demanded_by_@FROM
+				}
+				FROM = { transfer_state = PREV }
+			}
+			every_state = {
+				clr_state_flag = demanded_by_@FROM
+			}
+			FROM = { clr_country_flag = demanding_occupied_states }
+		}
+		#CEDE ALL CORES AND CLAIMS
+		if = {
+			limit = { 
+				FROM = { has_country_flag = demanding_claimed_states }
+			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
+				}
+				every_owned_state = {
+					limit = {
+						OR = {
+							is_core_of = FROM
+							is_claimed_by = FROM
+						}
+					}
+					FROM = { 
+						transfer_state = PREV
+					}
+				}
+			}
+			FROM = { clr_country_flag = demanding_claimed_states }
+		}
+		#CEDE ALL NEIGHBOUR STATES
+		if = {
+			limit = {
+				FROM = { has_country_flag = demanding_neighbour_states }
+			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
+				}
+				every_owned_state = {
+					limit = {
+						num_owned_neighbour_states = {
+							owner = FROM
+							count > 0
+						}
+					}
+					FROM = { transfer_state = PREV }
+				}
+			}
+			FROM = { clr_country_flag = demanding_neighbour_states }
+		}
+		#ROOT PAYS WAR REPARATIONS
+		if = {
+			limit = {
+				FROM = { has_country_flag = demanding_war_reparations }
+			}
+			ROOT = { 
+				add_timed_idea = {
+					days = 365
+					idea = paying_war_reparations
+				}
+			}
+			FROM = {
+				add_timed_idea = {
+					days = 365
+					idea = receiving_war_reparations
+				}
+				clr_country_flag = demanding_war_reparations
+			}
+		}
+		#ROOT PAYS MONETARY SUM
+		if = {
+			limit = {
+				FROM = { has_country_flag = demanding_monetary_sum }
+			}
+			ROOT = { 
+				random_owned_state = {
+					limit = { industrial_complex > 0 }
+						
+					add_building_construction = {
+						type = industrial_complex
+						level = -1
+						instant_build = yes
+					}
+				}
+			}
+			FROM = {
+				random_owned_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				clr_country_flag = demanding_monetary_sum
+			}
+		}
+		if = { #ROOT BECOMES PUPPET
+			limit = {
+				FROM = { has_country_flag = demanding_vassalisation }
+			}
+			FROM = { 
+				clr_country_flag = demanding_vassalisation
+				puppet = ROOT
+			}
+			ROOT = {
+				hidden_effect = {
+					subtract_from_variable = {
+						var = last_catholic_pop
+						value = party_popularity@neutrality
+					}
+					add_popularity = {
+						ideology = neutrality
+						popularity = last_catholic_pop
+					}
+					clear_variable = last_catholic_pop
+					subtract_from_variable = {
+					   var = last_protestant_pop
+					   value = party_popularity@protestant
+					}
+					add_popularity = {
+						ideology = protestant
+						popularity = last_protestant_pop
+					}
+					clear_variable = last_protestant_pop
+					subtract_from_variable = {
+						var = last_reformed_pop
+						value = party_popularity@reformed
+					}
+					add_popularity = {
+						ideology = reformed
+						popularity = last_reformed_pop
+					}
+					clear_variable = last_reformed_pop
+					subtract_from_variable = {
+						var = last_orthodox_pop
+						value = party_popularity@orthodox
+					}
+					add_popularity = {
+						ideology = orthodox
+						popularity = last_orthodox_pop
+					}
+					clear_variable = last_orthodox_pop
+					subtract_from_variable = {
+						var = last_coptic_pop
+						value = party_popularity@coptic
+					}
+					add_popularity = {
+						ideology = coptic
+						popularity = last_coptic_pop
+					}
+					clear_variable = last_coptic_pop
+					subtract_from_variable = {
+						var = last_anglican_pop
+						value = party_popularity@anglican
+					}
+					add_popularity = {
+						ideology = anglican
+						popularity = last_anglican_pop
+					}
+					clear_variable = last_anglican_pop
+					subtract_from_variable = {
+						var = last_sunni_pop
+						value = party_popularity@fascism
+					}
+					add_popularity = {
+						ideology = fascism
+						popularity = last_sunni_pop
+					}
+					clear_variable = last_sunni_pop
+					subtract_from_variable = {
+						var = last_shia_pop
+						value = party_popularity@shia
+					}
+					add_popularity = {
+						ideology = shia
+						popularity = last_shia_pop
+					}
+					clear_variable = last_shia_pop
+					subtract_from_variable = {
+						var = last_ibadi_pop
+						value = party_popularity@ibadi
+					}
+					add_popularity = {
+						ideology = ibadi
+						popularity = last_ibadi_pop
+					}
+					clear_variable = last_ibadi_pop
+					subtract_from_variable = {
+						var = last_theravada_pop
+						value = party_popularity@theravada
+					}
+					add_popularity = {
+						ideology = theravada
+						popularity = last_theravada_pop
+					}
+					clear_variable = last_theravada_pop
+					subtract_from_variable = {
+						var = last_vajrayana_pop
+						value = party_popularity@vajrayana
+					}
+					add_popularity = {
+						ideology = vajrayana
+						popularity = last_vajrayana_pop
+					}
+					clear_variable = last_vajrayana_pop
+					subtract_from_variable = {
+						var = last_mahayana_pop
+						value = party_popularity@mahayana
+					}
+					add_popularity = {
+						ideology = mahayana
+						popularity = last_mahayana_pop
+					}
+					clear_variable = last_mahayana_pop
+					subtract_from_variable = {
+						var = last_confucian_pop
+						value = party_popularity@confucian
+					}
+					add_popularity = {
+						ideology = confucian
+						popularity = last_confucian_pop
+					}
+					clear_variable = last_confucian_pop
+					subtract_from_variable = {
+						var = last_shinto_pop
+						value = party_popularity@shinto
+					}
+					add_popularity = {
+						ideology = shinto
+						popularity = last_shinto_pop
+					}
+					clear_variable = last_shinto_pop
+					subtract_from_variable = {
+						var = last_hindu_pop
+						value = party_popularity@hindu
+					}
+					add_popularity = {
+						ideology = hindu
+						popularity = last_hindu_pop
+					}
+					clear_variable = last_hindu_pop
+					subtract_from_variable = {
+						var = last_sikh_pop
+						value = party_popularity@sikh
+					}
+					add_popularity = {
+						ideology = sikh
+						popularity = last_sikh_pop
+					}
+					clear_variable = last_sikh_pop
+					subtract_from_variable = {
+						var = last_animist_pop
+						value = party_popularity@communism
+					}
+					add_popularity = {
+						ideology = communism
+						popularity = last_animist_pop
+					}
+					clear_variable = last_animist_pop
+					subtract_from_variable = {
+						var = last_fetishist_pop
+						value = party_popularity@fetishist
+					}
+					add_popularity = {
+						ideology = fetishist
+						popularity = last_fetishist_pop
+					}
+					clear_variable = last_fetishist_pop
+					subtract_from_variable = {
+						var = last_totemist_pop
+						value = party_popularity@totemist
+					}
+					add_popularity = {
+						ideology = totemist
+						popularity = last_totemist_pop
+					}
+					clear_variable = last_totemist_pop
+					subtract_from_variable = {
+						var = last_inti_pop
+						value = party_popularity@inti
+					}
+					add_popularity = {
+						ideology = inti
+						popularity = last_inti_pop
+					}
+					clear_variable = last_inti_pop
+					subtract_from_variable = {
+						var = last_nahuatl_pop
+						value = party_popularity@nahuatl
+					}
+					add_popularity = {
+						ideology = nahuatl
+						popularity = last_nahuatl_pop
+					}
+					clear_variable = last_nahuatl_pop
+					subtract_from_variable = {
+						var = last_mayan_pop
+						value = party_popularity@mayan
+					}
+					add_popularity = {
+						ideology = mayan
+						popularity = last_mayan_pop
+					}
+					clear_variable = last_mayan_pop
+					subtract_from_variable = {
+						var = last_tengri_pop
+						value = party_popularity@tengri
+					}
+					add_popularity = {
+						ideology = tengri
+						popularity = last_tengri_pop
+					}
+					clear_variable = last_tengri_pop
+					subtract_from_variable = {
+						var = last_norse_pop
+						value = party_popularity@norse
+					}
+					add_popularity = {
+						ideology = norse
+						popularity = last_norse_pop
+					}
+					clear_variable = last_norse_pop
+					subtract_from_variable = {
+						var = last_jewish_pop
+						value = party_popularity@democratic
+					}
+					add_popularity = {
+						ideology = democratic
+						popularity = last_jewish_pop
+					}
+					clear_variable = last_jewish_pop
+					subtract_from_variable = {
+						var = last_zoroastrian_pop
+						value = party_popularity@zoroastrian
+					}
+					add_popularity = {
+						ideology = zoroastrian
+						popularity = last_zoroastrian_pop
+					}
+					clear_variable = last_zoroastrian_pop
+
+					if = {
+						limit = { has_country_flag = was_catholic }
+						set_politics = { ruling_party = neutrality }
+					}
+					else_if = {
+						limit = { has_country_flag = was_protestant }
+						set_politics = { ruling_party = protestant }
+					}
+					else_if = {
+						limit = { has_country_flag = was_reformed }
+						set_politics = { ruling_party = reformed }
+					}
+					else_if = {
+						limit = { has_country_flag = was_orthodox }
+						set_politics = { ruling_party = orthodox }
+					}
+					else_if = {
+						limit = { has_country_flag = was_coptic }
+						set_politics = { ruling_party = coptic }
+					}
+					else_if = {
+						limit = { has_country_flag = was_anglican }
+						set_politics = { ruling_party = anglican }
+					}
+					else_if = {
+						limit = { has_country_flag = was_sunni }
+						set_politics = { ruling_party = fascism }
+					}
+					else_if = {
+						limit = { has_country_flag = was_shia }
+						set_politics = { ruling_party = shia }
+					}
+					else_if = {
+						limit = { has_country_flag = was_ibadi }
+						set_politics = { ruling_party = ibadi }
+					}
+					else_if = {
+						limit = { has_country_flag = was_theravada }
+						set_politics = { ruling_party = theravada }
+					}
+					else_if = {
+						limit = { has_country_flag = was_vajrayana }
+						set_politics = { ruling_party = vajrayana }
+					}
+					else_if = {
+						limit = { has_country_flag = was_mahayana }
+						set_politics = { ruling_party = mahayana }
+					}
+					else_if = {
+						limit = { has_country_flag = was_confucian }
+						set_politics = { ruling_party = confucian }
+					}
+					else_if = {
+						limit = { has_country_flag = was_shinto }
+						set_politics = { ruling_party = shinto }
+					}
+					else_if = {
+						limit = { has_country_flag = was_hindu }
+						set_politics = { ruling_party = hindu }
+					}
+					else_if = {
+						limit = { has_country_flag = was_sikh }
+						set_politics = { ruling_party = sikh }
+					}
+					else_if = {
+						limit = { has_country_flag = was_animist }
+						set_politics = { ruling_party = communism }
+					}
+					else_if = {
+						limit = { has_country_flag = was_fetishist }
+						set_politics = { ruling_party = fetishist }
+					}
+					else_if = {
+						limit = { has_country_flag = was_totemist }
+						set_politics = { ruling_party = totemist }
+					}
+					else_if = {
+						limit = { has_country_flag = was_inti }
+						set_politics = { ruling_party = inti }
+					}
+					else_if = {
+						limit = { has_country_flag = was_nahuatl }
+						set_politics = { ruling_party = nahuatl }
+					}
+					else_if = {
+						limit = { has_country_flag = was_mayan }
+						set_politics = { ruling_party = mayan }
+					}
+					else_if = {
+						limit = { has_country_flag = was_tengri }
+						set_politics = { ruling_party = tengri }
+					}
+					else_if = {
+						limit = { has_country_flag = was_norse }
+						set_politics = { ruling_party = norse }
+					}
+					else_if = {
+						limit = { has_country_flag = was_jewish }
+						set_politics = { ruling_party = democratic }
+					}
+					else_if = {
+						limit = { has_country_flag = was_zoroastrian }
+						set_politics = { ruling_party = zoroastrian }
+					}
+				}
+			}
+		}
+		ROOT = { clr_country_flag = peace_in_progress }
+		FROM = { clr_country_flag = peace_in_progress }
+	}
+	option = { #NO
+		name=peace_system.12.b
+		news_event = { id = news_event.10 days = 1 }
+	}
+}
+	#ROOT IS WINNER, ROOT IS ACCEPTING THE DEAL
+country_event = {
+	id = peace_system.13
+	title = peace_system.13.t
+	desc = peace_system.13.d
+	picture = LIBERUM_VETO_countryeventPicture
+	
+	is_triggered_only = yes
+
+	immediate = {
+		if = { #FLAGS ALL STATES OCCUPIED BY ROOT
+			limit = { 
+				FROM = { has_country_flag = offering_occupied_states }
+			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = FROM
+						is_subject_of = FROM
+					}
+				}
+				every_owned_state = {
+					limit = {
+						is_controlled_by = ROOT
+					}
+					set_state_flag = offered_by_@FROM
+				}
+			}
+		}
+		if = { #STORES POLITICAL INFORMATION
+			limit = { FROM = { has_country_flag = offering_vassalisation } }
+			FROM = {
+				clr_country_flag = was_catholic
+				clr_country_flag = was_protestant
+				clr_country_flag = was_reformed
+				clr_country_flag = was_orthodox
+				clr_country_flag = was_coptic
+				clr_country_flag = was_anglican
+				clr_country_flag = was_sunni
+				clr_country_flag = was_shia
+				clr_country_flag = was_ibadi
+				clr_country_flag = was_theravada
+				clr_country_flag = was_vajrayana
+				clr_country_flag = was_mahayana
+				clr_country_flag = was_confucian
+				clr_country_flag = was_shinto
+				clr_country_flag = was_hindu
+				clr_country_flag = was_sikh
+				clr_country_flag = was_animist
+				clr_country_flag = was_fetishist
+				clr_country_flag = was_totemist
+				clr_country_flag = was_inti
+				clr_country_flag = was_nahuatl
+				clr_country_flag = was_mayan
+				clr_country_flag = was_tengri
+				clr_country_flag = was_norse
+				clr_country_flag = was_jewish
+				clr_country_flag = was_zoroastrian
+				
+				set_variable = { var = last_catholic_pop value = party_popularity@neutrality }
+				set_variable = { var = last_protestant_pop value = party_popularity@protestant }
+				set_variable = { var = last_reformed_pop value = party_popularity@reformed }
+				set_variable = { var = last_orthodox_pop value = party_popularity@orthodox }
+				set_variable = { var = last_coptic_pop value = party_popularity@coptic }
+				set_variable = { var = last_anglican_pop value = party_popularity@anglican }
+				set_variable = { var = last_sunni_pop value = party_popularity@fascism }
+				set_variable = { var = last_shia_pop value = party_popularity@shia }
+				set_variable = { var = last_ibadi_pop value = party_popularity@ibadi }
+				set_variable = { var = last_theravada_pop value = party_popularity@theravada }
+				set_variable = { var = last_vajrayana_pop value = party_popularity@vajrayana }
+				set_variable = { var = last_mahayana_pop value = party_popularity@mahayana }
+				set_variable = { var = last_confucian_pop value = party_popularity@confucian }
+				set_variable = { var = last_shinto_pop value = party_popularity@shinto }
+				set_variable = { var = last_hindu_pop value = party_popularity@hindu }
+				set_variable = { var = last_sikh_pop value = party_popularity@sikh }
+				set_variable = { var = last_animist_pop value = party_popularity@communism }
+				set_variable = { var = last_fetishist_pop value = party_popularity@fetishist }
+				set_variable = { var = last_totemist_pop value = party_popularity@totemist }
+				set_variable = { var = last_inti_pop value = party_popularity@inti }
+				set_variable = { var = last_nahuatl_pop value = party_popularity@nahuatl }
+				set_variable = { var = last_mayan_pop value = party_popularity@mayan }
+				set_variable = { var = last_tengri_pop value = party_popularity@tengri }
+				set_variable = { var = last_norse_pop value = party_popularity@norse }
+				set_variable = { var = last_jewish_pop value = party_popularity@democratic }
+				set_variable = { var = last_zoroastrian_pop value = party_popularity@zoroastrian }
+				if = {
+					limit = { has_government = neutrality }
+					set_country_flag = was_catholic
+				}
+				else_if = {
+					limit = { has_government = protestant }
+					set_country_flag = was_protestant
+				}
+				else_if = {
+					limit = { has_government = reformed }
+					set_country_flag = was_reformed
+				}
+				else_if = {
+					limit = { has_government = orthodox }
+					set_country_flag = was_orthodox
+				}
+				else_if = {
+					limit = { has_government = coptic }
+					set_country_flag = was_coptic
+				}
+				else_if = {
+					limit = { has_government = anglican }
+					set_country_flag = was_anglican
+				}
+				else_if = {
+					limit = { has_government = fascism }
+					set_country_flag = was_sunni
+				}
+				else_if = {
+					limit = { has_government = shia }
+					set_country_flag = was_shia
+				}
+				else_if = {
+					limit = { has_government = ibadi }
+					set_country_flag = was_ibadi
+				}
+				else_if = {
+					limit = { has_government = theravada }
+					set_country_flag = was_theravada
+				}
+				else_if = {
+					limit = { has_government = vajrayana }
+					set_country_flag = was_vajrayana
+				}
+				else_if = {
+					limit = { has_government = mahayana }
+					set_country_flag = was_mahayana
+				}
+				else_if = {
+					limit = { has_government = confucian }
+					set_country_flag = was_confucian
+				}
+				else_if = {
+					limit = { has_government = shinto }
+					set_country_flag = was_shinto
+				}
+				else_if = {
+					limit = { has_government = hindu }
+					set_country_flag = was_hindu
+				}
+				else_if = {
+					limit = { has_government = sikh }
+					set_country_flag = was_sikh
+				}
+				else_if = {
+					limit = { has_government = communism }
+					set_country_flag = was_animist
+				}
+				else_if = {
+					limit = { has_government = fetishist }
+					set_country_flag = was_fetishist
+				}
+				else_if = {
+					limit = { has_government = totemist }
+					set_country_flag = was_totemist
+				}
+				else_if = {
+					limit = { has_government = inti }
+					set_country_flag = was_inti
+				}
+				else_if = {
+					limit = { has_government = nahuatl }
+					set_country_flag = was_nahuatl
+				}
+				else_if = {
+					limit = { has_government = mayan }
+					set_country_flag = was_mayan
+				}
+				else_if = {
+					limit = { has_government = tengri }
+					set_country_flag = was_tengri
+				}
+				else_if = {
+					limit = { has_government = norse }
+					set_country_flag = was_norse
+				}
+				else_if = {
+					limit = { has_government = democratic }
+					set_country_flag = was_jewish
+				}
+				else_if = {
+					limit = { has_government = zoroastrian }
+					set_country_flag = was_zoroastrian
+				}
+			}
+		}
+	}
+	
+	option = { #YES
+		name=peace_system.13.a
+		news_event = { id = news_event.9 days = 1 }
+		#FROM CEDES ALL OCCUPIED STATES
+		if = {
+			limit = {
+				FROM = { has_country_flag = offering_occupied_states }
+			}
+			every_state = {
+				limit = {
+					has_state_flag = offered_by_@FROM
+				}
+				ROOT = { transfer_state = PREV }
+			}
+			every_state = {
+				clr_state_flag = offered_by_@FROM
+			}
+			FROM = { clr_country_flag = offering_occupied_states }
+		}
+		#FROM CEDES ALL CORES AND CLAIMS
+		if = {
+			limit = { 
+				FROM = { has_country_flag = offering_claimed_states }
+			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = FROM
+						is_subject_of = FROM
+					}
+				}
+				every_owned_state = {
+					limit = {
+						OR = {
+							is_core_of = ROOT
+							is_claimed_by = ROOT
+						}
+					}
+					ROOT = { transfer_state = PREV }
+				}
+			}
+			FROM = { clr_country_flag = offering_claimed_states }
+		}
+		#FROM CEDES ALL NEIGHBOUR STATES
+		if = {
+			limit = {
+				FROM = { has_country_flag = offering_neighbour_states }
+			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = FROM
+						is_subject_of = FROM
+					}
+				}
+				every_owned_state = {
+					limit = {
+						num_owned_neighbour_states = {
+							owner = ROOT
+							count > 0
+						}
+					}
+					ROOT = { transfer_state = PREV }
+				}
+			}		
+			FROM = { clr_country_flag = offering_neighbour_states }
+		}
+		#FROM PAYS WAR REPARATIONS
+		if = {
+			limit = {
+				FROM = { has_country_flag = offering_war_reparations }
+			}
+			FROM = { 
+				add_timed_idea = {
+					days = 365
+					idea = paying_war_reparations
+				}
+				clr_country_flag = offering_war_reparations
+			}
+			ROOT = {
+				add_timed_idea = {
+					days = 365
+					idea = receiving_war_reparations
+				}
+			}
+		}
+		#FROM PAYS MONETARY SUM
+		if = {
+			limit = {
+				FROM = { has_country_flag = offering_monetary_sum }
+			}
+			FROM = { 
+				random_owned_state = {
+					limit = { industrial_complex > 0 }
+						
+					add_building_construction = {
+						type = industrial_complex
+						level = -1
+						instant_build = yes
+					}
+				}
+				clr_country_flag = offering_monetary_sum
+			}
+			ROOT = {
+				random_owned_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		#FROM BECOMES PUPPET
+		if = {
+			limit = {
+				FROM = { has_country_flag = offering_vassalisation }
+			}
+			ROOT = {
+				puppet = FROM
+			}
+			FROM = {
+				hidden_effect = {
+					subtract_from_variable = {
+						var = last_catholic_pop
+						value = party_popularity@neutrality
+					}
+					add_popularity = {
+						ideology = neutrality
+						popularity = last_catholic_pop
+					}
+					clear_variable = last_catholic_pop
+					subtract_from_variable = {
+					   var = last_protestant_pop
+					   value = party_popularity@protestant
+					}
+					add_popularity = {
+						ideology = protestant
+						popularity = last_protestant_pop
+					}
+					clear_variable = last_protestant_pop
+					subtract_from_variable = {
+						var = last_reformed_pop
+						value = party_popularity@reformed
+					}
+					add_popularity = {
+						ideology = reformed
+						popularity = last_reformed_pop
+					}
+					clear_variable = last_reformed_pop
+					subtract_from_variable = {
+						var = last_orthodox_pop
+						value = party_popularity@orthodox
+					}
+					add_popularity = {
+						ideology = orthodox
+						popularity = last_orthodox_pop
+					}
+					clear_variable = last_orthodox_pop
+					subtract_from_variable = {
+						var = last_coptic_pop
+						value = party_popularity@coptic
+					}
+					add_popularity = {
+						ideology = coptic
+						popularity = last_coptic_pop
+					}
+					clear_variable = last_coptic_pop
+					subtract_from_variable = {
+						var = last_anglican_pop
+						value = party_popularity@anglican
+					}
+					add_popularity = {
+						ideology = anglican
+						popularity = last_anglican_pop
+					}
+					clear_variable = last_anglican_pop
+					subtract_from_variable = {
+						var = last_sunni_pop
+						value = party_popularity@fascism
+					}
+					add_popularity = {
+						ideology = fascism
+						popularity = last_sunni_pop
+					}
+					clear_variable = last_sunni_pop
+					subtract_from_variable = {
+						var = last_shia_pop
+						value = party_popularity@shia
+					}
+					add_popularity = {
+						ideology = shia
+						popularity = last_shia_pop
+					}
+					clear_variable = last_shia_pop
+					subtract_from_variable = {
+						var = last_ibadi_pop
+						value = party_popularity@ibadi
+					}
+					add_popularity = {
+						ideology = ibadi
+						popularity = last_ibadi_pop
+					}
+					clear_variable = last_ibadi_pop
+					subtract_from_variable = {
+						var = last_theravada_pop
+						value = party_popularity@theravada
+					}
+					add_popularity = {
+						ideology = theravada
+						popularity = last_theravada_pop
+					}
+					clear_variable = last_theravada_pop
+					subtract_from_variable = {
+						var = last_vajrayana_pop
+						value = party_popularity@vajrayana
+					}
+					add_popularity = {
+						ideology = vajrayana
+						popularity = last_vajrayana_pop
+					}
+					clear_variable = last_vajrayana_pop
+					subtract_from_variable = {
+						var = last_mahayana_pop
+						value = party_popularity@mahayana
+					}
+					add_popularity = {
+						ideology = mahayana
+						popularity = last_mahayana_pop
+					}
+					clear_variable = last_mahayana_pop
+					subtract_from_variable = {
+						var = last_confucian_pop
+						value = party_popularity@confucian
+					}
+					add_popularity = {
+						ideology = confucian
+						popularity = last_confucian_pop
+					}
+					clear_variable = last_confucian_pop
+					subtract_from_variable = {
+						var = last_shinto_pop
+						value = party_popularity@shinto
+					}
+					add_popularity = {
+						ideology = shinto
+						popularity = last_shinto_pop
+					}
+					clear_variable = last_shinto_pop
+					subtract_from_variable = {
+						var = last_hindu_pop
+						value = party_popularity@hindu
+					}
+					add_popularity = {
+						ideology = hindu
+						popularity = last_hindu_pop
+					}
+					clear_variable = last_hindu_pop
+					subtract_from_variable = {
+						var = last_sikh_pop
+						value = party_popularity@sikh
+					}
+					add_popularity = {
+						ideology = sikh
+						popularity = last_sikh_pop
+					}
+					clear_variable = last_sikh_pop
+					subtract_from_variable = {
+						var = last_animist_pop
+						value = party_popularity@communism
+					}
+					add_popularity = {
+						ideology = communism
+						popularity = last_animist_pop
+					}
+					clear_variable = last_animist_pop
+					subtract_from_variable = {
+						var = last_fetishist_pop
+						value = party_popularity@fetishist
+					}
+					add_popularity = {
+						ideology = fetishist
+						popularity = last_fetishist_pop
+					}
+					clear_variable = last_fetishist_pop
+					subtract_from_variable = {
+						var = last_totemist_pop
+						value = party_popularity@totemist
+					}
+					add_popularity = {
+						ideology = totemist
+						popularity = last_totemist_pop
+					}
+					clear_variable = last_totemist_pop
+					subtract_from_variable = {
+						var = last_inti_pop
+						value = party_popularity@inti
+					}
+					add_popularity = {
+						ideology = inti
+						popularity = last_inti_pop
+					}
+					clear_variable = last_inti_pop
+					subtract_from_variable = {
+						var = last_nahuatl_pop
+						value = party_popularity@nahuatl
+					}
+					add_popularity = {
+						ideology = nahuatl
+						popularity = last_nahuatl_pop
+					}
+					clear_variable = last_nahuatl_pop
+					subtract_from_variable = {
+						var = last_mayan_pop
+						value = party_popularity@mayan
+					}
+					add_popularity = {
+						ideology = mayan
+						popularity = last_mayan_pop
+					}
+					clear_variable = last_mayan_pop
+					subtract_from_variable = {
+						var = last_tengri_pop
+						value = party_popularity@tengri
+					}
+					add_popularity = {
+						ideology = tengri
+						popularity = last_tengri_pop
+					}
+					clear_variable = last_tengri_pop
+					subtract_from_variable = {
+						var = last_norse_pop
+						value = party_popularity@norse
+					}
+					add_popularity = {
+						ideology = norse
+						popularity = last_norse_pop
+					}
+					clear_variable = last_norse_pop
+					subtract_from_variable = {
+						var = last_jewish_pop
+						value = party_popularity@democratic
+					}
+					add_popularity = {
+						ideology = democratic
+						popularity = last_jewish_pop
+					}
+					clear_variable = last_jewish_pop
+					subtract_from_variable = {
+						var = last_zoroastrian_pop
+						value = party_popularity@zoroastrian
+					}
+					add_popularity = {
+						ideology = zoroastrian
+						popularity = last_zoroastrian_pop
+					}
+					clear_variable = last_zoroastrian_pop
+
+					if = {
+						limit = { has_country_flag = was_catholic }
+						set_politics = { ruling_party = neutrality }
+					}
+					else_if = {
+						limit = { has_country_flag = was_protestant }
+						set_politics = { ruling_party = protestant }
+					}
+					else_if = {
+						limit = { has_country_flag = was_reformed }
+						set_politics = { ruling_party = reformed }
+					}
+					else_if = {
+						limit = { has_country_flag = was_orthodox }
+						set_politics = { ruling_party = orthodox }
+					}
+					else_if = {
+						limit = { has_country_flag = was_coptic }
+						set_politics = { ruling_party = coptic }
+					}
+					else_if = {
+						limit = { has_country_flag = was_anglican }
+						set_politics = { ruling_party = anglican }
+					}
+					else_if = {
+						limit = { has_country_flag = was_sunni }
+						set_politics = { ruling_party = fascism }
+					}
+					else_if = {
+						limit = { has_country_flag = was_shia }
+						set_politics = { ruling_party = shia }
+					}
+					else_if = {
+						limit = { has_country_flag = was_ibadi }
+						set_politics = { ruling_party = ibadi }
+					}
+					else_if = {
+						limit = { has_country_flag = was_theravada }
+						set_politics = { ruling_party = theravada }
+					}
+					else_if = {
+						limit = { has_country_flag = was_vajrayana }
+						set_politics = { ruling_party = vajrayana }
+					}
+					else_if = {
+						limit = { has_country_flag = was_mahayana }
+						set_politics = { ruling_party = mahayana }
+					}
+					else_if = {
+						limit = { has_country_flag = was_confucian }
+						set_politics = { ruling_party = confucian }
+					}
+					else_if = {
+						limit = { has_country_flag = was_shinto }
+						set_politics = { ruling_party = shinto }
+					}
+					else_if = {
+						limit = { has_country_flag = was_hindu }
+						set_politics = { ruling_party = hindu }
+					}
+					else_if = {
+						limit = { has_country_flag = was_sikh }
+						set_politics = { ruling_party = sikh }
+					}
+					else_if = {
+						limit = { has_country_flag = was_animist }
+						set_politics = { ruling_party = communism }
+					}
+					else_if = {
+						limit = { has_country_flag = was_fetishist }
+						set_politics = { ruling_party = fetishist }
+					}
+					else_if = {
+						limit = { has_country_flag = was_totemist }
+						set_politics = { ruling_party = totemist }
+					}
+					else_if = {
+						limit = { has_country_flag = was_inti }
+						set_politics = { ruling_party = inti }
+					}
+					else_if = {
+						limit = { has_country_flag = was_nahuatl }
+						set_politics = { ruling_party = nahuatl }
+					}
+					else_if = {
+						limit = { has_country_flag = was_mayan }
+						set_politics = { ruling_party = mayan }
+					}
+					else_if = {
+						limit = { has_country_flag = was_tengri }
+						set_politics = { ruling_party = tengri }
+					}
+					else_if = {
+						limit = { has_country_flag = was_norse }
+						set_politics = { ruling_party = norse }
+					}
+					else_if = {
+						limit = { has_country_flag = was_jewish }
+						set_politics = { ruling_party = democratic }
+					}
+					else_if = {
+						limit = { has_country_flag = was_zoroastrian }
+						set_politics = { ruling_party = zoroastrian }
+					}
+					clr_country_flag = offering_vassalisation
+				}
+			}
+		}
+		#FROM REVOKES ALL CORES AND CLAIMS ON ROOT
+		if = {
+			limit = { 
+				FROM = { has_country_flag = offering_claim_revocation }
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						tag = FROM
+					}
+				}
+				every_owned_state = {
+					limit = {
+						OR = {
+							is_core_of = FROM
+							is_claimed_by = FROM
+						}
+					}
+					remove_core_of = FROM
+					remove_claim_by = FROM
+				}
+			}
+			FROM = { clr_country_flag = offering_claim_revocation }
+		}
+		#FROM BREAKS ALL ALLIANCES
+		if = {
+			limit = {
+				FROM = { has_country_flag = offering_break_alliance }
+			}
+			FROM = {
+				leave_faction = yes
+			}
+			FROM = { clr_country_flag = offering_break_alliance }
+		}
+		ROOT = { clr_country_flag = peace_in_progress }
+		FROM = { clr_country_flag = peace_in_progress }
+	}
+	option = { #NO
+		name=peace_system.13.b
+		FROM = { country_event = { days = 1 id = peace_system.14 } }
+	}
+}

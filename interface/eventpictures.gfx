@@ -1,6 +1,28 @@
 spriteTypes = {
 	
 	#MOD STUFF#
+	#COUNTRY EVENT PICTURES#
+	spriteType = {
+		name = "TREATY_countryeventPicture"
+		texturefile = "gfx/event_pictures/TREATY_countryeventPicture.tga"
+	}
+	spriteType = {
+		name = "CONQUEST_countryeventPicture"
+		texturefile = "gfx/event_pictures/CONQUEST_countryeventPicture.tga"
+	}
+	spriteType = {
+		name = "DIPLOMACY_countryeventPicture"
+		texturefile = "gfx/event_pictures/DIPLOMACY_countryeventPicture.tga"
+	}
+	spriteType = {
+		name = "CORRUPTION_countryeventPicture"
+		texturefile = "gfx/event_pictures/CORRUPTION_countryeventPicture.tga"
+	}
+	spriteType = {
+		name = "LIBERUM_VETO_countryeventPicture"
+		texturefile = "gfx/event_pictures/LIBERUM_VETO_countryeventPicture.tga"
+	}
+	#NEWS EVENT PICTURES#
 	spriteType = {
 		name = "DIPLOMACY_eventPicture"
 		texturefile = "gfx/event_pictures/DIPLOMACY_eventPicture.dds"

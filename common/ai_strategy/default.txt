@@ -23,14 +23,14 @@ default_unit_production = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = paratroopers
-		value = 0
+		id = swordsmen
+		value = 2
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = mountaineers
-		value = 4
+		id = pikemen
+		value = 40
 	}
 
 	ai_strategy = {

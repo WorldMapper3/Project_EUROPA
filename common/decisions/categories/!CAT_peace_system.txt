@@ -1,0 +1,9 @@
+##Category 
+peace_system = {
+
+	icon = GFX_white_peace
+
+	picture = GFX_white_peace
+
+
+}

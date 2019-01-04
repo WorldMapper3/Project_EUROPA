@@ -1,0 +1,89 @@
+#FROM IS WINNER, ROOT IS LOSER ACCEPTING THE DEAL
+#CHECKS FOR OCCUPIED STATES
+immediate = {
+	if = {
+		limit = { 
+			FROM = { has_country_flag = demanding_occupied_states }
+		}
+		every_country = {
+			limit = {
+				OR = {
+					tag = ROOT
+					is_subject_of = ROOT
+				}
+			}
+			every_owned_state = {
+				limit = {
+					is_controlled_by = FROM
+				}
+				set_state_flag = demanded_by_@FROM
+			}
+		}
+	}
+}
+
+if = {
+	limit = {
+		FROM = { has_country_flag = demanding_occupied_states }
+	}
+	every_state = {
+		limit = {
+			has_state_flag = demanded_by_@FROM
+		}
+		FROM = { transfer_state = PREV }
+	}
+	every_state = {
+		clr_state_flag = demanded_by_@FROM
+	}
+	FROM = { clr_country_flag = demanding_occupied_states }
+}
+#ROOT CEDES ALL CORES AND CLAIMS
+if = {
+	limit = { 
+		FROM = { has_country_flag = demanding_claimed_states }
+	}
+	every_country = {
+		limit = {
+			OR = {
+				tag = ROOT
+				is_subject_of = ROOT
+			}
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					is_core_of = FROM
+					is_claimed_by = FROM
+				}
+			}
+			FROM = { 
+				transfer_state = PREV
+			}
+		}
+	}
+	FROM = { clr_country_flag = demanding_claimed_states }
+}
+#ROOT CEDES ALL NEIGHBOUR STATES
+if = {
+	limit = {
+		FROM = { has_country_flag = demanding_neighbour_states }
+	}
+	every_country = {
+		limit = {
+			OR = {
+				tag = ROOT
+				is_subject_of = ROOT
+			}
+		}
+		every_owned_state = {
+			limit = {
+				num_owned_neighbour_states = {
+					owner = FROM
+					count > 0
+				}
+			}
+			FROM = { transfer_state = PREV }
+		}
+	}		
+	FROM = { clr_country_flag = demanding_neighbour_states }
+}

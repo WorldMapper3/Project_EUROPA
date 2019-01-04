@@ -5,6 +5,1106 @@ spriteTypes = {
 		name = "GFX_white_peace"
 		texturefile = "gfx/interface/decisions/white_peace.dds"
 	}
+	spriteType = {
+		name = "GFX_demand_capitulation"
+		texturefile = "gfx/interface/decisions/demand_capitulation.dds"
+	}
+	spriteType = {
+		name = "GFX_unconditional_surrender"
+		texturefile = "gfx/interface/decisions/unconditional_surrender.dds"
+	}
+	#PEACE OUT TAG#
+	spriteType = {
+		name = "GFX_peace_out_GER"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/GER.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ENG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ENG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SOV"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SOV.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SWE"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SWE.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_FRA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/FRA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_LUX"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/LUX.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BEL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BEL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_HOL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/HOL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_CZE"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CZE.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_POL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/POL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_AUS"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/AUS.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_LIT"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/LIT.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_EST"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/EST.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_LAT"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/LAT.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SPR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SPR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ITA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ITA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ROM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ROM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_YUG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/YUG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SER"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SER.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SWI"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SWI.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_TUR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/TUR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_GRE"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/GRE.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ALB"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ALB.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_NOR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/NOR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_DEN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/DEN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BUL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BUL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_POR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/POR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_FIN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/FIN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_IRE"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/IRE.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_HUN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/HUN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_AFG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/AFG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ETH"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ETH.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_GUA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/GUA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_HON"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/HON.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_IRQ"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/IRQ.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_JAP"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/JAP.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_KOR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/KOR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_LIB"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/LIB.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MEX"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MEX.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MEN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MEN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_NEP"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/NEP.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_NIC"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/NIC.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_NZL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/NZL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_PAN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/PAN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_PER"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/PER.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_PHI"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/PHI.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_PRU"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/PRU.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SAF"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SAF.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SAU"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SAU.tga"
+	} #Najd
+ 	spriteType = {
+		name = "GFX_peace_out_SIA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SIA.tga"
+	} #Ayutthaya
+ 	spriteType = {
+		name = "GFX_peace_out_SIK"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SIK.tga"
+	} #Yarkand
+ 	spriteType = {
+		name = "GFX_peace_out_TIB"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/TIB.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_URG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/URG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_VEN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/VEN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_YUN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/YUN.tga"
+	} #Dali
+ 	spriteType = {
+		name = "GFX_peace_out_USA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/USA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MON"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MON.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_TAN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/TAN.tga"
+	} #Tang
+ 	spriteType = {
+		name = "GFX_peace_out_PAR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/PAR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_CUB"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CUB.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_DOM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/DOM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_HAI"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/HAI.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_YEM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/YEM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_OMA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/OMA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SLO"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SLO.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_RAJ"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/RAJ.tga"
+	} #Hindustan
+ 	spriteType = {
+		name = "GFX_peace_out_CRO"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CRO.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ICE"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ICE.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_LEB"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/LEB.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_JOR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/JOR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SYR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SYR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_EGY"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/EGY.tga"
+	} #Mamluks
+ 	spriteType = {
+		name = "GFX_peace_out_LBA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/LBA.tga"
+	} #Tripoli
+ 	spriteType = {
+		name = "GFX_peace_out_WGR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/WGR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_DDR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/DDR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_PAL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/PAL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ISR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ISR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_VIN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/VIN.tga"
+	} #Dai Viet
+ 	spriteType = {
+		name = "GFX_peace_out_CAM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CAM.tga"
+	} #Khmer
+ 	spriteType = {
+		name = "GFX_peace_out_MAL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MAL.tga"
+	} #Malacca
+ 	spriteType = {
+		name = "GFX_peace_out_INS"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/INS.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_LAO"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/LAO.tga"
+	} #Lan Xang
+ 	spriteType = {
+		name = "GFX_peace_out_MNT"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MNT.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_UKR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/UKR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_GEO"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/GEO.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_KAZ"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/KAZ.tga"
+	} #Kazan
+ 	spriteType = {
+		name = "GFX_peace_out_AZR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/AZR.tga"
+	} #Shirvan
+ 	spriteType = {
+		name = "GFX_peace_out_ARM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ARM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_PAK"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/PAK.tga"
+	} #Multan
+ 	spriteType = {
+		name = "GFX_peace_out_BOT"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BOT.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MAN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MAN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BOS"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BOS.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BYZ"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BYZ.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_CYP"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CYP.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_KNI"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/KNI.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MOL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MOL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_WAL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/WAL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_CNN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CNN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_LEI"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/LEI.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SCO"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SCO.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_THO"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/THO.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_TYR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/TYR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_LIV"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/LIV.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_RIG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/RIG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_TEU"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/TEU.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ALS"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ALS.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BRI"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BRI.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BUR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BUR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_PRO"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/PRO.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ANS"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ANS.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_AUG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/AUG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BAD"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BAD.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BAV"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BAV.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BRN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BRN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BRU"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BRU.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_EFR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/EFR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_FRN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/FRN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_HES"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/HES.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_KLE"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/KLE.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_KOL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/KOL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SXL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SXL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_LUN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/LUN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MAI"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MAI.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MKL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MKL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MUN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MUN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_OLD"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/OLD.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_PLA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/PLA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_POM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/POM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SAX"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SAX.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SLZ"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SLZ.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_TRI"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/TRI.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ULM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ULM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_WBG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/WBG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_WUR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/WUR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_NUM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/NUM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MEM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MEM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_VER"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/VER.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_NSA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/NSA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_RAV"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/RAV.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_DTT"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/DTT.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ARA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ARA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_CST"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CST.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_GRA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/GRA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_NAV"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/NAV.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_FER"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/FER.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_GEN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/GEN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MTU"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MTU.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MLO"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MLO.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_NAP"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/NAP.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_PAP"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/PAP.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SAV"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SAV.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SIE"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SIE.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_VNC"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/VNC.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_LUC"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/LUC.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_FLO"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/FLO.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BRB"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BRB.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_FLA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/FLA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_FRI"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/FRI.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_GEL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/GEL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_HLD"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/HLD.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_LIE"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/LIE.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_CRI"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CRI.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MUS"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MUS.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_NOV"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/NOV.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_RYA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/RYA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_NOG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/NOG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_UZB"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/UZB.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_GOL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/GOL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_HAA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/HAA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_HEJ"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/HEJ.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MAK"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MAK.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SHM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SHM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_AQQ"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/AQQ.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_CND"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CND.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_DUL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/DUL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_KAR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/KAR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_TRE"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/TRE.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_RAM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/RAM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MOR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MOR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_TUN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/TUN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_TLM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/TLM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_FZA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/FZA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_QRQ"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/QRQ.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_TIM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/TIM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_CIR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CIR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_GAZ"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/GAZ.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_TAB"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/TAB.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_HRM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/HRM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ADA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ADA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ALO"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ALO.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_KAF"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/KAF.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MED"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MED.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_DON"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/DON.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BEJ"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BEJ.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ARK"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ARK.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BEI"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BEI.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_CHA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CHA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_CHG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CHG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_DTE"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/DTE.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_HSK"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/HSK.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_HTK"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/HTK.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_IMG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/IMG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_OTM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/OTM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_OUC"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/OUC.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SBA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SBA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SMZ"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SMZ.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_TKD"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/TKD.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_UES"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/UES.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_YMN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/YMN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_NNB"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/NNB.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ASK"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ASK.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ANU"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ANU.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_LNA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/LNA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MNG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MNG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_OIR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/OIR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_PEG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/PEG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_RYU"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/RYU.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_TAU"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/TAU.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MYR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MYR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MHX"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MHX.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MJZ"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MJZ.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_KRC"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/KRC.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_KRD"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/KRD.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SYG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SYG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_UTS"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/UTS.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_KAM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/KAM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BAL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BAL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BNG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BNG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BAH"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BAH.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_DLH"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/DLH.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_VIJ"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/VIJ.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_GUJ"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/GUJ.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_JNP"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/JNP.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MLW"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MLW.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MER"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MER.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ORI"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ORI.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SND"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SND.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_CEY"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CEY.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_LDK"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/LDK.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_HSA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/HSA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_AVA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/AVA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_HSE"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/HSE.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MYA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MYA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BRT"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BRT.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_NAT"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/NAT.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ANH"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ANH.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MAG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MAG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_AAC"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/AAC.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_SIL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SIL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MAZ"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MAZ.tga"
+	}
+	#AFG-ETH
+ 	spriteType = {
+		name = "GFX_peace_out_ARG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ARG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_AST"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/AST.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BHU"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BHU.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BOL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BOL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_BRA"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BRA.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_CAN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CAN.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_CHI"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CHI.tga"
+	} #Qing
+ 	spriteType = {
+		name = "GFX_peace_out_CHL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/CHL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_COL"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/COL.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_COS"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/COS.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ECU"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ECU.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ELS"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ELS.tga"
+	}
+	#ARM-PAK
+ 	spriteType = {
+		name = "GFX_peace_out_BLR"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/BLR.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ANG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ANG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_MZB"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/MZB.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_ZIM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/ZIM.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_COG"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/COG.tga"
+	}
+ 	spriteType = {
+		name = "GFX_peace_out_KEN"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/KEN.tga"
+	}
+	#CRO-ICE
+ 	spriteType = {
+		name = "GFX_peace_out_GXC"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/GXC.tga"
+	} #Yue
+ 	spriteType = {
+		name = "GFX_peace_out_PRC"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/PRC.tga"
+	} #Wu
+ 	spriteType = {
+		name = "GFX_peace_out_SHX"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/SHX.tga"
+	} #Xi
+ 	spriteType = {
+		name = "GFX_peace_out_XSM"
+		texturefile = "gfx/interface/decisions/peace_out_TAG/XSM.tga"
+	} #Jin
 	#BASE GAME
 	spriteType = {
 		name = "GFX_decision_category_generic"

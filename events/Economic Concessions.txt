@@ -1,0 +1,47 @@
+#ROOT IS WINNER, FROM IS LOSER ACCEPTING THE DEAL
+#FROM PAYS WAR REPARATIONS
+if = {
+	limit = {
+		FROM = { has_country_flag = offering_war_reparations }
+	}
+	FROM = { 
+		add_timed_idea = {
+			days = 365
+			idea = paying_war_reparations
+		}
+		clr_country_flag = offering_war_reparations
+	}
+	ROOT = {
+		add_timed_idea = {
+			days = 365
+			idea = receiving_war_reparations
+		}
+	}
+}
+#FROM PAYS MONETARY SUM
+if = {
+	limit = {
+		FROM = { has_country_flag = offering_monetary_sum }
+	}
+	FROM = { 
+		random_owned_state = {
+			limit = { industrial_complex > 0 }
+				
+			add_building_construction = {
+				type = industrial_complex
+				level = -1
+				instant_build = yes
+			}
+		}
+		clr_country_flag = offering_monetary_sum
+	}
+	ROOT = {
+		random_owned_state = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}

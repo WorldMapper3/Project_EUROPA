@@ -1,5 +1,7 @@
 ﻿l_english:
  #MOD STUFF#
+ receiving_war_reparations:0 "Receiving War Reparations"
+ paying_war_reparations:0 "Paying War Reparations"
  opposing_lollards:0 "Opposing Lollards"
  tolerates_lollards:0 "Tolerates Lollards"
  adm0:0 "Admin 0"
