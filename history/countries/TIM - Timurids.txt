@@ -85,10 +85,10 @@ set_politics = {
 			popularity = 0
 		}
 		fascism = {
-			popularity = 60.9
+			popularity = 37.8
 		}
 		shia = {
-			popularity = 37.8
+			popularity = 60.9
 		}
 		ibadi = {
 			popularity = 0

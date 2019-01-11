@@ -1,4 +1,5 @@
 on_actions = {
+	
 	# country 
 	on_new_term_election = {
 		random_events = {
@@ -314,7 +315,17 @@ on_actions = {
 	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
 	on_state_control_changed = {
 		effect = {
-
+			if = {
+				limit = {
+					tag = TUR
+					PREV = { controls_state = 341 }
+					FROM = {
+						original_tag = BYZ
+					}
+				}			
+            }
+    TUR = { transfer_state = 341 }
+	TUR = { country_event = { id = TUR_event.1 days = 3 } }	
 		}
 	}
 	

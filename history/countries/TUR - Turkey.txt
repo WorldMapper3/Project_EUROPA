@@ -122,9 +122,9 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Sultan Mehmed II Fatih"
+	name = "Sultan Murad II"
 	desc = ""
-	picture = "Mehmed_II_Osmanoglu.dds"
+	picture = "Murad_II_Osmanoglu.dds"
 	expire = "9999.1.1"
 	ideology = sun
 	traits = {

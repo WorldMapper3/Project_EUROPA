@@ -150,4 +150,8 @@
  SPA_Event.1.d:0 "Ferdinand II, king of Aragon, was married to the princess Isabella of Castile in Valladolid in October 1469. This was a marriage of political opportunism, not romance. The court of Aragon dreamed of a return to Castile, and Isabella needed help to gain succession to the throne. The marriage initiated a dark and troubled life, in which Ferdinand fought on the Castilian and Aragonese fronts in order to impose his authority over the noble oligarchies, shifting his basis of support from one kingdom to the other according to the intensity of the danger. Despite the political nature of the union, he loved Isabella sincerely. Many considered Ferdinand the savior of his kingdoms, a bringer of unity. Others despised him for having oppressed them. Machiavelli attributed to him the objectionable qualities of the Renaissance prince."
  SPA_Event.1.a:0 "Let us bind their Dynasty to ours"
  SPA_Event.1.b:0 "No, let us marry a local talent instead"
+ #TUR EVENTS#
+ TUR_event.1.t:0 "Conquest of Istanbul"
+ TUR_event.1.d:0 "Today is the most glorious day among the most glorious days of the successors and people of Osman, today Sultan 2. Mehmet has taken control of Constantinople fulfilling Mohammad's will for the entireity of the Muslim world. This success shouldn't be ignored and the mastermind behind this siege must be rewarded for he had closed an era and made the worlds into a new one!"
+ TUR_event.1.a:0 "Padişahımız çok yaşa!"
  

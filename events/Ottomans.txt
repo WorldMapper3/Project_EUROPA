@@ -1,0 +1,64 @@
+add_namespace = TUR_event
+
+country_event = { #Capital changing event after the conquest of Constantinople
+	id = TUR_event.1
+	title = TUR_event.1.t
+	desc = TUR_event.1.d
+	
+	is_triggered_only = yes
+    fire_only_once = yes
+	
+	option = {
+	name = TUR_event.1.a
+	
+	set_capital = 341
+	
+	set_province_name = { id = 9833 name = "Kostantiniyye" }
+	
+	hidden_effect = { kill_country_leader = yes }
+    
+	create_country_leader = {
+    name = "Fatih Sultan Mehmet"
+    desc = ""
+    picture = "Mehmed_II_Osmanoglu.dds"
+    expire = "9999.1.1"
+    ideology = sun
+    traits = {
+	#will add stuff
+    }
+    }	
+   
+  }
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   }	
