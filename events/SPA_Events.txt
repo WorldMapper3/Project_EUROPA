@@ -1,4 +1,4 @@
-	add_namespace=SPA_Event
+﻿add_namespace = SPA_Event
 
 # The Iberian Wedding
 country_event = {

@@ -1,4 +1,4 @@
-	add_namespace = generic_event
+﻿	add_namespace = generic_event
 
 country_event = {
 	id = generic_event.1

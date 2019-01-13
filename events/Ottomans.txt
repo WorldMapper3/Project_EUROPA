@@ -1,4 +1,4 @@
-add_namespace = TUR_event
+﻿add_namespace = TUR_event
 
 country_event = { #Capital changing event after the conquest of Constantinople
 	id = TUR_event.1

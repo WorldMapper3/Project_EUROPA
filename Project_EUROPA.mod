@@ -8,6 +8,7 @@ tags={
 }
 supported_version="1.5.4"
 
+replace_path = "common/bookmarks"
 replace_path = "common/national_focus"
 replace_path = "common/scripted_effects"
 replace_path = "common/scripted_triggers"

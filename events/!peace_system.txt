@@ -1,6 +1,6 @@
-	add_namespace = peace_system
+﻿add_namespace = peace_system
 
-	#DEMANDS/CONCESSION EVENT#
+#DEMANDS/CONCESSION EVENT#
 country_event = {
 	id = peace_system.1
 	title = peace_system.1.t

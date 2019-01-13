@@ -1,4 +1,4 @@
-	add_namespace = POL_event
+﻿add_namespace = POL_event
 
 #country_event = {
 #	id = POL_event.3488

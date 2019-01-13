@@ -1,4 +1,4 @@
-	add_namespace = HYW_event
+﻿add_namespace = HYW_event
 	
 # The Surrender of Maine
 country_event = {

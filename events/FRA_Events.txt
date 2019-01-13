@@ -1,6 +1,6 @@
-	add_namespace=FRA_event
+﻿add_namespace = FRA_event
 
-	# The Birth of a Permanent Taxation System	
+# The Birth of a Permanent Taxation System	
 country_event = {
 	id = FRA_event.1
 	title = FRA_event.1.t
