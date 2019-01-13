@@ -8,6 +8,10 @@ ideas = {
 			removal_cost = -1
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			allowed_to_remove = {
 				always = no
@@ -25,6 +29,10 @@ ideas = {
 			removal_cost = -1
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			allowed_to_remove = {
 				always = no
@@ -46,6 +54,10 @@ ideas = {
 			}
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			modifier = {
 				production_speed_infrastructure_factor=-0.1
@@ -63,6 +75,10 @@ ideas = {
 			}
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			modifier = {	
 			}
@@ -78,6 +94,10 @@ ideas = {
 			}
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			modifier = {	
 				production_speed_infrastructure_factor=0.1
@@ -95,6 +115,10 @@ ideas = {
 			}
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			modifier = {	
 				production_speed_infrastructure_factor=0.2
@@ -112,6 +136,10 @@ ideas = {
 			}
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			modifier = {
 				production_speed_infrastructure_factor=0.3
@@ -129,6 +157,10 @@ ideas = {
 			removal_cost = -1
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			allowed_to_remove = {
 				always = no
@@ -146,6 +178,10 @@ ideas = {
 			removal_cost = -1
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			allowed_to_remove = {
 				always = no
@@ -167,6 +203,10 @@ ideas = {
 			}
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			modifier = {
 				local_resources=-0.1
@@ -184,6 +224,10 @@ ideas = {
 			}
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			modifier = {	
 			}
@@ -199,6 +243,10 @@ ideas = {
 			}
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			modifier = {	
 				local_resources=0.1
@@ -216,6 +264,10 @@ ideas = {
 			}
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			modifier = {	
 				local_resources=0.2
@@ -233,6 +285,10 @@ ideas = {
 			}
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			modifier = {
 				local_resources=0.3
@@ -250,6 +306,10 @@ ideas = {
 			removal_cost = -1
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			allowed_to_remove = {
 				always = no
@@ -267,6 +327,10 @@ ideas = {
 			removal_cost = -1
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			allowed_to_remove = {
 				always = no
@@ -288,6 +352,10 @@ ideas = {
 			}
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			modifier = {
 				military_leader_cost_factor=0.1
@@ -305,6 +373,10 @@ ideas = {
 			}
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			modifier = {	
 			}
@@ -320,6 +392,10 @@ ideas = {
 			}
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			modifier = {	
 				military_leader_cost_factor=-0.1
@@ -337,6 +413,10 @@ ideas = {
 			}
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			modifier = {	
 				military_leader_cost_factor=-0.2
@@ -354,6 +434,10 @@ ideas = {
 			}
 			
 			cost = 0
+
+			available = {
+				always = no
+			}
 			
 			modifier = {
 				military_leader_cost_factor=-0.3

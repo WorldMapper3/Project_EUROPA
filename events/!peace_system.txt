@@ -4,7 +4,7 @@
 country_event = {
 	id = peace_system.1
 	title = peace_system.1.t
-	desc = peace_system.1.d
+	desc = peace_system.1.desc
 	picture = TREATY_countryeventPicture
 	
 	is_triggered_only = yes
@@ -32,17 +32,28 @@ country_event = {
 	option = { #MAKE DEMANDS
 		name=peace_system.1.a
 		country_event = { days = 0 id = peace_system.2 }
+		set_country_flag = peace_victor
 	}
 	option = { #MAKE CONCESSIONS
 		name=peace_system.1.b
-		country_event = { days = 0 id = peace_system.6 }
+		country_event = { days = 0 id = peace_system.2 }
+		set_country_flag = peace_loser
 	}
 	option = { #WHITE PEACE
 		name=peace_system.1.c
-		country_event = { days = 0 id = peace_system.10 } #FINALISE PEACE#
+		country_event = { days = 0 id = peace_system.9 } #FINALISE PEACE#
+	}
+	option = { #CANCEL
+		name=peace_system.1.d
+		clr_country_flag = peace_in_progress
+		every_country = {
+			limit = { has_country_flag = receiving_peace_from_@ROOT}
+			set_country_flag = receiving_peace_from_@ROOT
+			set_country_flag = peace_in_progress
+		}
 	}
 }
-	#PEACE DEMANDS EVENT#
+	#PEACE OPTIONS EVENT#
 country_event = {
 	id = peace_system.2
 	title = peace_system.2.t
@@ -54,101 +65,22 @@ country_event = {
 	
 	option = { #TERRITORIAL OPTIONS
 		name=peace_system.2.a
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = demanding_occupied_states
-					has_country_flag = demanding_neighbour_states
-					has_country_flag = demanding_claimed_states
-				}
-			}
-		}
 		country_event = { days = 0 id = peace_system.3 }
 	}
 	option = { #POLITICAL OPTIONS
 		name=peace_system.2.b
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = demanding_claim_revocation
-					has_country_flag = demanding_break_alliance
-					has_country_flag = demanding_vassalisation
-				}
-			}
-		}
 			country_event = { days = 0 id = peace_system.4 }
 	}
 	option = { #ECONOMIC OPTIONS
 		name=peace_system.2.c
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = demanding_war_reparations
-					has_country_flag = demanding_monetary_sum
-				}
-			}
-		}
 		country_event = { days = 0 id = peace_system.5 }
 	}
 	option = { #FINALISE PEACE
 		name=peace_system.2.d
-		country_event = { days = 0 id = peace_system.10 }
-	}
-}
-	#PEACE CONCESSIONS EVENT#
-country_event = {
-	id = peace_system.6
-	title = peace_system.6.t
-	desc = peace_system.6.desc
-	picture = TREATY_countryeventPicture
-	
-	is_triggered_only = yes
-
-	
-	option = { #TERRITORIAL OPTIONS
-		name=peace_system.6.a
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = offering_occupied_states
-					has_country_flag = offering_neighbour_states
-					has_country_flag = offering_claimed_states
-				}
-			}
-		}
-		country_event = { days = 0 id = peace_system.7 }
-	}
-	option = { #POLITICAL OPTIONS
-		name=peace_system.6.b
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = offering_claim_revocation
-					has_country_flag = offering_break_alliance
-					has_country_flag = offering_vassalisation
-				}
-			}
-		}
-		country_event = { days = 0 id = peace_system.8 }
-	}
-	option = { #ECONOMIC OPTIONS
-		name=peace_system.6.c
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = offering_war_reparations
-					has_country_flag = offering_monetary_sum
-				}
-			}
-		}
 		country_event = { days = 0 id = peace_system.9 }
 	}
-	option = { #FINALISE PEACE
-		name=peace_system.2.d
-		country_event = { days = 0 id = peace_system.11 }
-	}
 }
-	#TERRITORIAL DEMANDS#
+	#TERRITORIAL OPTIONS#
 country_event = {
 	id = peace_system.3
 	title = peace_system.3.t
@@ -158,105 +90,60 @@ country_event = {
 	is_triggered_only = yes
 
 	
-	option = { #DEMAND ALL CORES/CLAIMS
+	option = { #ALL CORES/CLAIMS
 		name=peace_system.3.a 
-		country_event = { days = 0 id = peace_system.2 }
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = demanding_occupied_states
-					has_country_flag = demanding_neighbour_states
-				}
-			}
-		}	
-		set_country_flag = demanding_claimed_states
+		country_event = { days = 0 id = peace_system.6 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_claimed_states
+		}
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_claimed_states
+		}
+		clr_country_flag = demanding_occupied_states
+		clr_country_flag = demanding_neighbour_states
+		clr_country_flag = offering_occupied_states
+		clr_country_flag = offering_neighbour_states
 	}
-	option = { #DEMAND ALL NEIGHBOUR STATES
+	option = { #ALL NEIGHBOUR STATES
 		name=peace_system.3.b #DEMAND/CEDE ALL NEIGHBOUR STATES
-		country_event = { days = 0 id = peace_system.2 }
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = demanding_occupied_states
-					has_country_flag = demanding_claimed_states
-				}
-			}
+		country_event = { days = 0 id = peace_system.6 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_neighbour_states
 		}
-		set_country_flag = demanding_neighbour_states
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_neighbour_states
+		}
+		clr_country_flag = demanding_occupied_states
+		clr_country_flag = demanding_claimed_states
+		clr_country_flag = offering_occupied_states
+		clr_country_flag = offering_claimed_states
 	}
-	option = { #DEMAND ALL OCCUPIED STATES
+	option = { #ALL OCCUPIED STATES
 		name=peace_system.3.c
-		country_event = { days = 0 id = peace_system.2 }
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = demanding_neighbour_states
-					has_country_flag = demanding_claimed_states
-				}
-			}
+		country_event = { days = 0 id = peace_system.6 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_occupied_states
 		}
-		set_country_flag = demanding_occupied_states
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_occupied_states
+		}
+		clr_country_flag = demanding_claimed_states
+		clr_country_flag = demanding_neighbour_states
+		clr_country_flag = offering_claimed_states
+		clr_country_flag = offering_neighbour_states
 	}
 	option = {
 		name=peace_system.3.d
 		country_event = { days = 0 id = peace_system.2 }
 	}
 }
-#TERRITORIAL CONCESSIONS#
-country_event = {
-	id = peace_system.7
-	title = peace_system.7.t
-	desc = peace_system.7.desc
-	picture = CONQUEST_countryeventPicture
-	
-	is_triggered_only = yes
-
-	
-	option = { #CEDE ALL CORES/CLAIMS
-		name=peace_system.7.a 
-		country_event = { days = 0 id = peace_system.6 }
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = offering_occupied_states
-					has_country_flag = offering_neighbour_states
-				}
-			}
-		}	
-		set_country_flag = offering_claimed_states
-	}
-	option = { #CEDE ALL NEIGHBOUR STATES
-		name=peace_system.7.b #DEMAND/CEDE ALL NEIGHBOUR STATES
-		country_event = { days = 0 id = peace_system.6 }
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = offering_occupied_states
-					has_country_flag = offering_claimed_states
-				}
-			}
-		}
-		set_country_flag = offering_neighbour_states
-	}
-	option = { #CEDE ALL OCCUPIED STATES
-		name=peace_system.7.c
-		country_event = { days = 0 id = peace_system.6 }
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = offering_neighbour_states
-					has_country_flag = offering_claimed_states
-				}
-			}
-		}
-		set_country_flag = offering_occupied_states
-	}
-	option = {
-		name=peace_system.3.d
-		country_event = { days = 0 id = peace_system.6 }
-	}
-}
-	#POLITICAL DEMANDS#
+	#POLITICAL OPTIONS#
 country_event = {
 	id = peace_system.4
 	title = peace_system.4.t
@@ -268,103 +155,58 @@ country_event = {
 	
 	option = {
 		name=peace_system.4.a
-		country_event = { days = 0 id = peace_system.2 }
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = demanding_claim_revocation
-					has_country_flag = demanding_break_alliance
-				}
-			}
+		country_event = { days = 0 id = peace_system.7 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_vassalisation
 		}
-		set_country_flag = demanding_vassalisation
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_vassalisation
+		}
+		clr_country_flag = demanding_claim_revocation
+		clr_country_flag = demanding_break_alliance
+		clr_country_flag = offering_claim_revocation
+		clr_country_flag = offering_break_alliance
 	}
 	option = {
 		name=peace_system.4.b
-		country_event = { days = 0 id = peace_system.2 }
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = demanding_vassalisation
-					has_country_flag = demanding_break_alliance
-				}
-			}
+		country_event = { days = 0 id = peace_system.7 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_claim_revocation
 		}
-		set_country_flag = demanding_claim_revocation
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_claim_revocation
+		}
+		has_country_flag = demanding_vassalisation
+		has_country_flag = demanding_break_alliance
+		has_country_flag = offering_vassalisation
+		has_country_flag = offering_break_alliance
 	}
 	option = {
 		name=peace_system.4.c
-		country_event = { days = 0 id = peace_system.2 }
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = demanding_vassalisation
-					has_country_flag = demanding_claim_revocation
-				}
-			}
+		country_event = { days = 0 id = peace_system.7 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_break_alliance
 		}
-		set_country_flag = demanding_break_alliance
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_break_alliance
+		}
+		has_country_flag = demanding_vassalisation
+		has_country_flag = demanding_claim_revocation
+		has_country_flag = offering_vassalisation
+		has_country_flag = offering_claim_revocation
 	}
 	option = {
 		name=peace_system.4.d
 		country_event = { days = 0 id = peace_system.2 }
 	}
 }
-	#POLITICAL CONCESSIONS#
-country_event = {
-	id = peace_system.8
-	title = peace_system.8.t
-	desc = peace_system.8.d
-	picture = DIPLOMACY_countryeventPicture
-	
-	is_triggered_only = yes
-
-	
-	option = {
-		name=peace_system.8.a
-		country_event = { days = 0 id = peace_system.6 }
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = offering_break_alliance
-					has_country_flag = offering_claim_revocation
-				}
-			}
-		}
-		set_country_flag = offering_vassalisation
-	}
-	option = {
-		name=peace_system.8.b
-		country_event = { days = 0 id = peace_system.6 }
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = offering_break_alliance
-					has_country_flag = offering_vassalisation
-				}
-			}
-		}
-		set_country_flag = offering_claim_revocation
-	}
-	option = {
-		name=peace_system.8.c
-		country_event = { days = 0 id = peace_system.6 }
-		trigger = {
-			NOT = { 
-				OR = {
-					has_country_flag = offering_vassalisation
-					has_country_flag = offering_claim_revocation
-				}
-			}
-		}
-		set_country_flag = offering_break_alliance
-	}
-	option = {
-		name=peace_system.4.d
-		country_event = { days = 0 id = peace_system.6 }
-	}
-}
-	#ECONOMIC DEMANDS#
+	#ECONOMIC OPTIONS#
 country_event = {
 	id = peace_system.5
 	title = peace_system.5.t
@@ -376,121 +218,241 @@ country_event = {
 	
 	option = {
 		name=peace_system.5.a
-		country_event = { days = 0 id = peace_system.2 }
-		trigger = {
-			NOT = { 
-				has_country_flag = demanding_monetary_sum
-			}
+		country_event = { days = 0 id = peace_system.8 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_war_reparations
 		}
-		set_country_flag = demanding_war_reparations
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_war_reparations
+		}
+		clr_country_flag = demanding_monetary_sum
+		clr_country_flag = offering_monetary_sum
 	}
 	option = {
 		name=peace_system.5.b
-		country_event = { days = 0 id = peace_system.2 }
-		trigger = {
-			NOT = { 
-				has_country_flag = demanding_war_reparations
-			}
+		country_event = { days = 0 id = peace_system.8 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_monetary_sum
 		}
-		set_country_flag = demanding_monetary_sum
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_monetary_sum
+		}
+		clr_country_flag = demanding_war_reparations
+		clr_country_flag = offering_war_reparationss
 	}
 	option = {
 		name=peace_system.5.c
 		country_event = { days = 0 id = peace_system.2 }
 	}
 }
-	#ECONOMIC CONCESSIONS#
+	#TERRITORIAL OPTIONS#
 country_event = {
-	id = peace_system.9
-	title = peace_system.9.t
-	desc = peace_system.9.d
+	id = peace_system.6
+	title = peace_system.3.t
+	desc = peace_system.3.desc
+	picture = CONQUEST_countryeventPicture
+	
+	is_triggered_only = yes
+
+	
+	option = { #ALL CORES/CLAIMS
+		name=peace_system.3.a 
+		country_event = { days = 0 id = peace_system.3 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_claimed_states
+		}
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_claimed_states
+		}
+		clr_country_flag = demanding_occupied_states
+		clr_country_flag = demanding_neighbour_states
+		clr_country_flag = offering_occupied_states
+		clr_country_flag = offering_neighbour_states
+	}
+	option = { #ALL NEIGHBOUR STATES
+		name=peace_system.3.b #DEMAND/CEDE ALL NEIGHBOUR STATES
+		country_event = { days = 0 id = peace_system.3 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_neighbour_states
+		}
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_neighbour_states
+		}
+		clr_country_flag = demanding_occupied_states
+		clr_country_flag = demanding_claimed_states
+		clr_country_flag = offering_occupied_states
+		clr_country_flag = offering_claimed_states
+	}
+	option = { #ALL OCCUPIED STATES
+		name=peace_system.3.c
+		country_event = { days = 0 id = peace_system.3 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_occupied_states
+		}
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_occupied_states
+		}
+		clr_country_flag = demanding_claimed_states
+		clr_country_flag = demanding_neighbour_states
+		clr_country_flag = offering_claimed_states
+		clr_country_flag = offering_neighbour_states
+	}
+	option = {
+		name=peace_system.3.d
+		country_event = { days = 0 id = peace_system.2 }
+	}
+}
+	#POLITICAL OPTIONS#
+country_event = {
+	id = peace_system.7
+	title = peace_system.4.t
+	desc = peace_system.4.desc
+	picture = DIPLOMACY_countryeventPicture
+	
+	is_triggered_only = yes
+
+	
+	option = {
+		name=peace_system.4.a
+		country_event = { days = 0 id = peace_system.4 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_vassalisation
+		}
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_vassalisation
+		}
+		clr_country_flag = demanding_claim_revocation
+		clr_country_flag = demanding_break_alliance
+		clr_country_flag = offering_claim_revocation
+		clr_country_flag = offering_break_alliance
+	}
+	option = {
+		name=peace_system.4.b
+		country_event = { days = 0 id = peace_system.4 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_claim_revocation
+		}
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_claim_revocation
+		}
+		has_country_flag = demanding_vassalisation
+		has_country_flag = demanding_break_alliance
+		has_country_flag = offering_vassalisation
+		has_country_flag = offering_break_alliance
+	}
+	option = {
+		name=peace_system.4.c
+		country_event = { days = 0 id = peace_system.4 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_break_alliance
+		}
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_break_alliance
+		}
+		has_country_flag = demanding_vassalisation
+		has_country_flag = demanding_claim_revocation
+		has_country_flag = offering_vassalisation
+		has_country_flag = offering_claim_revocation
+	}
+	option = {
+		name=peace_system.4.d
+		country_event = { days = 0 id = peace_system.2 }
+	}
+}
+	#ECONOMIC OPTIONS#
+country_event = {
+	id = peace_system.8
+	title = peace_system.5.t
+	desc = peace_system.5.d
 	picture = CORRUPTION_countryeventPicture
 	
 	is_triggered_only = yes
 
 	
 	option = {
-		name=peace_system.9.a
-		country_event = { days = 0 id = peace_system.6 }
-		trigger = {
-			NOT = { 
-				has_country_flag = offering_monetary_sum
-			}
+		name=peace_system.5.a
+		country_event = { days = 0 id = peace_system.5 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_war_reparations
 		}
-		set_country_flag = offering_war_reparations
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_war_reparations
+		}
+		clr_country_flag = demanding_monetary_sum
+		clr_country_flag = offering_monetary_sum
 	}
 	option = {
-		name=peace_system.9.b
-		country_event = { days = 0 id = peace_system.6 }
-		trigger = {
-			NOT = { 
-				has_country_flag = offering_war_reparations
-			}
+		name=peace_system.5.b
+		country_event = { days = 0 id = peace_system.5 }
+		if = {
+			limit = { has_country_flag = peace_victor }
+			set_country_flag = demanding_monetary_sum
 		}
-		set_country_flag = offering_monetary_sum
+		else_if = {
+			limit = { has_country_flag = peace_loser }
+			set_country_flag = offering_monetary_sum
+		}
+		clr_country_flag = demanding_war_reparations
+		clr_country_flag = offering_war_reparationss
 	}
 	option = {
 		name=peace_system.5.c
-		country_event = { days = 0 id = peace_system.6 }
+		country_event = { days = 0 id = peace_system.2 }
 	}
 }
-	#FINALISE PEACE | DEMANDS#
+	#FINALISE PEACE#
 country_event = {
-	id = peace_system.10
-	title = peace_system.10.t
-	desc = peace_system.10.d
+	id = peace_system.9
+	title = peace_system.6.t
+	desc = peace_system.6.d
 	picture = TREATY_countryeventPicture
 	
 	is_triggered_only = yes
 
 	
 	option = { #YES
-		name=peace_system.10.a
+		name=peace_system.6.a
 		every_country = {
 			limit = { has_country_flag = receiving_peace_from_@ROOT}
-			country_event = { days = 1 id = peace_system.12 }
+			country_event = { days = 1 id = peace_system.10 }
+			clr_country_flag = peace_victor
+			clr_country_flag = peace_loser
 		}
 	}
 	option = { #NO, ADD MORE - SENDS BACK TO EVENT 2
-		name=peace_system.10.b
+		name=peace_system.6.b
 		country_event = { days = 0 id = peace_system.2 }
 	}
 	option = { #NO, CLEAR ALL - SENDS BACK TO EVENT 1 AND CLEARS COUNTRY FLAGS
-		name=peace_system.10.c
+		name=peace_system.6.c
 		country_event = { days = 0 id = peace_system.1 }
-	}
-}
-	#FINALISE PEACE | CONCESSIONS#
-country_event = {
-	id = peace_system.11
-	title = peace_system.11.t
-	desc = peace_system.11.d
-	picture = TREATY_countryeventPicture
-	
-	is_triggered_only = yes
-
-	
-	option = { #YES
-		name=peace_system.11.a
-		every_country = {
-			limit = { has_country_flag = receiving_peace_from_@ROOT}
-			country_event = { days = 1 id = peace_system.12 }
-		}
-	}
-	option = { #NO, ADD MORE - SENDS BACK TO EVENT 2
-		name=peace_system.11.b
-		country_event = { days = 0 id = peace_system.6 }
-	}
-	option = { #NO, CLEAR ALL - SENDS BACK TO EVENT 1 AND CLEARS COUNTRY FLAGS
-		name=peace_system.11.c
-		country_event = { days = 0 id = peace_system.1 }
+		clr_country_flag = peace_victor
+		clr_country_flag = peace_loser
 	}
 }
 	#FROM IS WINNER, ROOT IS LOSER ACCEPTING THE DEAL
 country_event = {
-	id = peace_system.12
-	title = peace_system.12.t
-	desc = peace_system.12.d
+	id = peace_system.10
+	title = peace_system.7.t
+	desc = peace_system.7.d
 	picture = LIBERUM_VETO_countryeventPicture
 	
 	is_triggered_only = yes
@@ -677,10 +639,191 @@ country_event = {
 				}
 			}
 		}
+		if = { #FLAGS ALL STATES OCCUPIED BY ROOT
+			limit = { 
+				FROM = { has_country_flag = offering_occupied_states }
+			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = FROM
+						is_subject_of = FROM
+					}
+				}
+				every_owned_state = {
+					limit = {
+						is_controlled_by = ROOT
+					}
+					set_state_flag = offered_by_@FROM
+				}
+			}
+		}
+		if = { #STORES POLITICAL INFORMATION
+			limit = { FROM = { has_country_flag = offering_vassalisation } }
+			FROM = {
+				clr_country_flag = was_catholic
+				clr_country_flag = was_protestant
+				clr_country_flag = was_reformed
+				clr_country_flag = was_orthodox
+				clr_country_flag = was_coptic
+				clr_country_flag = was_anglican
+				clr_country_flag = was_sunni
+				clr_country_flag = was_shia
+				clr_country_flag = was_ibadi
+				clr_country_flag = was_theravada
+				clr_country_flag = was_vajrayana
+				clr_country_flag = was_mahayana
+				clr_country_flag = was_confucian
+				clr_country_flag = was_shinto
+				clr_country_flag = was_hindu
+				clr_country_flag = was_sikh
+				clr_country_flag = was_animist
+				clr_country_flag = was_fetishist
+				clr_country_flag = was_totemist
+				clr_country_flag = was_inti
+				clr_country_flag = was_nahuatl
+				clr_country_flag = was_mayan
+				clr_country_flag = was_tengri
+				clr_country_flag = was_norse
+				clr_country_flag = was_jewish
+				clr_country_flag = was_zoroastrian
+				
+				set_variable = { var = last_catholic_pop value = party_popularity@neutrality }
+				set_variable = { var = last_protestant_pop value = party_popularity@protestant }
+				set_variable = { var = last_reformed_pop value = party_popularity@reformed }
+				set_variable = { var = last_orthodox_pop value = party_popularity@orthodox }
+				set_variable = { var = last_coptic_pop value = party_popularity@coptic }
+				set_variable = { var = last_anglican_pop value = party_popularity@anglican }
+				set_variable = { var = last_sunni_pop value = party_popularity@fascism }
+				set_variable = { var = last_shia_pop value = party_popularity@shia }
+				set_variable = { var = last_ibadi_pop value = party_popularity@ibadi }
+				set_variable = { var = last_theravada_pop value = party_popularity@theravada }
+				set_variable = { var = last_vajrayana_pop value = party_popularity@vajrayana }
+				set_variable = { var = last_mahayana_pop value = party_popularity@mahayana }
+				set_variable = { var = last_confucian_pop value = party_popularity@confucian }
+				set_variable = { var = last_shinto_pop value = party_popularity@shinto }
+				set_variable = { var = last_hindu_pop value = party_popularity@hindu }
+				set_variable = { var = last_sikh_pop value = party_popularity@sikh }
+				set_variable = { var = last_animist_pop value = party_popularity@communism }
+				set_variable = { var = last_fetishist_pop value = party_popularity@fetishist }
+				set_variable = { var = last_totemist_pop value = party_popularity@totemist }
+				set_variable = { var = last_inti_pop value = party_popularity@inti }
+				set_variable = { var = last_nahuatl_pop value = party_popularity@nahuatl }
+				set_variable = { var = last_mayan_pop value = party_popularity@mayan }
+				set_variable = { var = last_tengri_pop value = party_popularity@tengri }
+				set_variable = { var = last_norse_pop value = party_popularity@norse }
+				set_variable = { var = last_jewish_pop value = party_popularity@democratic }
+				set_variable = { var = last_zoroastrian_pop value = party_popularity@zoroastrian }
+				if = {
+					limit = { has_government = neutrality }
+					set_country_flag = was_catholic
+				}
+				else_if = {
+					limit = { has_government = protestant }
+					set_country_flag = was_protestant
+				}
+				else_if = {
+					limit = { has_government = reformed }
+					set_country_flag = was_reformed
+				}
+				else_if = {
+					limit = { has_government = orthodox }
+					set_country_flag = was_orthodox
+				}
+				else_if = {
+					limit = { has_government = coptic }
+					set_country_flag = was_coptic
+				}
+				else_if = {
+					limit = { has_government = anglican }
+					set_country_flag = was_anglican
+				}
+				else_if = {
+					limit = { has_government = fascism }
+					set_country_flag = was_sunni
+				}
+				else_if = {
+					limit = { has_government = shia }
+					set_country_flag = was_shia
+				}
+				else_if = {
+					limit = { has_government = ibadi }
+					set_country_flag = was_ibadi
+				}
+				else_if = {
+					limit = { has_government = theravada }
+					set_country_flag = was_theravada
+				}
+				else_if = {
+					limit = { has_government = vajrayana }
+					set_country_flag = was_vajrayana
+				}
+				else_if = {
+					limit = { has_government = mahayana }
+					set_country_flag = was_mahayana
+				}
+				else_if = {
+					limit = { has_government = confucian }
+					set_country_flag = was_confucian
+				}
+				else_if = {
+					limit = { has_government = shinto }
+					set_country_flag = was_shinto
+				}
+				else_if = {
+					limit = { has_government = hindu }
+					set_country_flag = was_hindu
+				}
+				else_if = {
+					limit = { has_government = sikh }
+					set_country_flag = was_sikh
+				}
+				else_if = {
+					limit = { has_government = communism }
+					set_country_flag = was_animist
+				}
+				else_if = {
+					limit = { has_government = fetishist }
+					set_country_flag = was_fetishist
+				}
+				else_if = {
+					limit = { has_government = totemist }
+					set_country_flag = was_totemist
+				}
+				else_if = {
+					limit = { has_government = inti }
+					set_country_flag = was_inti
+				}
+				else_if = {
+					limit = { has_government = nahuatl }
+					set_country_flag = was_nahuatl
+				}
+				else_if = {
+					limit = { has_government = mayan }
+					set_country_flag = was_mayan
+				}
+				else_if = {
+					limit = { has_government = tengri }
+					set_country_flag = was_tengri
+				}
+				else_if = {
+					limit = { has_government = norse }
+					set_country_flag = was_norse
+				}
+				else_if = {
+					limit = { has_government = democratic }
+					set_country_flag = was_jewish
+				}
+				else_if = {
+					limit = { has_government = zoroastrian }
+					set_country_flag = was_zoroastrian
+				}
+			}
+		}
 	}
 	
 	option = { #YES
-		name=peace_system.12.a
+		name=peace_system.7.a
 		news_event = { id = news_event.9 days = 1 }
 		#ROOT CEDES ALL OCCUPIED STATES
 		if = {
@@ -697,6 +840,22 @@ country_event = {
 				clr_state_flag = demanded_by_@FROM
 			}
 			FROM = { clr_country_flag = demanding_occupied_states }
+		}
+		#FROM CEDES ALL OCCUPIED STATES
+		if = {
+			limit = {
+				FROM = { has_country_flag = offering_occupied_states }
+			}
+			every_state = {
+				limit = {
+					has_state_flag = offered_by_@FROM
+				}
+				ROOT = { transfer_state = PREV }
+			}
+			every_state = {
+				clr_state_flag = offered_by_@FROM
+			}
+			FROM = { clr_country_flag = offering_occupied_states }
 		}
 		#CEDE ALL CORES AND CLAIMS
 		if = {
@@ -724,6 +883,30 @@ country_event = {
 			}
 			FROM = { clr_country_flag = demanding_claimed_states }
 		}
+		#FROM CEDES ALL CORES AND CLAIMS
+		if = {
+			limit = { 
+				FROM = { has_country_flag = offering_claimed_states }
+			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = FROM
+						is_subject_of = FROM
+					}
+				}
+				every_owned_state = {
+					limit = {
+						OR = {
+							is_core_of = ROOT
+							is_claimed_by = ROOT
+						}
+					}
+					ROOT = { transfer_state = PREV }
+				}
+			}
+			FROM = { clr_country_flag = offering_claimed_states }
+		}
 		#CEDE ALL NEIGHBOUR STATES
 		if = {
 			limit = {
@@ -748,6 +931,30 @@ country_event = {
 			}
 			FROM = { clr_country_flag = demanding_neighbour_states }
 		}
+		#FROM CEDES ALL NEIGHBOUR STATES
+		if = {
+			limit = {
+				FROM = { has_country_flag = offering_neighbour_states }
+			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = FROM
+						is_subject_of = FROM
+					}
+				}
+				every_owned_state = {
+					limit = {
+						num_owned_neighbour_states = {
+							owner = ROOT
+							count > 0
+						}
+					}
+					ROOT = { transfer_state = PREV }
+				}
+			}		
+			FROM = { clr_country_flag = offering_neighbour_states }
+		}
 		#ROOT PAYS WAR REPARATIONS
 		if = {
 			limit = {
@@ -765,6 +972,25 @@ country_event = {
 					idea = receiving_war_reparations
 				}
 				clr_country_flag = demanding_war_reparations
+			}
+		}
+		#FROM PAYS WAR REPARATIONS
+		if = {
+			limit = {
+				FROM = { has_country_flag = offering_war_reparations }
+			}
+			FROM = { 
+				add_timed_idea = {
+					days = 365
+					idea = paying_war_reparations
+				}
+				clr_country_flag = offering_war_reparations
+			}
+			ROOT = {
+				add_timed_idea = {
+					days = 365
+					idea = receiving_war_reparations
+				}
 			}
 		}
 		#ROOT PAYS MONETARY SUM
@@ -792,6 +1018,33 @@ country_event = {
 					}
 				}
 				clr_country_flag = demanding_monetary_sum
+			}
+		}
+		#FROM PAYS MONETARY SUM
+		if = {
+			limit = {
+				FROM = { has_country_flag = offering_monetary_sum }
+			}
+			FROM = { 
+				random_owned_state = {
+					limit = { industrial_complex > 0 }
+						
+					add_building_construction = {
+						type = industrial_complex
+						level = -1
+						instant_build = yes
+					}
+				}
+				clr_country_flag = offering_monetary_sum
+			}
+			ROOT = {
+				random_owned_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
 			}
 		}
 		if = { #ROOT BECOMES PUPPET
@@ -1142,320 +1395,6 @@ country_event = {
 					else_if = {
 						limit = { has_country_flag = was_zoroastrian }
 						set_politics = { ruling_party = zoroastrian }
-					}
-				}
-			}
-		}
-		ROOT = { clr_country_flag = peace_in_progress }
-		FROM = { clr_country_flag = peace_in_progress }
-	}
-	option = { #NO
-		name=peace_system.12.b
-		news_event = { id = news_event.10 days = 1 }
-	}
-}
-	#ROOT IS WINNER, ROOT IS ACCEPTING THE DEAL
-country_event = {
-	id = peace_system.13
-	title = peace_system.13.t
-	desc = peace_system.13.d
-	picture = LIBERUM_VETO_countryeventPicture
-	
-	is_triggered_only = yes
-
-	immediate = {
-		if = { #FLAGS ALL STATES OCCUPIED BY ROOT
-			limit = { 
-				FROM = { has_country_flag = offering_occupied_states }
-			}
-			every_country = {
-				limit = {
-					OR = {
-						tag = FROM
-						is_subject_of = FROM
-					}
-				}
-				every_owned_state = {
-					limit = {
-						is_controlled_by = ROOT
-					}
-					set_state_flag = offered_by_@FROM
-				}
-			}
-		}
-		if = { #STORES POLITICAL INFORMATION
-			limit = { FROM = { has_country_flag = offering_vassalisation } }
-			FROM = {
-				clr_country_flag = was_catholic
-				clr_country_flag = was_protestant
-				clr_country_flag = was_reformed
-				clr_country_flag = was_orthodox
-				clr_country_flag = was_coptic
-				clr_country_flag = was_anglican
-				clr_country_flag = was_sunni
-				clr_country_flag = was_shia
-				clr_country_flag = was_ibadi
-				clr_country_flag = was_theravada
-				clr_country_flag = was_vajrayana
-				clr_country_flag = was_mahayana
-				clr_country_flag = was_confucian
-				clr_country_flag = was_shinto
-				clr_country_flag = was_hindu
-				clr_country_flag = was_sikh
-				clr_country_flag = was_animist
-				clr_country_flag = was_fetishist
-				clr_country_flag = was_totemist
-				clr_country_flag = was_inti
-				clr_country_flag = was_nahuatl
-				clr_country_flag = was_mayan
-				clr_country_flag = was_tengri
-				clr_country_flag = was_norse
-				clr_country_flag = was_jewish
-				clr_country_flag = was_zoroastrian
-				
-				set_variable = { var = last_catholic_pop value = party_popularity@neutrality }
-				set_variable = { var = last_protestant_pop value = party_popularity@protestant }
-				set_variable = { var = last_reformed_pop value = party_popularity@reformed }
-				set_variable = { var = last_orthodox_pop value = party_popularity@orthodox }
-				set_variable = { var = last_coptic_pop value = party_popularity@coptic }
-				set_variable = { var = last_anglican_pop value = party_popularity@anglican }
-				set_variable = { var = last_sunni_pop value = party_popularity@fascism }
-				set_variable = { var = last_shia_pop value = party_popularity@shia }
-				set_variable = { var = last_ibadi_pop value = party_popularity@ibadi }
-				set_variable = { var = last_theravada_pop value = party_popularity@theravada }
-				set_variable = { var = last_vajrayana_pop value = party_popularity@vajrayana }
-				set_variable = { var = last_mahayana_pop value = party_popularity@mahayana }
-				set_variable = { var = last_confucian_pop value = party_popularity@confucian }
-				set_variable = { var = last_shinto_pop value = party_popularity@shinto }
-				set_variable = { var = last_hindu_pop value = party_popularity@hindu }
-				set_variable = { var = last_sikh_pop value = party_popularity@sikh }
-				set_variable = { var = last_animist_pop value = party_popularity@communism }
-				set_variable = { var = last_fetishist_pop value = party_popularity@fetishist }
-				set_variable = { var = last_totemist_pop value = party_popularity@totemist }
-				set_variable = { var = last_inti_pop value = party_popularity@inti }
-				set_variable = { var = last_nahuatl_pop value = party_popularity@nahuatl }
-				set_variable = { var = last_mayan_pop value = party_popularity@mayan }
-				set_variable = { var = last_tengri_pop value = party_popularity@tengri }
-				set_variable = { var = last_norse_pop value = party_popularity@norse }
-				set_variable = { var = last_jewish_pop value = party_popularity@democratic }
-				set_variable = { var = last_zoroastrian_pop value = party_popularity@zoroastrian }
-				if = {
-					limit = { has_government = neutrality }
-					set_country_flag = was_catholic
-				}
-				else_if = {
-					limit = { has_government = protestant }
-					set_country_flag = was_protestant
-				}
-				else_if = {
-					limit = { has_government = reformed }
-					set_country_flag = was_reformed
-				}
-				else_if = {
-					limit = { has_government = orthodox }
-					set_country_flag = was_orthodox
-				}
-				else_if = {
-					limit = { has_government = coptic }
-					set_country_flag = was_coptic
-				}
-				else_if = {
-					limit = { has_government = anglican }
-					set_country_flag = was_anglican
-				}
-				else_if = {
-					limit = { has_government = fascism }
-					set_country_flag = was_sunni
-				}
-				else_if = {
-					limit = { has_government = shia }
-					set_country_flag = was_shia
-				}
-				else_if = {
-					limit = { has_government = ibadi }
-					set_country_flag = was_ibadi
-				}
-				else_if = {
-					limit = { has_government = theravada }
-					set_country_flag = was_theravada
-				}
-				else_if = {
-					limit = { has_government = vajrayana }
-					set_country_flag = was_vajrayana
-				}
-				else_if = {
-					limit = { has_government = mahayana }
-					set_country_flag = was_mahayana
-				}
-				else_if = {
-					limit = { has_government = confucian }
-					set_country_flag = was_confucian
-				}
-				else_if = {
-					limit = { has_government = shinto }
-					set_country_flag = was_shinto
-				}
-				else_if = {
-					limit = { has_government = hindu }
-					set_country_flag = was_hindu
-				}
-				else_if = {
-					limit = { has_government = sikh }
-					set_country_flag = was_sikh
-				}
-				else_if = {
-					limit = { has_government = communism }
-					set_country_flag = was_animist
-				}
-				else_if = {
-					limit = { has_government = fetishist }
-					set_country_flag = was_fetishist
-				}
-				else_if = {
-					limit = { has_government = totemist }
-					set_country_flag = was_totemist
-				}
-				else_if = {
-					limit = { has_government = inti }
-					set_country_flag = was_inti
-				}
-				else_if = {
-					limit = { has_government = nahuatl }
-					set_country_flag = was_nahuatl
-				}
-				else_if = {
-					limit = { has_government = mayan }
-					set_country_flag = was_mayan
-				}
-				else_if = {
-					limit = { has_government = tengri }
-					set_country_flag = was_tengri
-				}
-				else_if = {
-					limit = { has_government = norse }
-					set_country_flag = was_norse
-				}
-				else_if = {
-					limit = { has_government = democratic }
-					set_country_flag = was_jewish
-				}
-				else_if = {
-					limit = { has_government = zoroastrian }
-					set_country_flag = was_zoroastrian
-				}
-			}
-		}
-	}
-	
-	option = { #YES
-		name=peace_system.13.a
-		news_event = { id = news_event.9 days = 1 }
-		#FROM CEDES ALL OCCUPIED STATES
-		if = {
-			limit = {
-				FROM = { has_country_flag = offering_occupied_states }
-			}
-			every_state = {
-				limit = {
-					has_state_flag = offered_by_@FROM
-				}
-				ROOT = { transfer_state = PREV }
-			}
-			every_state = {
-				clr_state_flag = offered_by_@FROM
-			}
-			FROM = { clr_country_flag = offering_occupied_states }
-		}
-		#FROM CEDES ALL CORES AND CLAIMS
-		if = {
-			limit = { 
-				FROM = { has_country_flag = offering_claimed_states }
-			}
-			every_country = {
-				limit = {
-					OR = {
-						tag = FROM
-						is_subject_of = FROM
-					}
-				}
-				every_owned_state = {
-					limit = {
-						OR = {
-							is_core_of = ROOT
-							is_claimed_by = ROOT
-						}
-					}
-					ROOT = { transfer_state = PREV }
-				}
-			}
-			FROM = { clr_country_flag = offering_claimed_states }
-		}
-		#FROM CEDES ALL NEIGHBOUR STATES
-		if = {
-			limit = {
-				FROM = { has_country_flag = offering_neighbour_states }
-			}
-			every_country = {
-				limit = {
-					OR = {
-						tag = FROM
-						is_subject_of = FROM
-					}
-				}
-				every_owned_state = {
-					limit = {
-						num_owned_neighbour_states = {
-							owner = ROOT
-							count > 0
-						}
-					}
-					ROOT = { transfer_state = PREV }
-				}
-			}		
-			FROM = { clr_country_flag = offering_neighbour_states }
-		}
-		#FROM PAYS WAR REPARATIONS
-		if = {
-			limit = {
-				FROM = { has_country_flag = offering_war_reparations }
-			}
-			FROM = { 
-				add_timed_idea = {
-					days = 365
-					idea = paying_war_reparations
-				}
-				clr_country_flag = offering_war_reparations
-			}
-			ROOT = {
-				add_timed_idea = {
-					days = 365
-					idea = receiving_war_reparations
-				}
-			}
-		}
-		#FROM PAYS MONETARY SUM
-		if = {
-			limit = {
-				FROM = { has_country_flag = offering_monetary_sum }
-			}
-			FROM = { 
-				random_owned_state = {
-					limit = { industrial_complex > 0 }
-						
-					add_building_construction = {
-						type = industrial_complex
-						level = -1
-						instant_build = yes
-					}
-				}
-				clr_country_flag = offering_monetary_sum
-			}
-			ROOT = {
-				random_owned_state = {
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
 					}
 				}
 			}
@@ -1813,7 +1752,31 @@ country_event = {
 				}
 			}
 		}
-		#FROM REVOKES ALL CORES AND CLAIMS ON ROOT
+		#ROOT REVOKES ALL CORES AND CLAIMS
+		if = {
+			limit = { 
+				FROM = { has_country_flag = demanding_claim_revocation }
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						tag = ROOT
+					}
+				}
+				every_owned_state = {
+					limit = {
+						OR = {
+							is_core_of = ROOT
+							is_claimed_by = ROOT
+						}
+					}
+					remove_core_of = ROOT
+					remove_claim_by = ROOT
+				}
+			}
+			FROM = { clr_country_flag = demanding_claim_revocation }
+		}
+		#FROM REVOKES ALL CORES AND CLAIMS
 		if = {
 			limit = { 
 				FROM = { has_country_flag = offering_claim_revocation }
@@ -1837,6 +1800,16 @@ country_event = {
 			}
 			FROM = { clr_country_flag = offering_claim_revocation }
 		}
+		#ROOT BREAKS ALL ALLIANCES
+		if = {
+			limit = {
+				FROM = { has_country_flag = demanding_break_alliance }
+			}
+			ROOT = {
+				leave_faction = yes
+			}
+			FROM = { clr_country_flag = demanding_break_alliance }
+		}
 		#FROM BREAKS ALL ALLIANCES
 		if = {
 			limit = {
@@ -1849,9 +1822,162 @@ country_event = {
 		}
 		ROOT = { clr_country_flag = peace_in_progress }
 		FROM = { clr_country_flag = peace_in_progress }
+		white_peace = FROM
+		FROM = { country_event = { days = 1 id = peace_system.11 } }
+		clr_country_flag = receiving_peace_from_@FROM
+		set_country_flag = accepted_deal
+		ai_will_do = {
+			factor = 1
+			
+			modifier = { #WHITE PEACE - WHY NOT?
+				factor = 5
+				
+				AND = {
+					NOT = {
+						FROM = {
+							OR = {
+								has_country_flag = demanding_break_alliance
+								has_country_flag = demanding_claimed_states
+								has_country_flag = demanding_claim_revocation
+								has_country_flag = demanding_neighbour_states
+								has_country_flag = demanding_occupied_states
+								has_country_flag = demanding_monetary_sum
+								has_country_flag = demanding_vassalisation
+								has_country_flag = demanding_war_reparations
+								has_country_flag = offering_break_alliance
+								has_country_flag = offering_claimed_states
+								has_country_flag = offering_claim_revocation
+								has_country_flag = offering_neighbour_states
+								has_country_flag = offering_occupied_states
+								has_country_flag = offering_monetary_sum
+								has_country_flag = offering_vassalisation
+								has_country_flag = offering_war_reparations
+							}
+						}
+					}
+					any_war_score < 10
+					FROM = { any_war_score < 10 }
+				}
+			}
+			modifier = {
+				factor = 5
+				war_support < 0.3
+			}
+			modifier = {
+				factor = 2
+				AND = {
+					war_support < 0.5
+					war_support > 0.3
+				}
+			}
+			modifier = {
+				factor = 0
+				war_support > 0.6
+			}
+			modifier = {
+				factor = 10
+				stability < 0.3
+			}
+			modifier = {
+				factor = 5
+				AND = {
+					stability < 0.5
+					stability > 0.3
+				}
+			}
+			modifier = {
+				factor = 2
+				AND = {
+					stability < 0.7
+					stability > 0.5
+				}
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					any_war_score > 0
+					FROM = { has_country_flag = peace_victor }
+				}
+			}
+			modifier = {
+				factor = 10
+				AND = {
+					any_war_score < 0
+					FROM = { has_country_flag = peace_loser }
+				}
+			}
+		}
+		set_country_flag = accepted_deal
 	}
 	option = { #NO
-		name=peace_system.13.b
-		FROM = { country_event = { days = 1 id = peace_system.14 } }
+		name=peace_system.7.b
+		news_event = { id = news_event.10 days = 1 }
+		set_country_flag = refused_deal
+		FROM = { country_event = { days = 1 id = peace_system.11 } }
+		clr_country_flag = receiving_peace_from_@FROM
+		set_country_flag = refused_deal
+		clr_country_flag = demanding_break_alliance
+		clr_country_flag = demanding_claimed_states
+		clr_country_flag = demanding_claim_revocation
+		clr_country_flag = demanding_neighbour_states
+		clr_country_flag = demanding_occupied_states
+		clr_country_flag = demanding_monetary_sum
+		clr_country_flag = demanding_vassalisation
+		clr_country_flag = demanding_war_reparations
+		clr_country_flag = offering_break_alliance
+		clr_country_flag = offering_claimed_states
+		clr_country_flag = offering_claim_revocation
+		clr_country_flag = offering_neighbour_states
+		clr_country_flag = offering_occupied_states
+		clr_country_flag = offering_monetary_sum
+		clr_country_flag = offering_vassalisation
+		clr_country_flag = offering_war_reparations
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+	#PEACE RESPONSE#
+country_event = {
+	id = peace_system.11
+	title = peace_system.8.t
+	desc = peace_system.8.d
+	picture = TREATY_countryeventPicture
+	
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = diplomatic_cooldown_from@ROOT
+			}
+			country_event = { days = 30 id = peace_system.12 }
+			set_truce = {
+				target = FROM
+				days = 365
+			}
+		}
+	}
+	option = { #OKAY
+		name=peace_system.8.a
+		FROM = {
+			clr_country_flag = accepted_deal
+			clr_country_flag = refused_deal
+		}
+	}
+}
+	#COOLDOWN EXPIRE#
+country_event = {
+	id = peace_system.12
+	title = peace_system.9.t
+	desc = peace_system.9.d
+	picture = TREATY_countryeventPicture
+	
+	is_triggered_only = yes
+	
+	option = { #EXCELLENT
+		name=peace_system.9.a
+		FROM = {
+			clr_country_flag = diplomatic_cooldown_from@ROOT
+		}
 	}
 }

@@ -9,59 +9,167 @@
 # that'll be used if trigger passes
 
 defined_text = { # Peace System
-	name = GetTerritorialDemand
+	name = GetPeaceResponseOpt
 	text = {
 		trigger = {
-			has_country_flag = demanding_neighbour_states
+			has_country_flag = accepted_deal
 		}
-		localization_key = LK_DemandingNeighbourStates
+		localization_key = LK_AcceptedDealOpt
 	}
 	text = {
 		trigger = {
-			has_country_flag = demanding_claimed_states
+			has_country_flag = refused_deal
 		}
-		localization_key = LK_DemandingClaimedStates
+		localization_key = LK_RefusedDealOpt
+	}
+}
+
+defined_text = { # Peace System
+	name = GetPeaceResponseDesc
+	text = {
+		trigger = {
+			has_country_flag = accepted_deal
+		}
+		localization_key = LK_AcceptedDealDesc
 	}
 	text = {
 		trigger = {
-			has_country_flag = demanding_occupied_states
+			has_country_flag = refused_deal
 		}
-		localization_key = LK_DemandingOccupiedStates
+		localization_key = LK_RefusedDealDesc
 	}
 }
 defined_text = { # Peace System
-	name = GetPoliticalDemand
+	name = GetPeaceContent
 	text = {
 		trigger = {
-			has_country_flag = demanding_break_alliance
+			NOT = {
+				OR = {
+					has_country_flag = peace_victor
+					has_country_flag = peace_loser
+				}
+			}
 		}
-		localization_key = LK_DemandingBreakAlliance
+		localization_key = LK_WhitePeace
 	}
 	text = {
 		trigger = {
-			has_country_flag = demanding_vassalisation
+			OR = {
+				has_country_flag = peace_victor
+				has_country_flag = peace_loser
+			}
 		}
-		localization_key = LK_DemandingVassalisation
-	}
-	text = {
-		trigger = {
-			has_country_flag = demanding_claim_revocation
-		}
-		localization_key = LK_DemandingClaimRevocation
+		localization_key = LK_ActualPeace
 	}
 }
 defined_text = { # Peace System
-	name = GetEconomicDemand
+	name = GetPeaceStatus
 	text = {
 		trigger = {
-			has_country_flag = demanding_monetary_sum
+			has_country_flag = peace_victor
 		}
-		localization_key = LK_DemandingMonetarySum
+		localization_key = LK_Demands
 	}
 	text = {
 		trigger = {
-			has_country_flag = demanding_war_reparations
+			has_country_flag = peace_loser
 		}
-		localization_key = LK_DemandingWarReparations
+		localization_key = LK_Concessions
+	}
+}
+defined_text = { # Peace System
+	name = GetPeaceAction
+	text = {
+		trigger = {
+			has_country_flag = peace_victor
+		}
+		localization_key = LK_Demand
+	}
+	text = {
+		trigger = {
+			has_country_flag = peace_loser
+		}
+		localization_key = LK_Offer
+	}
+}
+defined_text = { # Peace System
+	name = GetTerritorialAspect
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = demanding_neighbour_states
+				has_country_flag = offering_neighbour_states
+			}
+		}
+		localization_key = LK_NeighbourStates
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = demanding_claimed_states
+				has_country_flag = offering_claimed_states
+			}
+		}
+		localization_key = LK_ClaimedStates
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = demanding_occupied_states
+				has_country_flag = offering_occupied_states
+			}
+		}
+		localization_key = LK_OccupiedStates
+	}
+}
+defined_text = { # Peace System
+	name = GetPoliticalAspect
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = demanding_break_alliance
+				has_country_flag = offering_break_alliance
+			}
+		}
+		localization_key = LK_BreakAlliance
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = demanding_vassalisation
+				has_country_flag = offering_vassalisation
+			}
+		}
+		localization_key = LK_Vassalisation
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = demanding_claim_revocation
+				has_country_flag = offering_claim_revocation
+			}
+		}
+		localization_key = LK_ClaimRevocation
+	}
+}
+defined_text = { # Peace System
+	name = GetEconomicAspect
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = demanding_monetary_sum
+				has_country_flag = offering_monetary_sum
+			}
+		}
+		localization_key = LK_MonetarySum
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = demanding_war_reparations
+				has_country_flag = offering_war_reparations
+			}
+		}
+		localization_key = LK_WarReparations
 	}
 }
