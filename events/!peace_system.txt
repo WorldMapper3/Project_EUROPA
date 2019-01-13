@@ -1,6 +1,6 @@
-﻿add_namespace = peace_system
+	add_namespace = peace_system
 
-#DEMANDS/CONCESSION EVENT#
+	#DEMANDS/CONCESSION EVENT#
 country_event = {
 	id = peace_system.1
 	title = peace_system.1.t
@@ -1932,6 +1932,8 @@ country_event = {
 		clr_country_flag = offering_monetary_sum
 		clr_country_flag = offering_vassalisation
 		clr_country_flag = offering_war_reparations
+		ROOT = { clr_country_flag = peace_in_progress }
+		FROM = { clr_country_flag = peace_in_progress }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1976,7 +1978,7 @@ country_event = {
 	
 	option = { #EXCELLENT
 		name=peace_system.9.a
-		FROM = {
+		FROM.FROM = {
 			clr_country_flag = diplomatic_cooldown_from@ROOT
 		}
 	}
