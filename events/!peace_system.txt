@@ -48,8 +48,8 @@ country_event = {
 		clr_country_flag = peace_in_progress
 		every_country = {
 			limit = { has_country_flag = receiving_peace_from_@ROOT}
-			set_country_flag = receiving_peace_from_@ROOT
-			set_country_flag = peace_in_progress
+			clr_country_flag = receiving_peace_from_@ROOT
+			clr_country_flag = peace_in_progress
 		}
 	}
 }

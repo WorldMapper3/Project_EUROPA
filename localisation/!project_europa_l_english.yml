@@ -20,6 +20,7 @@
  LK_RefusedDealDesc:0 "The [This.GetAdjective] Government has decided to reject our peace deal on the terms we proposed. The enemy government is no longer receptive to further peace deals within the next 30 days."
  #DECISIONS#
  peace_system:0 "Sue for Peace?"
+ tt_sue_peace:0 "This will begin the peace drafting process."
  peace_out_GER:0 "Peace out with [GER.GetName]?"
  peace_out_ENG:0 "Peace out with [ENG.GetName]?"
  peace_out_SOV:0 "Peace out with [SOV.GetName]?"
