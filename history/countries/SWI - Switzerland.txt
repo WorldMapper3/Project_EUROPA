@@ -12,12 +12,9 @@ add_ideas = {
 }
 set_technology = {
 	pike_weapons = 1
-	polearm_weapons = 1
 	infantry_sword_weapons = 1
 	padded_armour_tech = 1
-	mail_armour_tech = 1
 	plate_armour_tech = 1
-	bow_weapons = 1
 	arbalest_weapons = 1
 	arquebus_weapons = 1
 	war_horse_tech = 1

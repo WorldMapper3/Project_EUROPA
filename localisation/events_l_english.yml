@@ -35,7 +35,7 @@
  peace_system.6.a:0 "Yes, Send the Offer."
  peace_system.6.b:0 "No, Add More."
  peace_system.6.c:0 "No, Clear the Offer."
- peace_system.7.t:0 "Peace Deal from [From.GetName]"
+ peace_system.7.t:0 "Peace [From.GetPeaceStatus] from [From.GetName]"
  peace_system.7.d:0 "The [From.GetAdjective] Government has issued the following peace deal to us, they demand a response:[From.GetTerritorialAspect][From.GetPoliticalAspect][From.GetEconomicAspect]"
  peace_system.7.a:0 "Accept"
  peace_system.7.b:0 "Decline"

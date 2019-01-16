@@ -43,7 +43,6 @@ country_event = {
 		#ADMIN ASSIGN
 		hidden_effect = {
 			random_list = {
-				fixed_random_seed = no
 				13 = {
 					add_ideas=adm0
 				}
@@ -67,7 +66,6 @@ country_event = {
 				}
 			}
 			random_list = {
-				fixed_random_seed = no
 				13 = {
 					add_ideas=dip0
 				}
@@ -91,7 +89,6 @@ country_event = {
 				}
 			}
 			random_list = {
-				fixed_random_seed = no
 				13 = {
 					add_ideas=mil0
 				}

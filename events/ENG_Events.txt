@@ -1,6 +1,6 @@
-﻿add_namespace = ENG_event
+﻿	add_namespace = ENG_event
 
-# The Lollard Heresy
+	# The Lollard Heresy
 country_event = {
 	id = ENG_event.1
 	title = ENG_event.1.t
@@ -95,7 +95,6 @@ country_event = {
 			add_state_modifier = {
 				modifier ={
 					local_resources = -0.5
-					days = 2
 				}
 			}
 		}

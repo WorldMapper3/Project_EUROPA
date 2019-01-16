@@ -306,6 +306,32 @@ technologies = {
 			factor = 1
 		}
 	}
+	pike_weapons2 = {
+
+		enable_equipments = {
+			pike_equipment_3
+		}
+				
+		path = {
+			leads_to_tech = improved_langets2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1450
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1450 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	#IMPROVED LANGETS#
 	improved_langets = {
 
@@ -372,7 +398,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = improved_langets2
+			leads_to_tech = pike_weapons2
 			research_cost_coeff = 1
 		}
 
@@ -401,230 +427,6 @@ technologies = {
 		
 		path = {
 			leads_to_tech = improved_langets3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1450
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1450 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#POLEARM WEAPONS#
-	polearm_weapons = {
-
-		enable_equipments = {
-			halberd_equipment_0
-		}
-		
-		enable_subunits = {
-			halberdiers
-		}
-		
-		path = {
-			leads_to_tech = improved_piercing
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1300
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1300 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	polearm_weapons0 = {
-
-		enable_equipments = {
-			halberd_equipment_1
-		}
-		
-		path = {
-			leads_to_tech = improved_piercing1
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1444
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1444 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	polearm_weapons1 = {
-
-		enable_equipments = {
-			halberd_equipment_2
-		}
-		
-		path = {
-			leads_to_tech = improved_piercing2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1448
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1448 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#IMPROVED PIERCING#
-	improved_piercing = {
-
-		category_halberdiers = {
-			soft_attack = 0.02
-			hard_attack = 0.02
-			breakthrough = 0.01
-		}
-		
-		path = {
-			leads_to_tech = improved_piercing0
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1440
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1440 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	improved_piercing0 = {
-
-		category_halberdiers = {
-			soft_attack = 0.02
-			hard_attack = 0.02
-			breakthrough = 0.01
-		}
-		
-		path = {
-			leads_to_tech = polearm_weapons0
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1442
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1442 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	improved_piercing1 = {
-
-		category_halberdiers = {
-			soft_attack = 0.02
-			hard_attack = 0.02
-			breakthrough = 0.01
-		}
-		
-		path = {
-			leads_to_tech = polearm_weapons1
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1446
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1446 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	improved_piercing2 = {
-
-		category_halberdiers = {
-			soft_attack = 0.02
-			hard_attack = 0.02
-			breakthrough = 0.01
-		}
-		
-		path = {
-			leads_to_tech = improved_piercing3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1450
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1450 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	improved_piercing3 = {
-
-		category_halberdiers = {
-			soft_attack = 0.02
-			hard_attack = 0.02
-			breakthrough = 0.01
-		}
-		
-		path = {
-			leads_to_tech = improved_piercing4
 			research_cost_coeff = 1
 		}
 
@@ -951,88 +753,6 @@ technologies = {
 			factor = 1
 		}
 	}
-	bow_weapons = {
-		
-		enable_subunits = {
-			archers
-		}
-		
-		enable_equipments = {
-			bow_equipment_0
-		}
-		
-		path = {
-			leads_to_tech = bow_weapons0
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1300
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1300 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	bow_weapons0 = {
-		
-		enable_equipments = {
-			bow_equipment_1
-		}
-		
-		path = {
-			leads_to_tech = improved_fletching
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1441
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1441 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	bow_weapons1 = {
-		
-		enable_equipments = {
-			bow_equipment_2
-		}
-		
-		path = {
-			leads_to_tech = improved_fletching1
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1447
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1447 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	improved_fletching = {
 
 		category_archers = {
@@ -1068,7 +788,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = bow_weapons1
+			leads_to_tech = arbalest_weapons1
 			research_cost_coeff = 1
 		}
 
@@ -1152,7 +872,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = improved_lath
+			leads_to_tech = arbalest_weapons0
 			research_cost_coeff = 1
 		}		
 
@@ -1178,15 +898,15 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = improved_lath0
+			leads_to_tech = improved_fletching
 			research_cost_coeff = 1
 		}		
 
 		research_cost = 1.5
-		start_year = 1442
+		start_year = 1441
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1442 }
+			position = { x = 0 y = @1441 }
 		}
 		
 		categories = {
@@ -1204,123 +924,15 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = improved_lath1
+			leads_to_tech = improved_fletching1
 			research_cost_coeff = 1
 		}		
 
 		research_cost = 1.5
-		start_year = 1446
+		start_year = 1447
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1446 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	improved_lath = {
-
-		category_arbalests = {
-			soft_attack = 0.03
-			hard_attack = 0.01
-		}
-		
-		path = {
-			leads_to_tech = arbalest_weapons0
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1440
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1440 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	improved_lath0 = {
-
-		category_arbalests = {
-			soft_attack = 0.03
-			hard_attack = 0.01
-		}
-		
-		path = {
-			leads_to_tech = arbalest_weapons1
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1444
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1444 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	improved_lath1 = {
-
-		category_arbalests = {
-			soft_attack = 0.03
-			hard_attack = 0.01
-		}
-		
-		path = {
-			leads_to_tech = improved_lath2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1448
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1448 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	improved_lath2 = {
-
-		category_arbalests = {
-			soft_attack = 0.03
-			hard_attack = 0.01
-		}
-		
-		path = {
-			leads_to_tech = arbalest_weapons2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1450
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1450 }
+			position = { x = 0 y = @1447 }
 		}
 		
 		categories = {

@@ -16,8 +16,8 @@
  LK_ActualPeace:0 "So far, our peace deal contains:"
  LK_AcceptedDealOpt:0 "Excellent"
  LK_RefusedDealOpt:0 "Regrettable"
- LK_AcceptedDealDesc:0 "The [This.GetAdjective] Government has decided to accept our peace deal on the terms we proposed. The effects of the deal have been carried out and a one year truce has been initiated."
- LK_RefusedDealDesc:0 "The [This.GetAdjective] Government has decided to reject our peace deal on the terms we proposed. The enemy government is no longer receptive to further peace deals within the next 30 days."
+ LK_AcceptedDealDesc:0 "The [From.GetAdjective] Government has decided to accept our peace deal on the terms we proposed. The effects of the deal have been carried out and a one year truce has been initiated."
+ LK_RefusedDealDesc:0 "The [From.GetAdjective] Government has decided to reject our peace deal on the terms we proposed. Their government is no longer receptive to further peace deals within the next 30 days."
  #DECISIONS#
  peace_system:0 "Sue for Peace?"
  tt_sue_peace:0 "This will begin the peace drafting process."

@@ -35,7 +35,7 @@ BAH_INF_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "pikemen" "swordsmen" "arbalests" "arquebusiers" "arbalests_support" "arquebusiers_support" }
 
 	fallback_name = "%d. Inphantrī Rējimēnta"
 
@@ -70,7 +70,7 @@ BAH_CAV_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "cavalry" }
+	division_types = { "heavy_lancers" "spear_cav" "cav_archers" }
 
 	fallback_name = "%d. Kĕvalarī Rējimēnta"
 

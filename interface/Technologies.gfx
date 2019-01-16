@@ -18,19 +18,6 @@ spriteTypes = {
 		name = "GFX_lance_equipment_3_medium"
 		texturefile = "gfx/interface/technologies/lance_weapons1.dds"
 	}
-	#ARBALEST EQUIPMENT#
-	SpriteType = {
-		name = "GFX_arbalest_equipment_0_medium"
-		texturefile = "gfx/interface/technologies/arbalest_weapons.dds"
-	}
-	SpriteType = {
-		name = "GFX_arbalest_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/arbalest_weapons0.dds"
-	}
-	SpriteType = {
-		name = "GFX_arbalest_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/arbalest_weapons1.dds"
-	}
 	#ARQUEBUS EQUIPMENT#
 	SpriteType = {
 		name = "GFX_arquebus_equipment_0_medium"
@@ -46,29 +33,16 @@ spriteTypes = {
 	}
 	#BOW EQUIPMENT#
 	SpriteType = {
-		name = "GFX_bow_equipment_0_medium"
+		name = "GFX_arbalest_equipment_0_medium"
 		texturefile = "gfx/interface/technologies/bow_weapons.dds"
 	}
 	SpriteType = {
-		name = "GFX_bow_equipment_1_medium"
+		name = "GFX_arbalest_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/bow_weapons0.dds"
 	}
 	SpriteType = {
-		name = "GFX_bow_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/bow_weapons1.dds"
-	}
-	#HALBERD EQUIPMENT#
-	SpriteType = {
-		name = "GFX_halberd_equipment_0_medium"
-		texturefile = "gfx/interface/technologies/polearm_weapons.dds"
-	}
-	SpriteType = {
-		name = "GFX_halberd_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/polearm_weapons0.dds"
-	}
-	SpriteType = {
-		name = "GFX_halberd_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/polearm_weapons1.dds"
+		name = "GFX_arbalest_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/arbalest_weapons0.dds"
 	}
 	#INF SWORD EQUIPMENT#
 	SpriteType = {
@@ -94,32 +68,19 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_pike_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/pike_weapons1.dds"
+		texturefile = "gfx/interface/technologies/polearm_weapons0.dds"
 	}
 	#PADDED ARMOUR#
 	SpriteType = {
 		name = "GFX_padded_armour_equipment_0_medium"
-		texturefile = "gfx/interface/technologies/padded_armour_tech.dds"
-	}
-	SpriteType = {
-		name = "GFX_padded_armour_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/padded_armour_tech0.dds"
 	}
 	SpriteType = {
-		name = "GFX_padded_armour_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/padded_armour_tech1.dds"
-	}
-	#MAIL ARMOUR#
-	SpriteType = {
-		name = "GFX_mail_armour_equipment_0_medium"
-		texturefile = "gfx/interface/technologies/mail_armour_tech.dds"
-	}
-	SpriteType = {
-		name = "GFX_mail_armour_equipment_1_medium"
+		name = "GFX_padded_armour_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/mail_armour_tech0.dds"
 	}
 	SpriteType = {
-		name = "GFX_mail_armour_equipment_2_medium"
+		name = "GFX_padded_armour_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/mail_armour_tech1.dds"
 	}
 	#PLATE ARMOUR#
@@ -320,7 +281,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_pike_weapons1_medium"
-		texturefile = "gfx/interface/technologies/pike_weapons1.dds"
+		texturefile = "gfx/interface/technologies/polearm_weapons0.dds"
+	}
+	SpriteType = {
+		name = "GFX_pike_weapons2_medium"
+		texturefile = "gfx/interface/technologies/polearm_weapons1.dds"
 	}
 	SpriteType = {
 		name = "GFX_lance_weapons_medium"
@@ -333,18 +298,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_lance_weapons1_medium"
 		texturefile = "gfx/interface/technologies/lance_weapons1.dds"
-	}
-	SpriteType = {
-		name = "GFX_polearm_weapons_medium"
-		texturefile = "gfx/interface/technologies/polearm_weapons.dds"
-	}
-	SpriteType = {
-		name = "GFX_polearm_weapons0_medium"
-		texturefile = "gfx/interface/technologies/polearm_weapons0.dds"
-	}
-	SpriteType = {
-		name = "GFX_polearm_weapons1_medium"
-		texturefile = "gfx/interface/technologies/polearm_weapons1.dds"
 	}
 	SpriteType = {
 		name = "GFX_infantry_sword_weapons_medium"
@@ -375,28 +328,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/plate_armour_tech2.dds"
 	}
 	SpriteType = {
-		name = "GFX_mail_armour_tech_medium"
-		texturefile = "gfx/interface/technologies/mail_armour_tech.dds"
-	}
-	SpriteType = {
-		name = "GFX_mail_armour_tech0_medium"
-		texturefile = "gfx/interface/technologies/mail_armour_tech0.dds"
-	}
-	SpriteType = {
-		name = "GFX_mail_armour_tech1_medium"
-		texturefile = "gfx/interface/technologies/mail_armour_tech1.dds"
-	}
-	SpriteType = {
 		name = "GFX_padded_armour_tech_medium"
-		texturefile = "gfx/interface/technologies/padded_armour_tech.dds"
-	}
-	SpriteType = {
-		name = "GFX_padded_armour_tech0_medium"
 		texturefile = "gfx/interface/technologies/padded_armour_tech0.dds"
 	}
 	SpriteType = {
+		name = "GFX_padded_armour_tech0_medium"
+		texturefile = "gfx/interface/technologies/mail_armour_tech0.dds"
+	}
+	SpriteType = {
 		name = "GFX_padded_armour_tech1_medium"
-		texturefile = "gfx/interface/technologies/padded_armour_tech1.dds"
+		texturefile = "gfx/interface/technologies/mail_armour_tech1.dds"
 	}
 	#WAR HORSE#
 	SpriteType = {
@@ -595,19 +536,19 @@ spriteTypes = {
 	#ARBALEST TECHS#
 	SpriteType = {
 		name = "GFX_arbalest_weapons_medium"
-		texturefile = "gfx/interface/technologies/arbalest_weapons.dds"
+		texturefile = "gfx/interface/technologies/bow_weapons.dds"
 	}
 	SpriteType = {
 		name = "GFX_arbalest_weapons0_medium"
-		texturefile = "gfx/interface/technologies/arbalest_weapons0.dds"
+		texturefile = "gfx/interface/technologies/bow_weapons0.dds"
 	}
 	SpriteType = {
 		name = "GFX_arbalest_weapons1_medium"
-		texturefile = "gfx/interface/technologies/arbalest_weapons1.dds"
+		texturefile = "gfx/interface/technologies/arbalest_weapons0.dds"
 	}
 	SpriteType = {
 		name = "GFX_arbalest_weapons2_medium"
-		texturefile = "gfx/interface/technologies/arbalest_weapons2.dds"
+		texturefile = "gfx/interface/technologies/arbalest_weapons1.dds"
 	}
 	SpriteType = {
 		name = "GFX_improved_lath_medium"

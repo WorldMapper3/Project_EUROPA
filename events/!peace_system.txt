@@ -1,4 +1,4 @@
-	add_namespace = peace_system
+﻿	add_namespace = peace_system
 
 	#DEMANDS/CONCESSION EVENT#
 country_event = {
@@ -180,10 +180,10 @@ country_event = {
 			limit = { has_country_flag = peace_loser }
 			set_country_flag = offering_claim_revocation
 		}
-		has_country_flag = demanding_vassalisation
-		has_country_flag = demanding_break_alliance
-		has_country_flag = offering_vassalisation
-		has_country_flag = offering_break_alliance
+		clr_country_flag = demanding_vassalisation
+		clr_country_flag = demanding_break_alliance
+		clr_country_flag = offering_vassalisation
+		clr_country_flag = offering_break_alliance
 	}
 	option = {
 		name=peace_system.4.c
@@ -196,10 +196,10 @@ country_event = {
 			limit = { has_country_flag = peace_loser }
 			set_country_flag = offering_break_alliance
 		}
-		has_country_flag = demanding_vassalisation
-		has_country_flag = demanding_claim_revocation
-		has_country_flag = offering_vassalisation
-		has_country_flag = offering_claim_revocation
+		clr_country_flag = demanding_vassalisation
+		clr_country_flag = demanding_claim_revocation
+		clr_country_flag = offering_vassalisation
+		clr_country_flag = offering_claim_revocation
 	}
 	option = {
 		name=peace_system.4.d
@@ -349,10 +349,10 @@ country_event = {
 			limit = { has_country_flag = peace_loser }
 			set_country_flag = offering_claim_revocation
 		}
-		has_country_flag = demanding_vassalisation
-		has_country_flag = demanding_break_alliance
-		has_country_flag = offering_vassalisation
-		has_country_flag = offering_break_alliance
+		clr_country_flag = demanding_vassalisation
+		clr_country_flag = demanding_break_alliance
+		clr_country_flag = offering_vassalisation
+		clr_country_flag = offering_break_alliance
 	}
 	option = {
 		name=peace_system.4.c
@@ -365,10 +365,10 @@ country_event = {
 			limit = { has_country_flag = peace_loser }
 			set_country_flag = offering_break_alliance
 		}
-		has_country_flag = demanding_vassalisation
-		has_country_flag = demanding_claim_revocation
-		has_country_flag = offering_vassalisation
-		has_country_flag = offering_claim_revocation
+		clr_country_flag = demanding_vassalisation
+		clr_country_flag = demanding_claim_revocation
+		clr_country_flag = offering_vassalisation
+		clr_country_flag = offering_claim_revocation
 	}
 	option = {
 		name=peace_system.4.d

@@ -116,7 +116,7 @@ sub_units = {
 	
 		need = {
 			war_horse = 60
-			mail_armour_equipment = 60
+			padded_armour_equipment = 60
 			pike_equipment = 60
 		}
 
@@ -187,7 +187,7 @@ sub_units = {
 		need = {
 			war_horse = 60
 			padded_armour_equipment = 60
-			bow_equipment = 60
+			arbalest_equipment = 60
 		}
 
 		forest = {

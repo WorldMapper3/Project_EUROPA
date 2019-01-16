@@ -26,7 +26,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = improved_quilt
+			leads_to_tech = improved_hauberk
 			research_cost_coeff = 1
 		}		
 
@@ -52,15 +52,19 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = improved_quilt0
+			leads_to_tech = improved_quilt
 			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improved_hauberk1
+			research_cost_coeff = 0.5
 		}		
 
 		research_cost = 1.5
-		start_year = 1442
+		start_year = 1444
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = @1442 }
+			position = { x = 0 y = @1444 }
 		}
 		
 		categories = {
@@ -78,15 +82,15 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = improved_quilt2
+			leads_to_tech = improved_hauberk2
 			research_cost_coeff = 1
 		}		
 
 		research_cost = 1.5
-		start_year = 1450
+		start_year = 1449
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = @1450 }
+			position = { x = 0 y = @1449 }
 		}
 		
 		categories = {
@@ -113,15 +117,15 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = padded_armour_tech0
+			leads_to_tech = improved_quilt0
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1
-		start_year = 1440
+		start_year = 1444
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = @1440 }
+			position = { x = -2 y = @1444 }
 		}
 		
 		categories = {
@@ -152,10 +156,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1444
+		start_year = 1448
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = @1444 }
+			position = { x = -2 y = @1448 }
 		}
 		
 		categories = {
@@ -181,41 +185,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = padded_armour_tech1
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1448
-		folder = {
-			name = armour_folder
-			position = { x = 0 y = @1448 }
-		}
-		
-		categories = {
-			armor
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	improved_quilt2 = {
-
-		category_pikemen = {
-			defense = 0.02
-			armor_value = 0.01
-			breakthrough = 0.01
-		}
-		
-		category_archers = {
-			defense = 0.02
-			armor_value = 0.01
-			breakthrough = 0.01
-		}
-		
-		path = {
-			leads_to_tech = padded_armour_tech2
+			leads_to_tech = improved_quilt2
 			research_cost_coeff = 1
 		}
 
@@ -223,86 +193,7 @@ technologies = {
 		start_year = 1452
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = @1452 }
-		}
-		
-		categories = {
-			armor
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#MAIL ARMOUR#
-	mail_armour_tech = {
-
-		enable_equipments = {
-			mail_armour_equipment_0
-		}
-		
-		path = {
-			leads_to_tech = improved_hauberk
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1300
-		folder = {
-			name = armour_folder
-			position = { x = 0 y = @1300 }
-		}
-		
-		categories = {
-			armor
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	mail_armour_tech0 = {
-
-		enable_equipments = {
-			mail_armour_equipment_1
-		}
-		
-		path = {
-			leads_to_tech = improved_hauberk1
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1444
-		folder = {
-			name = armour_folder
-			position = { x = 0 y = @1444 }
-		}
-		
-		categories = {
-			armor
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	mail_armour_tech1 = {
-
-		enable_equipments = {
-			mail_armour_equipment_2
-		}
-		
-		path = {
-			leads_to_tech = improved_hauberk2
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1448
-		folder = {
-			name = armour_folder
-			position = { x = 0 y = @1448 }
+			position = { x = -2 y = @1452 }
 		}
 		
 		categories = {
@@ -375,7 +266,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = mail_armour_tech0
+			leads_to_tech = padded_armour_tech0
 			research_cost_coeff = 1
 		}
 
@@ -415,7 +306,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = mail_armour_tech1
+			leads_to_tech = padded_armour_tech1
 			research_cost_coeff = 1
 		}
 
@@ -455,7 +346,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = mail_armour_tech2
+			leads_to_tech = padded_armour_tech2
 			research_cost_coeff = 1
 		}
 

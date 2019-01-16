@@ -1,4 +1,4 @@
-﻿add_namespace = HYW_event
+﻿	add_namespace = HYW_event
 	
 # The Surrender of Maine
 country_event = {
@@ -16,7 +16,7 @@ country_event = {
 		NOT = { has_war_with = FRA }
 		date < 1450.01.01
 		917 = {
-			owned_by = ENG
+			is_owned_by = ENG
 		}
 		FRA = {
 			is_subject = no
@@ -47,7 +47,7 @@ country_event = {
 				has_civil_war = yes
 			}
 		}
-		tooltip = HYW_event.1.b.tt
+		custom_effect_tooltip = HYW_event.1.b.tt
 		FRA = { country_event = { id = HYW_event.2 days = 1 } }
 	}
 }
@@ -144,7 +144,7 @@ country_event = {
 		tag = FRA
 		date < 1500.01.01
 		NOT = { has_country_flag = FRA_had_end_of_HYW }
-		every_state = {
+		any_state = {
 			AND = {
 				OR = { 
 					region = 19
@@ -198,13 +198,15 @@ country_event = {
 		name = HYW_event.4.a
 		add_stability = 0.1
 		hidden_effect = {
-			limit = {
-				AND = {
-					FRA = {
-						has_country_flag = FRA_had_end_of_HYW
-					}
-					ENG = {
-						has_country_flag = ENG_had_end_of_HYW
+			if = {
+				limit = {
+					AND = {
+						FRA = {
+							has_country_flag = FRA_had_end_of_HYW
+						}
+						ENG = {
+							has_country_flag = ENG_had_end_of_HYW
+						}
 					}
 				}
 			}
@@ -230,7 +232,7 @@ country_event = {
 			}
 			tag = GBR
 		}
-		every_state = {
+		any_state = {
 			AND = {
 				OR = { 
 					region = 19
@@ -292,13 +294,15 @@ country_event = {
 		}
 		add_opinion_modifier = { target = FRA modifier = no_english_in_france }
 		hidden_effect = {
-			limit = {
-				AND = {
-					FRA = {
-						has_country_flag = FRA_had_end_of_HYW
-					}
-					ENG = {
-						has_country_flag = ENG_had_end_of_HYW
+			if = {
+				limit = {
+					AND = {
+						FRA = {
+							has_country_flag = FRA_had_end_of_HYW
+						}
+						ENG = {
+							has_country_flag = ENG_had_end_of_HYW
+						}
 					}
 				}
 			}
@@ -311,13 +315,15 @@ country_event = {
 		add_stability = -0.1
 		add_opinion_modifier = { target = FRA modifier = eng_refuse_to_give_up_france }
 		hidden_effect = {
-			limit = {
-				AND = {
-					FRA = {
-						has_country_flag = FRA_had_end_of_HYW
-					}
-					ENG = {
-						has_country_flag = ENG_had_end_of_HYW
+			if = {
+				limit = {
+					AND = {
+						FRA = {
+							has_country_flag = FRA_had_end_of_HYW
+						}
+						ENG = {
+							has_country_flag = ENG_had_end_of_HYW
+						}
 					}
 				}
 			}

@@ -1,4 +1,4 @@
-﻿add_namespace = SPA_Event
+﻿	add_namespace=SPA_Event
 
 # The Iberian Wedding
 country_event = {
@@ -17,7 +17,7 @@ country_event = {
 				NOT = { has_war_with = ARA }
 				ARA = {
 					exists = yes
-					has_ai = yes
+					is_ai = yes
 					is_subject = no
 					is_neighbor_of = ROOT
 				}
@@ -26,10 +26,10 @@ country_event = {
 			AND = {
 				tag = ARA
 				NOT = { has_war_with = CST }
-				has_aiai = no
+				is_ai = no
 				CST = {
 					exists = yes
-					has_ai = yes
+					is_ai = yes
 					is_subject = no
 					is_neighbor_of = ROOT
 				}
@@ -69,8 +69,8 @@ country_event = {
 				NAP = {	
 					is_subject_of = ARA 
 				}
-				puppet = NAP
 			}
+			puppet = NAP
 		}
 		hidden_effect = {
 			news_event = { id = news_event.4 days = 1 }

@@ -14,8 +14,8 @@ sub_unit_categories = {
 	category_special_forces
 	######MOD SHIT#####
 	category_pikemen
-	category_halberdiers
-	category_archers
+	category_melee_inf
+	category_ranged_inf
 	category_arbalests
 	category_swordsmen
 	category_arquebusiers

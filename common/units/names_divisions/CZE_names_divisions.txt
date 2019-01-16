@@ -35,33 +35,33 @@ CZE_INF_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "pikemen" "swordsmen" "arbalests" "arquebusiers" "arbalests_support" "arquebusiers_support" }
 
-	fallback_name = "%d. Pěchota Pluk"
+	fallback_name = "%d. Pěchotní Pluk"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%d. Pěchota Pluk" }
-		2 = { "%d. Pěchota Pluk" }
-		3 = { "%d. Pěchota Pluk" }
-		4 = { "%d. Pěchota Pluk" }
-		5 = { "%d. Pěchota Pluk" }
-		6 = { "%d. Pěchota Pluk" }
-		7 = { "%d. Pěchota Pluk" }
-		8 = { "%d. Pěchota Pluk" }
-		9 = { "%d. Pěchota Pluk" }
-		10 = { "%d. Pěchota Pluk" }
-		11 = { "%d. Pěchota Pluk" }
-		12 = { "%d. Pěchota Pluk" }
-		13 = { "%d. Pěchota Pluk" }
-		14 = { "%d. Pěchota Pluk" }
-		15 = { "%d. Pěchota Pluk" }
-		16 = { "%d. Pěchota Pluk" }
-		17 = { "%d. Pěchota Pluk" }
-		18 = { "%d. Pěchota Pluk" }
-		19 = { "%d. Pěchota Pluk" }
-		20 = { "%d. Pěchota Pluk" }
+		1 = { "%d. Pěchotní Pluk" }
+		2 = { "%d. Pěchotní Pluk" }
+		3 = { "%d. Pěchotní Pluk" }
+		4 = { "%d. Pěchotní Pluk" }
+		5 = { "%d. Pěchotní Pluk" }
+		6 = { "%d. Pěchotní Pluk" }
+		7 = { "%d. Pěchotní Pluk" }
+		8 = { "%d. Pěchotní Pluk" }
+		9 = { "%d. Pěchotní Pluk" }
+		10 = { "%d. Pěchotní Pluk" }
+		11 = { "%d. Pěchotní Pluk" }
+		12 = { "%d. Pěchotní Pluk" }
+		13 = { "%d. Pěchotní Pluk" }
+		14 = { "%d. Pěchotní Pluk" }
+		15 = { "%d. Pěchotní Pluk" }
+		16 = { "%d. Pěchotní Pluk" }
+		17 = { "%d. Pěchotní Pluk" }
+		18 = { "%d. Pěchotní Pluk" }
+		19 = { "%d. Pěchotní Pluk" }
+		20 = { "%d. Pěchotní Pluk" }
 	}
 }
 
@@ -70,22 +70,22 @@ CZE_CAV_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "cavalry" }
+	division_types = { "heavy_lancers" "spear_cav" "cav_archers" }
 
-	fallback_name = "%d. Kavalistický Pluk"
+	fallback_name = "%d. Jezdecký Pluk"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%d. Kavalistický Pluk" }
-		2 = { "%d. Kavalistický Pluk" }
-		3 = { "%d. Kavalistický Pluk" }
-		4 = { "%d. Kavalistický Pluk" }
-		5 = { "%d. Kavalistický Pluk" }
-		6 = { "%d. Kavalistický Pluk" }
-		7 = { "%d. Kavalistický Pluk" }
-		8 = { "%d. Kavalistický Pluk" }
-		9 = { "%d. Kavalistický Pluk" }
-		10 = { "%d. Kavalistický Pluk" }
+		1 = { "%d. Jezdecký Pluk" }
+		2 = { "%d. Jezdecký Pluk" }
+		3 = { "%d. Jezdecký Pluk" }
+		4 = { "%d. Jezdecký Pluk" }
+		5 = { "%d. Jezdecký Pluk" }
+		6 = { "%d. Jezdecký Pluk" }
+		7 = { "%d. Jezdecký Pluk" }
+		8 = { "%d. Jezdecký Pluk" }
+		9 = { "%d. Jezdecký Pluk" }
+		10 = { "%d. Jezdecký Pluk" }
 	}
 }

@@ -66,16 +66,16 @@ bookmarks = {
 
 		"---"={
 			history = "OTHER_RISE_OF_THE_OTTOMANS_DESC"
-			
+		}
 			"WAL"={
 			minor = yes
 			history = "WAL_RISE_OF_THE_OTTOMANS_DESC"
-			ideology = neutrality
+			ideology = orthodox
 			ideas = {
 			}
 			focuses = {
 			}
-		}
+			}
 			"BRN"={
 			minor = yes
 			history = "BRN_RISE_OF_THE_OTTOMANS_DESC"
@@ -84,11 +84,11 @@ bookmarks = {
 			}
 			focuses = {
 			}
-		}
+			}
 			"EGY"={
 			minor = yes
 			history = "EGY_RISE_OF_THE_OTTOMANS_DESC"
-			ideology = neutrality
+			ideology = fascism
 			ideas = {
 			}
 			focuses = {
@@ -96,8 +96,8 @@ bookmarks = {
 		}
 			"QRQ"={
 			minor = yes
-			history = "NZL_RISE_OF_THE_OTTOMANS_DESC"
-			ideology = neutrality
+			history = "QRQ_RISE_OF_THE_OTTOMANS_DESC"
+			ideology = shia
 			ideas = {
 			}
 			focuses = {
@@ -105,8 +105,8 @@ bookmarks = {
 		}
 			"TIM"={
 			minor = yes
-			history = "SAF_RISE_OF_THE_OTTOMANS_DESC"
-			ideology = neutrality
+			history = "TIM_RISE_OF_THE_OTTOMANS_DESC"
+			ideology = fascism
 			ideas = {
 			}
 			focuses = {
@@ -114,13 +114,12 @@ bookmarks = {
 		}
 			"LIT"={
 			minor = yes
-			history = "RAJ_RISE_OF_THE_OTTOMANS_DESC"
+			history = "LIT_RISE_OF_THE_OTTOMANS_DESC"
 			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
 			}
-		}
 		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
