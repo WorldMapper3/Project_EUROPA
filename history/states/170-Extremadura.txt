@@ -1,36 +1,25 @@
-
 state={
 	id=170
 	name="STATE_170"
-	manpower = 509843
-	
-	state_category = large_city
-	
-	resources={
-		oil=12
-	}
 
 	history={
 		owner = CST
-		victory_points = {
-			11851 10 
-		}
-		victory_points = {
-			9877 3 
-		}
-		victory_points = {
-			6867 20 
-		}
-		buildings = {
-			infrastructure = 6
-			industrial_complex = 2
-			arms_factory = 1
-		}
 		add_core_of = CST
-		add_core_of = LEO
+		add_core_of = LON
+		victory_points = { 3874 3 }
+		buildings={
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 0
+			powder_mill = 1
+		}
 	}
 
 	provinces={
-		794 809 874 931 985 3874 3930 6866 6867 6902 6948 6954 9770 9839 9877 9917 9925 11756 11780 11798 11851 
+		794 874 3874 6867 9770 11756 
 	}
+	manpower=186336
+	buildings_max_level_factor=1.000
+	state_category=large_settlement
 }

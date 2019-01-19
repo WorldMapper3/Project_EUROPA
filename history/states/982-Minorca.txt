@@ -1,0 +1,24 @@
+state={
+	id=982
+	name="STATE_982"
+	
+	history={
+		owner = ARA
+		add_core_of = ARA
+		add_core_of = MJO
+		victory_points = { 9845 1 }
+		buildings={
+			infrastructure = 2
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+		}
+	}
+	
+	provinces={
+		9845 
+	}
+	manpower=30584
+	buildings_max_level_factor=1.000
+	state_category=settlement
+}

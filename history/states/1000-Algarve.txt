@@ -1,0 +1,27 @@
+state={
+	id=1000
+	name="STATE_1000"
+	resources={
+		oil=8
+	}
+	
+	history={
+		owner = POR
+		add_core_of = POR
+		victory_points = { 3790 5 }
+		buildings={
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			3790 = { naval_base = 2 }
+		}
+	}
+	
+	provinces={
+		3790 6880 
+	}
+	manpower=128000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,24 @@
+state={
+	id=994
+	name="STATE_994"
+	
+	history={
+		owner = GRA
+		add_core_of = GRA
+		victory_points = { 12038 3 }
+		buildings={
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+			12038 = { naval_base = 1 }
+		}
+	}
+	
+	provinces={
+		747 4065 7196 11956 12038 
+	}
+	manpower=76460
+	buildings_max_level_factor=1.000
+	state_category=large_settlement
+}

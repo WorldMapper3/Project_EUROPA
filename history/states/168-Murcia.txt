@@ -3,34 +3,33 @@ state={
 	id=168
 	name="STATE_168"
 	resources={
-		oil=8
+		oil=4
 	}
 
 	history={
 		owner = CST
+		add_core_of = CST
 		victory_points = {
-			10024 15 
-		}
-		victory_points = {
-			12083 5 
+			13219 5 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+			arms_factory = 1
 			industrial_complex = 1
+			dockyard = 1
 			10024 = {
-				naval_base = 3
+				naval_base = 2
 
 			}
 
 		}
-		add_core_of = CST
 
 	}
 
 	provinces={
-		832 1093 1192 3835 4095 4195 7111 9903 10024 10109 11807 11884 12083 
+		7111 10024 10109 13219 
 	}
-	manpower=192913
+	manpower=152920
 	buildings_max_level_factor=1.000
 	state_category=town
 }

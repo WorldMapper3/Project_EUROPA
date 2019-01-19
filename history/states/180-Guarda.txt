@@ -1,36 +1,28 @@
-
 state={
 	id=180
 	name="STATE_180"
 	resources={
-		oil=14
-		chromium=10
+		oil=19
 	}
 
 	history={
 		owner = POR
-		victory_points = {
-			9817 20 
-		}
-		victory_points = {
-			877 10 
-		}
-		buildings = {
-			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 3
-			dockyard = 1
-			9817 = {
-				naval_base = 4
-			}
-		}
 		add_core_of = POR
+		victory_points = { 9817 10 }
+		buildings={
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			9817 = { naval_base = 3 }
+			powder_mill = 1
+		}
 	}
 
 	provinces={
-		724 877 3892 6921 6941 9817 11673 
+		9817 11673 13210 
 	}
-	manpower=606299
+	manpower=355115
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_town
 }

@@ -1,56 +1,36 @@
-
 state={
 	id=165
 	name="STATE_165"
 	resources={
-		oil=22
-		aluminium=15
-		chromium=20
+		oil=14
 	}
 
 	history={
 		owner = ARA
-		victory_points = {
-			6966 10 
-		}
-		victory_points = {
-			9764 15 
-		}
-		victory_points = {
-			6927 5 
-		}
-		victory_points = {
-			9824 10 
-		}
-		victory_points = {
-			6865 5 
-		}
-		buildings = {
-			infrastructure = 7
-			arms_factory = 2
-			industrial_complex = 4
-			dockyard = 1
-			6966 = {
-				naval_base = 2
-			}
-			9764 = {
-				naval_base = 3
-			}
-			6927 = {
-				naval_base = 2
-			}
-			9824 = {
-				naval_base = 2
-			}
-		}
 		add_core_of = ARA
 		add_core_of = CAT
+		victory_points = {
+			9764 5 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			powder_mill = 1
+			9764 = {
+				naval_base = 2
+
+			}
+
+		}
+
 	}
 
 	provinces={
-		854 872 897 3898 3899 6812 6836 6865 6927 6966 9764 9797 9824 11779 
+		854 9764 9797 13225 
 	}
-	manpower=771654
+	manpower=231929
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=town
 }

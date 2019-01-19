@@ -1,0 +1,20 @@
+state={
+	id=971
+	name="STATE_971"
+	
+	history={
+		owner = ARA
+		buildings={
+			infrastructure = 0
+		}
+	}
+	
+	impassable=yes
+	
+	provinces={
+		3898 3899 13214 13215 
+	}
+	manpower=2265
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

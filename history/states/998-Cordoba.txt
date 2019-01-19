@@ -1,0 +1,27 @@
+state={
+	id=998
+	name="STATE_998"
+	resources={
+		oil=4
+		aluminium=42
+	}
+	
+	history={
+		owner = CST
+		add_core_of = CST
+		victory_points = { 875 5 }
+		buildings={
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 0
+		}
+	}
+	
+	provinces={
+		875 879 3810 3871 6744 7198 
+	}
+	manpower=148673
+	buildings_max_level_factor=1.000
+	state_category=town
+}

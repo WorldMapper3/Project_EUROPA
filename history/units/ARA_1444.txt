@@ -27,28 +27,28 @@ division_template = {
 units = {
 	#VALENCIA#
 	division= {	
-		location = 6906
+		location = 9896
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 6906
+		location = 9896
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 6906
+		location = 9896
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 6906
+		location = 9896
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -56,29 +56,29 @@ units = {
 	}
 	#BARCELONA#
 	division= {	
-		location = 9764
+		location = 6817
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 9764
+		location = 6817
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 9764
+		location = 6817
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	navy = {
-		base = 6906
-		location = 6906
+		base = 9896
+		location = 9896
 		#Carracks
 		ship = { name = "Early Carrack 1" definition = battleship equipment = { carrack_1 = {amount = 1 owner = ARA } } }
 		ship = { name = "Early Carrack 2" definition = battleship equipment = { carrack_1 = {amount = 1 owner = ARA } } }

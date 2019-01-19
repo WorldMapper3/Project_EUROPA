@@ -1,0 +1,26 @@
+state={
+	id=981
+	name="STATE_981"
+	resources={
+		aluminium=25
+	}
+	
+	history={
+		owner = ARA
+		add_core_of = ARA
+		victory_points = { 11821 3 }
+		buildings={
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 0
+		}
+	}
+	
+	provinces={
+		899 915 9840 9842 11819 11821 11838 
+	}
+	manpower=87221
+	buildings_max_level_factor=1.000
+	state_category=large_settlement
+}

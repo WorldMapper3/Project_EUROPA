@@ -3,41 +3,34 @@ state={
 	id=169
 	name="STATE_169"
 	resources={
-		oil=19
-		aluminium=20
+		oil=6
 	}
 
 	history={
 		owner = CST
+		add_core_of = CST
 		victory_points = {
-			875 10 
-		}
-		victory_points = {
-			7183 30 
+			1178 10 
 		}
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 3
-			arms_factory = 2
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
 			dockyard = 1
-			1048 = {
-				naval_base = 2
-
-			}
-			9815 = {
-				naval_base = 4
+			powder_mill = 1
+			7183 = {
+				naval_base = 3
 
 			}
 
 		}
-		add_core_of = CST
 
 	}
 
 	provinces={
-		875 879 950 1048 1178 3810 3871 3940 4080 4182 6744 7098 7183 7198 9815 9891 10094 10111 11749 12070 
+		1178 4182 7098 7183 9891 10094 13230 
 	}
-	manpower=675197
+	manpower=296779
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_town
 }

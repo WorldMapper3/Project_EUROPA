@@ -1,0 +1,23 @@
+state={
+	id=979
+	name="STATE_979"
+	
+	history={
+		owner = ARA
+		add_core_of = ARA
+		victory_points = { 7213 3 }
+		buildings={
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 0
+		}
+	}
+	
+	provinces={
+		798 948 7213 9812 11737 
+	}
+	manpower=105770
+	buildings_max_level_factor=1.000
+	state_category=large_settlement
+}

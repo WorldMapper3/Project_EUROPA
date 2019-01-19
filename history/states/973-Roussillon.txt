@@ -1,0 +1,35 @@
+state={
+	id=973
+	name="STATE_973"
+	resources={
+		chromium=19
+	}
+
+	history={
+		owner = ARA
+		add_core_of = ARA
+		add_core_of = CAT
+		victory_points = {
+			9853 3 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			9853 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		9853 13229 
+	}
+	manpower=113274
+	buildings_max_level_factor=1.000
+	state_category=large_settlement
+}

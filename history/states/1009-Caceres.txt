@@ -1,0 +1,27 @@
+state={
+	id=1009
+	name="STATE_1009"
+	resources={
+		oil=6
+	}
+	
+	history={
+		owner = CST
+		add_core_of = CST
+		add_core_of = LON
+		victory_points = { 6866 5 }
+		buildings={
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+		}
+	}
+	
+	provinces={
+		985 6866 6902 9839 9877 9917 9925 11780 
+	}
+	manpower=84956
+	buildings_max_level_factor=1.000
+	state_category=town
+}

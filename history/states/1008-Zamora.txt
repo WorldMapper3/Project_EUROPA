@@ -1,0 +1,24 @@
+state={
+	id=1008
+	name="STATE_1008"
+	
+	history={
+		owner = CST
+		add_core_of = CST
+		add_core_of = LON
+		victory_points = { 918 3 }
+		buildings={
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 0
+		}
+	}
+	
+	provinces={
+		918 920 3725 3727 3918 6907 
+	}
+	manpower=100814
+	buildings_max_level_factor=1.000
+	state_category=large_settlement
+}

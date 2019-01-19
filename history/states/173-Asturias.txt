@@ -1,42 +1,25 @@
-
 state={
 	id=173
 	name="STATE_173"
-	resources={
-		
-	}
 
 	history={
 		owner = GRA
-		victory_points = {
-			9979 15 
-		}
-		victory_points = {
-			12038 3 
-		}
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 1
-			9979 = {
-				naval_base = 3
-
-			}
-			12038 = {
-				naval_base = 1
-
-			}
-
-		}
 		add_core_of = GRA
-
+		victory_points = { 1090 3 }
+		buildings={
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			10063 = { naval_base = 1 }
+			powder_mill = 1
+		}
 	}
 
 	provinces={
-		747 1090 1176 4065 7068 7153 7196 9979 10009 10063 11956 12038 
+		1090 1176 4095 7068 10063 
 	}
-	manpower=289370
+	manpower=184354
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=large_settlement
 }

@@ -1,0 +1,23 @@
+state={
+	id=986
+	name="STATE_986"
+	
+	history={
+		owner = CST
+		add_core_of = CST
+		victory_points = { 3902 3 }
+		buildings={
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+		}
+	}
+	
+	provinces={
+		884 3887 3902 6903 13213 
+	}
+	manpower=65133
+	buildings_max_level_factor=1.000
+	state_category=large_settlement
+}

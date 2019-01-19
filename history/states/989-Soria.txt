@@ -1,0 +1,26 @@
+state={
+	id=989
+	name="STATE_989"
+	resources={
+		aluminium=17
+	}
+	
+	history={
+		owner = CST
+		add_core_of = CST
+		victory_points = { 3859 3 }
+		buildings={
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+		}
+	}
+	
+	provinces={
+		857 3859 9785 9933 11766 11806 
+	}
+	manpower=60177
+	buildings_max_level_factor=1.000
+	state_category=large_settlement
+}

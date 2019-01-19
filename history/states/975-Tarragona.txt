@@ -1,0 +1,28 @@
+state={
+	id=975
+	name="STATE_975"
+	resources={
+		oil=7
+	}
+	
+	history={
+		owner = ARA
+		add_core_of = ARA
+		add_core_of = CAT
+		victory_points = { 6812 5 }
+		buildings={
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 0
+			6812 = { naval_base = 2 }
+		}
+	}
+	
+	provinces={
+		6812 6836 6966 
+	}
+	manpower=99115
+	buildings_max_level_factor=1.000
+	state_category=town
+}

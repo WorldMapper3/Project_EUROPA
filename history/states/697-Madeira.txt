@@ -1,26 +1,24 @@
 state={
 	id=697
 	name="STATE_697"
-	manpower = 124016
 	
-	state_category = rural
-
 	history={
 		owner = POR
-		victory_points = {
-			3118 5 
-		}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			3118 = {
-				naval_base = 2
-			}
-		}
 		add_core_of = POR
+		victory_points = { 3118 3 }
+		buildings={
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			3118 = { naval_base = 1 }
+		}
 	}
 	
 	provinces={
 		3118 
 	}
+	manpower=110867
+	buildings_max_level_factor=1.000
+	state_category=large_settlement
 }

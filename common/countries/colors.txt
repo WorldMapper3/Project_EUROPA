@@ -1065,6 +1065,35 @@ MAZ = {
 	color = rgb { 195  149  155 }
 	color_ui = rgb { 195  149  155 }
 }
+#IBERIA#
+CAT = {
+	color = rgb { 213  132  76 }
+	color_ui = rgb { 213  132  76 }
+}
+GAL = {
+	color = rgb { 240  167  130 }
+	color_ui = rgb { 240  167  130 }
+}
+LON = {
+	color = rgb { 99  14  87 }
+	color_ui = rgb { 99  14  87 }
+}
+ADU = {
+	color = rgb {  240 230 155 }
+	color_ui = rgb {  240 230 155 }
+}
+VAL = {
+	color = rgb { 132  97  138 }
+	color_ui = rgb { 132  97  138 }
+}
+ASU = {
+	color = rgb { 104  173  230 }
+	color_ui = rgb { 104  173  230 }
+}
+MJO = {
+	color = rgb { 243  111  107 }
+	color_ui = rgb { 243  111  107 }
+}
 ###ARG-ETH####
 ARG = {
 	color = rgb { 101  102  163 }
