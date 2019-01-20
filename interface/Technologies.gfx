@@ -400,23 +400,23 @@ spriteTypes = {
 	}
 	#HEAVY LANCERS#
 	SpriteType = {
-		name = "GFX_heavy_lancers_tech_medium"
+		name = "GFX_lance_cavalry_tech_medium"
 		texturefile = "gfx/interface/technologies/men_at_arms.dds"
 	}
 	SpriteType = {
-		name = "GFX_heavy_lancers_tech0_medium"
+		name = "GFX_lance_cavalry_tech0_medium"
 		texturefile = "gfx/interface/technologies/men_at_arms0.dds"
 	}
 	SpriteType = {
-		name = "GFX_heavy_lancers_tech1_medium"
+		name = "GFX_lance_cavalry_tech1_medium"
 		texturefile = "gfx/interface/technologies/men_at_arms1.dds"
 	}
 	SpriteType = {
-		name = "GFX_heavy_lancers_tech2_medium"
+		name = "GFX_lance_cavalry_tech2_medium"
 		texturefile = "gfx/interface/technologies/men_at_arms2.dds"
 	}
 	SpriteType = {
-		name = "GFX_heavy_lancers_tech3_medium"
+		name = "GFX_lance_cavalry_tech3_medium"
 		texturefile = "gfx/interface/technologies/men_at_arms3.dds"
 	}
 	#CAV IMPROVEMENTS#
