@@ -110,7 +110,7 @@ technologies = {
 			breakthrough = 0.01
 		}
 		
-		category_archers = {
+		category_arbalests = {
 			defense = 0.02
 			armor_value = 0.01
 			breakthrough = 0.01
@@ -144,7 +144,7 @@ technologies = {
 			breakthrough = 0.01
 		}
 		
-		category_archers = {
+		category_arbalests = {
 			defense = 0.02
 			armor_value = 0.01
 			breakthrough = 0.01
@@ -178,7 +178,7 @@ technologies = {
 			breakthrough = 0.01
 		}
 		
-		category_archers = {
+		category_arbalests = {
 			defense = 0.02
 			armor_value = 0.01
 			breakthrough = 0.01
@@ -207,7 +207,7 @@ technologies = {
 	#IMPROVED HAUBERK#
 	improved_hauberk = {
 
-		category_halberdiers = {
+		category_pikemen = {
 			defense = 0.03
 			breakthrough = 0.02
 			armor_value = 0.015
@@ -247,7 +247,7 @@ technologies = {
 	}
 	improved_hauberk0 = {
 
-		category_halberdiers = {
+		category_pikemen = {
 			defense = 0.03
 			breakthrough = 0.02
 			armor_value = 0.015
@@ -287,7 +287,7 @@ technologies = {
 	}
 	improved_hauberk1 = {
 
-		category_halberdiers = {
+		category_pikemen = {
 			defense = 0.03
 			breakthrough = 0.02
 			armor_value = 0.015
@@ -327,7 +327,7 @@ technologies = {
 	}
 	improved_hauberk2 = {
 
-		category_halberdiers = {
+		category_pikemen = {
 			defense = 0.03
 			breakthrough = 0.02
 			armor_value = 0.015

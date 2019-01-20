@@ -6,7 +6,7 @@ sub_units = {
 
 	###MOD STUFF###
 
-	heavy_lancers = {
+	lance_cavalry = {
 		sprite = cavalry
 		map_icon_category = other
 		priority = 599
@@ -22,7 +22,7 @@ sub_units = {
 			category_front_line
 			category_army
 			category_cavalry
-			category_heavy_lancers
+			category_lance_cavalry
 		}
 
 		

@@ -408,10 +408,10 @@ technologies = {
 			factor = 1
 		}
 	}
-	heavy_lancers_tech = {
+	lance_cavalry_tech = {
 		
 		enable_subunits = {
-			heavy_lancers
+			lance_cavalry
 		}
 		enable_equipments = {
 			heavy_lancer_equipment_0
@@ -436,7 +436,7 @@ technologies = {
 			factor = 1
 		}
 	}
-	heavy_lancers_tech0 = {
+	lance_cavalry_tech0 = {
 		
 		enable_equipments = {
 			heavy_lancer_equipment_1
@@ -462,7 +462,7 @@ technologies = {
 			factor = 1
 		}
 	}
-	heavy_lancers_tech1 = {
+	lance_cavalry_tech1 = {
 		
 		enable_equipments = {
 			heavy_lancer_equipment_2
@@ -488,7 +488,7 @@ technologies = {
 			factor = 1
 		}
 	}
-	heavy_lancers_tech2 = {
+	lance_cavalry_tech2 = {
 		
 		enable_equipments = {
 			heavy_lancer_equipment_3
@@ -516,13 +516,13 @@ technologies = {
 	}
 	improved_barding = {
 
-		category_heavy_lancers = {
+		category_lance_cavalry = {
 			breakthrough = 0.02
 			defense = 0.02
 		}
 		
 		path = {
-			leads_to_tech = heavy_lancers_tech0
+			leads_to_tech = lance_cavalry_tech0
 			research_cost_coeff = 1
 		}
 
@@ -543,13 +543,13 @@ technologies = {
 	}
 	improved_barding0 = {
 
-		category_heavy_lancers = {
+		category_lance_cavalry = {
 			breakthrough = 0.02
 			defense = 0.02
 		}
 		
 		path = {
-			leads_to_tech = heavy_lancers_tech1
+			leads_to_tech = lance_cavalry_tech1
 			research_cost_coeff = 1
 		}
 
@@ -570,13 +570,13 @@ technologies = {
 	}
 	improved_barding1 = {
 
-		category_heavy_lancers = {
+		category_lance_cavalry = {
 			breakthrough = 0.02
 			defense = 0.02
 		}
 		
 		path = {
-			leads_to_tech = heavy_lancers_tech2
+			leads_to_tech = lance_cavalry_tech2
 			research_cost_coeff = 1
 		}
 

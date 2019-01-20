@@ -19,9 +19,9 @@ division_template = {
 
 	regiments = {
 		spear_cav = { x = 0 y = 0 }
-		heavy_lancers = { x = 0 y = 1 }
+		lance_cavalry = { x = 0 y = 1 }
 		spear_cav = { x = 1 y = 0 }
-		heavy_lancers = { x = 1 y = 1 }
+		lance_cavalry = { x = 1 y = 1 }
 	}
 }
 units = {
@@ -56,29 +56,29 @@ units = {
 	}
 	#BARCELONA#
 	division= {	
-		location = 6817
+		location = 9764
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 6817
+		location = 9764
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 6817
+		location = 9764
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	navy = {
-		base = 9896
-		location = 9896
+		base = 6817
+		location = 6817
 		#Carracks
 		ship = { name = "Early Carrack 1" definition = battleship equipment = { carrack_1 = {amount = 1 owner = ARA } } }
 		ship = { name = "Early Carrack 2" definition = battleship equipment = { carrack_1 = {amount = 1 owner = ARA } } }

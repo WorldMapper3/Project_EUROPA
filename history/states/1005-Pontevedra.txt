@@ -9,13 +9,12 @@ state={
 		owner = CST
 		add_core_of = CST
 		add_core_of = GAL
-		victory_points = { 6374 3 }
+		victory_points = { 6734 3 }
 		buildings={
 			infrastructure = 3
 			arms_factory = 0
 			industrial_complex = 1
-			dockyard = 0
-			6374 = { naval_base = 1 }
+			6734 = { naval_base = 1 }
 		}
 	}
 	

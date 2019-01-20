@@ -20,7 +20,7 @@ sub_unit_categories = {
 	category_swordsmen
 	category_arquebusiers
 	category_cavalry
-	category_heavy_lancers
+	category_lance_cavalry
 	category_spear_cav
 	category_cav_archers
 }

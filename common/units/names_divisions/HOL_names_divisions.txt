@@ -70,7 +70,7 @@ HOL_CAV_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "heavy_lancers" "spear_cav" "cav_archers" }
+	division_types = { "lance_cavalry" "spear_cav" "cav_archers" }
 
 	fallback_name = "%d. Cavalerie Regiment"
 

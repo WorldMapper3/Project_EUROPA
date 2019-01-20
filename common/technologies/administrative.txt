@@ -36,7 +36,7 @@ technologies = {
 		research_cost = 3
 		start_year = 1420
 		folder = {
-			name = admin_tech_folder
+			name = armour_folder
 			position = { x = 0 y = @1420 }
 		}
 		
@@ -66,7 +66,7 @@ technologies = {
 		research_cost = 3
 		start_year = 1557
 		folder = {
-			name = admin_tech_folder
+			name = armour_folder
 			position = { x = 0 y = @1557 }
 		}
 		
@@ -96,7 +96,7 @@ technologies = {
 		research_cost = 3
 		start_year = 1687
 		folder = {
-			name = admin_tech_folder
+			name = armour_folder
 			position = { x = 0 y = @1687 }
 		}
 		
@@ -126,7 +126,7 @@ technologies = {
 		research_cost = 3
 		start_year = 1790
 		folder = {
-			name = admin_tech_folder
+			name = armour_folder
 			position = { x = 0 y = @1790 }
 		}
 		
@@ -156,7 +156,7 @@ technologies = {
 		research_cost = 3
 		start_year = 1820
 		folder = {
-			name = admin_tech_folder
+			name = armour_folder
 			position = { x = 0 y = @1820 }
 		}
 		

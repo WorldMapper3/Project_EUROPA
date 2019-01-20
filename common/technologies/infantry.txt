@@ -103,7 +103,7 @@ technologies = {
 	#IMPROVED DEMILANCE#
 	improved_demilance = {
 
-		category_heavy_lancers = {
+		category_lance_cavalry = {
 			soft_attack = 0.02
 			hard_attack = 0.02
 			breakthrough = 0.01
@@ -132,7 +132,7 @@ technologies = {
 	
 	improved_demilance0 = {
 
-		category_heavy_lancers = {
+		category_lance_cavalry = {
 			soft_attack = 0.02
 			hard_attack = 0.02
 			breakthrough = 0.01
@@ -161,7 +161,7 @@ technologies = {
 	
 	improved_demilance1 = {
 
-		category_heavy_lancers = {
+		category_lance_cavalry = {
 			soft_attack = 0.02
 			hard_attack = 0.02
 			breakthrough = 0.01
@@ -190,7 +190,7 @@ technologies = {
 	
 	improved_demilance2 = {
 
-		category_heavy_lancers = {
+		category_lance_cavalry = {
 			soft_attack = 0.02
 			hard_attack = 0.02
 			breakthrough = 0.01
@@ -755,7 +755,7 @@ technologies = {
 	}
 	improved_fletching = {
 
-		category_archers = {
+		category_arbalests = {
 			soft_attack = 0.03
 			hard_attack = 0.01
 		}
@@ -782,7 +782,7 @@ technologies = {
 	}
 	improved_fletching0 = {
 
-		category_archers = {
+		category_arbalests = {
 			soft_attack = 0.03
 			hard_attack = 0.01
 		}
@@ -809,7 +809,7 @@ technologies = {
 	}
 	improved_fletching1 = {
 
-		category_archers = {
+		category_arbalests = {
 			soft_attack = 0.03
 			hard_attack = 0.01
 		}
@@ -836,7 +836,7 @@ technologies = {
 	}
 	improved_fletching2 = {
 
-		category_archers = {
+		category_arbalests = {
 			soft_attack = 0.03
 			hard_attack = 0.01
 		}

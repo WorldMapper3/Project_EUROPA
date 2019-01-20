@@ -698,7 +698,7 @@ guiTypes = {
 				format = "LEFT"
 			}
 			gridboxtype = {
-				name = "heavy_lancers_tech_tree"
+				name = "lance_cavalry_tech_tree"
 				position = { x = 140 y = 555 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -2828,7 +2828,7 @@ guiTypes = {
 		}
 		
 		containerWindowType = {
-			name = "electronics_folder"
+			name = "administration_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
@@ -2870,18 +2870,6 @@ guiTypes = {
 				size = { width = 130 height = 100% }
 				orientation = upper_left
 			
-#				instantTextBoxType = {
-#					name = "wonderweapon_year2"
-#					position = { x = 0 y = 140 }
-#					textureFile = ""
-#					font = "hoi_36header"
-#					borderSize = {x = 0 y = 0}
-#					text = "1936"
-#					maxWidth = 130
-#					maxHeight = 32
-#					format = left
-#					Orientation = "UPPER_LEFT"
-#				}
 
 				instantTextBoxType = {
 					name = "wonderweapon_year3"
