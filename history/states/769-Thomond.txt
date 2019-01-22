@@ -1,29 +1,31 @@
 state={
 	id=769
 	name="STATE_769"
+	manpower=70588
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		chromium=12
+		chromium=22
 	}
-	
+
 	history={
-		owner = THO
-		victory_points = {
-			11334 5 
+		owner=THO
+		add_core_of=THO
+		victory_points={
+			6313 3
 		}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			6289 = {
-				naval_base = 2
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			11334={
+				naval_base=1
 			}
 		}
-		add_core_of = THO
 	}
-	
+
 	provinces={
-		3396 6289 6313 6405 11334 
+		3396 6313 11334 
 	}
-	manpower=65882
-	state_category=rural
-	buildings_max_level_factor=1.000
 }

@@ -1,0 +1,27 @@
+state={
+	id=1037
+	name="STATE_1037"
+	manpower=23529
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
+	}
+
+	history={
+		owner=ISL
+		add_core_of=ISL
+		add_core_of=SCO
+		victory_points={
+			13293 1
+		}
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		3373 13284 13293 
+	}
+}

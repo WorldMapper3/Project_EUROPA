@@ -1,25 +1,26 @@
 state={
 	id=770
 	name="STATE_770"
-	
-	history={
-		owner = NOR
-		victory_points = {
-			6196 1 
-		}
-		buildings = {
-			infrastructure = 1
-			6196 = {
-				naval_base = 1
-			}
-		}
-		add_core_of = NOR
+	manpower=21765
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
 	}
-	
+
+	history={
+		owner=NOR
+		add_core_of=NOR
+		victory_points={
+			6196 1
+		}
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
 	provinces={
 		6196 
 	}
-	manpower=11538
-	state_category=small_island
-	buildings_max_level_factor=1.000
 }

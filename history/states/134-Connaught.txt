@@ -1,33 +1,31 @@
-
 state={
 	id=134
 	name="STATE_134"
+	manpower=52353
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		chromium=8
+		chromium=16
 	}
 
 	history={
-		owner = CNN
-		victory_points = {
-			9303 5 
+		owner=CNN
+		add_core_of=CNN
+		victory_points={
+			9303 3
 		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			9369 = {
-				naval_base = 2
-
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			9369={
+				naval_base=1
 			}
-
 		}
-		add_core_of = CNN
-
 	}
 
 	provinces={
 		9255 9303 9321 9369 
 	}
-	manpower=65882
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

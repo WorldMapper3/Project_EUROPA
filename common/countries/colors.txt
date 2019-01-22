@@ -1094,6 +1094,55 @@ MJO = {
 	color = rgb { 243  111  107 }
 	color_ui = rgb { 243  111  107 }
 }
+#BRITISH ISLES#
+SLI = {
+	color = rgb { 191  155  203 }
+	color_ui = rgb { 191  155  203 }
+}
+KID = {
+	color = rgb { 104 130 172 }
+	color_ui = rgb { 104 130 172 }
+}
+GAE = {
+	color = rgb { 37 113 207 }
+	color_ui = rgb { 37 113 207 }
+}
+MNN = {
+	color = rgb { 133 43 27 }
+	color_ui = rgb { 133 43 27 }
+}
+MTH = {
+	color = rgb { 15  128  253 }
+	color_ui = rgb { 15  128  253 }
+}
+NOL = {
+	color = rgb { 83  149  105 }
+	color_ui = rgb { 83  149  105 }
+}
+ISL = {
+	color = rgb { 0 105 104 }
+	color_ui = rgb { 0 105 104 }
+}
+ULS = {
+	color = rgb { 234 214 165 }
+	color_ui = rgb { 234 214 165 }
+}
+WLS = {
+	color = rgb { 117  127  174 }
+	color_ui = rgb { 117  127  174 }
+}
+CRN = {
+	color = rgb { 155  56  0 }
+	color_ui = rgb { 155  56  0 }
+}
+GBR = {
+	color = rgb { 153  0 0 }
+	color_ui = rgb { 153  0 0 }
+}
+DES = {
+	color = rgb { 179 89 89 }
+	color_ui = rgb { 179 89 89 }
+}
 ###ARG-ETH####
 ARG = {
 	color = rgb { 101  102  163 }

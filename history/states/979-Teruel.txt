@@ -1,6 +1,9 @@
 state={
 	id=979
 	name="STATE_979"
+	resources={
+		aluminium=7
+	}
 	
 	history={
 		owner = ARA

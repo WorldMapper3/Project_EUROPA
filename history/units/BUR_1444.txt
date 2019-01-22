@@ -66,11 +66,11 @@ units = {
 		base = 11420
 		location = 11420
 		#Carracks
-		ship = { name = "Early Carrack 1" definition = battleship equipment = { carrack_1 = {amount = 1 owner = BUR } } }
-		ship = { name = "Early Carrack 2" definition = battleship equipment = { carrack_1 = {amount = 1 owner = BUR } } }
+		ship = { name = "Early Carrack 1" definition = carrack equipment = { carrack_1 = {amount = 1 owner = BUR } } }
+		ship = { name = "Early Carrack 2" definition = carrack equipment = { carrack_1 = {amount = 1 owner = BUR } } }
 		#Barques
-		ship = { name = "Barque 1" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = BUR } } }
-		ship = { name = "Barque 2" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = BUR } } }
-		ship = { name = "Barque 3" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = BUR } } }
+		ship = { name = "Barque 1" definition = barque equipment = { barque_1 = {amount = 1 owner = BUR } } }
+		ship = { name = "Barque 2" definition = barque equipment = { barque_1 = {amount = 1 owner = BUR } } }
+		ship = { name = "Barque 3" definition = barque equipment = { barque_1 = {amount = 1 owner = BUR } } }
 	}
 }

@@ -1,0 +1,33 @@
+state={
+	id=1025
+	name="STATE_1025"
+	resources={
+		chromium=8
+	}
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = WLS
+		victory_points = {
+			6363 3 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+			6363 = {
+				naval_base = 1
+
+			}
+		}
+	}
+	
+	provinces={
+		6363 9364 
+	}
+	manpower=45588
+	buildings_max_level_factor=1.000
+	state_category=large_settlement
+}

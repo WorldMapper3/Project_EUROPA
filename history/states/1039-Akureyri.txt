@@ -1,0 +1,27 @@
+state={
+	id=1039
+	name="STATE_1039"
+	manpower=23235
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
+	}
+
+	history={
+		owner=NOR
+		add_core_of=NOR
+		add_core_of=ICE
+		victory_points={
+			12689 1
+		}
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		12689 13296 13298 
+	}
+}

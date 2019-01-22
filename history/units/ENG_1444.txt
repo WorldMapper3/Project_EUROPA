@@ -27,35 +27,35 @@ division_template = {
 units = {
 	#LONDON#
 	division= {	
-		location = 6103
+		location = 13302
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 6103
+		location = 13302
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 6103
+		location = 13302
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 6103
+		location = 13302
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 6103
+		location = 13302
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -63,52 +63,52 @@ units = {
 	}
 	#CORNWALL#
 	division= {	
-		location = 3463
+		location = 3422
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 3463
+		location = 3422
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 3463
+		location = 3422
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 3463
+		location = 3422
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	navy = {
-		base = 11374
-		location = 11374
+		base = 6103
+		location = 6103
 		#Carracks
-		ship = { name = "Early Carrack 1" definition = battleship equipment = { carrack_1 = {amount = 1 owner = ENG } } }
-		ship = { name = "Early Carrack 2" definition = battleship equipment = { carrack_1 = {amount = 1 owner = ENG } } }
-		ship = { name = "Early Carrack 3" definition = battleship equipment = { carrack_1 = {amount = 1 owner = ENG } } }
-		ship = { name = "Early Carrack 4" definition = battleship equipment = { carrack_1 = {amount = 1 owner = ENG } } }
-		ship = { name = "Early Carrack 5" definition = battleship equipment = { carrack_1 = {amount = 1 owner = ENG } } }
-		ship = { name = "Early Carrack 6" definition = battleship equipment = { carrack_1 = {amount = 1 owner = ENG } } }
+		ship = { name = "Early Carrack 1" definition = carrack equipment = { carrack_1 = {amount = 1 owner = ENG } } }
+		ship = { name = "Early Carrack 2" definition = carrack equipment = { carrack_1 = {amount = 1 owner = ENG } } }
+		ship = { name = "Early Carrack 3" definition = carrack equipment = { carrack_1 = {amount = 1 owner = ENG } } }
+		ship = { name = "Early Carrack 4" definition = carrack equipment = { carrack_1 = {amount = 1 owner = ENG } } }
+		ship = { name = "Early Carrack 5" definition = carrack equipment = { carrack_1 = {amount = 1 owner = ENG } } }
+		ship = { name = "Early Carrack 6" definition = carrack equipment = { carrack_1 = {amount = 1 owner = ENG } } }
 		#Barques
-		ship = { name = "Barque 1" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = ENG } } }
-		ship = { name = "Barque 2" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = ENG } } }
-		ship = { name = "Barque 3" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = ENG } } }
-		ship = { name = "Barque 4" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = ENG } } }
-		ship = { name = "Barque 5" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = ENG } } }
-		ship = { name = "Barque 6" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = ENG } } }
-		ship = { name = "Barque 7" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = ENG } } }
-		ship = { name = "Barque 8" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = ENG } } }
-		ship = { name = "Barque 9" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = ENG } } }
+		ship = { name = "Barque 1" definition = barque equipment = { barque_1 = {amount = 1 owner = ENG } } }
+		ship = { name = "Barque 2" definition = barque equipment = { barque_1 = {amount = 1 owner = ENG } } }
+		ship = { name = "Barque 3" definition = barque equipment = { barque_1 = {amount = 1 owner = ENG } } }
+		ship = { name = "Barque 4" definition = barque equipment = { barque_1 = {amount = 1 owner = ENG } } }
+		ship = { name = "Barque 5" definition = barque equipment = { barque_1 = {amount = 1 owner = ENG } } }
+		ship = { name = "Barque 6" definition = barque equipment = { barque_1 = {amount = 1 owner = ENG } } }
+		ship = { name = "Barque 7" definition = barque equipment = { barque_1 = {amount = 1 owner = ENG } } }
+		ship = { name = "Barque 8" definition = barque equipment = { barque_1 = {amount = 1 owner = ENG } } }
+		ship = { name = "Barque 9" definition = barque equipment = { barque_1 = {amount = 1 owner = ENG } } }
 	}
 }

@@ -65,17 +65,17 @@ units = {
 		base = 7125
 		location = 7125
 		#Barques
-		ship = { name = "Barque 1" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = KOR } } }
-		ship = { name = "Barque 2" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = KOR } } }
-		ship = { name = "Barque 3" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = KOR } } }
+		ship = { name = "Barque 1" definition = barque equipment = { barque_1 = {amount = 1 owner = KOR } } }
+		ship = { name = "Barque 2" definition = barque equipment = { barque_1 = {amount = 1 owner = KOR } } }
+		ship = { name = "Barque 3" definition = barque equipment = { barque_1 = {amount = 1 owner = KOR } } }
 		#Galleys
-		ship = { name = "Galley 1" definition = destroyer equipment = { galley_1 = {amount = 1 owner = KOR } } }
-		ship = { name = "Galley 2" definition = destroyer equipment = { galley_1 = {amount = 1 owner = KOR } } }
-		ship = { name = "Galley 3" definition = destroyer equipment = { galley_1 = {amount = 1 owner = KOR } } }
-		ship = { name = "Galley 4" definition = destroyer equipment = { galley_1 = {amount = 1 owner = KOR } } }
-		ship = { name = "Galley 5" definition = destroyer equipment = { galley_1 = {amount = 1 owner = KOR } } }
-		ship = { name = "Galley 6" definition = destroyer equipment = { galley_1 = {amount = 1 owner = KOR } } }
-		ship = { name = "Galley 7" definition = destroyer equipment = { galley_1 = {amount = 1 owner = KOR } } }
-		ship = { name = "Galley 8" definition = destroyer equipment = { galley_1 = {amount = 1 owner = KOR } } }
+		ship = { name = "Galley 1" definition = galley equipment = { galley_1 = {amount = 1 owner = KOR } } }
+		ship = { name = "Galley 2" definition = galley equipment = { galley_1 = {amount = 1 owner = KOR } } }
+		ship = { name = "Galley 3" definition = galley equipment = { galley_1 = {amount = 1 owner = KOR } } }
+		ship = { name = "Galley 4" definition = galley equipment = { galley_1 = {amount = 1 owner = KOR } } }
+		ship = { name = "Galley 5" definition = galley equipment = { galley_1 = {amount = 1 owner = KOR } } }
+		ship = { name = "Galley 6" definition = galley equipment = { galley_1 = {amount = 1 owner = KOR } } }
+		ship = { name = "Galley 7" definition = galley equipment = { galley_1 = {amount = 1 owner = KOR } } }
+		ship = { name = "Galley 8" definition = galley equipment = { galley_1 = {amount = 1 owner = KOR } } }
 	}
 }

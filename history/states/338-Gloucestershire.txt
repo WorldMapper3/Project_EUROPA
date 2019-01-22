@@ -1,29 +1,33 @@
+
 state={
 	id=338
 	name="STATE_338"
-	manpower = 224272
 	resources={
-		chromium=8
+		chromium=15
 	}
-
-	state_category = town
-
+	
 	history={
 		owner = ENG
+		add_core_of = ENG
 		victory_points = {
-			3369 15 
+			13301 3 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
 			3369 = {
-				naval_base = 3
+				naval_base = 1
+
 			}
 		}
-		add_core_of = ENG
 	}
 
 	provinces={
-		3369 6221 6351 6378 9484 11471 
+		3369 6378 13240 13248 13301 
 	}
+	manpower=50588
+	buildings_max_level_factor=1.000
+	state_category=large_settlement
 }

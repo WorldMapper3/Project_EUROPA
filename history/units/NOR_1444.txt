@@ -51,14 +51,14 @@ units = {
 		base = 6115
 		location = 6115
 		#Carracks
-		ship = { name = "Early Carrack 1" definition = battleship equipment = { carrack_1 = {amount = 1 owner = NOR } } }
-		ship = { name = "Early Carrack 2" definition = battleship equipment = { carrack_1 = {amount = 1 owner = NOR } } }
-		ship = { name = "Early Carrack 3" definition = battleship equipment = { carrack_1 = {amount = 1 owner = NOR } } }
+		ship = { name = "Early Carrack 1" definition = carrack equipment = { carrack_1 = {amount = 1 owner = NOR } } }
+		ship = { name = "Early Carrack 2" definition = carrack equipment = { carrack_1 = {amount = 1 owner = NOR } } }
+		ship = { name = "Early Carrack 3" definition = carrack equipment = { carrack_1 = {amount = 1 owner = NOR } } }
 		#Barques
-		ship = { name = "Barque 1" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = NOR } } }
-		ship = { name = "Barque 2" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = NOR } } }
-		ship = { name = "Barque 3" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = NOR } } }
-		ship = { name = "Barque 4" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = NOR } } }
-		ship = { name = "Barque 5" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = NOR } } }
+		ship = { name = "Barque 1" definition = barque equipment = { barque_1 = {amount = 1 owner = NOR } } }
+		ship = { name = "Barque 2" definition = barque equipment = { barque_1 = {amount = 1 owner = NOR } } }
+		ship = { name = "Barque 3" definition = barque equipment = { barque_1 = {amount = 1 owner = NOR } } }
+		ship = { name = "Barque 4" definition = barque equipment = { barque_1 = {amount = 1 owner = NOR } } }
+		ship = { name = "Barque 5" definition = barque equipment = { barque_1 = {amount = 1 owner = NOR } } }
 	}
 }

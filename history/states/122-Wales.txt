@@ -1,34 +1,35 @@
-state= {
+
+state={
 	id=122
 	name="STATE_122"
-	manpower = 208252
 	resources={
-		oil=6
-		steel=30
-		chromium=6
+		oil=5
+		steel=15
 	}
-	
-	state_category = town
 
 	history={
 		owner = ENG
-		victory_points = { 377 5 }
-		victory_points = { 6363 3 }
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			3274 = {
-				naval_base = 1
-			}
-			407 = {
-				naval_base = 2
-			}
-		}
 		add_core_of = ENG
 		add_core_of = WLS
+		victory_points = {
+			407 5 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+			407 = {
+				naval_base = 2
+
+			}
+		}
 	}
 
 	provinces={
-		253 311 377 407 3274 6363 9364 11361 	
+		377 407 13243 
 	}
+	manpower=55882
+	buildings_max_level_factor=1.000
+	state_category=town
 }

@@ -1,0 +1,33 @@
+state={
+	id=1023
+	name="STATE_1023"
+	resources={
+		oil=3
+	}
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = WLS
+		victory_points = {
+			11361 3 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+			3274 = {
+				naval_base = 1
+
+			}
+		}
+	}
+	
+	provinces={
+		3274 11361 13244 
+	}
+	manpower=29412
+	buildings_max_level_factor=1.000
+	state_category=large_settlement
+}

@@ -1,33 +1,33 @@
+
 state={
 	id=127
-	name="STATE_127" # Sussex
-	manpower = 384466
-	state_category = city
+	name="STATE_127"
 	resources={
-		oil=30
-		aluminium=25
+		oil=6
 	}
-
+	
 	history={
 		owner = ENG
-		victory_points = { 11446 15 }
-		victory_points = { 9458 10 }
+		add_core_of = ENG
+		victory_points = {
+			11446 5 
+		}
 		buildings = {
-			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 2
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 1
 			dockyard = 1
 			11446 = {
-				naval_base = 3
-			}
-			9458 = {
 				naval_base = 2
+
 			}
 		}
-		add_core_of = ENG
 	}
 
 	provinces={
-		507 3501 6489 9458 11446 13070 
+		507 9458 11333 11446 13236 
 	}
+	manpower=114706
+	buildings_max_level_factor=1.000
+	state_category=town
 }

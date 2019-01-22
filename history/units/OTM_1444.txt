@@ -37,9 +37,9 @@ units = {
 		base = 10092
 		location = 10092
 		#Barques
-		ship = { name = "Barque 1" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = OTM } } }
+		ship = { name = "Barque 1" definition = barque equipment = { barque_1 = {amount = 1 owner = OTM } } }
 		#Galleys
-		ship = { name = "Galley 1" definition = destroyer equipment = { galley_1 = {amount = 1 owner = OTM } } }
-		ship = { name = "Galley 2" definition = destroyer equipment = { galley_1 = {amount = 1 owner = OTM } } }
+		ship = { name = "Galley 1" definition = galley equipment = { galley_1 = {amount = 1 owner = OTM } } }
+		ship = { name = "Galley 2" definition = galley equipment = { galley_1 = {amount = 1 owner = OTM } } }
 	}
 }

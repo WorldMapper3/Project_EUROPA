@@ -1,32 +1,28 @@
+
 state={
 	id=100
 	name="STATE_100"
-	manpower = 23077
-	
-	state_category = rural
-	
-	
+	manpower=18235
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
+	}
+
 	history={
-		owner = NOR
-		victory_points = {
+		owner=NOR
+		add_core_of=NOR
+		add_core_of=ICE
+		victory_points={
 			12674 1
 		}
-		victory_points = {
-			12689 1
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
 		}
-		buildings = {
-			infrastructure = 2
-			12674 ={
-				naval_base = 1
-			}
-			12689 ={
-				naval_base = 1
-			}
-		}
-		add_core_of = NOR
-		add_core_of = ICE
 	}
+
 	provinces={
-	4861 12674 12689 	
+		4861 12674 13297 
 	}
 }

@@ -1,0 +1,33 @@
+state={
+	id=1029
+	name="STATE_1029"
+	manpower=39706
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		aluminium=4
+		chromium=12
+	}
+
+	history={
+		owner=ENG
+		add_core_of=ENG
+		add_core_of=NOL
+		victory_points={
+			13273 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			11332={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		219 9285 11332 13273 
+	}
+}

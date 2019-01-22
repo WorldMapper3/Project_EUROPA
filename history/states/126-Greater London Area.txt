@@ -1,35 +1,35 @@
+
 state={
 	id=126
 	name="STATE_126"
-	manpower=576699
 	resources={
-		oil=26
-		aluminium=35
+		oil=12
+		aluminium=27
 	}
 	
-	state_category = large_city
-
 	history={
 		owner = ENG
+		add_core_of = ENG
 		victory_points = {
-			6103 20 
-		}
-		victory_points = {
-			9239 15 
+			13302 10 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 1
 			dockyard = 1
-			11374 = {
-				naval_base = 4
+			powder_mill = 1
+			6103 = {
+				naval_base = 3
+
 			}
 		}
-		add_core_of = ENG
 	}
 
 	provinces={
-		6103 9239 11333 11374 
+		6103 11221 13239 13302 
 	}
+	manpower=262745
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

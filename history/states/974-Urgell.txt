@@ -2,8 +2,8 @@ state={
 	id=974
 	name="STATE_974"
 	resources={
-		aluminium=30
-		chromium=19
+		aluminium=7
+		chromium=13
 	}
 	
 	history={
@@ -19,7 +19,7 @@ state={
 	}
 	
 	provinces={
-		872 897 6865 
+		3899 3898 872 897 6865 
 	}
 	manpower=105345
 	buildings_max_level_factor=1.000

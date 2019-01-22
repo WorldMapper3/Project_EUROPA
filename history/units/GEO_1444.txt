@@ -44,13 +44,13 @@ units = {
 		base = 11599
 		location = 11599
 		#Barques
-		ship = { name = "Barque 1" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = GEO } } }
-		ship = { name = "Barque 2" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = GEO } } }
+		ship = { name = "Barque 1" definition = barque equipment = { barque_1 = {amount = 1 owner = GEO } } }
+		ship = { name = "Barque 2" definition = barque equipment = { barque_1 = {amount = 1 owner = GEO } } }
 		#Galleys
-		ship = { name = "Galley 1" definition = destroyer equipment = { galley_1 = {amount = 1 owner = GEO } } }
-		ship = { name = "Galley 2" definition = destroyer equipment = { galley_1 = {amount = 1 owner = GEO } } }
-		ship = { name = "Galley 3" definition = destroyer equipment = { galley_1 = {amount = 1 owner = GEO } } }
-		ship = { name = "Galley 4" definition = destroyer equipment = { galley_1 = {amount = 1 owner = GEO } } }
-		ship = { name = "Galley 5" definition = destroyer equipment = { galley_1 = {amount = 1 owner = GEO } } }
+		ship = { name = "Galley 1" definition = galley equipment = { galley_1 = {amount = 1 owner = GEO } } }
+		ship = { name = "Galley 2" definition = galley equipment = { galley_1 = {amount = 1 owner = GEO } } }
+		ship = { name = "Galley 3" definition = galley equipment = { galley_1 = {amount = 1 owner = GEO } } }
+		ship = { name = "Galley 4" definition = galley equipment = { galley_1 = {amount = 1 owner = GEO } } }
+		ship = { name = "Galley 5" definition = galley equipment = { galley_1 = {amount = 1 owner = GEO } } }
 	}
 }

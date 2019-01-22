@@ -154,4 +154,24 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13001;10219;sea;5414;-1;-1;-1;-1;;Timor-Flores
 6336;3314;sea;8622;-1;-1;-1;-1;;Friesland-Holland
 9793;7114;sea;8845;-1;-1;-1;-1;;Ibiza-Palma
+6062;13291;sea;3590;-1;-1;-1;-1;;Outer Hebrides
+6062;13293;sea;3590;-1;-1;-1;-1;;Outer-Inner Hebrides
+6205;13293;sea;3590;-1;-1;-1;-1;;Sutherland-Inner Hebrides
+3373;11266;sea;3590;-1;-1;-1;-1;;Inverness-Inner Hebrides
+13284;13282;sea;3590;-1;-1;-1;-1;;Argyll-Inner Hebrides
+11064;13304;sea;3195;-1;-1;-1;-1;;Sutherland-Orkenyjar
+13291;3373;sea;3590;-1;-1;-1;-1;;Outer-Inner Hebrides
+3373;13284;sea;3590;-1;-1;-1;-1;;Outer-Inner Hebrides
+743;13215;impassable;-1;-1;-1;-1;-1;;Pyrenees
+3737;13215;impassable;-1;-1;-1;-1;-1;;Pyrenees
+11697;13215;impassable;-1;-1;-1;-1;-1;;Pyrenees
+11697;13214;impassable;-1;-1;-1;-1;-1;;Pyrenees
+9884;13214;impassable;-1;-1;-1;-1;-1;;Pyrenees
+9884;13305;impassable;-1;-1;-1;-1;-1;;Pyrenees
+9882;3899;impassable;-1;-1;-1;-1;-1;;Pyrenees
+9882;13305;impassable;-1;-1;-1;-1;-1;;Pyrenees
+3915;3899;impassable;-1;-1;-1;-1;-1;;Pyrenees
+6931;3899;impassable;-1;-1;-1;-1;-1;;Pyrenees
+6931;3898;impassable;-1;-1;-1;-1;-1;;Pyrenees
+6915;3898;impassable;-1;-1;-1;-1;-1;;Pyrenees
 -1;-1;;-1;-1;-1;-1;-1;-1

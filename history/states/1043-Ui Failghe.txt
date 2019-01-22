@@ -1,0 +1,27 @@
+state={
+	id=971
+	name="STATE_1043"
+	manpower=48529
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		chromium=15
+	}
+
+	history={
+		owner=KID
+		add_core_of=KID
+		victory_points={
+			303 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		303 13261 13268 
+	}
+}

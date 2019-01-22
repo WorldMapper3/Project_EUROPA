@@ -1,35 +1,29 @@
-state= {
+
+state={
 	id=123
 	name="STATE_123"
-	manpower = 320388
 	resources={
-		oil=14
-		aluminium=20
-		tungsten=10
+		tungsten=9
 	}
-	
-	state_category = large_town
 
-	history= {
+	history={
 		owner = ENG
-		victory_points = { 540 5 }
-		victory_points = { 3463 10 }
-		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 1
-			540 = {
-				naval_base = 2
-			}
-			3463 = {
-				naval_base = 2
-			}
-		}
 		add_core_of = ENG
 		add_core_of = CRN
+		victory_points = {
+			13231 1 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 0
+			industrial_complex = 0
+		}
 	}
 
-	provinces= {
-		540 3422 3463 6526 9562 11406
- 	}
+	provinces={
+		6526 13231 13233 
+	}
+	manpower=23235
+	buildings_max_level_factor=1.000
+	state_category=settlement
 }

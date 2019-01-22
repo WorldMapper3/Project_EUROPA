@@ -1,38 +1,32 @@
 state={
 	id=131
 	name="STATE_131"
-	manpower = 288350
-	
-	state_category = large_town
+	manpower=62745
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		aluminium=25
-		chromium=8
+		aluminium=6
 	}
 
 	history={
-		owner = ENG
-		victory_points = {
-			351 15 
+		owner=ENG
+		add_core_of=ENG
+		add_core_of=NOL
+		victory_points={
+			351 3
 		}
-		victory_points = {
-			6399 3 
-		}
-		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 1
-			351 = {
-				naval_base = 3
-			}
-			6399 = {
-				naval_base = 1
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			351={
+				naval_base=1
 			}
 		}
-		add_core_of = ENG
-		add_core_of = NOL
 	}
 
 	provinces={
-		219 351 3311 6399 9285 11270 11299 11332 
+		351 11270 11299 13276 13279 
 	}
 }

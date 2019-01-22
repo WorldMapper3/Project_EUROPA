@@ -1,0 +1,32 @@
+state={
+	id=1031
+	name="STATE_1031"
+	manpower=78431
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		aluminium=8
+		chromium=14
+	}
+
+	history={
+		owner=SCO
+		add_core_of=SCO
+		victory_points={
+			13278 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			13278={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		9350 11218 13278 13280 
+	}
+}

@@ -1,28 +1,27 @@
 state={
 	id=768
 	name="STATE_768"
+	manpower=75882
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		chromium=24
+		chromium=23
 	}
 
 	history={
-		owner = LEI
-		#add_core_of = KID
-		victory_points = {
-			303 10 
+		owner=KID
+		add_core_of=KID
+		victory_points={
+			13260 3
 		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
 		}
-
 	}
 
 	provinces={
-		303 369 3342 
+		3342 13260 
 	}
-	manpower=90588
-	buildings_max_level_factor=1.000
-	state_category=town
 }

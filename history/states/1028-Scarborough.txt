@@ -1,0 +1,33 @@
+state={
+	id=1028
+	name="STATE_1028"
+	manpower=58824
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=3
+		aluminium=6
+	}
+
+	history={
+		owner=ENG
+		add_core_of=ENG
+		add_core_of=NOL
+		victory_points={
+			11317 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			11317={
+				naval_base=2
+			}
+		}
+	}
+
+	provinces={
+		9269 9332 11317 
+	}
+}

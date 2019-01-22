@@ -1,8 +1,11 @@
 state={
 	id=973
 	name="STATE_973"
+	manpower=113274
+	buildings_max_level_factor=1.000
+	state_category=large_settlement
 	resources={
-		chromium=19
+		chromium=14
 	}
 
 	history={
@@ -25,11 +28,8 @@ state={
 		}
 
 	}
-
+	
 	provinces={
 		9853 13229 
 	}
-	manpower=113274
-	buildings_max_level_factor=1.000
-	state_category=large_settlement
 }

@@ -1,31 +1,32 @@
-state= {
+state={
 	id=132
-	name="STATE_132" # Lancashire
-	manpower = 208252
-	
-	state_category = town
-	
+	name="STATE_132"
+	manpower=62745
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		oil=5
-		aluminium=15
-		chromium=12
+		aluminium=6
+		chromium=19
 	}
 
-	history= {
-		owner = ENG
-		victory_points = {
-			3205 15 
-		}	
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			6384 = {
-				naval_base = 3
+	history={
+		owner=ENG
+		add_core_of=ENG
+		victory_points={
+			6335 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			6335={
+				naval_base=1
 			}
 		}
-		add_core_of = ENG
 	}
-	provinces= {
-		3205 6318 6335 6384
- 	}
+
+	provinces={
+		6335 6399 13264 13270 
+	}
 }

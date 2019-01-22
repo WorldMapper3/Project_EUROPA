@@ -1,0 +1,27 @@
+state={
+	id=1042
+	name="STATE_1042"
+	manpower=39216
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		chromium=12
+	}
+
+	history={
+		owner=LEI
+		add_core_of=LEI
+		victory_points={
+			13258 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		13255 13258 
+	}
+}

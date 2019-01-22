@@ -37,15 +37,15 @@ units = {
 		base = 3211
 		location = 3211
 		#Barques
-		ship = { name = "Barque 1" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = HLD } } }
-		ship = { name = "Barque 2" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = HLD } } }
-		ship = { name = "Barque 3" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = HLD } } }
-		ship = { name = "Barque 4" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = HLD } } }
-		ship = { name = "Barque 5" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = HLD } } }
-		ship = { name = "Barque 6" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = HLD } } }
-		ship = { name = "Barque 7" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = HLD } } }
-		ship = { name = "Barque 8" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = HLD } } }
-		ship = { name = "Barque 9" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = HLD } } }
-		ship = { name = "Barque 10" definition = light_cruiser equipment = { barque_1 = {amount = 1 owner = HLD } } }
+		ship = { name = "Barque 1" definition = barque equipment = { barque_1 = {amount = 1 owner = HLD } } }
+		ship = { name = "Barque 2" definition = barque equipment = { barque_1 = {amount = 1 owner = HLD } } }
+		ship = { name = "Barque 3" definition = barque equipment = { barque_1 = {amount = 1 owner = HLD } } }
+		ship = { name = "Barque 4" definition = barque equipment = { barque_1 = {amount = 1 owner = HLD } } }
+		ship = { name = "Barque 5" definition = barque equipment = { barque_1 = {amount = 1 owner = HLD } } }
+		ship = { name = "Barque 6" definition = barque equipment = { barque_1 = {amount = 1 owner = HLD } } }
+		ship = { name = "Barque 7" definition = barque equipment = { barque_1 = {amount = 1 owner = HLD } } }
+		ship = { name = "Barque 8" definition = barque equipment = { barque_1 = {amount = 1 owner = HLD } } }
+		ship = { name = "Barque 9" definition = barque equipment = { barque_1 = {amount = 1 owner = HLD } } }
+		ship = { name = "Barque 10" definition = barque equipment = { barque_1 = {amount = 1 owner = HLD } } }
 	}
 }

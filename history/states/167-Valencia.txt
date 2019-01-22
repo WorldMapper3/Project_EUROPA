@@ -3,12 +3,13 @@ state={
 	name="STATE_167"
 	resources={
 		oil=6
+		aluminium=16
 	}
 
 	history={
 		owner = ARA
 		add_core_of = ARA
-		add_core_of = CAT
+		add_core_of = VAL
 		victory_points = { 9896 5 }
 		buildings={
 			infrastructure = 4

@@ -1,0 +1,32 @@
+state={
+	id=1015
+	name="STATE_1015"
+	resources={
+		oil=5
+	}
+	
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = {
+			6489 5 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			6489 = {
+				naval_base = 2
+
+			}
+		}
+	}
+	
+	provinces={
+		6351 6489 13237 13238 
+	}
+	manpower=105000
+	state_category=town
+	buildings_max_level_factor=1.000
+}

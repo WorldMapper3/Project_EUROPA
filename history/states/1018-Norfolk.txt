@@ -1,0 +1,32 @@
+state={
+	id=1018
+	name="STATE_1018"
+	resources={
+		steel=30
+	}
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = {
+			322 3 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			3287 = {
+				naval_base = 1
+
+			}
+		}
+	}
+	
+	provinces={
+		271 322 3287 13252 
+	}
+	manpower=79412
+	buildings_max_level_factor=1.000
+	state_category=large_settlement
+}
