@@ -1,0 +1,28 @@
+state={
+	id=1057
+	name="STATE_1057"
+	manpower=149492
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		chromium=20
+	}
+
+	history={
+		owner=FRA
+		add_core_of=FRA
+		add_core_of=GUY
+		victory_points={
+			13361 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		9734 11720 13358 13361 
+	}
+}

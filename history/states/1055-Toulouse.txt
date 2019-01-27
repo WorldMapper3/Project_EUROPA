@@ -1,0 +1,29 @@
+state={
+	id=1055
+	name="STATE_1055"
+	manpower=312125
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		chromium=31
+	}
+
+	history={
+		owner=FRA
+		add_core_of=FRA
+		add_core_of=TOU
+		add_core_of=GUY
+		victory_points={
+			13346 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		943 3749 3948 6766 6915 6917 6931 13345 13346 
+	}
+}

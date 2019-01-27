@@ -1,0 +1,31 @@
+state={
+	id=1052
+	name="STATE_1052"
+	manpower=194941
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		aluminium=11
+		chromium=19
+	}
+
+	history={
+		owner=FRA
+		add_core_of=FRA
+		add_core_of=AMG
+		add_core_of=GUY
+		add_core_of=FOI
+		victory_points={
+			11697 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		3915 9882 9884 11697 12169 13306 13307 13308 
+	}
+}

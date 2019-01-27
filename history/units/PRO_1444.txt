@@ -47,14 +47,6 @@ units = {
 		start_equipment_factor = 1
 
 	}
-	#NANCY#
-	division= {	
-		location = 11516
-		division_template = "Infantry Regiment"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-
-	}
 	navy = {
 		base = 11834
 		location = 11834

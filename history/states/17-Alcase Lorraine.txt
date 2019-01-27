@@ -2,33 +2,28 @@
 state={
 	id=17
 	name="STATE_17"
+	manpower=384407
+	buildings_max_level_factor=1
+	state_category=town
 	resources={
-		steel=60
-		chromium=48
+		steel=54
+		chromium=51
 	}
 
 	history={
-		owner = PRO
-		victory_points = {
-			11502 15 
+		owner=LOR
+		add_core_of=LOR
+		victory_points={
+			13394 5
 		}
-		victory_points = {
-			11516 20 
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
 		}
-		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 2
-
-		}
-		add_core_of = PRO
-
 	}
 
 	provinces={
-		521 3629 11488 11502 11516 11642 
+		521 11488 11516 11642 13386 13394 
 	}
-	manpower=615578
-	buildings_max_level_factor=1.000
-	state_category=large_city
 }

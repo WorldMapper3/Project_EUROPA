@@ -3,7 +3,7 @@ state={
 	id=158
 	name="STATE_158"
 	resources={
-		chromium=8
+		chromium=8.000
 	}
 
 	history={
@@ -24,14 +24,16 @@ state={
 			dockyard = 1
 			9909 = {
 				naval_base = 2
+
 			}
+
 		}
 		add_core_of = SAV
 
 	}
 
 	provinces={
-		611 770 3782 3959 6780 9738 9745 9909 11721 
+		611 770 3764 3782 3959 6780 9738 9745 9909 11721 
 	}
 	manpower=651403
 	buildings_max_level_factor=1.000

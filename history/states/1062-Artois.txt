@@ -1,0 +1,29 @@
+state={
+	id=1062
+	name="STATE_1062"
+	manpower=361408
+	buildings_max_level_factor=1
+	state_category=large_town
+	resources={
+		oil=9
+		aluminium=20
+	}
+
+	history={
+		owner=BUR
+		add_core_of=BUR
+		add_core_of=PIC
+		victory_points={
+			3536 10
+		}
+		buildings={
+			infrastructure=5
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		3476 3536 6504 13403 
+	}
+}

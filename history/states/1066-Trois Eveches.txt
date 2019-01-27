@@ -1,0 +1,27 @@
+state={
+	id=1066
+	name="STATE_1066"
+	manpower=347536
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		chromium=46
+	}
+
+	history={
+		owner=LOR
+		add_core_of=LOR
+		victory_points={
+			11502 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		3629 11502 13401 
+	}
+}

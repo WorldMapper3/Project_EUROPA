@@ -1143,6 +1143,79 @@ DES = {
 	color = rgb { 179 89 89 }
 	color_ui = rgb { 179 89 89 }
 }
+#FRANCE#
+LOR = {
+	color = rgb { 115  142  205 }
+	color_ui = rgb { 115  142  205 }
+}
+NEV = {
+	color = rgb { 207  111  64 }
+	color_ui = rgb { 207  111  64 }
+}
+TOU = {
+	color = rgb { 127  170  146 }
+	color_ui = rgb { 127  170  146 }
+}
+GUY = {
+	color = rgb { 32  144  204 }
+	color_ui = rgb { 32  144  204 }
+}
+AMG = {
+	color = rgb { 187  206  247 }
+	color_ui = rgb { 187  206  247 }
+}
+FOI = {
+	color = rgb { 105  106  182 }
+	color_ui = rgb { 105  106  182 }
+}
+DAU = {
+	color = rgb { 93  194  122 }
+	color_ui = rgb { 93  194  122 }
+}
+AUV = {
+	color = rgb { 248  207  70 }
+	color_ui = rgb { 248  207  70 }
+}
+BER = {
+	color = rgb { 85  65  215 }
+	color_ui = rgb { 85  65  215 }
+}
+BOU = {
+	color = rgb { 0  140  165 }
+	color_ui = rgb { 0  140  165 }
+}
+ORL = {
+	color = rgb { 155  0  25 }
+	color_ui = rgb { 155  0  25 }
+}
+CHP = {
+	color = rgb { 166  125  154 }
+	color_ui = rgb { 166  125  154 }
+}
+PIC = {
+	color = rgb { 184  184  122 }
+	color_ui = rgb { 184  184  122 }
+}
+NRM = {
+	color = rgb { 131  138  116 }
+	color_ui = rgb { 131  138  116 }
+}
+ALE = {
+	color = rgb { 162  116  225 }
+	color_ui = rgb { 162  116  225 }
+}
+BAR = {
+	color = rgb { 178  163  143 }
+	color_ui = rgb { 178  163  143 }
+}
+HAT = {
+	color = rgb { 103  62  185 }
+	color_ui = rgb { 103  62  185 }
+}
+AVI = {
+	color = rgb { 205  178  107 }
+	color_ui = rgb { 205  178  107 }
+}
 ###ARG-ETH####
 ARG = {
 	color = rgb { 101  102  163 }

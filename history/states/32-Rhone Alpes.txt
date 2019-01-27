@@ -2,29 +2,29 @@
 state={
 	id=32
 	name="STATE_32"
+	manpower=194759
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		aluminium=20
+		aluminium=11
 	}
 
 	history={
-		owner = FRA
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-
+		owner=FRA
+		add_core_of=FRA
+		add_core_of=DAU
+		add_core_of=PRO
+		victory_points={
+			3768 3
 		}
-		victory_points = {
-			3768 15 
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
 		}
-		add_core_of = FRA
-		add_core_of = DAU
-
 	}
 
 	provinces={
-		762 764 780 3589 3764 3768 3770 6786 9732 9736 11716 
+		762 764 780 3768 9736 13357 
 	}
-	manpower=263819
-	buildings_max_level_factor=1.000
-	state_category=town
 }

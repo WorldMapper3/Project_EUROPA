@@ -1,0 +1,27 @@
+state={
+	id=1067
+	name="STATE_1067"
+	manpower=210821
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=7
+	}
+
+	history={
+		owner=BUR
+		add_core_of=BUR
+		victory_points={
+			3669 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		3669 6531 13379 13380 13385 
+	}
+}

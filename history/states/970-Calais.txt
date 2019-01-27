@@ -1,29 +1,31 @@
 state={
 	id=970
 	name="STATE_970"
+	manpower=265763
+	buildings_max_level_factor=1
+	state_category=town
 	resources={
-		oil=10
+		oil=13
 	}
-	
+
 	history={
-		owner = ENG
-		victory_points = {
-			11548 15 
+		owner=ENG
+		add_core_of=ENG
+		victory_points={
+			11548 5
 		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			11548 = {
-				naval_base = 3
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			dockyard=1
+			11548={
+				naval_base=2
 			}
 		}
-		add_core_of = ENG
 	}
-	
+
 	provinces={
-		11548 
+		11548 13369 13370 
 	}
-	manpower=228643
-	state_category=town
-	buildings_max_level_factor=1.000
 }

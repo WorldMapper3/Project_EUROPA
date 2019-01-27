@@ -1,29 +1,30 @@
 state={
 	id=924
 	name="STATE_924"
-	resources={
-		oil=6
-		aluminium=15
-	}
-	
-	history={
-		owner = PAP
-		victory_points = {
-			958 10 
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-		}
-		add_core_of = PAP
-		add_core_of = PRO
-		add_core_of = AVI
-	}
-	
-	provinces={
-		958 11713 
-	}
-	manpower=176879
+	manpower=193481
+	buildings_max_level_factor=1
 	state_category=town
-	buildings_max_level_factor=1.000
+	resources={
+		oil=10
+		aluminium=11
+	}
+
+	history={
+		owner=PAP
+		add_core_of=PAP
+		add_core_of=PRO
+		add_core_of=AVI
+		victory_points={
+			13353 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		958 11713 13353 
+	}
 }

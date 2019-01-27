@@ -2,29 +2,27 @@
 state={
 	id=27
 	name="STATE_27"
+	manpower=489179
+	buildings_max_level_factor=1
+	state_category=large_town
 	resources={
-		oil=28
+		oil=12
 	}
 
 	history={
-		owner = BUR
-		victory_points = {
-			680 25 
+		owner=BUR
+		add_core_of=BUR
+		victory_points={
+			3652 10
 		}
-		buildings = {
-			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 1
-
+		buildings={
+			infrastructure=5
+			arms_factory=1
+			industrial_complex=1
 		}
-		add_core_of = BUR
-
 	}
 
 	provinces={
-		680 3652 3669 6531 9658 11628 
+		680 817 3652 13376 
 	}
-	manpower=404523
-	buildings_max_level_factor=1.000
-	state_category=city
 }

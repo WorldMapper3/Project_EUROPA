@@ -1,31 +1,28 @@
 state={
 	id=921
 	name="STATE_921"
+	manpower=134707
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		chromium=12
+		chromium=18
 	}
 
 	history={
-		owner = FRA
-		victory_points = {
-			752 10 
+		owner=FRA
+		add_core_of=FRA
+		add_core_of=GUY
+		victory_points={
+			13354 3
 		}
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 1
-
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
 		}
-		add_core_of = FRA
-		add_core_of = GUY
-		add_core_of = TOU
-
 	}
 
 	provinces={
-		752 755 3751 3948 6775 9734 11702 11718 
+		755 6775 11702 13350 13354 13355 
 	}
-	manpower=369347
-	buildings_max_level_factor=1.000
-	state_category=large_town
 }

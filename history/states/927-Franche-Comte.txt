@@ -1,26 +1,27 @@
 state={
 	id=927
 	name="STATE_927"
+	manpower=224876
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		chromium=10
+		chromium=22
 	}
-	
+
 	history={
-		owner = BUR
-		victory_points = {
-			9642 15 
+		owner=BUR
+		add_core_of=BUR
+		victory_points={
+			9642 3
 		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
 		}
-		add_core_of = BUR
 	}
-	
+
 	provinces={
-		698 3646 3666 6668 6698 9642 
+		698 3646 3650 3666 6668 6698 9642 13381 
 	}
-	manpower=246231
-	state_category=town
-	buildings_max_level_factor=1.000
 }

@@ -2,38 +2,30 @@
 state={
 	id=23
 	name="STATE_23"
+	manpower=164276
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		oil=18
-		chromium=12
 	}
 
 	history={
-		owner = FRA
-		victory_points = {
-			6657 15 
+		owner=FRA
+		add_core_of=FRA
+		victory_points={
+			13327 3
 		}
-		victory_points = {
-			629 15 
-		}
-		buildings = {
-			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 2
-			dockyard = 1
-			11600 = {
-				naval_base = 3
-
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+			dockyard=1
+			11600={
+				naval_base=1
 			}
-
 		}
-		add_core_of = FRA
-
 	}
 
 	provinces={
-		595 629 655 6657 9597 9631 11582 11600 
+		655 9631 11600 13327 13329 
 	}
-	manpower=457286
-	buildings_max_level_factor=1.000
-	state_category=city
 }

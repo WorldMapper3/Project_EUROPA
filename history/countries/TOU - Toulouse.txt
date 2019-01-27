@@ -1,0 +1,117 @@
+﻿capital = 1055
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+}
+set_technology = {
+	pike_weapons = 1
+	infantry_sword_weapons = 1
+	padded_armour_tech = 1
+	plate_armour_tech = 1
+	arbalest_weapons = 1
+	arquebus_weapons = 1
+	war_horse_tech = 1
+	spear_cav_tech = 1
+	lance_cavalry_tech = 1
+	cav_archers_tech = 1
+	cog_tech = 1
+	barque_tech = 1
+	galley_tech = 1
+	carrack_tech = 1
+}
+
+
+set_convoys = 0
+
+set_politics = {
+
+	parties = {
+		neutrality = {
+			popularity = 100
+		}
+		protestant = {
+			popularity = 0
+		}
+		reformed = {
+			popularity = 0
+		}
+		orthodox = {
+			popularity = 0
+		}
+		coptic = {
+			popularity = 0
+		}
+		anglican = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		shia = {
+			popularity = 0
+		}
+		ibadi = {
+			popularity = 0
+		}
+		theravada = {
+			popularity = 0
+		}
+		vajrayana = {
+			popularity = 0
+		}
+		mahayana = {
+			popularity = 0
+		}
+		confucian = {
+			popularity = 0
+		}
+		shinto = {
+			popularity = 0
+		}
+		hindu = {
+			popularity = 0
+		}
+		sikh = {
+			popularity = 0
+		}
+		communism = {
+			popularity = 0
+		}
+		fetishist = {
+			popularity = 0
+		}
+		totemist = {
+			popularity = 0
+		}
+		inti = {
+			popularity = 0
+		}
+		nahuatl = {
+			popularity = 0
+		}
+		mayan = {
+			popularity = 0
+		}
+		tengri = {
+			popularity = 0
+		}
+		norse = {
+			popularity = 0
+		}
+		democratic = {
+			popularity = 0
+		}
+		zoroastrian = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1444.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+

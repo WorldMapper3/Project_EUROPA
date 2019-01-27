@@ -1,0 +1,31 @@
+state={
+	id=1050
+	name="STATE_1050"
+	manpower=206258
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=10
+	}
+
+	history={
+		owner=FRA
+		add_core_of=FRA
+		victory_points={
+			6657 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			6657={
+				naval_base=2
+			}
+		}
+	}
+
+	provinces={
+		6657 9597 11582 13321 
+	}
+}

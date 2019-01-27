@@ -1,36 +1,31 @@
 state={
 	id=922
 	name="STATE_922"
+	manpower=320339
+	buildings_max_level_factor=1
+	state_category=town
 	resources={
-		aluminium=45
-		chromium=28
+		aluminium=18
+		chromium=42
 	}
 
 	history={
-		owner = FRA
-		victory_points = {
-			929 15 
+		owner=FRA
+		add_core_of=FRA
+		add_core_of=ENG
+		add_core_of=GUY
+		add_core_of=AMG
+		victory_points={
+			929 5
 		}
-		victory_points = {
-			9884 10 
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
 		}
-		buildings = {
-			infrastructure = 5
-			industrial_complex = 2
-			arms_factory = 1
-
-		}
-		add_core_of = FRA
-		add_core_of = ENG
-		add_core_of = AMG
-		add_core_of = FOI
-
 	}
 
 	provinces={
-		929 3740 3749 6759 9882 9884 11697 11699 12169 
+		929 3740 6759 11699 13310 
 	}
-	manpower=474874
-	buildings_max_level_factor=1.000
-	state_category=city
 }

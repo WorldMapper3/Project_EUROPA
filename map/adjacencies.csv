@@ -174,4 +174,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6931;3899;impassable;-1;-1;-1;-1;-1;;Pyrenees
 6931;3898;impassable;-1;-1;-1;-1;-1;;Pyrenees
 6915;3898;impassable;-1;-1;-1;-1;-1;;Pyrenees
+13345;3898;impassable;-1;-1;-1;-1;-1;;Pyrenees
+13345;3899;impassable;-1;-1;-1;-1;-1;;Pyrenees
 -1;-1;;-1;-1;-1;-1;-1;-1

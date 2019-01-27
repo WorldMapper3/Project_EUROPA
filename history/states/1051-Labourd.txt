@@ -1,0 +1,34 @@
+state={
+	id=1051
+	name="STATE_1051"
+	manpower=146023
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		chromium=19
+	}
+
+	history={
+		owner=ENG
+		add_core_of=ENG
+		add_core_of=FRA
+		add_core_of=AMG
+		add_core_of=GUY
+		victory_points={
+			13309 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+			dockyard=1
+			9710={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		743 3737 6762 9710 13309 13311 
+	}
+}

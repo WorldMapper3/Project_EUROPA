@@ -1,0 +1,27 @@
+state={
+	id=925
+	name="STATE_925"
+	manpower=263390
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=8
+	}
+
+	history={
+		owner=NEV
+		add_core_of=NEV
+		victory_points={
+			13375 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		667 3681 9644 13375 13378 
+	}
+}

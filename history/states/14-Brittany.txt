@@ -2,56 +2,31 @@
 state={
 	id=14
 	name="STATE_14"
+	manpower=260652
+	buildings_max_level_factor=1
+	state_category=town
 	resources={
-		oil=42
-		aluminium=40
+		oil=7
 	}
 
 	history={
-		owner = BRI
-		victory_points = {
-			3552 10 
+		owner=BRI
+		add_core_of=BRI
+		victory_points={
+			11616 5
 		}
-		victory_points = {
-			9495 15 
-		}
-		victory_points = {
-			6548 10 
-		}
-		victory_points = {
-			11465 20 
-		}
-		buildings = {
-			infrastructure = 7
-			arms_factory = 2
-			industrial_complex = 3
-			dockyard = 1
-			3552 = {
-				naval_base = 2
-
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			dockyard=1
+			11616={
+				naval_base=2
 			}
-			6536 = {
-				naval_base = 2
-
-			}
-			11465 = {
-				naval_base = 3
-
-			}
-			11508 = {
-				naval_base = 3
-
-			}
-
 		}
-		add_core_of = BRI
-
 	}
 
 	provinces={
-		527 542 3552 3758 6536 6548 6572 9495 9510 9525 11465 11508 11616 
+		11465 11616 13331 13333 
 	}
-	manpower=949749
-	buildings_max_level_factor=1.000
-	state_category=metropolis
 }

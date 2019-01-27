@@ -1,0 +1,29 @@
+state={
+	id=1060
+	name="STATE_1060"
+	manpower=168657
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		aluminium=9
+		chromium=22
+	}
+
+	history={
+		owner=FRA
+		add_core_of=FRA
+		add_core_of=ORL
+		victory_points={
+			9492 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		669 3671 6533 9492 11463 
+	}
+}

@@ -2,44 +2,33 @@
 state={
 	id=19
 	name="STATE_19"
+	manpower=398644
+	buildings_max_level_factor=1
+	state_category=large_town
 	resources={
-		chromium=44.000
+		chromium=52
 	}
 
 	history={
-		owner = ENG
-		victory_points = {
-			9737 20 
+		owner=ENG
+		add_core_of=ENG
+		add_core_of=FRA
+		add_core_of=GUY
+		victory_points={
+			9737 5
 		}
-		victory_points = {
-			743 10 
-		}
-		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 2
-			dockyard = 1
-			9737 = {
-				naval_base = 4
-
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=2
+			dockyard=2
+			6621={
+				naval_base=2
 			}
-			9710 = {
-				naval_base = 2
-
-			}
-
 		}
-		add_core_of = ENG
-		add_core_of = FRA
-		add_core_of = GUY
-		add_core_of = AMG
-
 	}
 
 	provinces={
-		743 3737 6621 6762 6777 9710 9717 9737 11565 
+		6621 6777 9717 9737 11565 13312 13313 13314 13315 13316 13317 13318 
 	}
-	manpower=545226
-	buildings_max_level_factor=1.000
-	state_category=large_city
 }

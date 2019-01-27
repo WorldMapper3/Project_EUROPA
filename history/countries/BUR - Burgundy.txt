@@ -43,6 +43,10 @@ if = {
 		target = HLD
 		autonomous_state = autonomy_integrated_puppet
 	}
+	set_autonomy = {
+		target = NEV
+		autonomous_state = autonomy_integrated_puppet
+	}
 	else = {
 		set_autonomy = {
 			target = BRB
@@ -56,10 +60,14 @@ if = {
 			target = HLD
 			autonomous_state = autonomy_puppet
 		}
+		set_autonomy = {
+			target = NEV
+			autonomous_state = autonomy_puppet
+		}
 	}
 }
 
-create_faction = "Burgundian Alliance"
+create_faction = "Treaty of Dijon"
 add_to_faction = BUR
 add_to_faction = BRI
 
