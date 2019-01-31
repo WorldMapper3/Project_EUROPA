@@ -1,0 +1,32 @@
+state={
+	id=1068
+	name="STATE_1068"
+	manpower=116827
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		tungsten=27
+	}
+
+	history={
+		owner=ARA
+		add_core_of=ARA
+		add_core_of=SAR
+		victory_points={
+			13404 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			13404={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		902 11755 11773 11874 13404 13405 
+	}
+}

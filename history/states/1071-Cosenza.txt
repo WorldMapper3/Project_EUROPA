@@ -1,0 +1,31 @@
+state={
+	id=1071
+	name="STATE_1071"
+	manpower=57692
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		chromium=7
+	}
+
+	history={
+		owner=NAP
+		add_core_of=NAP
+		victory_points={
+			3901 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			13419={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		3901 10027 12098 13418 13419 
+	}
+}

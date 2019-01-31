@@ -4,7 +4,7 @@ state={
 	name="STATE_19"
 	manpower=398644
 	buildings_max_level_factor=1
-	state_category=large_town
+	state_category=city
 	resources={
 		chromium=52
 	}
@@ -22,6 +22,7 @@ state={
 			arms_factory=1
 			industrial_complex=2
 			dockyard=2
+			powder_mill=1
 			6621={
 				naval_base=2
 			}

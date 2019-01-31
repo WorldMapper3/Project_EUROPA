@@ -1,27 +1,28 @@
 state={
 	id=962
 	name="STATE_962"
+	manpower=152308
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		chromium=10
+		chromium=19
 	}
-	
+
 	history={
-		owner = FER
-		victory_points = {
-			9752 10 
+		owner=FER
+		add_core_of=FER
+		add_core_of=MOD
+		victory_points={
+			13445 3
 		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
 		}
-		add_core_of = FER
-		add_core_of = MOD
 	}
-	
+
 	provinces={
-		3976 9752 
+		9752 13445 13450 13452 
 	}
-	manpower=186115
-	state_category=town
-	buildings_max_level_factor=1.000
 }

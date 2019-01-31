@@ -1,5 +1,243 @@
 on_actions = {
-	
+	#RELEASES HOTFIX#
+	on_release_as_puppet = {
+		effect = {
+			if = {
+				limit = { FROM = { has_government = neutrality } }
+				ROOT = {
+					add_popularity = {
+						ideology = neutrality
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = protestant } }
+				ROOT = {
+					add_popularity = {
+						ideology = protestant
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = reformed } }
+				ROOT = {
+					add_popularity = {
+						ideology = reformed
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = orthodox } }
+				ROOT = {
+					add_popularity = {
+						ideology = orthodox
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = coptic } }
+				ROOT = {
+					add_popularity = {
+						ideology = coptic
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = anglican } }
+				ROOT = {
+					add_popularity = {
+						ideology = anglican
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = fascism } }
+				ROOT = {
+					add_popularity = {
+						ideology = fascism
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = shia } }
+				ROOT = {
+					add_popularity = {
+						ideology = shia
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = ibadi } }
+				ROOT = {
+					add_popularity = {
+						ideology = ibadi
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = theravada } }
+				ROOT = {
+					add_popularity = {
+						ideology = theravada
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = vajrayana } }
+				ROOT = {
+					add_popularity = {
+						ideology = vajrayana
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = mahayana } }
+				ROOT = {
+					add_popularity = {
+						ideology = mahayana
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = confucian } }
+				ROOT = {
+					add_popularity = {
+						ideology = confucian
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = shinto } }
+				ROOT = {
+					add_popularity = {
+						ideology = shinto
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = hindu } }
+				ROOT = {
+					add_popularity = {
+						ideology = hindu
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = sikh } }
+				ROOT = {
+					add_popularity = {
+						ideology = sikh
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = communism } }
+				ROOT = {
+					add_popularity = {
+						ideology = communism
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = fetishist } }
+				ROOT = {
+					add_popularity = {
+						ideology = fetishist
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = totemist } }
+				ROOT = {
+					add_popularity = {
+						ideology = totemist
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = inti } }
+				ROOT = {
+					add_popularity = {
+						ideology = inti
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = nahuatl } }
+				ROOT = {
+					add_popularity = {
+						ideology = nahuatl
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = mayan } }
+				ROOT = {
+					add_popularity = {
+						ideology = mayan
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = tengri } }
+				ROOT = {
+					add_popularity = {
+						ideology = tengri
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = norse } }
+				ROOT = {
+					add_popularity = {
+						ideology = norse
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = democratic } }
+				ROOT = {
+					add_popularity = {
+						ideology = democratic
+						popularity = 100
+					}
+				}
+			}
+			else_if = {
+				limit = { FROM = { has_government = zoroastrian } }
+				ROOT = {
+					add_popularity = {
+						ideology = zoroastrian
+						popularity = 100
+					}
+				}
+			}
+		}
+	}
 	# country 
 	on_new_term_election = {
 		random_events = {

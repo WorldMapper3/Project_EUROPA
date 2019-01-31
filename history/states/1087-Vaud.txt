@@ -1,0 +1,28 @@
+state={
+	id=1087
+	name="STATE_1087"
+	manpower=112467
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=11
+	}
+
+	history={
+		owner=SAV
+		add_core_of=SAV
+		add_core_of=SWI
+		victory_points={
+			13487 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		6666 9622 13124 13483 13484 13487 
+	}
+}

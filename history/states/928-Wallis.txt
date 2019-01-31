@@ -1,31 +1,27 @@
 state={
 	id=928
 	name="STATE_928"
+	manpower=62537
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		oil=8
 	}
-	
+
 	history={
-		owner = SAV
-		victory_points = {
-			9622 10 
+		owner=SAV
+		add_core_of=SAV
+		add_core_of=SWI
+		victory_points={
+			9618 3
 		}
-		victory_points = {
-			9618 5 
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
 		}
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 1
-		}
-		add_core_of = SAV
-		add_core_of = SWI
 	}
-	
+
 	provinces={
-		636 3612 6666 9587 9618 9622 11590 13124 
+		636 3612 9587 9618 11590 13479 13499 
 	}
-	manpower=185294
-	state_category=large_town
-	buildings_max_level_factor=1.000
 }

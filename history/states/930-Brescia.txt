@@ -1,38 +1,30 @@
 state={
 	id=930
 	name="STATE_930"
+	manpower=343269
+	buildings_max_level_factor=1
+	state_category=town
 	resources={
-		oil=20
-		aluminium=40
-		chromium=16
+		aluminium=24
+		chromium=43
 	}
 
 	history={
-		owner = VNC
-		victory_points = {
-			603 20 
+		owner=VNC
+		add_core_of=VNC
+		add_core_of=MLO
+		victory_points={
+			969 5
 		}
-		victory_points = {
-			3776 20 
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=2
+			powder_mill=1
 		}
-		victory_points = {
-			6661 20 
-		}
-		buildings = {
-			infrastructure = 6
-			industrial_complex = 2
-			arms_factory = 2
-
-		}
-		add_core_of = VNC
-		add_core_of = MLO
-
 	}
 
 	provinces={
-		603 969 6661 11568 11587 
+		969 6661 11568 11587 13473 13477 
 	}
-	manpower=651403
-	buildings_max_level_factor=1.000
-	state_category=large_town
 }

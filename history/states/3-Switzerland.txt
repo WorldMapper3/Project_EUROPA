@@ -2,30 +2,28 @@
 state={
 	id=3
 	name="STATE_3"
+	manpower=125173
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		steel=50
-		chromium=10
+		steel=39
+		chromium=23
 	}
 
 	history={
-		owner = SWI
-		victory_points = {
-			9638 15 
+		owner=SWI
+		add_core_of=SWI
+		victory_points={
+			13496 3
 		}
-		buildings = {
-			infrastructure = 3
-			arms_factory = 0
-			industrial_complex = 1
-
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
 		}
-		add_core_of = SWI
-
 	}
 
 	provinces={
-		6683 9620 9638 11604 
+		6683 9620 13485 13489 13491 13496 
 	}
-	manpower=133824
-	buildings_max_level_factor=1.000
-	state_category=town
 }

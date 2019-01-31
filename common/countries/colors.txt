@@ -1216,6 +1216,55 @@ AVI = {
 	color = rgb { 205  178  107 }
 	color_ui = rgb { 205  178  107 }
 }
+#ITALY#
+URB = {
+	color = rgb { 61  152  180 }
+	color_ui = rgb { 61  152  180 }
+}
+MFA = {
+	color = rgb { 96  183  6 }
+	color_ui = rgb { 96  183  6 }
+}
+COR = {
+	color = rgb { 106  178  46 }
+	color_ui = rgb { 106  178  46 }
+}
+SAR = {
+	color = rgb { 117  146  167 }
+	color_ui = rgb { 117  146  167 }
+}
+SIC = {
+	color = rgb { 73  152  76 }
+	color_ui = rgb { 73  152  76 }
+}
+PIS = {
+	color = rgb { 177  150  109 }
+	color_ui = rgb { 177  150  109 }
+}
+MOD = {
+	color = rgb { 214  252  151 }
+	color_ui = rgb { 214  252  151 }
+}
+AQU = {
+	color = rgb { 34  30  174 }
+	color_ui = rgb { 34  30  174 }
+}
+PAM = {
+	color = rgb { 128  202  129 }
+	color_ui = rgb { 128  202  129 }
+}
+STY = {
+	color = rgb { 59  126  59 }
+	color_ui = rgb { 59  126  59 }
+}
+TIR = {
+	color = rgb { 170  43  21 }
+	color_ui = rgb { 170  43  21 }
+}
+MLT = {
+	color = rgb { 80 200 120 }
+	color_ui = rgb { 80 200 120 }
+}
 ###ARG-ETH####
 ARG = {
 	color = rgb { 101  102  163 }

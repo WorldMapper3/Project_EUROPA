@@ -1,30 +1,32 @@
 state={
 	id=959
 	name="STATE_959"
+	manpower=210000
+	buildings_max_level_factor=1
+	state_category=town
 	resources={
-		oil=15
-		aluminium=30
+		oil=8
+		aluminium=15
 	}
-	
+
 	history={
-		owner = LUC
-		victory_points = {
-			6973 15 
+		owner=LUC
+		add_core_of=LUC
+		victory_points={
+			13446 5
 		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			6973 = {
-				naval_base = 3
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			13446={
+				naval_base=2
 			}
 		}
-		add_core_of = LUC
 	}
-	
+
 	provinces={
-		6973 
+		6973 13446 
 	}
-	manpower=217134
-	state_category=town
-	buildings_max_level_factor=1.000
 }

@@ -27,15 +27,15 @@ division_template = {
 units = {
 	#LUCCA
 	division= {	
-		location = 6973
+		location = 13446
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	navy = {
-		base = 6973
-		location = 6973
+		base = 13446
+		location = 13446
 		#Barques
 		ship = { name = "Barque 1" definition = barque equipment = { barque_1 = {amount = 1 owner = LUC } } }
 		ship = { name = "Barque 2" definition = barque equipment = { barque_1 = {amount = 1 owner = LUC } } }

@@ -176,4 +176,22 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6915;3898;impassable;-1;-1;-1;-1;-1;;Pyrenees
 13345;3898;impassable;-1;-1;-1;-1;-1;;Pyrenees
 13345;3899;impassable;-1;-1;-1;-1;-1;;Pyrenees
+778;13471;impassable;-1;-1;-1;-1;-1;;Italian Alps
+778;6609;impassable;-1;-1;-1;-1;-1;;Italian Alps
+9745;6609;impassable;-1;-1;-1;-1;-1;;Italian Alps
+13462;6609;impassable;-1;-1;-1;-1;-1;;Italian Alps
+13462;6784;impassable;-1;-1;-1;-1;-1;;Italian Alps
+13462;3768;impassable;-1;-1;-1;-1;-1;;Italian Alps
+13462;9736;impassable;-1;-1;-1;-1;-1;;Italian Alps
+3764;9736;impassable;-1;-1;-1;-1;-1;;Italian Alps
+3764;6975;impassable;-1;-1;-1;-1;-1;;Italian Alps
+3662;6661;impassable;-1;-1;-1;-1;-1;;Swiss Alps
+3662;11587;impassable;-1;-1;-1;-1;-1;;Swiss Alps
+3660;11587;impassable;-1;-1;-1;-1;-1;;Swiss Alps
+6675;11587;impassable;-1;-1;-1;-1;-1;;Swiss Alps
+6675;6631;impassable;-1;-1;-1;-1;-1;;Swiss Alps
+6675;13481;impassable;-1;-1;-1;-1;-1;;Swiss Alps
+13486;13481;impassable;-1;-1;-1;-1;-1;;Swiss Alps
+13486;9633;impassable;-1;-1;-1;-1;-1;;Swiss Alps
+11584;3604;sea;5786;-1;-1;-1;-1;;Venetia-Treviso
 -1;-1;;-1;-1;-1;-1;-1;-1

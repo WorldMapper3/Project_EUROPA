@@ -1,0 +1,19 @@
+state={
+	id=1091
+	name="STATE_1091"
+	manpower=1298
+	buildings_max_level_factor=1
+	state_category=wasteland
+
+	history={
+		owner=SWI
+		add_core_of=SWI
+		buildings={
+			infrastructure=0
+		}
+	}
+	
+	provinces={
+		3660 3662 6675 13486 
+	}
+}

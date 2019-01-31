@@ -1,0 +1,27 @@
+state={
+	id=1078
+	name="STATE_1078"
+	manpower=161538
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		chromium=20
+	}
+
+	history={
+		owner=FLO
+		add_core_of=FLO
+		victory_points={
+			9879 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		9879 11889 13443 13444 
+	}
+}

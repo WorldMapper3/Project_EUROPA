@@ -1,0 +1,32 @@
+state={
+	id=1083
+	name="STATE_1083"
+	manpower=396779
+	buildings_max_level_factor=1
+	state_category=city
+	resources={
+		oil=13
+	}
+
+	history={
+		owner=VNC
+		add_core_of=VNC
+		victory_points={
+			603 10
+		}
+		buildings={
+			infrastructure=5
+			arms_factory=1
+			industrial_complex=2
+			dockyard=2
+			powder_mill=1
+			13468={
+				naval_base=3
+			}
+		}
+	}
+
+	provinces={
+		603 9598 13467 13468 
+	}
+}

@@ -1,38 +1,33 @@
+
 state={
 	id=117
 	name="STATE_117"
+	manpower=537260
+	buildings_max_level_factor=1
+	state_category=city
 	resources={
-		oil=23
-		chromium=2
+		oil=15
 	}
 
 	history={
-		owner = NAP
-		victory_points = {
-			819 25 
+		owner=NAP
+		add_core_of=NAP
+		victory_points={
+			819 15
 		}
-		victory_points = {
-			851 10 
-		}
-		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 2
-			dockyard = 1
-			819 = {
-				naval_base = 5
-			}
-			851 = {
-				naval_base = 2
+		buildings={
+			infrastructure=6
+			arms_factory=1
+			industrial_complex=2
+			dockyard=2
+			powder_mill=1
+			819={
+				naval_base=4
 			}
 		}
-		add_core_of = NAP
 	}
 
 	provinces={
-		819 851 923 955 3958 9826 11803 
+		819 923 9826 13428 
 	}
-	manpower=558346
-	buildings_max_level_factor=1.000
-	state_category=large_city
 }

@@ -1,0 +1,27 @@
+state={
+	id=1086
+	name="STATE_1086"
+	manpower=259615
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+	}
+
+	history={
+		owner=SAV
+		add_core_of=SAV
+		victory_points={
+			13459 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
+		}
+	}
+
+	provinces={
+		770 11721 13457 13459 
+	}
+}

@@ -1,36 +1,32 @@
+
 state={
 	id=114
 	name="STATE_114"
-	manpower = 263663
+	manpower=106154
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		tungsten=40
 	}
-	
-	state_category = large_town
-	
+
 	history={
-		owner = ARA
-		victory_points = {
-			11773 5 
+		owner=ARA
+		add_core_of=ARA
+		add_core_of=SAR
+		victory_points={
+			11824 3
 		}
-		victory_points = {
-			11824 5 
-		}
-		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 1
-			11773 = {
-				naval_base = 2
-			}
-			11824 = {
-				naval_base = 2
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			11824={
+				naval_base=1
 			}
 		}
-		add_core_of = ARA
-		add_core_of = SAR
 	}
+
 	provinces={
-		902 6891 9772 9863 11755 11773 11824 11874 	
+		6891 9772 9863 11824 13406 
 	}
 }

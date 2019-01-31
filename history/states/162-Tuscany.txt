@@ -2,35 +2,28 @@
 state={
 	id=162
 	name="STATE_162"
+	manpower=565385
+	buildings_max_level_factor=1
+	state_category=large_town
 	resources={
-		oil=15
-		chromium=36
+		chromium=71
 	}
 
 	history={
-		owner = FLO
-		victory_points = {
-			1616 30 
+		owner=FLO
+		add_core_of=FLO
+		victory_points={
+			13498 10
 		}
-		victory_points = {
-			9879 15 
+		buildings={
+			infrastructure=5
+			arms_factory=1
+			industrial_complex=2
+			powder_mill=1
 		}
-		buildings = {
-			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 3
-			6946 = {
-				naval_base = 2
-			}
-		}
-		add_core_of = FLO
-
 	}
 
 	provinces={
-		1616 6946 9879 9907 11889 
+		1616 9907 13447 13498 
 	}
-	manpower=3084933
-	buildings_max_level_factor=1.000
-	state_category=metropolis
 }

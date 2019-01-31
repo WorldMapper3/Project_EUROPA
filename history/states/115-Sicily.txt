@@ -1,44 +1,35 @@
+
 state={
 	id=115
 	name="STATE_115"
-	manpower = 822009
+	manpower=377885
+	buildings_max_level_factor=1
+	state_category=city
 	resources={
-		oil=20
+		oil=12
 	}
-	
-	state_category = metropolis
+
 	history={
-		owner = ARA
-		victory_points = {
-			10074 20 
+		owner=ARA
+		add_core_of=ARA
+		add_core_of=NAP
+		add_core_of=SIC
+		victory_points={
+			10074 10
 		}
-		victory_points = {
-			4159 15 
-		}
-		victory_points = {
-			4014 15 
-		}
-		buildings = {
-			infrastructure = 7
-			arms_factory = 2
-			industrial_complex = 3
-			dockyard = 1
-			7059 = {
-				naval_base = 4
-			}
-			4159 = {
-				naval_base = 3
-			}
-			4014 = {
-				naval_base = 3
+		buildings={
+			infrastructure=5
+			arms_factory=1
+			industrial_complex=2
+			dockyard=2
+			powder_mill=1
+			13412={
+				naval_base=3
 			}
 		}
-		add_core_of = ARA
-		add_core_of = NAP
-		add_core_of = SIC
 	}
 
 	provinces={
-		1009 1156 3857 4014 4159 7059 7147 10074 12047 
+		7059 7147 10074 13412 13413 
 	}
 }

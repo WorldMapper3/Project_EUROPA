@@ -27,28 +27,28 @@ division_template = {
 units = {
 	#MILAN#
 	division= {	
-		location = 3780
+		location = 9584
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 3780
+		location = 9584
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 3780
+		location = 9584
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 3780
+		location = 9584
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

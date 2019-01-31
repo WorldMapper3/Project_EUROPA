@@ -1,30 +1,32 @@
 state={
 	id=933
 	name="STATE_933"
+	manpower=201923
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		chromium=12
+		chromium=25
 	}
-	
+
 	history={
-		owner = VNC
-		victory_points = {
-			628 15 
+		owner=VNC
+		add_core_of=VNC
+		add_core_of=AQU
+		victory_points={
+			628 3
 		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			628 = {
-				naval_base = 3
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			628={
+				naval_base=1
 			}
 		}
-		add_core_of = VNC
-		add_core_of = AQU
 	}
-	
+
 	provinces={
-		628 3657 9613 
+		628 3657 9613 13476 
 	}
-	manpower=217134
-	state_category=town
-	buildings_max_level_factor=1.000
 }

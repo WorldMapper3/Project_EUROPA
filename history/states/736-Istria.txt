@@ -1,29 +1,32 @@
+
 state={
 	id=736
 	name="STATE_736"
+	manpower=92308
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		chromium=12
+		chromium=15
 	}
 
 	history={
-		owner = VNC
-		add_core_of = VNC
-		victory_points = {
-			6626 5 
+		owner=VNC
+		add_core_of=VNC
+		victory_points={
+			6626 3
 		}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			6626 = {
-				naval_base = 2
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=0
+			dockyard=1
+			6626={
+				naval_base=1
 			}
 		}
 	}
 
 	provinces={
-		599 6626 11735 
+		599 6626 11735 13463 
 	}
-	manpower=140598
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

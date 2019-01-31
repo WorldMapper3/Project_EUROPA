@@ -2,37 +2,30 @@
 state={
 	id=157
 	name="STATE_157"
+	manpower=163125
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		oil=8
 	}
 
 	history={
-		owner = NAP
-		victory_points = {
-			883 10 
+		owner=NAP
+		add_core_of=NAP
+		victory_points={
+			11882 3
 		}
-		victory_points = {
-			3910 15 
-		}
-		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 1
-			6980 = {
-				naval_base = 2
-			}
-			6831 = {
-				naval_base = 3
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+			dockyard=1
+			6831={
+				naval_base=1
 			}
 		}
-		add_core_of = NAP
 	}
 
 	provinces={
-		883 963 3910 3923 3966 6831 6939 6980 9838 11882 
+		963 3910 3923 6831 9838 11882 13431 13432 
 	}
-	manpower=356721
-	buildings_max_level_factor=1.000
-	state_category=city
 }

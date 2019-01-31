@@ -1,0 +1,19 @@
+state={
+	id=1092
+	name="STATE_1092"
+	manpower=596
+	buildings_max_level_factor=1
+	state_category=wasteland
+
+	history={
+		owner=SAV
+		add_core_of=SAV
+		buildings={
+			infrastructure=0
+		}
+	}
+	
+	provinces={
+		778 3764 9738 9745 13462 
+	}
+}

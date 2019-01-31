@@ -3,8 +3,8 @@ state={
 	id=102
 	name="STATE_102"
 	resources={
-		steel=50
-		chromium=28
+		steel=50.000
+		chromium=28.000
 	}
 
 	history={
@@ -13,22 +13,16 @@ state={
 			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 2
-			11595 = {
-				naval_base = 1
-			}
 		}
 		victory_points = {
 			596 15 
-		}
-		victory_points = {
-			11595 10 
 		}
 		add_core_of = AUS
 		add_core_of = STY
 	}
 
 	provinces={
-		596 3631 3654 6650 9596 9627 11595 
+		596 3631 3654 6650 9596 9627 
 	}
 	manpower=492091
 	buildings_max_level_factor=1.000

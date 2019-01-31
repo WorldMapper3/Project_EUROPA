@@ -111,7 +111,7 @@ set_politics = {
 	}
 	
 	ruling_party = neutrality
-	last_election = "1444.1.1"
+	last_election = "1416.4.2"
 	election_frequency = 48
 	elections_allowed = no
 }

@@ -2,40 +2,28 @@
 state={
 	id=151
 	name="STATE_151"
+	manpower=80404
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		aluminium=20
-		steel=40
-		chromium=16
+		aluminium=8
+		chromium=15
 	}
 
 	history={
-		owner = SWI
-		buildings = {
-			infrastructure = 6
-			industrial_complex = 2
-			arms_factory = 1
-
+		owner=SWI
+		add_core_of=SWI
+		victory_points={
+			13497 3
 		}
-		victory_points = {
-			663 10 
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
 		}
-		victory_points = {
-			11623 10 
-		}
-		victory_points = {
-			3662 10 
-		}
-		victory_points = {
-			11601 10 
-		}
-		add_core_of = SWI
-
 	}
 
 	provinces={
-		658 661 663 3660 3662 6678 6680 9600 11601 11623 
+		9638 13493 13494 13497 
 	}
-	manpower=380882
-	buildings_max_level_factor=1.000
-	state_category=large_city
 }

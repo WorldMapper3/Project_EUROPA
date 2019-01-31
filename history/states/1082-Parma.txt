@@ -1,0 +1,29 @@
+state={
+	id=1082
+	name="STATE_1082"
+	manpower=235385
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		chromium=29
+	}
+
+	history={
+		owner=MLO
+		add_core_of=MLO
+		add_core_of=PAM
+		victory_points={
+			13461 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
+		}
+	}
+
+	provinces={
+		3773 3976 6790 13461 
+	}
+}

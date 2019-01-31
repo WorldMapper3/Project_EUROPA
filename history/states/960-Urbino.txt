@@ -1,29 +1,31 @@
 state={
 	id=960
 	name="STATE_960"
+	manpower=140192
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		chromium=10
+		chromium=17
 	}
-	
+
 	history={
-		owner = PAP
-		add_core_of = PAP
-		victory_points = {
-			9924 10 
+		owner=URB
+		add_core_of=URB
+		victory_points={
+			9924 3
 		}
 		buildings={
-			infrastructure = 3
-			industrial_complex = 1
-			9924 = {
-				naval_base = 2
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			9924={
+				naval_base=1
 			}
 		}
 	}
-	
+
 	provinces={
-		9924 11861 
+		9924 11861 13448 
 	}
-	manpower=186115
-	state_category=town
-	buildings_max_level_factor=1.000
 }

@@ -1,37 +1,31 @@
 state={
 	id=932
 	name="STATE_932"
+	manpower=165577
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		chromium=22
+		chromium=21
 	}
 
 	history={
-		owner = PAP
-		add_core_of = PAP
-		victory_points = {
-			6926 15 
+		owner=PAP
+		add_core_of=PAP
+		victory_points={
+			13441 3
 		}
-		victory_points = {
-			925 15 
-		}
-		buildings = {
-			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 2
-			dockyard = 1
-			967 = {
-				naval_base = 3
-
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+			dockyard=1
+			13441={
+				naval_base=1
 			}
-
 		}
-
 	}
 
 	provinces={
-		925 967 3885 6926 9794 11790 
+		925 967 13437 13440 13441 
 	}
-	manpower=418759
-	buildings_max_level_factor=1.000
-	state_category=city
 }

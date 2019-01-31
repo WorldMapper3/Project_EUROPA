@@ -1,0 +1,26 @@
+state={
+	id=1090
+	name="STATE_1090"
+	manpower=58368
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+	}
+
+	history={
+		owner=SWI
+		add_core_of=SWI
+		victory_points={
+			6678 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		658 661 6678 6680 13490 
+	}
+}

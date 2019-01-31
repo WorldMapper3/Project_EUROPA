@@ -133,7 +133,7 @@ create_country_leader = {
 	}
 }
 
-create_faction = "French Alliance"
+create_faction = "Treaty of Anjou"
 add_to_faction = FRA
 add_to_faction = PRO
 

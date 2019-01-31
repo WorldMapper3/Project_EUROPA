@@ -21,6 +21,7 @@ state={
 			arms_factory=1
 			industrial_complex=1
 			dockyard=1
+			powder_mill=1
 			11420={
 				naval_base=3
 			}

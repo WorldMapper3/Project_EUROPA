@@ -1,0 +1,31 @@
+state={
+	id=1074
+	name="STATE_1074"
+	manpower=123462
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=8
+	}
+
+	history={
+		owner=NAP
+		add_core_of=NAP
+		victory_points={
+			11837 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			13424={
+				naval_base=2
+			}
+		}
+	}
+
+	provinces={
+		6979 11837 11998 13422 13424 13425 
+	}
+}

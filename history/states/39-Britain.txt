@@ -2,29 +2,28 @@
 state={
 	id=39
 	name="STATE_39"
+	manpower=146683
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		steel=40
+		steel=27
 	}
 
 	history={
-		owner = AUS
-		victory_points = {
-			6631 5 
+		owner=AUS
+		add_core_of=AUS
+		add_core_of=TIR
+		victory_points={
+			6631 3
 		}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
 		}
-		add_core_of = AUS
-		add_core_of = TIR
-
 	}
 
 	provinces={
-		6631 6675 9630 11598 11615 
+		6631 11598 13481 13482 
 	}
-	manpower=139586
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

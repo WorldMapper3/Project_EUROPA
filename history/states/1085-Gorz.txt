@@ -1,0 +1,32 @@
+state={
+	id=1085
+	name="STATE_1085"
+	manpower=195577
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		steel=36
+	}
+
+	history={
+		owner=AUS
+		add_core_of=AUS
+		add_core_of=STY
+		victory_points={
+			11595 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			11595={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		11595 13478 13480 
+	}
+}

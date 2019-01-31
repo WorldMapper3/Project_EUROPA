@@ -1,31 +1,33 @@
+
 state={
 	id=2
 	name="STATE_2"
+	manpower=638077
+	buildings_max_level_factor=1
+	state_category=large_city
 	resources={
-		oil=25
+		oil=17
 	}
 
 	history={
-		owner = PAP
-		victory_points = {
-			9904 30
+		owner=PAP
+		add_core_of=PAP
+		victory_points={
+			11751 15
 		}
-		buildings = {
-			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 2
-			dockyard = 1
-			11751 = {
-				naval_base = 6
+		buildings={
+			infrastructure=6
+			arms_factory=2
+			industrial_complex=2
+			dockyard=2
+			powder_mill=1
+			11751={
+				naval_base=4
 			}
 		}
-		add_core_of = PAP
 	}
 
 	provinces={
-		6862 9904 11751 11846 
+		6862 9904 11751 11846 13433 13434 13435 
 	}
-	manpower=434269
-	buildings_max_level_factor=1.000
-	state_category=city
 }
