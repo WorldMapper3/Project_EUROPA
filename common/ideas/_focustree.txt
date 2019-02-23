@@ -1,0 +1,78 @@
+ideas = {
+
+	country = {
+		thriving_arms_industry = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = catholic_cross
+			
+			modifier = {
+			production_speed_arms_factory_factor = 0.1
+			army_morale_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		capital_growth = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = catholic_cross
+			
+			modifier = {
+			production_speed_buildings_factor = 0.1
+			consumer_goods_factor = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		expansionist_policies = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = catholic_cross
+			
+			modifier = {
+			justify_war_goal_time = -0.25
+			resistance_tick_auto = -2
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		army_enthusiasm = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = catholic_cross
+			
+			modifier = {
+			army_morale_factor = 0.2
+			experience_gain_army = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}			
+	
+	
+	
+	
+	
+	}
+}
