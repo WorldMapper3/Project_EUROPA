@@ -229,16 +229,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/select_date_1939.dds"
 	}
 	spriteType = {
-		name = "GFX_select_date_1440"
-		texturefile = "gfx/interface/select_date_1440.dds"
+		name = "GFX_select_date_1437"
+		texturefile = "gfx/interface/select_date_1437.dds"
 	}
 	spriteType = {
 		name = "GFX_select_date_1444"
 		texturefile = "gfx/interface/select_date_1444.dds"
 	}
 	spriteType = {
-		name = "GFX_select_date_1453"
-		texturefile = "gfx/interface/select_date_1453.dds"
+		name = "GFX_select_date_1451"
+		texturefile = "gfx/interface/select_date_1451.dds"
 	}
 	
 	spriteType = {

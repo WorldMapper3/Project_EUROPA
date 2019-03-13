@@ -1,0 +1,28 @@
+state={
+	id=780
+	name="STATE_780"
+	manpower=262996
+	buildings_max_level_factor=1
+	state_category=large_town
+	resources={
+		chromium=47
+	}
+
+	history={
+		owner = NUM
+		add_core_of = NUM
+		victory_points={
+			11544 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=2
+			powder_mill=1
+		}
+	}
+
+	provinces={
+		11544 13544 13547 
+	}
+}

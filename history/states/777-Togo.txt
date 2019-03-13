@@ -1,0 +1,29 @@
+state={
+	id=777
+	name="STATE_777"
+	manpower=273344
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		aluminium=20
+		chromium=37
+	}
+
+	history={
+		owner=ULM
+		add_core_of=ULM
+		victory_points={
+			11499 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
+		}
+	}
+
+	provinces={
+		9545 11499 13539 
+	}
+}

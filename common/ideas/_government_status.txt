@@ -289,6 +289,98 @@ ideas = {
 				always = no
 			}
 		}
+		daimyo = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			visible = {
+				has_idea = monarchy_type
+			}
+			
+			available = {
+				has_idea = monarchy_type
+				always = no
+			}
+			
+			cost = 100
+			
+			modifier = {
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
+				army_org_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+			
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		shogunate = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			visible = {
+				has_idea = monarchy_type
+			}
+			
+			available = {
+				has_idea = monarchy_type
+				always = no
+			}
+			
+			cost = 100
+			
+			modifier = {
+				justify_war_goal_time=-0.25
+				war_support_factor=0.05
+				production_speed_buildings_factor=0.05
+			}
+			
+			cancel_if_invalid = no
+			
+			allowed_to_remove = {
+				always = no
+			}
+		}
+		khanate = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			visible = {
+				has_idea = monarchy_type
+			}
+			
+			available = {
+				has_idea = monarchy_type
+				always = no
+			}
+			
+			cost = 100
+			
+			modifier = {
+				supply_consumption_factor = -0.2
+				conscription_factor = 0.2
+			}
+			
+			cancel_if_invalid = no
+			
+			allowed_to_remove = {
+				always = no
+			}
+		}
 		#GENERIC REPUBLIC SUBTYPES#
 		merchant_republic = {
 			
@@ -383,7 +475,7 @@ ideas = {
 				army_org_Factor = 0.1
 				consumer_goods_factor = -0.1
 				production_speed_buildings_factor = 0.075
-				war_support_factor_weekly = -0.01
+				war_support_weekly = -0.01
 			}
 			
 			cancel_if_invalid = no

@@ -1,0 +1,32 @@
+state={
+	id=763
+	name="STATE_763"
+	manpower=354415
+	buildings_max_level_factor=1
+	state_category=city
+	resources={
+		oil=11
+	}
+
+	history={
+		owner=BRB
+		add_core_of=BRB
+		victory_points={
+			6598 10
+		}
+		buildings={
+			infrastructure=5
+			arms_factory=1
+			industrial_complex=2
+			powder_mill=1
+			dockyard=2
+			6598={
+				naval_base=3
+			}
+		}
+	}
+
+	provinces={
+		6598 11419 13571 
+	}
+}

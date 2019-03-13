@@ -3,56 +3,204 @@ spriteTypes = {
 	#MOD STUFF#
 	#COUNTRY EVENT PICTURES#
 	spriteType = {
-		name = "TREATY_countryeventPicture"
-		texturefile = "gfx/event_pictures/TREATY_countryeventPicture.tga"
+		name = "TREATY_CEP"
+		texturefile = "gfx/event_pictures/CEP_TREATY.tga"
 	}
 	spriteType = {
-		name = "CONQUEST_countryeventPicture"
-		texturefile = "gfx/event_pictures/CONQUEST_countryeventPicture.tga"
+		name = "CONQUEST_CEP"
+		texturefile = "gfx/event_pictures/CEP_CONQUEST.tga"
 	}
 	spriteType = {
-		name = "DIPLOMACY_countryeventPicture"
-		texturefile = "gfx/event_pictures/DIPLOMACY_countryeventPicture.tga"
+		name = "DIPLOMACY_CEP"
+		texturefile = "gfx/event_pictures/CEP_DIPLOMACY.tga"
 	}
 	spriteType = {
-		name = "CORRUPTION_countryeventPicture"
-		texturefile = "gfx/event_pictures/CORRUPTION_countryeventPicture.tga"
+		name = "CORRUPTION_CEP"
+		texturefile = "gfx/event_pictures/CEP_CORRUPTION.tga"
 	}
 	spriteType = {
-		name = "LIBERUM_VETO_countryeventPicture"
-		texturefile = "gfx/event_pictures/LIBERUM_VETO_countryeventPicture.tga"
+		name = "LIBERUM_VETO_CEP"
+		texturefile = "gfx/event_pictures/CEP_LIBERUM_VETO.tga"
+	}
+	spriteType = {
+		name = "CITY_VIEW_CEP"
+		texturefile = "gfx/event_pictures/CEP_CITY_VIEW.tga"
+	}
+	spriteType = {
+		name = "BATTLE_CEP"
+		texturefile = "gfx/event_pictures/CEP_BATTLE.tga"
+	}
+	spriteType = {
+		name = "COURT_CEP"
+		texturefile = "gfx/event_pictures/CEP_COURT.tga"
+	}
+	spriteType = {
+		name = "ANGRY_MOB_CEP"
+		texturefile = "gfx/event_pictures/CEP_ANGRY_MOB.tga"
+	}
+	spriteType = {
+		name = "LAND_MILITARY_CEP"
+		texturefile = "gfx/event_pictures/CEP_LAND_MILITARY.tga"
+	}
+	spriteType = {
+		name = "BORDER_TENSION_CEP"
+		texturefile = "gfx/event_pictures/CEP_BORDER_TENSION.tga"
+	}
+	spriteType = {
+		name = "MILITARY_CAMP_CEP"
+		texturefile = "gfx/event_pictures/CEP_MILITARY_CAMP.tga"
+	}
+	spriteType = {
+		name = "STREET_SPEECH_CEP"
+		texturefile = "gfx/event_pictures/CEP_STREET_SPEECH.tga"
+	}
+	spriteType = {
+		name = "ANGRY_SHAMANS_CEP"
+		texturefile = "gfx/event_pictures/CEP_ANGRY_SHAMANS.tga"
+	}
+	spriteType = {
+		name = "BURGHER_ESTATE_CEP"
+		texturefile = "gfx/event_pictures/CEP_BURGHER_ESTATE.tga"
+	}
+	spriteType = {
+		name = "BURGHER_ESTATE_UPSET_CEP"
+		texturefile = "gfx/event_pictures/CEP_BURGHER_ESTATE_UPSET.tga"
+	}
+	spriteType = {
+		name = "CHURCH_ESTATE_1_CEP"
+		texturefile = "gfx/event_pictures/CEP_CHURCH_ESTATE_1.tga"
+	}
+	spriteType = {
+		name = "CHURCH_ESTATE_2_CEP"
+		texturefile = "gfx/event_pictures/CEP_CHURCH_ESTATE_2.tga"
+	}
+	spriteType = {
+		name = "CHURCH_ESTATE_UPSET_CEP"
+		texturefile = "gfx/event_pictures/CEP_CHURCH_ESTATE_UPSET.tga"
+	}
+	spriteType = {
+		name = "COSSACK_ESTATE_CEP"
+		texturefile = "gfx/event_pictures/CEP_COSSACK_ESTATE.tga"
+	}
+	spriteType = {
+		name = "COSSACK_ESTATE_RAIDERS_CEP"
+		texturefile = "gfx/event_pictures/CEP_COSSACK_ESTATE_RAIDERS.tga"
+	}
+	spriteType = {
+		name = "COSSACK_ESTATE_UPSET_CEP"
+		texturefile = "gfx/event_pictures/CEP_COSSACK_ESTATE_UPSET.tga"
+	}
+	spriteType = {
+		name = "DHIMMI_ESTATE_CEP"
+		texturefile = "gfx/event_pictures/CEP_DHIMMI_ESTATE.tga"
+	}
+	spriteType = {
+		name = "DIET_CEP"
+		texturefile = "gfx/event_pictures/CEP_DIET.tga"
+	}
+	spriteType = {
+		name = "FAT_WARRIORS_CEP"
+		texturefile = "gfx/event_pictures/CEP_FAT_WARRIORS.tga"
+	}
+	spriteType = {
+		name = "MIRACLE_MONK_CEP"
+		texturefile = "gfx/event_pictures/CEP_MIRACLE_MONK.tga"
+	}
+	spriteType = {
+		name = "NOBLE_ESTATE_DEMANDS_CEP"
+		texturefile = "gfx/event_pictures/CEP_NOBLE_ESTATE_DEMANDS.tga"
+	}
+	spriteType = {
+		name = "NOBLE_ESTATE_CEP"
+		texturefile = "gfx/event_pictures/CEP_NOBLE_ESTATE.tga"
+	}
+	spriteType = {
+		name = "NOBLE_ESTATE_TAKE_OVER_CEP"
+		texturefile = "gfx/event_pictures/CEP_NOBLE_ESTATE_TAKE_OVER.tga"
+	}
+	spriteType = {
+		name = "NOMAD_ESTATE_CEP"
+		texturefile = "gfx/event_pictures/CEP_NOMAD_ESTATE.tga"
+	}
+	spriteType = {
+		name = "BUDDHISM_BAD_CEP"
+		texturefile = "gfx/event_pictures/CEP_BUDDHISM_BAD.tga"
+	}
+	spriteType = {
+		name = "BUDDHISM_GOOD_CEP"
+		texturefile = "gfx/event_pictures/CEP_BUDDHISM_GOOD.tga"
+	}
+	spriteType = {
+		name = "BUDDHISM_LAMA_CEP"
+		texturefile = "gfx/event_pictures/CEP_BUDDHISM_LAMA.tga"
+	}
+	spriteType = {
+		name = "BUDDHISM_MONASTERY_CEP"
+		texturefile = "gfx/event_pictures/CEP_BUDDHISM_MONASTERY.tga"
+	}
+	spriteType = {
+		name = "FREE_CITY_CEP"
+		texturefile = "gfx/event_pictures/CEP_FREE_CITY.tga"
+	}
+	spriteType = {
+		name = "PARLIAMENT_CEP"
+		texturefile = "gfx/event_pictures/CEP_PARLIAMENT.tga"
+	}
+	spriteType = {
+		name = "PROTESTANT_GREAT_REFORMER_CEP"
+		texturefile = "gfx/event_pictures/CEP_PROTESTANT_GREAT_REFORMER.tga"
+	}
+	spriteType = {
+		name = "PROTESTANT_PRINTED_CEP"
+		texturefile = "gfx/event_pictures/CEP_PROTESTANT_PRINTED.tga"
+	}
+	spriteType = {
+		name = "PROTESTANT_RELIGIOUS_DOUBTS_CEP"
+		texturefile = "gfx/event_pictures/CEP_PROTESTANT_RELIGIOUS_DOUBTS.tga"
+	}
+	spriteType = {
+		name = "PROTESTANT_RELIGIOUS_TENSIONS_CEP"
+		texturefile = "gfx/event_pictures/CEP_PROTESTANT_RELIGIOUS_TENSIONS.tga"
 	}
 	#NEWS EVENT PICTURES#
 	spriteType = {
-		name = "DIPLOMACY_eventPicture"
-		texturefile = "gfx/event_pictures/DIPLOMACY_eventPicture.dds"
+		name = "DIPLOMACY_EP"
+		texturefile = "gfx/event_pictures/EP_DIPLOMACY.dds"
 	}
 	spriteType = {
-		name = "LIBERUM_VETO_eventPicture"
-		texturefile = "gfx/event_pictures/LIBERUM_VETO_eventPicture.dds"
+		name = "LIBERUM_VETO_EP"
+		texturefile = "gfx/event_pictures/EP_LIBERUM_VETO.dds"
 	}
 	spriteType = {
-		name = "SIEGE_eventPicture"
-		texturefile = "gfx/event_pictures/SIEGE_eventPicture.dds"
+		name = "SIEGE_EP"
+		texturefile = "gfx/event_pictures/EP_SIEGE.dds"
 	}
 	spriteType = {
-		name = "COA_POL_eventPicture"
+		name = "LAND_MILITARY_EP"
+		texturefile = "gfx/event_pictures/EP_LAND_MILITARY.dds"
+	}
+	spriteType = {
+		name = "BORDER_TENSION_EP"
+		texturefile = "gfx/event_pictures/EP_BORDER_TENSION.dds"
+	}
+	spriteType = {
+		name = "COA_POL_EP"
 		texturefile = "gfx/event_pictures/COA_POL.dds"
 	}
 	spriteType = {
-		name = "COA_FRA_eventPicture"
+		name = "COA_FRA_EP"
 		texturefile = "gfx/event_pictures/COA_FRA.dds"
 	}
 	spriteType = {
-		name = "COA_ENG_eventPicture"
+		name = "COA_ENG_EP"
 		texturefile = "gfx/event_pictures/COA_ENG.dds"
 	}
 	spriteType = {
-		name = "COA_CST_eventPicture"
+		name = "COA_CST_EP"
 		texturefile = "gfx/event_pictures/COA_CST.dds"
 	}
 	spriteType = {
-		name = "COA_MOD_eventPicture"
+		name = "COA_MOD_EP"
 		texturefile = "gfx/event_pictures/MOD.dds"
 	}
 	#BASE GAME#
@@ -1985,8 +2133,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "COMET_SIGHTED_eventPicture"
-		texturefile = "gfx/event_pictures/COMET_SIGHTED_eventPicture.dds"
+		name = "COMET_SIGHTED_EP"
+		texturefile = "gfx/event_pictures/COMET_SIGHTED_EP.dds"
 	}
 	
 }

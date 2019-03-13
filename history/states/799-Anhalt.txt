@@ -1,29 +1,28 @@
 state={
 	id=799
 	name="STATE_799"
+	manpower=77407
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		aluminium=10
-		chromium=8
+		aluminium=6
+		chromium=14
 	}
 
 	history={
-		owner = ANH
-		victory_points = {
-			9560 3 
+		owner=ANH
+		add_core_of=ANH
+		victory_points={
+			9560 3
 		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
 		}
-		add_core_of = ANH
-
 	}
 
 	provinces={
-		425 6582 9560 
+		425 6582 9560 13603 
 	}
-	manpower=88439
-	buildings_max_level_factor=1.000
-	state_category=town
 }

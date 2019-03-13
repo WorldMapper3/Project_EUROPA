@@ -1,0 +1,27 @@
+state={
+	id=1135
+	name="STATE_1135"
+	manpower=18411
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
+		chromium=5
+	}
+
+	history={
+		owner=POL
+		add_core_of=POL
+		victory_points={
+			13687 1
+		}
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		9252 11232 11260 13687 13691 
+	}
+}

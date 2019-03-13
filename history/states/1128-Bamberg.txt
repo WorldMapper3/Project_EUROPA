@@ -1,0 +1,27 @@
+state={
+	id=1128
+	name="STATE_1128"
+	manpower=79826
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		chromium=14
+	}
+
+	history={
+		owner=WBG
+		add_core_of=WBG
+		victory_points={
+			9416 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		9416 11404 13553 13558 13559 
+	}
+}

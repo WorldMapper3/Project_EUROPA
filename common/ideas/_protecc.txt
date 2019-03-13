@@ -1,0 +1,54 @@
+ideas = {
+	country = {
+		hre_member = {
+			
+			allowed = {
+				always = no # Just happens
+			}
+
+			picture = hre_member
+			
+			modifier = {
+				conscription_factor=0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		hre_elector = {
+			
+			allowed = {
+				always = no # Just happens
+			}
+
+			picture = hre_elector
+			
+			modifier = {
+				political_power_gain = 0.1
+				conscription_factor=0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		hre_emperor = {
+			
+			allowed = {
+				always = no # Just happens
+			}
+
+			picture = hre_emperor
+			
+			modifier = {
+				political_power_gain = 0.2
+				conscription_factor=0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}

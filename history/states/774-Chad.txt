@@ -1,0 +1,28 @@
+state={
+	id=774
+	name="STATE_774"
+	manpower=127130
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		aluminium=9
+		chromium=23
+	}
+
+	history={
+		owner=RAV
+		add_core_of=RAV
+		victory_points={
+			13526 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		519 694 6934 9655 13126 13526 
+	}
+}

@@ -2,35 +2,31 @@
 state={
 	id=63
 	name="STATE_63"
+	manpower=90308
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		chromium=20
+		chromium=16
 	}
 
 	history={
-		owner = POM
-		victory_points = {
-			11316 3
+		owner=POM
+		add_core_of=POM
+		victory_points={
+			9361 3
 		}
-		victory_points = {
-			9361 5
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			11372 = {
-				naval_base = 1
-			}
-			9361 = {
-				naval_base = 2
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			13707={
+				naval_base=1
 			}
 		}
-		add_core_of = POM
 	}
 
 	provinces={
-		9361 11288 11316 11343 11372 
+		9334 9361 13697 13700 13707 
 	}
-	manpower=206358
-	buildings_max_level_factor=1.000
-	state_category=town
 }

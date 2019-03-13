@@ -1,0 +1,32 @@
+state={
+	id=1105
+	name="STATE_1105"
+	manpower=150514
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=6
+		aluminium=11
+	}
+
+	history={
+		owner=FRI
+		add_core_of=FRI
+		victory_points={
+			13590 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			9335={
+				naval_base=2
+			}
+		}
+	}
+
+	provinces={
+		9309 9335 11318 13590 
+	}
+}

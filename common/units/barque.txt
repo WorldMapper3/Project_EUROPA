@@ -5,12 +5,22 @@ sub_units = {
 		priority = 5
 		active = yes
 		type = { screen_ship }
-		need = { barque = 1 }
-		
+		need_equipment = { barque = 1 }
+		need_equipment_modules = {
+			any = {
+				ship_armor_bc_1 = 1
+				ship_armor_bc_2 = 1
+				ship_armor_bc_3 = 1
+			}
+		}
 
 		max_organisation = 40
 		
-		
 		supply_consumption = 0.04
+		
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1 
+		
+		hit_profile_mult = 1.0
 	}
 }

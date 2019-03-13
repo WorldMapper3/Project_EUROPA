@@ -2,28 +2,31 @@
 state={
 	id=56
 	name="STATE_56"
+	manpower=104419
+	buildings_max_level_factor=1
+	state_category=town
 	resources={
-		oil=4
+		oil=7
 	}
 
 	history={
-		owner = OLD
-		victory_points = {
-			241 5 
+		owner=OLD
+		add_core_of=OLD
+		victory_points={
+			241 5
 		}
-		buildings = {
-			infrastructure = 2
-			241 = {
-				naval_base = 1
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=1
+			dockyard=0
+			241={
+				naval_base=2
 			}
 		}
-		add_core_of = OLD
 	}
 
 	provinces={
-		241 309 336 
+		241 309 336 13596 
 	}
-	manpower=103179
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

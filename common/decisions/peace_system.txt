@@ -4026,59 +4026,6 @@ peace_system = {
 			}
 		}
 	}
-	peace_out_GLH = {
-		
-		icon = GFX_peace_out_GLH
-		
-		cost = 10
-		
-		ai_will_do = {
-			factor = 0
-		}
-		
-		days_remove = 7
-		
-		allowed = {
-			always = yes
-		}
-		
-		available = { 
-			
-			NOT = { tag = GLH }
-			hidden_trigger = { is_ai = no }
-			has_war_with = GLH
-
-			num_of_controlled_states > 1
-
-			NOT = { has_country_flag = peace_in_progress }
-			
-			GLH = {
-				NOT = { has_country_flag = peace_in_progress }
-				NOT = { has_country_flag = diplomatic_cooldown_from_@ROOT }
-				is_subject = no
-			}
-			is_subject = no
-		}
-		
-		visible = {
-			has_war_with = GLH
-			#GLH
-		}
-
-		complete_effect = {
-			custom_effect_tooltip = tt_sue_peace
-			hidden_effect = {
-				#set_country_flag = seeking_peace_with_GLH
-		
-				country_event = { id = peace_system.1 }
-				set_country_flag = peace_in_progress
-				GLH = {
-					set_country_flag = receiving_peace_from_@ROOT
-					set_country_flag = peace_in_progress
-				}
-			}
-		}
-	}
 	peace_out_GOL = {
 		
 		icon = GFX_peace_out_GOL
@@ -9426,59 +9373,6 @@ peace_system = {
 				country_event = { id = peace_system.1 }
 				set_country_flag = peace_in_progress
 				QRQ = {
-					set_country_flag = receiving_peace_from_@ROOT
-					set_country_flag = peace_in_progress
-				}
-			}
-		}
-	}
-	peace_out_QUE = {
-		
-		icon = GFX_peace_out_QUE
-		
-		cost = 10
-		
-		ai_will_do = {
-			factor = 0
-		}
-		
-		days_remove = 7
-		
-		allowed = {
-			always = yes
-		}
-		
-		available = { 
-			
-			NOT = { tag = QUE }
-			hidden_trigger = { is_ai = no }
-			has_war_with = QUE
-
-			num_of_controlled_states > 1
-
-			NOT = { has_country_flag = peace_in_progress }
-			
-			QUE = {
-				NOT = { has_country_flag = peace_in_progress }
-				NOT = { has_country_flag = diplomatic_cooldown_from_@ROOT }
-				is_subject = no
-			}
-			is_subject = no
-		}
-		
-		visible = {
-			has_war_with = QUE
-			#QUE
-		}
-
-		complete_effect = {
-			custom_effect_tooltip = tt_sue_peace
-			hidden_effect = {
-				#set_country_flag = seeking_peace_with_QUE
-		
-				country_event = { id = peace_system.1 }
-				set_country_flag = peace_in_progress
-				QUE = {
 					set_country_flag = receiving_peace_from_@ROOT
 					set_country_flag = peace_in_progress
 				}

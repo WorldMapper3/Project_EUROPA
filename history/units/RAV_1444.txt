@@ -27,7 +27,7 @@ division_template = {
 units = {
 	#RAVENSBURG
 	division= {	
-		location = 6934
+		location = 13526
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

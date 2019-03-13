@@ -57,6 +57,8 @@
  despotic_monarchy:0 "Despotic Monarchy"
  administrative_monarchy:0 "Administrative Monarchy"
  constitutional_monarchy:0 "Constitutional Monarchy"
+ daimyo:0 "Daimyo"
+ shogunate:0 "Shogunate" 
  enlightened_despotism:0 "Enlightened Despotism"
  revolutionary_empire:0 "Revolutionary Empire"
  elective_monarchy:0 "Elective Monarchy"
@@ -70,6 +72,9 @@
  papacy:0 "Papacy"
  theocracy:0 "Theocracy"
  monastic_order:0 "Monastic Order"
+ hre_member:0 "HRE Member"
+ hre_elector:0 "HRE Elector"
+ hre_emperor:0 "HRE Emperor"
  #BASE GAME#
  fascist_influence:0 "Fascist Influence"
  fascist_influence_desc:0 "Fascist pressure has made fascism very popular, and the country is susceptible to align with other fascists."

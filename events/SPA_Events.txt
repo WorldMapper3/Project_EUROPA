@@ -5,7 +5,7 @@ country_event = {
 	id = SPA_Event.1
 	title = SPA_Event.1.t
 	desc = SPA_Event.1.d
-	picture = COA_CST_eventPicture
+	picture = COA_CST_EP
 	
 	fire_only_once = yes
 		

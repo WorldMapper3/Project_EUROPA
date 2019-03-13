@@ -1,31 +1,28 @@
 state={
 	id=803
 	name="STATE_803"
+	manpower=130356
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		aluminium=35
-		chromium=22
+		aluminium=10
+		chromium=23
 	}
-	
+
 	history={
-		owner = SAX
-		victory_points = {
-			3535 10 
+		owner=SAX
+		add_core_of=SAX
+		victory_points={
+			3535 3
 		}
-		victory_points = {
-			9441 5 
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
 		}
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 1
-		}
-		add_core_of = SAX
 	}
-	
+
 	provinces={
-		538 3535 6501 9441 9471 9497 
+		538 3535 6501 13654 13655 
 	}
-	manpower=250578
-	state_category=large_town
-	buildings_max_level_factor=1.000
 }

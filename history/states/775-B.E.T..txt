@@ -1,0 +1,28 @@
+state={
+	id=775
+	name="STATE_775"
+	manpower=199162
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=8
+		aluminium=15
+	}
+
+	history={
+		owner=MEM
+		add_core_of=MEM
+		victory_points={
+			13525 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		3690 11638 13525 13528 
+	}
+}

@@ -27,7 +27,7 @@ division_template = {
 units = {
 	#MEMMINGEN
 	division= {	
-		location = 3690
+		location = 13525
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

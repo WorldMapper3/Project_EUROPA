@@ -54,6 +54,14 @@ spriteTypes = {
 		name = "GFX_idea_elective_monarchy"
 		texturefile = "gfx/interface/ideas/monarchy_type.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_shogunate"
+		texturefile = "gfx/interface/ideas/shogun.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_daimyo"
+		texturefile = "gfx/interface/ideas/daimyo.dds"
+	}
 	#REPUBLIC SUBTYPES#
 	spriteType = {
 		name = "GFX_idea_merchant_republic"
@@ -99,87 +107,99 @@ spriteTypes = {
 	#MONARCH POINTS#
 	spriteType = {
 		name = "GFX_idea_adm0"
-		texturefile = "gfx/interface/ideas/adm.dds"
+		texturefile = "gfx/interface/ideas/adm0.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_adm1"
-		texturefile = "gfx/interface/ideas/adm.dds"
+		texturefile = "gfx/interface/ideas/adm1.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_adm2"
-		texturefile = "gfx/interface/ideas/adm.dds"
+		texturefile = "gfx/interface/ideas/adm2.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_adm3"
-		texturefile = "gfx/interface/ideas/adm.dds"
+		texturefile = "gfx/interface/ideas/adm3.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_adm4"
-		texturefile = "gfx/interface/ideas/adm.dds"
+		texturefile = "gfx/interface/ideas/adm4.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_adm5"
-		texturefile = "gfx/interface/ideas/adm.dds"
+		texturefile = "gfx/interface/ideas/adm5.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_adm6"
-		texturefile = "gfx/interface/ideas/adm.dds"
+		texturefile = "gfx/interface/ideas/adm6.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_dip0"
-		texturefile = "gfx/interface/ideas/dip.dds"
+		texturefile = "gfx/interface/ideas/dip0.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_dip1"
-		texturefile = "gfx/interface/ideas/dip.dds"
+		texturefile = "gfx/interface/ideas/dip1.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_dip2"
-		texturefile = "gfx/interface/ideas/dip.dds"
+		texturefile = "gfx/interface/ideas/dip2.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_dip3"
-		texturefile = "gfx/interface/ideas/dip.dds"
+		texturefile = "gfx/interface/ideas/dip3.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_dip4"
-		texturefile = "gfx/interface/ideas/dip.dds"
+		texturefile = "gfx/interface/ideas/dip4.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_dip5"
-		texturefile = "gfx/interface/ideas/dip.dds"
+		texturefile = "gfx/interface/ideas/dip5.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_dip6"
-		texturefile = "gfx/interface/ideas/dip.dds"
+		texturefile = "gfx/interface/ideas/dip6.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_mil0"
-		texturefile = "gfx/interface/ideas/mil.dds"
+		texturefile = "gfx/interface/ideas/mil0.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_mil1"
-		texturefile = "gfx/interface/ideas/mil.dds"
+		texturefile = "gfx/interface/ideas/mil1.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_mil2"
-		texturefile = "gfx/interface/ideas/mil.dds"
+		texturefile = "gfx/interface/ideas/mil2.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_mil3"
-		texturefile = "gfx/interface/ideas/mil.dds"
+		texturefile = "gfx/interface/ideas/mil3.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_mil4"
-		texturefile = "gfx/interface/ideas/mil.dds"
+		texturefile = "gfx/interface/ideas/mil4.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_mil5"
-		texturefile = "gfx/interface/ideas/mil.dds"
+		texturefile = "gfx/interface/ideas/mil5.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_mil6"
-		texturefile = "gfx/interface/ideas/mil.dds"
+		texturefile = "gfx/interface/ideas/mil6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hre_member"
+		texturefile = "gfx/interface/ideas/hre_member.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hre_elector"
+		texturefile = "gfx/interface/ideas/hre_elector.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hre_emperor"
+		texturefile = "gfx/interface/ideas/hre_emperor.dds"
 	}
 	#EVENT IDEAS#
 	spriteType = {

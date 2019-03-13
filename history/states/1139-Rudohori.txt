@@ -1,0 +1,27 @@
+state={
+	id=1139
+	name="STATE_1139"
+	manpower=244199
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=13
+	}
+
+	history={
+		owner=CZE
+		add_core_of=CZE
+		victory_points={
+			11432 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		469 3418 6440 9414 11432 
+	}
+}

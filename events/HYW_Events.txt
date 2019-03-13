@@ -5,7 +5,7 @@ country_event = {
 	id = HYW_event.1
 	title = HYW_event.1.t
 	desc = HYW_event.1.d
-	picture = COA_ENG_eventPicture
+	picture = COA_ENG_EP
 	
 	fire_only_once = yes
 	
@@ -57,7 +57,7 @@ country_event = {
 	id = HYW_event.2
 	title = HYW_event.2.t
 	desc = HYW_event.2.d
-	picture = COA_FRA_eventPicture
+	picture = COA_FRA_EP
 	
 	is_triggered_only = yes
 	
@@ -112,7 +112,7 @@ country_event = {
 	id = HYW_event.3
 	title = HYW_event.3.t
 	desc = HYW_event.3.d
-	picture = COA_FRA_eventPicture
+	picture = COA_FRA_EP
 	
 	is_triggered_only = yes
 	
@@ -136,7 +136,7 @@ country_event = {
 	id = HYW_event.4
 	title = HYW_event.4.t
 	desc = HYW_event.4.d
-	picture = COA_FRA_eventPicture
+	picture = COA_FRA_EP
 
 	fire_only_once = yes
 	
@@ -220,7 +220,7 @@ country_event = {
 	id = HYW_event.5
 	title = HYW_event.5.t
 	desc = HYW_event.5.d
-	picture = COA_ENG_eventPicture
+	picture = COA_ENG_EP
 	
 	trigger = {
 		date < 1500.01.01

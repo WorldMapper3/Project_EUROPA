@@ -6,6 +6,12 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	kingdom_rank
+	monarchy_type
+	feudal_monarchy
+	adm3
+	dip2
+	mil2
 }
 set_technology = {
 	pike_weapons = 1
@@ -39,6 +45,10 @@ if = {
 		target = SWE
 		autonomous_state = autonomy_integrated_puppet
 	}
+	set_autonomy = {
+		target = HLS
+		autonomous_state = autonomy_integrated_puppet
+	}
 	else = {
 		set_autonomy = {
 			target = NOR
@@ -46,6 +56,10 @@ if = {
 		}
 		set_autonomy = {
 			target = SWE
+			autonomous_state = autonomy_puppet
+		}
+		set_autonomy = {
+			target = HLS
 			autonomous_state = autonomy_puppet
 		}
 	}

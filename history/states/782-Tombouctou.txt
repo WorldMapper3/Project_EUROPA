@@ -1,0 +1,27 @@
+state={
+	id=782
+	name="STATE_782"
+	manpower=191905
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=7
+	}
+
+	history={
+		owner=MAI
+		add_core_of=MAI
+		victory_points={
+			589 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		589 6581 6594 13550 13552 13557 
+	}
+}

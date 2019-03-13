@@ -1,0 +1,22 @@
+state={
+	id=1093
+	name="STATE_1093"
+	manpower=3315
+	buildings_max_level_factor=1
+	state_category=wasteland
+	resources={
+	}
+
+	history={
+		owner=AUS
+		buildings={
+			infrastructure=0
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		13509 13510 13514 
+	}
+}

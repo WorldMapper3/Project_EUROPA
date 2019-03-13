@@ -1,0 +1,33 @@
+state={
+	id=1097
+	name="STATE_1097"
+	manpower=364994
+	buildings_max_level_factor=1
+	state_category=city
+	resources={
+		oil=11
+		aluminium=26
+	}
+
+	history={
+		owner=FLA
+		add_core_of=FLA
+		victory_points={
+			480 10
+		}
+		buildings={
+			infrastructure=5
+			arms_factory=1
+			industrial_complex=2
+			powder_mill=1
+			dockyard=2
+			480={
+				naval_base=3
+			}
+		}
+	}
+
+	provinces={
+		480 3576 6560 13565 
+	}
+}

@@ -2,36 +2,28 @@
 state={
 	id=86
 	name="STATE_86"
+	manpower=223329
+	buildings_max_level_factor=1
+	state_category=large_town
 	resources={
-		oil=38
-		aluminium=30
+		oil=10
 	}
 
 	history={
-		owner = POL
-		victory_points = {
-			6558 20 
+		owner=POL
+		add_core_of=POL
+		victory_points={
+			6558 10
 		}
-		victory_points = {
-			9532 15 
+		buildings={
+			infrastructure=5
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
 		}
-		victory_points = {
-			3381 5 
-		}
-		buildings = {
-			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 3
-
-		}
-		add_core_of = POL
-
 	}
 
 	provinces={
-		17 243 388 3381 3460 3532 6558 9252 9532 11232 11260 
+		388 3460 3532 6558 13717 13718 13719 13720 
 	}
-	manpower=371741
-	buildings_max_level_factor=1.000
-	state_category=metropolis
 }

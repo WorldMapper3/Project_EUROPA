@@ -9,8 +9,8 @@ state={
 	}
 
 	history={
-		owner = BAH
-		add_core_of = BAH
+		owner = BHM
+		add_core_of = BHM
 		add_core_of = GOK
 		victory_points = {
 			10259 15 

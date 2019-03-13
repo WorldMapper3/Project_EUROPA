@@ -1,28 +1,31 @@
 state={
 	id=788
 	name="STATE_788"
+	manpower=103478
+	buildings_max_level_factor=1
+	state_category=town
 	resources={
-		oil=4
+		oil=7
 	}
 
 	history={
-		owner = EFR
-		add_core_of = EFR
+		owner=EFR
+		add_core_of=EFR
 		victory_points={
-				11360 5
-			}
+			13597 5
+		}
 		buildings={
-			infrastructure = 2
-			11360={
-				naval_base = 1
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=0
+			dockyard=0
+			13597={
+				naval_base=2
 			}
 		}
 	}
 
 	provinces={
-		11360 
+		11360 13593 13597 
 	}
-	manpower=103179
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

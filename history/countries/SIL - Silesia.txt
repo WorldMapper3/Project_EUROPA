@@ -1,4 +1,4 @@
-﻿capital = 66
+﻿capital = 67
 
 oob = "SIL_1444"
 
@@ -6,6 +6,7 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	hre_member
 }
 set_technology = {
 	pike_weapons = 1

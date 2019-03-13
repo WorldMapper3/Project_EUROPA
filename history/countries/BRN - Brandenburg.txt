@@ -6,6 +6,10 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	monarchy_type
+	duchy_rank
+	feudal_monarchy
+	hre_elector
 }
 set_technology = {
 	pike_weapons = 1

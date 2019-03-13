@@ -1,0 +1,28 @@
+state={
+	id=1136
+	name="STATE_1136"
+	manpower=253775
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=8
+		aluminium=14
+	}
+
+	history={
+		owner=SIL
+		add_core_of=SIL
+		victory_points={
+			13715 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		3283 3510 6462 9570 13715 
+	}
+}

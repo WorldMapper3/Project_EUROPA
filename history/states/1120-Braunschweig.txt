@@ -1,0 +1,28 @@
+state={
+	id=1120
+	name="STATE_1120"
+	manpower=143391
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		steel=33
+		chromium=26
+	}
+
+	history={
+		owner=BRU
+		add_core_of=BRU
+		victory_points={
+			13575 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		526 3561 6513 11402 13575 13577 13580 13585 
+	}
+}

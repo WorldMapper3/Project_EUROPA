@@ -5,7 +5,7 @@ country_event = {
 	id = ENG_event.1
 	title = ENG_event.1.t
 	desc = ENG_event.1.d
-	picture = COA_ENG_eventPicture
+	picture = COA_ENG_EP
 
 
 	fire_only_once = yes

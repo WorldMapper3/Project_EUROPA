@@ -2,37 +2,26 @@
 state={
 	id=66
 	name="STATE_66"
+	manpower=167587
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		oil=19
-		aluminium=25
-		steel=30
 	}
 
 	history={
-		owner = SIL
-		victory_points = {
-			9570 15 
+		owner=SIL
+		add_core_of=SIL
+		victory_points={
+			13716 3
 		}
-		victory_points = {
-			6534 10 
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
 		}
-		victory_points = {
-			3438 5 
-		}
-		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 2
-
-		}
-		add_core_of = SIL
-
 	}
 
 	provinces={
-		552 3283 3438 3485 3510 3545 6462 6534 6595 9470 9570 11414 
+		3485 3545 6534 11414 13713 13714 13716 
 	}
-	manpower=527241
-	buildings_max_level_factor=1.000
-	state_category=large_city
 }

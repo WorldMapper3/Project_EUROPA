@@ -2,34 +2,27 @@
 state={
 	id=69
 	name="STATE_69"
+	manpower=188398
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		oil=23
-		chromium=10
+		chromium=18
 	}
 
 	history={
-		owner = CZE
-		victory_points = {
-			11432 15 
+		owner=CZE
+		add_core_of=CZE
+		victory_points={
+			13666 3
 		}
-		victory_points = {
-			6418 10 
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
 		}
-		victory_points = {
-			6470 10 
-		}
-		buildings = {
-			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 2
-		}
-		add_core_of = CZE
 	}
 
 	provinces={
-		424 469 3418 3585 6418 6440 6470 9555 11432 
+		424 3585 6470 13665 13666 
 	}
-	manpower=421793
-	buildings_max_level_factor=1.000
-	state_category=city
 }

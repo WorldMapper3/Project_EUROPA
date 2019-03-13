@@ -1,0 +1,28 @@
+state={
+	id=1101
+	name="STATE_1101"
+	manpower=156158
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		aluminium=12
+		chromium=28
+	}
+
+	history={
+		owner=GEL
+		add_core_of=GEL
+		victory_points={
+			13568 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		11562 13568 13574 
+	}
+}

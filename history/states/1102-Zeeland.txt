@@ -1,0 +1,30 @@
+state={
+	id=1102
+	name="STATE_1102"
+	manpower=128625
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+	}
+
+	history={
+		owner=HLD
+		add_core_of=HLD
+		victory_points={
+			9431 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			9431={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		9431 13578 
+	}
+}

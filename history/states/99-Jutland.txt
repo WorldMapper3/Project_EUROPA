@@ -2,46 +2,31 @@
 state={
 	id=99
 	name="STATE_99"
+	manpower=83616
+	buildings_max_level_factor=1
+	state_category=town
 	resources={
-		oil=24
+		oil=8
 	}
 
 	history={
-		owner = DEN
-		victory_points = {
-			3277 5 
+		owner=DEN
+		add_core_of=DEN
+		victory_points={
+			3277 5
 		}
-		victory_points = {
-			6364 10 
-		}
-		victory_points = {
-			394 5 
-		}
-		victory_points = {
-			399 3 
-		}
-		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 2
-			dockyard = 1
-			394 = {
-				naval_base = 1
-			}
-			6364 = {
-				naval_base = 2
-			}
-			3277 = {
-				naval_base = 2
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			3277={
+				naval_base=2
 			}
 		}
-		add_core_of = DEN
 	}
 
 	provinces={
-		316 394 399 3206 3277 3341 6235 6364 
+		3277 13636 13641 
 	}
-	manpower=124832
-	buildings_max_level_factor=1.000
-	state_category=large_city
 }

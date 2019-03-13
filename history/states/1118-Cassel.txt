@@ -1,0 +1,27 @@
+state={
+	id=1118
+	name="STATE_1118"
+	manpower=79020
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		chromium=14
+	}
+
+	history={
+		owner=HES
+		add_core_of=HES
+		victory_points={
+			13567 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		564 9524 13567 13569 13573 
+	}
+}

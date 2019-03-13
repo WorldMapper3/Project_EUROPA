@@ -1,5 +1,6 @@
 ﻿l_english:
  autonomy_dominion:0 "Protectorate"
+ autonomy_supervised_state:0 "Supervised State"
  autonomy_colony:0 "Colony"
  autonomy_puppet:0 "Vassal"
  autonomy_integrated_puppet:0 "Client State"

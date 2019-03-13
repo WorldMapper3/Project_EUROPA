@@ -27,7 +27,7 @@ division_template = {
 units = {
 	#BRUGGES#
 	division= {	
-		location = 11483
+		location = 6446
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

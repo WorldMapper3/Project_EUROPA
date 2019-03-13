@@ -1,0 +1,27 @@
+state={
+	id=781
+	name="STATE_781"
+	manpower=100656
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=7
+	}
+
+	history={
+		owner=ANS
+		add_core_of=ANS
+		victory_points={
+			11529 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		561 6555 11529 13541 13545 
+	}
+}

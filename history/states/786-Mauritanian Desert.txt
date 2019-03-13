@@ -1,0 +1,32 @@
+state={
+	id=786
+	name="STATE_786"
+	manpower=191905
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=7
+		aluminium=14
+	}
+
+	history={
+		owner=UTR
+		add_core_of=UTR
+		victory_points={
+			391 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			391={
+				naval_base=2
+			}
+		}
+	}
+
+	provinces={
+		391 13582 
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=762
+	name="STATE_762"
+	resources={
+		oil=15.000
+	}
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		add_core_of = POL
+
+	}
+
+	provinces={
+		479 584 9439 9532 9546 11428 11558 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

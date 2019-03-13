@@ -2,32 +2,28 @@
 state={
 	id=64
 	name="STATE_64"
+	manpower=138688
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		aluminium=20
-		steel=40
-		chromium=32
+		aluminium=10
+		chromium=25
 	}
 
 	history={
-		owner = BRN
-		victory_points = {
-			6521 15 
+		owner=BRN
+		add_core_of=BRN
+		victory_points={
+			13682 3
 		}
-		victory_points = {
-			3499 10 
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
 		}
-		buildings = {
-			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 2
-		}
-		add_core_of = BRN
 	}
 
 	provinces={
-		3207 3499 6521 9428 11444 11505 
+		3207 11444 11505 13681 13682 13684 
 	}
-	manpower=353757
-	buildings_max_level_factor=1.000
-	state_category=city
 }

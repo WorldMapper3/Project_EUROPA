@@ -1,0 +1,31 @@
+state={
+	id=1134
+	name="STATE_1134"
+	manpower=66119
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		chromium=12
+	}
+
+	history={
+		owner=POM
+		add_core_of=POM
+		victory_points={
+			11372 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			11372={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		11288 11316 11343 11372 13708 
+	}
+}

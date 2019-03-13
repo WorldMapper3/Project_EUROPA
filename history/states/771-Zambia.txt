@@ -1,0 +1,28 @@
+state={
+	id=771
+	name="STATE_771"
+	manpower=233834
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		chromium=42
+	}
+
+	history={
+		owner=KOL
+		add_core_of=KOL
+		victory_points={
+			587 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
+		}
+	}
+
+	provinces={
+		587 13566 
+	}
+}

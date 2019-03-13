@@ -1,0 +1,33 @@
+state={
+	id=1103
+	name="STATE_1103"
+	manpower=320031
+	buildings_max_level_factor=1
+	state_category=large_town
+	resources={
+		oil=11
+		aluminium=23
+	}
+
+	history={
+		owner=HLD
+		add_core_of=HLD
+		victory_points={
+			68 10
+		}
+		buildings={
+			infrastructure=5
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
+			dockyard=1
+			3314={
+				naval_base=3
+			}
+		}
+	}
+
+	provinces={
+		68 3314 
+	}
+}

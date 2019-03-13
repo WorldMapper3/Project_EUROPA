@@ -1,0 +1,32 @@
+state={
+	id=1106
+	name="STATE_1106"
+	manpower=152261
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=11
+	}
+
+	history={
+		owner=HLS
+		add_core_of=HLS
+		add_core_of=DEN
+		victory_points={
+			11366 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			dockyard=1
+			11366={
+				naval_base=2
+			}
+		}
+	}
+
+	provinces={
+		317 332 11251 11366 13625 13626 13628 13629 
+	}
+}

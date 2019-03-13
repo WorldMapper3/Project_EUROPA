@@ -1,0 +1,130 @@
+bookmarks = {
+	bookmark = {
+		name = "FALL_OF_AN_EMPIRE_NAME"
+		desc = "FALL_OF_AN_EMPIRE_DESC"
+		date = 1451.2.18.12
+		picture = "GFX_select_date_1451"
+		default_country = "TUR"
+		default = no
+		
+		"TUR"={
+			history = "TUR_FALL_OF_AN_EMPIRE_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"AUS"={
+			history = "AUS_FALL_OF_AN_EMPIRE_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ENG"={
+			history = "ENG_FALL_OF_AN_EMPIRE_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"FRA"={
+			history = "FRA_FALL_OF_AN_EMPIRE_DESC"
+			ideology = neutrality
+			ideas = {
+			}	
+			focuses = {
+			}			
+		}
+		"MUS"={
+			history = "MUS_FALL_OF_AN_EMPIRE_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"POL"={
+			history = "POL_FALL_OF_AN_EMPIRE_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"CST"={
+			history = "CST_FALL_OF_AN_EMPIRE_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+
+		"---"={
+			history = "OTHER_FALL_OF_AN_EMPIRE_DESC"
+		}
+			"WAL"={
+			minor = yes
+			history = "WAL_FALL_OF_AN_EMPIRE_DESC"
+			ideology = orthodox
+			ideas = {
+			}
+			focuses = {
+			}
+			}
+			"BRN"={
+			minor = yes
+			history = "BRN_FALL_OF_AN_EMPIRE_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+			}
+			"EGY"={
+			minor = yes
+			history = "EGY_FALL_OF_AN_EMPIRE_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+			"QRQ"={
+			minor = yes
+			history = "QRQ_FALL_OF_AN_EMPIRE_DESC"
+			ideology = shia
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+			"TIM"={
+			minor = yes
+			history = "TIM_FALL_OF_AN_EMPIRE_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+			"LIT"={
+			minor = yes
+			history = "LIT_FALL_OF_AN_EMPIRE_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
+

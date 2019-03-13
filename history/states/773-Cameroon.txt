@@ -1,0 +1,27 @@
+state={
+	id=773
+	name="STATE_773"
+	manpower=68538
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=5
+	}
+
+	history={
+		owner=BAD
+		add_core_of=BAD
+		victory_points={
+			13533 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		3530 6542 13533 
+	}
+}

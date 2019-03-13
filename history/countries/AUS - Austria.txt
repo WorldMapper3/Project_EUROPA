@@ -6,6 +6,12 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	duchy_rank
+	feudal_monarchy
+	adm2
+	dip5
+	mil1
+	hre_emperor
 }
 set_technology = {
 	pike_weapons = 1
@@ -25,79 +31,6 @@ set_technology = {
 }
 
 set_convoys = 6
-
-give_guarantee = SWI
-give_guarantee = HLS
-give_guarantee = ALS
-give_guarantee = AAC
-give_guarantee = ANH
-give_guarantee = ANS
-give_guarantee = AUG
-give_guarantee = BAD
-give_guarantee = BAV
-give_guarantee = BRN
-give_guarantee = BRE
-give_guarantee = BRU
-give_guarantee = FRN
-give_guarantee = HAM
-give_guarantee = HAN
-give_guarantee = HES
-give_guarantee = KLE
-give_guarantee = KOL
-give_guarantee = SXL
-give_guarantee = LOR
-give_guarantee = LUN
-give_guarantee = MAG
-give_guarantee = MAI
-give_guarantee = MEI
-give_guarantee = MKL
-give_guarantee = MUN
-give_guarantee = MVA
-give_guarantee = CZE
-give_guarantee = OLD
-give_guarantee = PLA
-give_guarantee = POM
-give_guarantee = SAX
-give_guarantee = SIL
-give_guarantee = SLZ
-give_guarantee = STY
-give_guarantee = THU
-give_guarantee = TIR
-give_guarantee = TRI
-give_guarantee = ULM
-give_guarantee = WBG
-give_guarantee = WES
-give_guarantee = WUR
-give_guarantee = NUM
-give_guarantee = MEM
-give_guarantee = VER
-give_guarantee = NSA
-give_guarantee = RAV
-give_guarantee = DTT
-give_guarantee = ETR
-give_guarantee = FER
-give_guarantee = GEN
-give_guarantee = MTU
-give_guarantee = MLO
-give_guarantee = MOD
-give_guarantee = PMA
-give_guarantee = PIS
-give_guarantee = SAV
-give_guarantee = SIE
-give_guarantee = TUS
-give_guarantee = MFA
-give_guarantee = LUC
-give_guarantee = FLO
-give_guarantee = BRB
-give_guarantee = FLA
-give_guarantee = FRI
-give_guarantee = GEL
-give_guarantee = HAT
-give_guarantee = HLD
-give_guarantee = LIE
-give_guarantee = UTR
-give_guarantee = BAR
-give_guarantee = HSA
 
 set_politics = {
 

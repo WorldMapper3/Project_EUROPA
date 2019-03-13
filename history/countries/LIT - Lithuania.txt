@@ -6,6 +6,12 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	duchy_rank
+	monarchy_type
+	despotic_monarchy
+	adm4
+	dip4
+	mil1
 }
 set_technology = {
 	pike_weapons = 1
@@ -121,7 +127,7 @@ set_politics = {
 create_country_leader = {
 	name = "Duke Kazimierz"
 	desc = ""
-	picture = "Kazimierz_Jagiellonczyk.dds"
+	picture = "Kazimierz_Jagiellonczyk_TP.dds"
 	expire = "9999.1.1"
 	ideology = cat
 	traits = {

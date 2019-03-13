@@ -4,9 +4,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10141;1419;sea;5267;-1;-1;-1;-1;;Moluccas
 480;9431;sea;8621;-1;-1;-1;-1;;Netherlands outlier
 299;211;sea;2282;-1;-1;-1;-1;;Småland-Öland
-6345;6287;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
 3260;3325;;2408;-1;-1;-1;-1;;Sjaelland-Fyn
-3277;3325;;2408;-1;-1;-1;-1;;Fyn-Jylland
+3277;13631;;2408;-1;-1;-1;-1;;Fyn-Jylland
 83;185;sea;1885;-1;-1;-1;-1;;Estonia-Ösel
 185;6201;sea;1885;-1;-1;-1;-1;;Ösel-Dagö
 83;6201;sea;1660;-1;-1;-1;-1;;Dagö-Estonia
@@ -148,7 +147,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7259;1408;sea;5257;-1;-1;-1;-1;;Vancouver-Strait1
 7259;10157;sea;5257;-1;-1;-1;-1;;Vancouver-Strait2
 6364;3325;sea;2408;-1;-1;-1;-1;;Aarhus-Odense
-3260;3305;sea;2408;-1;-1;-1;-1;;Kobenhaven-Lolland
+13630;3305;sea;2408;-1;-1;-1;-1;;Kobenhaven-Lolland
+13627;3305;sea;2408;-1;-1;-1;-1;;Nykobing
+13629;13628;sea;2408;-1;-1;-1;-1;;Schleswig
+13629;3374;sea;2408;-1;-1;-1;-1;;Schleswig-Odense
+6345;13637;sea;2382;-1;-1;-1;-1;;Kobenhaven-Lund
+13709;9388;sea;2358;-1;-1;-1;-1;;Stralsund
 12698;7810;sea;2935;-1;-1;-1;-1;;Newfoundland-Quebec
 3917;865;sea;8492;-1;-1;-1;-1;;Delaware-Chesapeake
 13001;10219;sea;5414;-1;-1;-1;-1;;Timor-Flores
@@ -193,5 +197,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6675;13481;impassable;-1;-1;-1;-1;-1;;Swiss Alps
 13486;13481;impassable;-1;-1;-1;-1;-1;;Swiss Alps
 13486;9633;impassable;-1;-1;-1;-1;-1;;Swiss Alps
+13509;11634;impassable;-1;-1;-1;-1;-1;;Austrian Alps
+13510;11634;impassable;-1;-1;-1;-1;-1;;Austrian Alps
+13510;3675;impassable;-1;-1;-1;-1;-1;;Austrian Alps
+13514;3675;impassable;-1;-1;-1;-1;-1;;Austrian Alps
+13514;13517;impassable;-1;-1;-1;-1;-1;;Austrian Alps
 11584;3604;sea;5786;-1;-1;-1;-1;;Venetia-Treviso
 -1;-1;;-1;-1;-1;-1;-1;-1

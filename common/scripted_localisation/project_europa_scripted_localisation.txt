@@ -173,3 +173,18 @@ defined_text = { # Peace System
 		localization_key = LK_WarReparations
 	}
 }
+defined_text = { # Protect System
+	name = GetProteccRegion
+	text = {
+		trigger = {
+			has_country_flag=Emperor_Protecc
+		}
+		localization_key = LK_Emperor_Protecc
+	}
+	text = {
+		trigger = {
+			has_country_flag=Shogunate_Protecc
+		}
+		localization_key = LK_Shogunate_Protecc
+	}
+}

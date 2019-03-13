@@ -1,0 +1,58 @@
+	add_namespace = protect_system
+
+country_event = { #EMPEROR
+	id = protect_system.1
+	title = protect_system.1.t
+	desc = protect_system.1.d
+	picture = CITY_VIEW_CEP
+	
+	is_triggered_only = yes
+
+	option = { #YES
+		name=protect_system.1.a
+		add_to_war = { 
+			targeted_alliance = FROM.FROM
+			enemy = FROM
+			hostility_reason = asked_to_join
+		}
+		hidden_effect = {
+			news_event = { id = news_event.9 days = 1 }
+			set_country_flag=Emperor_Protecc
+		}
+	}
+	option = { #NO
+		name=protect_system.1.b
+		hidden_effect = {
+			news_event = { id = news_event.10 days = 1 }
+			set_country_flag=Emperor_Protecc
+		}
+	}
+}
+country_event = { #SHOGUNATE
+	id = protect_system.2
+	title = protect_system.2.t
+	desc = protect_system.2.d
+	picture = CITY_VIEW_CEP
+	
+	is_triggered_only = yes
+
+	option = { #YES
+		name=protect_system.2.a
+		add_to_war = { 
+			targeted_alliance = FROM.FROM
+			enemy = FROM
+			hostility_reason = asked_to_join
+		}
+		hidden_effect = {
+			news_event = { id = news_event.9 days = 1 }
+			set_country_flag=Shogunate_Protecc
+		}
+	}
+	option = { #NO
+		name=protect_system.2.b
+		hidden_effect = {
+			news_event = { id = news_event.10 days = 1 }
+			set_country_flag=Shogunate_Protecc
+		}
+	}
+}

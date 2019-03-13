@@ -1,0 +1,28 @@
+state={
+	id=784
+	name="STATE_784"
+	manpower=60474
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		tungsten=15
+		chromium=11
+	}
+
+	history={
+		owner=NSA
+		add_core_of=NSA
+		victory_points={
+			529 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		529 6444 9482 9486 
+	}
+}

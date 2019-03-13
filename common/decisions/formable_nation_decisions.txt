@@ -1,0 +1,53 @@
+form_england_category = {
+	
+	form_england = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			NOT = {
+				tag = HRE
+				tag = PAP
+				tag = ENG
+			}
+			GBR = {
+				exists = no
+			}
+			ENG = {
+				exists = no
+			}
+		}
+
+		available = {
+			has_war = no
+			is_subject = no
+			controls_state = 126	#London
+			controls_state = 1017	#Oxfordshire
+			controls_state = 1015	#Hampshire
+			controls_state = 1016	#Kent
+			controls_state = 125	#Essex
+		}
+
+		visible = {
+			NOT = {
+				tag = HRE
+				tag = PAP
+				tag = ENG
+			}
+			GBR = {
+				exists = no
+			}
+			ENG = {
+				exists = no
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ENG_formed
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}

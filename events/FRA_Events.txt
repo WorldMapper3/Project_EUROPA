@@ -5,7 +5,7 @@ country_event = {
 	id = FRA_event.1
 	title = FRA_event.1.t
 	desc = FRA_event.1.d
-	picture = COA_FRA_eventPicture
+	picture = COA_FRA_EP
 
 	fire_only_once = yes
 
@@ -50,7 +50,7 @@ country_event = {
 	id = FRA_event.2
 	title = FRA_event.2.t
 	desc = FRA_event.2.d
-	picture = COA_FRA_eventPicture
+	picture = COA_FRA_EP
 	
 	fire_only_once = yes
 	trigger = {

@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = MLW
+		owner = MWA
 		#add_core_of = GDW
 		victory_points = {
 			10801 5 

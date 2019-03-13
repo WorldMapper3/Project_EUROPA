@@ -2,32 +2,28 @@
 state={
 	id=57
 	name="STATE_57"
+	manpower=93130
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		aluminium=25
-		chromium=20
+		aluminium=7
+		chromium=17
 	}
 
 	history={
-		owner = KOL
-		victory_points = {
-			405 3 
+		owner=KOL
+		add_core_of=KOL
+		victory_points={
+			3398 3
 		}
-		victory_points = {
-			9443 5 
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
 		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-
-		}
-		add_core_of = KOL
-
 	}
 
 	provinces={
-		3355 3398 9443 9509 9547 11431 
+		3398 9443 9547 13600 
 	}
-	manpower=176879
-	buildings_max_level_factor=1.000
-	state_category=town
 }

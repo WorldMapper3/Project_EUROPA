@@ -16,25 +16,21 @@ equipments = {
 		
 		interface_category = interface_category_screen_ships
 
-		ap_attack = 10
-		attack = 10
-		fire_range = 4
+		lg_armor_piercing = 5
+		hg_armor_piercing = 5
+		lg_attack = 5
+		hg_attack = 5
 		
 		armor_value = 8
-		evasion = 50
 		
 		surface_detection = 15
 		surface_visibility = 15
 		naval_speed = 10
 		reliability = 0.8
-		shore_bombardment = 2.5
-
 		
 		naval_range = 600
 		
-		max_strength = 80		
-		
-		port_capacity_usage = 1
+		max_strength = 80
 		
 		build_cost_ic = 2000
 		resources = {

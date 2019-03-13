@@ -6,6 +6,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/white_peace.dds"
 	}
 	spriteType = {
+		name = "GFX_monarch_system"
+		texturefile = "gfx/interface/decisions/monarch_system.dds"
+	}
+	spriteType = {
 		name = "GFX_demand_capitulation"
 		texturefile = "gfx/interface/decisions/demand_capitulation.dds"
 	}

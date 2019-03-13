@@ -1,0 +1,32 @@
+state={
+	id=785
+	name="STATE_785"
+	manpower=223755
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		chromium=40
+	}
+
+	history={
+		owner=GEL
+		add_core_of=GEL
+		victory_points={
+			9363 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
+			dockyard=1
+			6241={
+				naval_base=2
+			}
+		}
+	}
+
+	provinces={
+		6241 9363 13583 
+	}
+}

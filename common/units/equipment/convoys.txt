@@ -16,16 +16,15 @@ equipments = {
 		# Unused by convoys
 		surface_detection = 15
 		sub_detection = 15
-		port_capacity_usage = 0
-
+		
+		fuel_consumption = 0
 		# Combat abilities
-		ap_attack = 4
+		lg_armor_piercing = 4
 		armor_value = 12
 		reliability = 0.8
 		surface_visibility = 10
-		fire_range = 4
-		evasion = 25
-		attack = 4
+		
+		lg_attack = 4
 		naval_speed = 5
 		max_strength = 120
 		max_organisation = 40

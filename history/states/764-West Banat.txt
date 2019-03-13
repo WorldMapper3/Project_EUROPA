@@ -1,0 +1,27 @@
+state={
+	id=764
+	name="STATE_764"
+	manpower=141913
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		chromium=25
+	}
+
+	history={
+		owner=AAC
+		add_core_of=AAC
+		victory_points={
+			9522 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		3488 9522 13563 
+	}
+}

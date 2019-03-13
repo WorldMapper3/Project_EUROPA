@@ -1,30 +1,32 @@
 state={
 	id=793
 	name="STATE_793"
+	manpower=306134
+	buildings_max_level_factor=1
+	state_category=large_town
 	resources={
-		oil=18
+		oil=10
 	}
-	
+
 	history={
-		owner = HSA
-		victory_points = {
-			11331 15 
+		owner=HSA
+		add_core_of=HSA
+		victory_points={
+			11331 10
 		}
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 1
-			11331 = {
-				naval_base = 3
+		buildings={
+			infrastructure=5
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
+			dockyard=1
+			11331={
+				naval_base=3
 			}
 		}
-		add_core_of = HSA
 	}
-	
+
 	provinces={
-		11331 
+		11331 13620 
 	}
-	manpower=250578
-	state_category=large_town
-	buildings_max_level_factor=1.000
 }

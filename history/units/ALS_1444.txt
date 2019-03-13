@@ -27,7 +27,7 @@ division_template = {
 units = {
 	#ALSACE
 	division= {	
-		location = 9503
+		location = 13395
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

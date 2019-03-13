@@ -1,0 +1,28 @@
+state={
+	id=1123
+	name="STATE_1123"
+	manpower=217708
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		chromium=39
+	}
+
+	history={
+		owner=PLA
+		add_core_of=PLA
+		victory_points={
+			563 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
+		}
+	}
+
+	provinces={
+		563 3558 11531 11547 11560 
+	}
+}

@@ -1,0 +1,27 @@
+state={
+	id=1140
+	name="STATE_1140"
+	manpower=126335
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		chromium=16
+	}
+
+	history={
+		owner=CZE
+		add_core_of=CZE
+		victory_points={
+			11415 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		478 3572 11415 13673 13678 
+	}
+}

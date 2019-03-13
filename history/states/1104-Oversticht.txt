@@ -1,0 +1,31 @@
+state={
+	id=1104
+	name="STATE_1104"
+	manpower=97834
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		chromium=17
+	}
+
+	history={
+		owner=UTR
+		add_core_of=UTR
+		victory_points={
+			6286 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			6286={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		6286 9403 13586 13588 
+	}
+}

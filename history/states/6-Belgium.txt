@@ -2,38 +2,33 @@
 state={
 	id=6
 	name="STATE_6"
+	manpower=261009
+	buildings_max_level_factor=1
+	state_category=large_town
 	resources={
-		oil=35
-		aluminium=70
+		oil=9
+		aluminium=19
 	}
 
 	history={
-		owner = FLA
-		victory_points = {
-			11483 15 
+		owner=FLA
+		add_core_of=FLA
+		victory_points={
+			6446 10
 		}
-		victory_points = {
-			6560 20 
-		}
-		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 2
-			dockyard = 1
-			6446 = {
-				naval_base = 3
-			}
-			6560 = {
-				naval_base = 4
+		buildings={
+			infrastructure=5
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
+			dockyard=1
+			6446={
+				naval_base=3
 			}
 		}
-		add_core_of = FLA
 	}
 
 	provinces={
-		480 575 3576 6446 6560 11483 
+		575 6446 11483 13570 
 	}
-	manpower=313475
-	buildings_max_level_factor=1.000
-	state_category=large_city
 }

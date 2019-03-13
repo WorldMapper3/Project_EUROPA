@@ -1,4 +1,4 @@
-﻿capital = 35
+﻿capital = 1098
 
 oob = "BRB_1444"
 
@@ -6,6 +6,7 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	hre_member
 }
 set_technology = {
 	pike_weapons = 1

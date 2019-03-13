@@ -1,25 +1,27 @@
 state={
 	id=794
 	name="STATE_794"
+	manpower=63834
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		chromium=8
+		chromium=11
 	}
 
 	history={
-		owner = SXL
-		add_core_of = SXL
-		victory_points = {
-			9320 3 
+		owner=SXL
+		add_core_of=SXL
+		victory_points={
+			9320 3
 		}
-		buildings = {
-			infrastructure = 2
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
 		}
 	}
 
 	provinces={
-		6298 9320 
+		6298 9320 13617 13618 
 	}
-	manpower=73699
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

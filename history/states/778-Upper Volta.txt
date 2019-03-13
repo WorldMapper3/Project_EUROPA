@@ -1,0 +1,29 @@
+state={
+	id=778
+	name="STATE_778"
+	resources={
+		oil=8.000
+		steel=40.000
+	}
+
+	history={
+		owner = PLA
+		victory_points = {
+			3571 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = PLA
+
+	}
+
+	provinces={
+		586 3571 13548 13549 
+	}
+	manpower=176879
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -27,7 +27,7 @@ division_template = {
 units = {
 	#WURTTEMBURG
 	division= {	
-		location = 9517
+		location = 13536
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

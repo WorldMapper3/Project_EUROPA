@@ -1,0 +1,31 @@
+state={
+	id=1109
+	name="STATE_1109"
+	manpower=110753
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=11
+	}
+
+	history={
+		owner=DEN
+		add_core_of=DEN
+		victory_points={
+			6364 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			dockyard=1
+			6364={
+				naval_base=2
+			}
+		}
+	}
+
+	provinces={
+		6364 13640 13642 13644 
+	}
+}

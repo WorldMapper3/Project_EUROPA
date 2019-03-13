@@ -2,27 +2,27 @@
 state={
 	id=153
 	name="STATE_153"
+	manpower=174954
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+	}
 
 	history={
-		owner = AUS
-		victory_points = {
-			9633 10 
+		owner=AUS
+		add_core_of=AUS
+		add_core_of=TIR
+		victory_points={
+			9630 3
 		}
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 1
-
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
 		}
-		add_core_of = AUS
-		add_core_of = TIR
-
 	}
 
 	provinces={
-		673 9630 9633 9636 11618 11620 
+		673 9630 9633 9636 11618 11620 13504 13508 13511 13512 
 	}
-	manpower=351494
-	buildings_max_level_factor=1.000
-	state_category=large_town
 }

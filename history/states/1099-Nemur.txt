@@ -1,0 +1,30 @@
+state={
+	id=1099
+	name="STATE_1099"
+	manpower=255580
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		steel=51
+		chromium=44
+	}
+
+	history={
+		owner=BUR
+		add_core_of=BUR
+		add_core_of=HAT
+		victory_points={
+			3516 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
+		}
+	}
+
+	provinces={
+		3516 13081 13554 13561 
+	}
+}

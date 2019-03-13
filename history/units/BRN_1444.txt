@@ -27,21 +27,21 @@ division_template = {
 units = {
 	#BERLIN#
 	division= {	
-		location = 6521
+		location = 13682
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 6521
+		location = 13682
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 6521
+		location = 13682
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

@@ -1,49 +1,33 @@
-state= {
+
+state={
 	id=37
 	name="STATE_37"
-	manpower = 181208
+	manpower=237808
+	buildings_max_level_factor=1
+	state_category=city
 	resources={
-		oil=33
+		oil=12
 	}
-
-	state_category = metropolis
 
 	history={
-		owner = DEN
-		victory_points = { 
-			6287 20 
+		owner=DEN
+		add_core_of=DEN
+		victory_points={
+			6393 10
 		}
-		victory_points = {
-			3305 5
-		}
-		victory_points = {
-			3325 15
-		}
-		victory_points = {
-			6361 1
-		}
-		buildings = {
-			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 3
-			dockyard = 1
-			6287 = {
-				naval_base = 4
-			}
-			3305 = {
-				naval_base = 2
-			}
-			3325 = {
-				naval_base = 3
-			}
-			6361 = {
-				naval_base = 1
+		buildings={
+			infrastructure=5
+			arms_factory=1
+			industrial_complex=2
+			powder_mill=1
+			dockyard=2
+			6393={
+				naval_base=3
 			}
 		}
-		add_core_of = DEN
 	}
-	
-	provinces= {
-		3260 3305 3325 3374 6287 6361 6393 
+
+	provinces={
+		3260 6287 6393 13630 13632 13634 13637 
 	}
 }

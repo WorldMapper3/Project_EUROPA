@@ -65,9 +65,9 @@ continuous_focus_palette = {
 		modifier = {
 			production_speed_infrastructure_factor = 0.1
 			production_speed_naval_base_factor = 0.1
-			production_speed_synthetic_refinery_factor = 0.1
+			#production_speed_synthetic_refinery_factor = 0.1
 			production_speed_bunker_factor = 0.2
-			production_speed_coastal_bunker_factor = 0.2	
+			production_speed_coastal_bunker_factor = 0.2				
 		}
 		
 		ai_will_do = {
@@ -171,7 +171,7 @@ continuous_focus_palette = {
 			
 		}
 
-		enabled = {
+		enable = {
 			is_in_faction = yes
 			num_faction_members > 1
 
@@ -240,7 +240,7 @@ continuous_focus_palette = {
 			hidden_trigger = { has_dlc = "Together for Victory" }
 		}
 
-		enabled = {
+		enable = {
 			num_subjects > 0
 		}
 

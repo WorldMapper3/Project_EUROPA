@@ -1,36 +1,30 @@
 state={
 	id=935
 	name="STATE_935"
+	manpower=286065
+	buildings_max_level_factor=1
+	state_category=large_town
 	resources={
-		oil=22.000
-		aluminium=30.000
-		steel=70.000
-		chromium=28.000
+		oil=15
+		aluminium=21
 	}
 
 	history={
-		owner = BUR
-		victory_points = {
-			13081 15 
+		owner=BUR
+		add_core_of=BUR
+		add_core_of=HAT
+		victory_points={
+			11606 10
 		}
-		victory_points = {
-			11606 15 
+		buildings={
+			infrastructure=5
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
 		}
-		buildings = {
-			infrastructure = 7
-			industrial_complex = 3
-			arms_factory = 1
-
-		}
-		add_core_of = BUR
-		add_core_of = HAT
-
 	}
 
 	provinces={
-		3516 9536 11606 13081 
+		9536 11606 13555 
 	}
-	manpower=405674
-	buildings_max_level_factor=1.000
-	state_category=metropolis
 }

@@ -1,0 +1,31 @@
+state={
+	id=1132
+	name="STATE_1132"
+	manpower=92727
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=6
+	}
+
+	history={
+		owner=POM
+		add_core_of=POM
+		victory_points={
+			13705 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			13705={
+				naval_base=2
+			}
+		}
+	}
+
+	provinces={
+		349 3312 6282 13694 13705 
+	}
+}

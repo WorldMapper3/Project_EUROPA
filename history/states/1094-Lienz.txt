@@ -1,0 +1,28 @@
+state={
+	id=1094
+	name="STATE_1094"
+	manpower=171271
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		steel=30
+	}
+
+	history={
+		owner=AUS
+		add_core_of=AUS
+		add_core_of=TIR
+		victory_points={
+			671 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		671 11615 13502 13507 
+	}
+}

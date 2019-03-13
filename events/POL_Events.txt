@@ -4,7 +4,7 @@
 #	id = POL_event.3488
 #	title = POL_event.3488.t
 #	desc = POL_event.3488.d
-#	picture = COA_POL_eventPicture
+#	picture = COA_POL_EP
 #	
 #	trigger = {
 #		AND={
@@ -61,7 +61,7 @@ country_event = {
 	id = POL_event.1
 	title = POL_event.1.t
 	desc = POL_event.1.d
-	picture = COA_POL_eventPicture
+	picture = COA_POL_EP
 	
 	fire_only_once = yes
 	
@@ -654,7 +654,7 @@ country_event = {
 	title = POL_event.2.t
 	desc = POL_event.2.d
 
-	picture = COA_POL_eventPicture
+	picture = COA_POL_EP
 	
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -670,7 +670,7 @@ country_event = {
 	id = POL_event.3
 	title = POL_event.3.t
 	desc = POL_event.3.d
-	picture = COA_POL_eventPicture
+	picture = COA_POL_EP
 	
 	fire_only_once = yes
 	

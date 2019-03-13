@@ -6,6 +6,9 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	monarchy_type
+	duchy_rank
+	daimyo
 }
 set_technology = {
 	pike_weapons = 1
@@ -121,7 +124,6 @@ set_politics = {
 create_country_leader = {
 	name = "Lord Tadakuni Shimazu"
 	desc = ""
-	picture = ""
 	expire = "9999.1.1"
 	ideology = snt
 	traits = {

@@ -1,0 +1,28 @@
+state={
+	id=787
+	name="STATE_787"
+	manpower=119605
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		aluminium=9
+		chromium=21
+	}
+
+	history={
+		owner=MUN
+		add_core_of=MUN
+		victory_points={
+			6622 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		6535 6622 13601 13604 
+	}
+}

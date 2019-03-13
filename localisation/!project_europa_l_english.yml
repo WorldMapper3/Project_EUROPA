@@ -18,7 +18,12 @@
  LK_RefusedDealOpt:0 "Regrettable"
  LK_AcceptedDealDesc:0 "The [From.GetAdjective] Government has decided to accept our peace deal on the terms we proposed. The effects of the deal have been carried out and a one year truce has been initiated."
  LK_RefusedDealDesc:0 "The [From.GetAdjective] Government has decided to reject our peace deal on the terms we proposed. Their government is no longer receptive to further peace deals within the next 30 days."
+ LK_Emperor_Protecc:0 "the Holy Roman Empire"
+ LK_Shogunate_Protecc:0 "the Shogunate" 
  #DECISIONS#
+ monarch_system:0 "Monarch System"
+ tt_roll_dice:0 "This will assign random monarch points to our government."
+ roll_dice:0 "Roll the Dice?"
  peace_system:0 "Sue for Peace?"
  tt_sue_peace:0 "This will begin the peace drafting process."
  peace_out_GER:0 "Peace out with [GER.GetName]?"

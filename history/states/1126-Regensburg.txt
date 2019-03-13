@@ -1,0 +1,28 @@
+state={
+	id=1126
+	name="STATE_1126"
+	manpower=199162
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=8
+		aluminium=15
+	}
+
+	history={
+		owner=BAV
+		add_core_of=BAV
+		victory_points={
+			3299 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		571 3299 13542 
+	}
+}

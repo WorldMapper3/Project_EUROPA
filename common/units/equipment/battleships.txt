@@ -17,13 +17,12 @@ equipments = {
 			ship_gun_upgrade
 		}
 
-		ap_attack = 40
-		attack = 40
-		fire_range = 4
-		shore_bombardment = 10
+		lg_armor_piercing = 20
+		hg_armor_piercing = 20
+		lg_attack = 20
+		hg_attack = 20
 				
 		armor_value = 20
-		evasion = 25
 		
 		surface_detection = 15
 		surface_visibility = 30
@@ -33,7 +32,6 @@ equipments = {
 		naval_range = 700
 		
 		max_strength = 200
-		port_capacity_usage = 2
 		
 		build_cost_ic = 5000
 		resources = {

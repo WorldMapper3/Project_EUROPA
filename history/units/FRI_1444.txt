@@ -27,22 +27,22 @@ division_template = {
 units = {
 	#FRIESLAND#
 	division= {	
-		location = 9335
+		location = 13595
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 9335
+		location = 13595
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	navy = {
-		base = 9335
-		location = 9335
+		base = 13595
+		location = 13595
 		#Barques
 		ship = { name = "Barque 1" definition = barque equipment = { barque_1 = {amount = 1 owner = FRI } } }
 		ship = { name = "Barque 2" definition = barque equipment = { barque_1 = {amount = 1 owner = FRI } } }

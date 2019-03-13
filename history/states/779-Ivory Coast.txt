@@ -1,0 +1,27 @@
+state={
+	id=779
+	name="STATE_779"
+	manpower=149170
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=6
+	}
+
+	history={
+		owner=PLA
+		add_core_of=PLA
+		victory_points={
+			6568 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		3574 6568 13543 
+	}
+}

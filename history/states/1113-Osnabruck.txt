@@ -1,0 +1,27 @@
+state={
+	id=1113
+	name="STATE_1113"
+	manpower=73375
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		chromium=13
+	}
+
+	history={
+		owner=MUN
+		add_core_of=MUN
+		victory_points={
+			11233 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		11233 11264 11388 13610 
+	}
+}

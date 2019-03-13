@@ -1,0 +1,32 @@
+state={
+	id=1121
+	name="STATE_1121"
+	manpower=74182
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		aluminium=6
+		chromium=13
+	}
+
+	history={
+		owner=MKL
+		add_core_of=MKL
+		victory_points={
+			11276 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			13701={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		9294 11276 11305 13690 13701 
+	}
+}

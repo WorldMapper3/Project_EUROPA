@@ -27,7 +27,7 @@ division_template = {
 units = {
 	#BADEN
 	division= {	
-		location = 6542
+		location = 13533
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

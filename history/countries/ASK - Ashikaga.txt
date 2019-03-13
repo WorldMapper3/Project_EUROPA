@@ -6,6 +6,9 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	monarchy_type
+	kingdom_rank
+	shogunate
 }
 set_technology = {
 	pike_weapons = 1
@@ -26,35 +29,6 @@ set_technology = {
 
 
 set_convoys = 5
-
-give_guarantee = AMA
-give_guarantee = DTE
-give_guarantee = HSK
-give_guarantee = HTK
-give_guarantee = IMG
-give_guarantee = ODA
-give_guarantee = OTM
-give_guarantee = OUC
-give_guarantee = SBA
-give_guarantee = SMZ
-give_guarantee = TKD
-give_guarantee = TKG
-give_guarantee = UES
-give_guarantee = YMN
-give_guarantee = NNB
-give_guarantee = KTB
-give_guarantee = ADO
-give_guarantee = CBA
-give_guarantee = ISK
-give_guarantee = ITO
-give_guarantee = KKC
-give_guarantee = KNO
-give_guarantee = OGS
-give_guarantee = SHN
-give_guarantee = STK
-give_guarantee = TKI
-give_guarantee = UTN
-give_guarantee = TTI
 
 set_politics = {
 

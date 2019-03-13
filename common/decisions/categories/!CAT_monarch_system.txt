@@ -1,0 +1,9 @@
+##Category 
+monarch_system = {
+
+	icon = GFX_monarch_system
+
+	picture = GFX_monarch_system
+
+
+}

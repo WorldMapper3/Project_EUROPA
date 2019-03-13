@@ -16,25 +16,21 @@ equipments = {
 			ship_anti_air_upgrade
 		}
 
-		ap_attack = 12
-		attack = 12
-		fire_range = 4
+		lg_armor_piercing = 6
+		hg_armor_piercing = 6
+		lg_attack = 6
+		hg_attack = 6
 				
 		armor_value = 8
-		evasion = 40
 		
 		surface_detection = 15
 		surface_visibility = 15
 		naval_speed = 8
 		reliability = 0.80
-		shore_bombardment = 3
-
 		
 		naval_range = 600
 		
 		max_strength = 80		
-		
-		port_capacity_usage = 1
 		
 		build_cost_ic = 1000
 		resources = {

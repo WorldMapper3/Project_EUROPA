@@ -1,0 +1,28 @@
+state={
+	id=1131
+	name="STATE_1131"
+	manpower=145138
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		steel=36
+		chromium=26
+	}
+
+	history={
+		owner=BRN
+		add_core_of=BRN
+		victory_points={
+			6521 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		3499 6521 9428 13676 13680 
+	}
+}

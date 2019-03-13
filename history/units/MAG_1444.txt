@@ -27,7 +27,7 @@ division_template = {
 units = {
 	#MAGDEBURG
 	division= {	
-		location = 6487
+		location = 13607
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

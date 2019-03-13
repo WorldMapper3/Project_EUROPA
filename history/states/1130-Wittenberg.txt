@@ -1,0 +1,28 @@
+state={
+	id=1130
+	name="STATE_1130"
+	manpower=108854
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		aluminium=8
+		chromium=19
+	}
+
+	history={
+		owner=SAX
+		add_core_of=SAX
+		victory_points={
+			13657 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		6441 11545 13656 13657 13721 
+	}
+}
