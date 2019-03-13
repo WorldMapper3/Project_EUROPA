@@ -6,7 +6,7 @@ tags={
 	"Ideologies"
 	"National Focuses"
 }
-supported_version="1.5.4"
+supported_version="1.6.1"
 
 replace_path = "common/national_focus"
 replace_path = "common/scripted_effects"
