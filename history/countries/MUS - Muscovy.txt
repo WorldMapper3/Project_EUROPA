@@ -27,38 +27,38 @@ set_technology = {
 
 set_convoys = 0
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = PSK
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = YAR
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = PRM
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = RSO
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = BLO
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = PSK
-		puppet = YAR
-		puppet = PRM
-		puppet = RSO
-		puppet = BLO
-	}
-}
+#if = {
+#	limit = {
+#		has_dlc = "Together for Victory"
+#	}
+#	set_autonomy = {
+#		target = PSK
+#		autonomous_state = autonomy_integrated_puppet
+#	}
+#	set_autonomy = {
+#		target = YAR
+#		autonomous_state = autonomy_integrated_puppet
+#	}
+#	set_autonomy = {
+#		target = PRM
+#		autonomous_state = autonomy_integrated_puppet
+#	}
+#	set_autonomy = {
+#		target = RSO
+#		autonomous_state = autonomy_integrated_puppet
+#	}
+#	set_autonomy = {
+#		target = BLO
+#		autonomous_state = autonomy_integrated_puppet
+#	}
+#	else = {
+#		puppet = PSK
+#		puppet = YAR
+#		puppet = PRM
+#		puppet = RSO
+#		puppet = BLO
+#	}
+#}
 
 set_politics = {
 

@@ -33,23 +33,23 @@ set_technology = {
 
 set_convoys = 0
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = HDY
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = DAM
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = HDY
-		puppet = DAM
-	}
-}
+#if = {
+#	limit = {
+#		has_dlc = "Together for Victory"
+#	}
+#	set_autonomy = {
+#		target = HDY
+#		autonomous_state = autonomy_integrated_puppet
+#	}
+#	set_autonomy = {
+#		target = DAM
+#		autonomous_state = autonomy_integrated_puppet
+#	}
+#	else = {
+#		puppet = HDY
+#		puppet = DAM
+#	}
+#}
 
 set_politics = {
 

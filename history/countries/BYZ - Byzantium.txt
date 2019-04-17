@@ -27,18 +27,18 @@ set_technology = {
 
 set_convoys = 6
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = ATH
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = ATH
-	}
-}
+#if = {
+#	limit = {
+#		has_dlc = "Together for Victory"
+#	}
+#	set_autonomy = {
+#		target = ATH
+#		autonomous_state = autonomy_integrated_puppet
+#	}
+#	else = {
+#		puppet = ATH
+#	}
+#}
 
 set_politics = {
 

@@ -29,24 +29,6 @@ set_convoys = 0
 
 give_guarantee = BGA
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = GDW
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = BND
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = GDW
-		puppet = BND
-	}
-}
-
 set_politics = {
 
 	parties = {

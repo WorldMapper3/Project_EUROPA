@@ -27,19 +27,6 @@ set_technology = {
 
 set_convoys = 0
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = HAD
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = HAD
-	}
-}
-
 set_politics = {
 
 	parties = {

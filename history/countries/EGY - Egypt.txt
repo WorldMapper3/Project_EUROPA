@@ -38,13 +38,8 @@ if = {
 		target = HEJ
 		autonomous_state = autonomy_integrated_puppet
 	}
-	set_autonomy = {
-		target = FAD
-		autonomous_state = autonomy_integrated_puppet
-	}
 	else = {
 		puppet = HEJ
-		puppet = FAD
 	}
 }
 
