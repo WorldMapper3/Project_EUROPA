@@ -1,1 +1,59 @@
 ﻿	add_namespace = generic_event
+	
+country_event = { #LAND POLICY ADD
+	id = generic_event.1
+	title = generic_event.1.t
+	desc = generic_event.1.d
+	picture = LAND_MILITARY_CEP
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect={
+			set_technology = {
+				pike_and_shot_tech = 0
+				hit_and_run_tech = 0
+				pike_square_tech = 0
+				sengoku_jidai_tech = 0
+				chivalry_tech = 0
+				markmanship_tech = 0
+				antiquity_tech = 0
+			}
+		}
+	}
+	
+	option = {
+		name=generic_event.1.a
+
+		hidden_effect = {
+			if ={
+				limit= { has_idea = pike_and_shot }
+				set_technology = { pike_and_shot_tech = 1 }
+			}
+			else_if ={
+				limit= { has_idea = hit_and_run }
+				set_technology = { hit_and_run_tech = 1 }
+			}
+			else_if ={
+				limit= { has_idea = pike_square }
+				set_technology = { pike_square_tech = 1 }
+			}
+			else_if ={
+				limit= { has_idea = sengoku_jidai }
+				set_technology = { sengoku_jidai_tech = 1 }
+			}
+			else_if ={
+				limit= { has_idea = chivalry }
+				set_technology = { chivalry_tech = 1 }
+			}
+			else_if ={
+				limit= { has_idea = markmanship }
+				set_technology = { markmanship_tech = 1 }
+			}
+			else_if ={
+				limit= { has_idea = antiquity }
+				set_technology = { antiquity_tech = 1 }
+			}
+		}
+	}
+}

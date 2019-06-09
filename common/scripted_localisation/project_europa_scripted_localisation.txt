@@ -8,6 +8,96 @@
 # localization_key -> points to the localization key
 # that'll be used if trigger passes
 
+defined_text = { # Land Policy
+	name = GetLandPolicy
+	text = {
+		trigger = {
+			has_idea = pike_and_shot
+		}
+		localization_key = pike_and_shot
+	}
+	text = {
+		trigger = {
+			has_idea = hit_and_run
+		}
+		localization_key = hit_and_run
+	}
+	text = {
+		trigger = {
+			has_idea = pike_square
+		}
+		localization_key = pike_square
+	}
+	text = {
+		trigger = {
+			has_idea = sengoku_jidai
+		}
+		localization_key = sengoku_jidai
+	}
+	text = {
+		trigger = {
+			has_idea = chivalry
+		}
+		localization_key = chivalry
+	}
+	text = {
+		trigger = {
+			has_idea = markmanship
+		}
+		localization_key = markmanship
+	}
+	text = {
+		trigger = {
+			has_idea = antiquity
+		}
+		localization_key = antiquity
+	}
+}
+defined_text = { # Land Policy Stats
+	name = GetLandPolicyStats
+	text = {
+		trigger = {
+			has_idea = pike_and_shot
+		}
+		localization_key = LK_pike_and_shot_stats
+	}
+	text = {
+		trigger = {
+			has_idea = hit_and_run
+		}
+		localization_key = LK_hit_and_run_stats
+	}
+	text = {
+		trigger = {
+			has_idea = pike_square
+		}
+		localization_key = LK_pike_square_stats
+	}
+	text = {
+		trigger = {
+			has_idea = sengoku_jidai
+		}
+		localization_key = LK_sengoku_jidai_stats
+	}
+	text = {
+		trigger = {
+			has_idea = chivalry
+		}
+		localization_key = LK_chivalry_stats
+	}
+	text = {
+		trigger = {
+			has_idea = markmanship
+		}
+		localization_key = LK_markmanship_stats
+	}
+	text = {
+		trigger = {
+			has_idea = antiquity
+		}
+		localization_key = LK_antiquity_stats
+	}
+}
 defined_text = { # Peace System
 	name = GetPeaceResponseOpt
 	text = {
@@ -23,7 +113,6 @@ defined_text = { # Peace System
 		localization_key = LK_RefusedDealOpt
 	}
 }
-
 defined_text = { # Peace System
 	name = GetPeaceResponseDesc
 	text = {

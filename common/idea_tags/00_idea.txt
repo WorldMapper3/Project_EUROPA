@@ -18,10 +18,10 @@ idea_categories = {
 		slot = gov_rank
 		slot = gov_type
 		slot = gov_subtype
-		slot = stability
-		slot = religious_unity
-		slot = power_projection
-		slot = prestige
+		slot = national_idea_group_select
+		slot = adm_idea_group_select
+		slot = dip_idea_group_select
+		slot = mil_idea_group_select
 		
 		cost = 150
 		removal_cost = 0
@@ -31,10 +31,10 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
+		slot = colonisation_laws
 		slot = institutions
 		slot = land_policy
 		slot = naval_policy
-		slot = colonisation_laws
 		
 		cost = 150
 		removal_cost = 0
@@ -43,11 +43,63 @@ idea_categories = {
 	government_mp = {
 		slot = mp_nat_focus
 		slot = gov_adm
-		slot = adv_adm
 		slot = gov_dip
-		slot = adv_dip
 		slot = gov_mil
+		slot = adv_adm
+		slot = adv_dip
 		slot = adv_mil
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	national_idea_group = {
+		slot = nat_idea1
+		slot = nat_idea2
+		slot = nat_idea3
+		slot = nat_idea4
+		slot = nat_idea5
+		slot = nat_idea6
+		slot = nat_idea7
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	adm_idea_group = {
+		slot = adm_idea_slot1
+		slot = adm_idea_slot2
+		slot = adm_idea_slot3
+		slot = adm_idea_slot4
+		slot = adm_idea_slot5
+		slot = adm_idea_slot6
+		slot = adm_idea_slot7
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	dip_idea_group = {
+		slot = dip_idea_slot1
+		slot = dip_idea_slot2
+		slot = dip_idea_slot3
+		slot = dip_idea_slot4
+		slot = dip_idea_slot5
+		slot = dip_idea_slot6
+		slot = dip_idea_slot7
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	mil_idea_group = {
+		slot = mil_idea_slot1
+		slot = mil_idea_slot2
+		slot = mil_idea_slot3
+		slot = mil_idea_slot4
+		slot = mil_idea_slot5
+		slot = mil_idea_slot6
+		slot = mil_idea_slot7
 		
 		cost = 150
 		removal_cost = 0

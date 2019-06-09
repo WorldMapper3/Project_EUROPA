@@ -1,0 +1,858 @@
+ideas = {
+
+	dip_idea_slot1 = { 
+		law = yes
+		diplomatic_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = diplomatic_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		espionage_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = espionage_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		exploration_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = exploration_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		influence_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = influence_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		maritime_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = maritime_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		trade_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = trade_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	dip_idea_slot2 = { 
+		law = yes
+		diplomatic_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = diplomatic_ideas
+				has_idea = diplomatic_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		espionage_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = espionage_ideas
+				has_idea = espionage_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		exploration_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = exploration_ideas
+				has_idea = exploration_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		influence_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = influence_ideas
+				has_idea = influence_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		maritime_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = maritime_ideas
+				has_idea = maritime_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		trade_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = trade_ideas
+				has_idea = trade_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	dip_idea_slot3 = { 
+		law = yes
+		diplomatic_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = diplomatic_ideas
+				has_idea = diplomatic_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		espionage_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = espionage_ideas
+				has_idea = espionage_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		exploration_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = exploration_ideas
+				has_idea = exploration_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		influence_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = influence_ideas
+				has_idea = influence_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		maritime_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = maritime_ideas
+				has_idea = maritime_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		trade_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = trade_ideas
+				has_idea = trade_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	dip_idea_slot4 = { 
+		law = yes
+		diplomatic_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = diplomatic_ideas
+				has_idea = diplomatic_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		espionage_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = espionage_ideas
+				has_idea = espionage_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		exploration_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = exploration_ideas
+				has_idea = exploration_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		influence_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = influence_ideas
+				has_idea = influence_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		maritime_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = maritime_ideas
+				has_idea = maritime_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		trade_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = trade_ideas
+				has_idea = trade_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	dip_idea_slot5 = { 
+		law = yes
+		diplomatic_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = diplomatic_ideas
+				has_idea = diplomatic_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		espionage_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = espionage_ideas
+				has_idea = espionage_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		exploration_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = exploration_ideas
+				has_idea = exploration_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		influence_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = influence_ideas
+				has_idea = influence_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		maritime_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = maritime_ideas
+				has_idea = maritime_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		trade_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = trade_ideas
+				has_idea = trade_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	dip_idea_slot6 = { 
+		law = yes
+		diplomatic_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = diplomatic_ideas
+				has_idea = diplomatic_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		espionage_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = espionage_ideas
+				has_idea = espionage_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		exploration_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = exploration_ideas
+				has_idea = exploration_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		influence_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = influence_ideas
+				has_idea = influence_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		maritime_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = maritime_ideas
+				has_idea = maritime_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		trade_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = trade_ideas
+				has_idea = trade_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	dip_idea_slot7 = { 
+		law = yes
+		diplomatic_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = diplomatic_ideas
+				has_idea = diplomatic_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		espionage_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = espionage_ideas
+				has_idea = espionage_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		exploration_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = exploration_ideas
+				has_idea = exploration_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		influence_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = influence_ideas
+				has_idea = influence_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		maritime_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = maritime_ideas
+				has_idea = maritime_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		trade_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = trade_ideas
+				has_idea = trade_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

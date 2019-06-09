@@ -3,6 +3,10 @@ spriteTypes = {
 	#MOD STUFF#
 	#COUNTRY EVENT PICTURES#
 	spriteType = {
+		name = "INVENTION_CEP"
+		texturefile = "gfx/event_pictures/CEP_INVENTION.tga"
+	}
+	spriteType = {
 		name = "TREATY_CEP"
 		texturefile = "gfx/event_pictures/CEP_TREATY.tga"
 	}
@@ -163,6 +167,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/CEP_PROTESTANT_RELIGIOUS_TENSIONS.tga"
 	}
 	#NEWS EVENT PICTURES#
+	spriteType = {
+		name = "ARTWORK_EP"
+		texturefile = "gfx/event_pictures/EP_ARTWORK.dds"
+	}
 	spriteType = {
 		name = "DIPLOMACY_EP"
 		texturefile = "gfx/event_pictures/EP_DIPLOMACY.dds"

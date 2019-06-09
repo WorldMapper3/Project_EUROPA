@@ -1,6 +1,34 @@
 spriteTypes = {	
 
 	###MOD STUFF###
+	SpriteType = {
+		name = "GFX_pike_and_shot_tech_medium"
+		texturefile = "gfx/interface/ideas/pike_and_shot.dds"
+	}
+	SpriteType = {
+		name = "GFX_hit_and_run_tech_medium"
+		texturefile = "gfx/interface/ideas/hit_and_run.dds"
+	}
+	SpriteType = {
+		name = "GFX_pike_square_tech_medium"
+		texturefile = "gfx/interface/ideas/pike_square.dds"
+	}
+	SpriteType = {
+		name = "GFX_sengoku_jidai_tech_medium"
+		texturefile = "gfx/interface/ideas/sengoku_jidai.dds"
+	}
+	SpriteType = {
+		name = "GFX_chivalry_tech_medium"
+		texturefile = "gfx/interface/ideas/chivalry.dds"
+	}
+	SpriteType = {
+		name = "GFX_markmanship_tech_medium"
+		texturefile = "gfx/interface/ideas/markmanship.dds"
+	}
+	SpriteType = {
+		name = "GFX_antiquity_tech_medium"
+		texturefile = "gfx/interface/ideas/antiquity.dds"
+	}
 	#LANCE EQUIPMENT#
 	SpriteType = {
 		name = "GFX_lance_equipment_0_medium"

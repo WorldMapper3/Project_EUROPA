@@ -1,0 +1,84 @@
+	add_namespace=institutions_event
+
+country_event = {
+	id = institutions_event.1
+	title = institutions_event.1.t
+	desc = institutions_event.1.d
+	picture = INVENTION_CEP
+	
+	fire_only_once = yes
+	
+	trigger = {
+		any_country = { NOT = { has_idea = renaissance } }
+		date > 1450.01.01
+		OR = {
+			any_owned_state = {
+				region = 23
+			}
+			any_owned_state = {
+				region = 5
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 365
+	}
+
+	option = {
+		name = institutions_event.1.a
+		add_political_power = 100
+		add_ideas = renaissance
+		hidden_effect = {
+			FROM = {
+				add_state_modifier = {
+					modifier = {
+						production_speed_buildings_factor = 0.2
+					}
+				}
+			}
+			news_event = { id = news_event.11 days = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = institutions_event.2
+	title = institutions_event.2.t
+	desc = institutions_event.2.d
+	picture = INVENTION_CEP
+	
+	fire_only_once = yes
+	
+	trigger = {
+		any_country = { NOT = { has_idea = colonialism } }
+		any_owned_state = {
+			OR = {
+				is_on_continent=north_america
+				is_on_continent=south_america
+				is_on_continent=australia
+			}
+		}
+		NOT = { tag = NAT }
+	}
+	
+	mean_time_to_happen = {
+		days = 365
+	}
+
+	option = {
+		name = institutions_event.2.a
+		add_political_power = 100
+		add_ideas = colonialism
+		hidden_effect = {
+			FROM = {
+				add_state_modifier = {
+					modifier = {
+						local_resources = 0.5
+					}
+				}
+			}
+			news_event = { id = news_event.12 days = 1 }
+		}
+	}
+}

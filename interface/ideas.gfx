@@ -1,5 +1,92 @@
 spriteTypes = {	
 
+	spriteType = {
+		name = "GFX_idea_native_coexistence_policy"
+		texturefile = "gfx/interface/ideas/native_coexistence.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_native_trading_policy"
+		texturefile = "gfx/interface/ideas/native_trading.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_native_repression_policy"
+		texturefile = "gfx/interface/ideas/native_repression.dds"
+	}
+	#
+	spriteType = {
+		name = "GFX_idea_tribalism"
+		texturefile = "gfx/interface/ideas/tribalism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_feudalism"
+		texturefile = "gfx/interface/ideas/feudalism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_renaissance"
+		texturefile = "gfx/interface/ideas/renaissance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colonialism"
+		texturefile = "gfx/interface/ideas/colonialism.dds"
+	}
+	#
+	spriteType = {
+		name = "GFX_idea_land_policy"
+		texturefile = "gfx/interface/ideas/land_policy_add.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pike_and_shot"
+		texturefile = "gfx/interface/ideas/pike_and_shot.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hit_and_run"
+		texturefile = "gfx/interface/ideas/hit_and_run.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_chivalry"
+		texturefile = "gfx/interface/ideas/chivalry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_sengoku_jidai"
+		texturefile = "gfx/interface/ideas/sengoku_jidai.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_antiquity"
+		texturefile = "gfx/interface/ideas/antiquity.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pike_square"
+		texturefile = "gfx/interface/ideas/pike_square.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_markmanship"
+		texturefile = "gfx/interface/ideas/markmanship.dds"
+	}
+	#
+	spriteType = {
+		name = "GFX_idea_naval_policy"
+		texturefile = "gfx/interface/ideas/naval_policy_add.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fleet_being"
+		texturefile = "gfx/interface/ideas/fleet_in_being.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_free_oarsmen"
+		texturefile = "gfx/interface/ideas/free_oarsmen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_merchant_navy"
+		texturefile = "gfx/interface/ideas/merchant_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ship_raiding"
+		texturefile = "gfx/interface/ideas/ship_raiding.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wooden_wall"
+		texturefile = "gfx/interface/ideas/wooden_wall.dds"
+	}
 	#MOD STUFF#
 	spriteType = {
 		name = "GFX_idea_duchy_rank"

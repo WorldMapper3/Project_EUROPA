@@ -1,0 +1,169 @@
+technologies = {
+	pike_and_shot_tech = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech pike_and_shot_tech"}
+
+		research_cost = 1
+
+
+		##### only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		category_pikemen = {
+			defense = 0.2
+		}
+		category_arquebusiers = {
+			soft_attack = 0.2
+		}
+		category_swordsmen = {
+			defense = -0.2
+			soft_attack = -0.2
+		}
+		category_melee_inf = {
+			ap_attack = 0.1
+		}
+	}
+	hit_and_run_tech = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech pike_and_shot_tech"}
+
+		research_cost = 1
+
+
+		##### only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		category_melee_inf = {
+			soft_attack = -0.2
+			defense = -0.2
+		}
+		category_spear_cav = {
+			defense = 0.2
+			soft_attack = 0.2
+		}
+		category_cav_archers = {
+			soft_attack = 0.25
+		}
+		army_speed_factor = 0.1
+	}
+	pike_square_tech = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech pike_and_shot_tech"}
+
+		research_cost = 1
+
+
+		##### only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		category_pikemen = {
+			soft_attack = 0.25
+			defense = 0.25
+		}
+		category_arbalests = {
+			soft_attack = 0.2
+		}
+		category_melee_inf = {
+			hard_attack = 0.1
+		}
+	}
+	sengoku_jidai_tech = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech pike_and_shot_tech"}
+
+		research_cost = 1
+
+
+		##### only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		category_swordsmen = {
+			soft_attack = 0.25
+			defense = 0.25
+		}
+		category_pikemen = {
+			defense = -0.2
+		}
+		category_arbalests = {
+			soft_attack = 0.2
+		}
+		category_all_infantry = {
+			armor = 0.1
+		}
+	}
+	chivalry_tech = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech pike_and_shot_tech"}
+
+		research_cost = 1
+
+
+		##### only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		category_swordsmen = {
+			soft_attack = 0.2
+			defense = 0.2
+		}
+		category_lance_cavalry = {
+			soft_attack = 0.2
+			defense = 0.2
+		}
+		category_army = {
+			breakthrough = 0.1
+		}
+	}
+	markmanship_tech = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech pike_and_shot_tech"}
+
+		research_cost = 1
+
+
+		##### only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		category_arbalests = {
+			soft_attack = 0.25
+			defense = 0.25
+		}
+		category_arquebusiers = {
+			soft_attack = -0.2
+		}
+		category_ranged_inf = {
+			ap_attack = 0.1
+		}
+	}
+	antiquity_tech = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech pike_and_shot_tech"}
+
+		research_cost = 1
+
+
+		##### only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		category_swordsmen = {
+			soft_attack = 0.15
+			defense = 0.15
+		}
+		category_spear_cav = {
+			soft_attack = 0.2
+		}
+		category_arbalests = {
+			soft_attack = 0.1
+		}
+		category_arquebusiers = {
+			soft_attack = -0.5
+			hard_attack = -0.5
+		}
+	}
+}

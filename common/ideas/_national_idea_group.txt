@@ -1,0 +1,2889 @@
+ideas = {
+
+	nat_idea1 = { 
+		law = yes
+		GER_nat_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = GER_nat_ideas }
+			}
+			
+			visible = {
+				AND = { has_idea = GER_nat_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		FRA_nat_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = FRA_nat_ideas }
+			}
+			
+			visible = {
+				AND = { has_idea = FRA_nat_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ITA_nat_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = ITA_nat_ideas }
+			}
+			
+			visible = {
+				AND = { has_idea = ITA_nat_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		IRE_nat_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = IRE_nat_ideas }
+			}
+			
+			visible = {
+				AND = { has_idea = IRE_nat_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		SPA_nat_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = SPA_nat_ideas }
+			}
+			
+			visible = {
+				AND = { has_idea = SPA_nat_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		generic_nat_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = generic_nat_ideas }
+			}
+			
+			visible = {
+				AND = { has_idea = generic_nat_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		horde_nat_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = horde_nat_ideas }
+			}
+			
+			visible = {
+				AND = { has_idea = horde_nat_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		indian_sultanate_nat_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = indian_sultanate_nat_ideas }
+			}
+			
+			visible = {
+				AND = { has_idea = indian_sultanate_nat_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		MAN_nat_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = MAN_nat_ideas }
+			}
+			
+			visible = {
+				AND = { has_idea = MAN_nat_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		berber_nat_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = berber_nat_ideas }
+			}
+			
+			visible = {
+				AND = { has_idea = berber_nat_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		divine_nat_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = divine_nat_ideas }
+			}
+			
+			visible = {
+				AND = { has_idea = divine_nat_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		daimyo_nat_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = daimyo_nat_ideas }
+			}
+			
+			visible = {
+				AND = { has_idea = daimyo_nat_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ARB_nat_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = ARB_nat_ideas }
+			}
+			
+			visible = {
+				AND = { has_idea = ARB_nat_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		anatolian_nat_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = anatolian_nat_ideas }
+			}
+			
+			visible = {
+				AND = { has_idea = anatolian_nat_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		JAP_nat_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = JAP_nat_ideas }
+			}
+			
+			visible = {
+				AND = { has_idea = JAP_nat_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	nat_idea2 = { 
+		law = yes
+		GER_nat_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = GER_nat_ideas
+					has_idea = GER_nat_idea1
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = GER_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		FRA_nat_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = FRA_nat_ideas
+					has_idea = FRA_nat_idea1
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = FRA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ITA_nat_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = ITA_nat_ideas
+					has_idea = ITA_nat_idea1
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = ITA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		IRE_nat_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = IRE_nat_ideas
+					has_idea = IRE_nat_idea1
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = IRE_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		SPA_nat_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = SPA_nat_ideas
+					has_idea = SPA_nat_idea1
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = SPA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		generic_nat_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = generic_nat_ideas
+					has_idea = generic_nat_idea1
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = generic_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		horde_nat_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = horde_nat_ideas
+					has_idea = horde_nat_idea1
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = horde_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		indian_sultanate_nat_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = indian_sultanate_nat_ideas
+					has_idea = indian_sultanate_nat_idea1
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = indian_sultanate_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		MAN_nat_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = MAN_nat_ideas
+					has_idea = MAN_nat_idea1
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = MAN_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		berber_nat_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = berber_nat_ideas
+					has_idea = berber_nat_idea1
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = berber_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		divine_nat_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = divine_nat_ideas
+					has_idea = divine_nat_idea1
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = divine_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		daimyo_nat_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = daimyo_nat_ideas
+					has_idea = daimyo_nat_idea1
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = daimyo_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ARB_nat_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = ARB_nat_ideas
+					has_idea = ARB_nat_idea1
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = ARB_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		anatolian_nat_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = anatolian_nat_ideas
+					has_idea = anatolian_nat_idea1
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = anatolian_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		JAP_nat_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = JAP_nat_ideas
+					has_idea = JAP_nat_idea1
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = JAP_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	nat_idea3 = { 
+		law = yes
+		GER_nat_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = GER_nat_ideas
+					has_idea = GER_nat_idea2
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = GER_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		FRA_nat_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = FRA_nat_ideas
+					has_idea = FRA_nat_idea2
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = FRA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ITA_nat_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = ITA_nat_ideas
+					has_idea = ITA_nat_idea2
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = ITA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		IRE_nat_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = IRE_nat_ideas
+					has_idea = IRE_nat_idea2
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = IRE_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		SPA_nat_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = SPA_nat_ideas
+					has_idea = SPA_nat_idea2
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = SPA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		generic_nat_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = generic_nat_ideas
+					has_idea = generic_nat_idea2
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = generic_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		horde_nat_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = horde_nat_ideas
+					has_idea = horde_nat_idea2
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = horde_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		indian_sultanate_nat_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = indian_sultanate_nat_ideas
+					has_idea = indian_sultanate_nat_idea2
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = indian_sultanate_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		MAN_nat_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = MAN_nat_ideas
+					has_idea = MAN_nat_idea2
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = MAN_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		berber_nat_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = berber_nat_ideas
+					has_idea = berber_nat_idea2
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = berber_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		divine_nat_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = divine_nat_ideas
+					has_idea = divine_nat_idea2
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = divine_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		daimyo_nat_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = daimyo_nat_ideas
+					has_idea = daimyo_nat_idea2
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = daimyo_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ARB_nat_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = ARB_nat_ideas
+					has_idea = ARB_nat_idea2
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = ARB_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		anatolian_nat_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = anatolian_nat_ideas
+					has_idea = anatolian_nat_idea2
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = anatolian_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		JAP_nat_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = JAP_nat_ideas
+					has_idea = JAP_nat_idea2
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = JAP_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	nat_idea4 = { 
+		law = yes
+		GER_nat_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = GER_nat_ideas
+					has_idea = GER_nat_idea3
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = GER_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		FRA_nat_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = FRA_nat_ideas
+					has_idea = FRA_nat_idea3
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = FRA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ITA_nat_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = ITA_nat_ideas
+					has_idea = ITA_nat_idea3
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = ITA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		IRE_nat_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = IRE_nat_ideas
+					has_idea = IRE_nat_idea3
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = IRE_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		SPA_nat_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = SPA_nat_ideas
+					has_idea = SPA_nat_idea3
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = SPA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		generic_nat_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = generic_nat_ideas
+					has_idea = generic_nat_idea3
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = generic_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		horde_nat_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = horde_nat_ideas
+					has_idea = horde_nat_idea3
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = horde_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		indian_sultanate_nat_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = indian_sultanate_nat_ideas
+					has_idea = indian_sultanate_nat_idea3
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = indian_sultanate_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		MAN_nat_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = MAN_nat_ideas
+					has_idea = MAN_nat_idea3
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = MAN_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		berber_nat_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = berber_nat_ideas
+					has_idea = berber_nat_idea3
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = berber_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		divine_nat_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = divine_nat_ideas
+					has_idea = divine_nat_idea3
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = divine_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		daimyo_nat_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = daimyo_nat_ideas
+					has_idea = daimyo_nat_idea3
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = daimyo_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ARB_nat_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = ARB_nat_ideas
+					has_idea = ARB_nat_idea3
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = ARB_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		anatolian_nat_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = anatolian_nat_ideas
+					has_idea = anatolian_nat_idea3
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = anatolian_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		JAP_nat_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = JAP_nat_ideas
+					has_idea = JAP_nat_idea3
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = JAP_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	nat_idea5 = { 
+		law = yes
+		GER_nat_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = GER_nat_ideas
+					has_idea = GER_nat_idea4
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = GER_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		FRA_nat_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = FRA_nat_ideas
+					has_idea = FRA_nat_idea4
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = FRA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ITA_nat_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = ITA_nat_ideas
+					has_idea = ITA_nat_idea4
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = ITA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		IRE_nat_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = IRE_nat_ideas
+					has_idea = IRE_nat_idea4
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = IRE_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		SPA_nat_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = SPA_nat_ideas
+					has_idea = SPA_nat_idea4
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = SPA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		generic_nat_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = generic_nat_ideas
+					has_idea = generic_nat_idea4
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = generic_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		horde_nat_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = horde_nat_ideas
+					has_idea = horde_nat_idea4
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = horde_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		indian_sultanate_nat_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = indian_sultanate_nat_ideas
+					has_idea = indian_sultanate_nat_idea4
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = indian_sultanate_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		MAN_nat_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = MAN_nat_ideas
+					has_idea = MAN_nat_idea4
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = MAN_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		berber_nat_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = berber_nat_ideas
+					has_idea = berber_nat_idea4
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = berber_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		divine_nat_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = divine_nat_ideas
+					has_idea = divine_nat_idea4
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = divine_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		daimyo_nat_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = daimyo_nat_ideas
+					has_idea = daimyo_nat_idea4
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = daimyo_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ARB_nat_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = ARB_nat_ideas
+					has_idea = ARB_nat_idea4
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = ARB_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		anatolian_nat_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = anatolian_nat_ideas
+					has_idea = anatolian_nat_idea4
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = anatolian_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		JAP_nat_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = JAP_nat_ideas
+					has_idea = JAP_nat_idea4
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = JAP_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	nat_idea6 = { 
+		law = yes
+		GER_nat_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = GER_nat_ideas
+					has_idea = GER_nat_idea5
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = GER_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		FRA_nat_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = FRA_nat_ideas
+					has_idea = FRA_nat_idea5
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = FRA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ITA_nat_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = ITA_nat_ideas
+					has_idea = ITA_nat_idea5
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = ITA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		IRE_nat_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = IRE_nat_ideas
+					has_idea = IRE_nat_idea5
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = IRE_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		SPA_nat_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = SPA_nat_ideas
+					has_idea = SPA_nat_idea5
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = SPA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		generic_nat_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = generic_nat_ideas
+					has_idea = generic_nat_idea5
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = generic_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		horde_nat_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = horde_nat_ideas
+					has_idea = horde_nat_idea5
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = horde_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		indian_sultanate_nat_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = indian_sultanate_nat_ideas
+					has_idea = indian_sultanate_nat_idea5
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = indian_sultanate_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		MAN_nat_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = MAN_nat_ideas
+					has_idea = MAN_nat_idea5
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = MAN_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		berber_nat_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = berber_nat_ideas
+					has_idea = berber_nat_idea5
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = berber_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		divine_nat_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = divine_nat_ideas
+					has_idea = divine_nat_idea5
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = divine_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		daimyo_nat_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = daimyo_nat_ideas
+					has_idea = daimyo_nat_idea5
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = daimyo_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ARB_nat_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = ARB_nat_ideas
+					has_idea = ARB_nat_idea5
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = ARB_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		anatolian_nat_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = anatolian_nat_ideas
+					has_idea = anatolian_nat_idea5
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = anatolian_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		JAP_nat_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = JAP_nat_ideas
+					has_idea = JAP_nat_idea5
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = JAP_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	nat_idea7 = { 
+		law = yes
+		GER_nat_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = GER_nat_ideas
+					has_idea = GER_nat_idea6
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = GER_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		FRA_nat_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = FRA_nat_ideas
+					has_idea = FRA_nat_idea6
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = FRA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ITA_nat_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = ITA_nat_ideas
+					has_idea = ITA_nat_idea6
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = ITA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		IRE_nat_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = IRE_nat_ideas
+					has_idea = IRE_nat_idea6
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = IRE_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		SPA_nat_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = SPA_nat_ideas
+					has_idea = SPA_nat_idea6
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = SPA_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		generic_nat_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = generic_nat_ideas
+					has_idea = generic_nat_idea6
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = generic_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		horde_nat_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = horde_nat_ideas
+					has_idea = horde_nat_idea6
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = horde_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		indian_sultanate_nat_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = indian_sultanate_nat_ideas
+					has_idea = indian_sultanate_nat_idea6
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = indian_sultanate_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		MAN_nat_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = MAN_nat_ideas
+					has_idea = MAN_nat_idea6
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = MAN_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		berber_nat_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = berber_nat_ideas
+					has_idea = berber_nat_idea6
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = berber_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		divine_nat_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = divine_nat_ideas
+					has_idea = divine_nat_idea6
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = divine_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		daimyo_nat_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = daimyo_nat_ideas
+					has_idea = daimyo_nat_idea6
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = daimyo_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ARB_nat_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = ARB_nat_ideas
+					has_idea = ARB_nat_idea6
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = ARB_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		anatolian_nat_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = anatolian_nat_ideas
+					has_idea = anatolian_nat_idea6
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = anatolian_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		JAP_nat_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { 
+					has_idea = JAP_nat_ideas
+					has_idea = JAP_nat_idea6
+				}
+			}
+			
+			visible = {
+				AND = { 
+					has_idea = JAP_nat_ideas
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

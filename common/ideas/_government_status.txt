@@ -621,4 +621,585 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
+	national_idea_group_select = { 
+		law = yes
+		GER_nat_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		FRA_nat_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ITA_nat_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		IRE_nat_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		SPA_nat_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		generic_nat_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		horde_nat_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		indian_sultanate_nat_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		MAN_nat_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		berber_nat_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		divine_nat_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		daimyo_nat_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		ARB_nat_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		anatolian_nat_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		JAP_nat_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	adm_idea_group_select = { 
+		law = yes
+		administrative_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		economic_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		expansion_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		humanist_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		innovative_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		religious_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	dip_idea_group_select = { 
+		law = yes
+		diplomatic_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		espionage_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		exploration_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		influence_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		maritime_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		trade_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	mil_idea_group_select = { 
+		law = yes
+		aristocratic_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				OR = {
+					has_idea = monarchy_type
+					has_idea = theocracy_type
+				}
+			}
+			
+			visible = {
+				OR = {
+					has_idea = monarchy_type
+					has_idea = theocracy_type
+				}
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		defensive_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		naval_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		offensive_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		plutocratic_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				has_idea = republic_type
+			}
+			
+			modifier = {
+			}
+			
+			visible = {
+				has_idea = republic_type
+			}
+			
+			cancel_if_invalid = no
+		}
+		quality_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		quantity_ideas = {
+			
+			removal_cost = -1
+			
+			cost = 0
+			
+			available = {
+				always=yes
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
 }

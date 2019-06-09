@@ -1,0 +1,858 @@
+ideas = {
+
+	adm_idea_slot1 = { 
+		law = yes
+		administrative_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = administrative_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		economic_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = economic_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		expansion_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = expansion_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		humanist_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = humanist_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		innovative_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = innovative_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		religious_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = religious_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	adm_idea_slot2 = { 
+		law = yes
+		administrative_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = administrative_ideas
+				has_idea = administrative_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		economic_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = economic_ideas
+				has_idea = economic_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		expansion_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = expansion_ideas
+				has_idea = expansion_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		humanist_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = humanist_ideas
+				has_idea = humanist_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		innovative_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = innovative_ideas
+				has_idea = innovative_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		religious_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = religious_ideas
+				has_idea = religious_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	adm_idea_slot3 = { 
+		law = yes
+		administrative_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = administrative_ideas
+				has_idea = administrative_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		economic_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = economic_ideas
+				has_idea = economic_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		expansion_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = expansion_ideas
+				has_idea = expansion_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		humanist_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = humanist_ideas
+				has_idea = humanist_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		innovative_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = innovative_ideas
+				has_idea = innovative_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		religious_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = religious_ideas
+				has_idea = religious_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	adm_idea_slot4 = { 
+		law = yes
+		administrative_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = administrative_ideas
+				has_idea = administrative_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		economic_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = economic_ideas
+				has_idea = economic_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		expansion_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = expansion_ideas
+				has_idea = expansion_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		humanist_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = humanist_ideas
+				has_idea = humanist_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		innovative_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = innovative_ideas
+				has_idea = innovative_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		religious_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = religious_ideas
+				has_idea = religious_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	adm_idea_slot5 = { 
+		law = yes
+		administrative_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = administrative_ideas
+				has_idea = administrative_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		economic_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = economic_ideas
+				has_idea = economic_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		expansion_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = expansion_ideas
+				has_idea = expansion_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		humanist_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = humanist_ideas
+				has_idea = humanist_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		innovative_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = innovative_ideas
+				has_idea = innovative_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		religious_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = religious_ideas
+				has_idea = religious_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	adm_idea_slot6 = { 
+		law = yes
+		administrative_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = administrative_ideas
+				has_idea = administrative_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		economic_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = economic_ideas
+				has_idea = economic_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		expansion_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = expansion_ideas
+				has_idea = expansion_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		humanist_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = humanist_ideas
+				has_idea = humanist_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		innovative_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = innovative_ideas
+				has_idea = innovative_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		religious_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = religious_ideas
+				has_idea = religious_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	adm_idea_slot7 = { 
+		law = yes
+		administrative_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = administrative_ideas
+				has_idea = administrative_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		economic_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = economic_ideas
+				has_idea = economic_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		expansion_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = expansion_ideas
+				has_idea = expansion_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		humanist_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = humanist_ideas
+				has_idea = humanist_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		innovative_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = innovative_ideas
+				has_idea = innovative_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		religious_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = religious_ideas
+				has_idea = religious_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

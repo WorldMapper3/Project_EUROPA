@@ -1,0 +1,1032 @@
+ideas = {
+
+	mil_idea_slot1 = { 
+		law = yes
+		aristocratic_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = aristocratic_ideas
+				OR = {
+					has_idea = monarchy_type
+					has_idea = theocracy_type
+				}
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		defensive_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				AND = { has_idea = defensive_ideas }
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		naval_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = naval_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		offensive_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = offensive_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		plutocratic_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = plutocratic_ideas
+				has_idea = republic_type
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		quality_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = quality_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		quantity_idea1 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = quantity_ideas
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	mil_idea_slot2 = { 
+		law = yes
+		aristocratic_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = aristocratic_ideas
+				OR = {
+					has_idea = monarchy_type
+					has_idea = theocracy_type
+				}
+				has_idea = aristocratic_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		defensive_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = defensive_ideas
+				has_idea = defensive_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		naval_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = naval_ideas
+				has_idea = naval_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		offensive_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = offensive_ideas
+				has_idea = offensive_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		plutocratic_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = plutocratic_ideas
+				has_idea = republic_type
+				has_idea = plutocratic_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		quality_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = quality_ideas
+				has_idea = quality_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		quantity_idea2 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = quantity_ideas
+				has_idea = quantity_idea1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	mil_idea_slot3 = { 
+		law = yes
+		aristocratic_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = aristocratic_ideas
+				OR = {
+					has_idea = monarchy_type
+					has_idea = theocracy_type
+				}
+				has_idea = aristocratic_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		defensive_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = defensive_ideas
+				has_idea = defensive_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		naval_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = naval_ideas
+				has_idea = naval_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		offensive_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = offensive_ideas
+				has_idea = offensive_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		plutocratic_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = plutocratic_ideas
+				has_idea = republic_type
+				has_idea = plutocratic_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		quality_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = quality_ideas
+				has_idea = quality_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		quantity_idea3 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = quantity_ideas
+				has_idea = quantity_idea2
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	mil_idea_slot4 = { 
+		law = yes
+		aristocratic_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = aristocratic_ideas
+				OR = {
+					has_idea = monarchy_type
+					has_idea = theocracy_type
+				}
+				has_idea = aristocratic_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		defensive_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = defensive_ideas
+				has_idea = defensive_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		naval_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = naval_ideas
+				has_idea = naval_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		offensive_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = offensive_ideas
+				has_idea = offensive_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		plutocratic_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = plutocratic_ideas
+				has_idea = republic_type
+				has_idea = plutocratic_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		quality_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = quality_ideas
+				has_idea = quality_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		quantity_idea4 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = quantity_ideas
+				has_idea = quantity_idea3
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	mil_idea_slot5 = { 
+		law = yes
+		aristocratic_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = aristocratic_ideas
+				OR = {
+					has_idea = monarchy_type
+					has_idea = theocracy_type
+				}
+				has_idea = aristocratic_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		defensive_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = defensive_ideas
+				has_idea = defensive_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		naval_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = naval_ideas
+				has_idea = naval_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		offensive_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = offensive_ideas
+				has_idea = offensive_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		plutocratic_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = plutocratic_ideas
+				has_idea = republic_type
+				has_idea = plutocratic_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		quality_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = quality_ideas
+				has_idea = quality_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		quantity_idea5 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = quantity_ideas
+				has_idea = quantity_idea4
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	mil_idea_slot6 = { 
+		law = yes
+		aristocratic_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = aristocratic_ideas
+				OR = {
+					has_idea = monarchy_type
+					has_idea = theocracy_type
+				}
+				has_idea = aristocratic_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		defensive_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = defensive_ideas
+				has_idea = defensive_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		naval_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = naval_ideas
+				has_idea = naval_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		offensive_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = offensive_ideas
+				has_idea = offensive_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		plutocratic_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = plutocratic_ideas
+				has_idea = republic_type
+				has_idea = plutocratic_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		quality_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = quality_ideas
+				has_idea = quality_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		quantity_idea6 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = quantity_ideas
+				has_idea = quantity_idea5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	mil_idea_slot7 = { 
+		law = yes
+		aristocratic_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = aristocratic_ideas
+				OR = {
+					has_idea = monarchy_type
+					has_idea = theocracy_type
+				}
+				has_idea = aristocratic_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		defensive_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = defensive_ideas
+				has_idea = defensive_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		naval_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = naval_ideas
+				has_idea = naval_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		offensive_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = offensive_ideas
+				has_idea = offensive_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		plutocratic_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = plutocratic_ideas
+				has_idea = republic_type
+				has_idea = plutocratic_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		quality_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = quality_ideas
+				has_idea = quality_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		quantity_idea7 = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				has_idea = quantity_ideas
+				has_idea = quantity_idea6
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

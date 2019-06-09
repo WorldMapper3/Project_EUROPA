@@ -1,5 +1,9 @@
 ﻿l_english:
  #MOD STUFF#
+ #GENERIC EVENTS#
+ generic_event.1.t:0 "[Root.GetName] Adopts the [Root.GetLandPolicy] Doctrine"
+ generic_event.1.d:0 "Our new land policy, [Root.GetLandPolicy], provides us with the following effects:\n[Root.GetLandPolicyStats]"
+ generic_event.1.a:0 "This focus will surely benefit our country."
  #PROTECT SYSTEM#
  protect_system.1.t:0 "[From.GetName] Threatens the Empire"
  protect_system.1.d:0 "[From.From.GetName], a member state of the Holy Roman Empire, has requested assistance from [From.GetAdjective] aggression. If we accept, our country will join [From.From.GetName] in its defensive war against [From.GetName]. If we refuse, it will damage our relationship with [From.From.GetName] and weaken our authority in the union."
@@ -87,6 +91,13 @@
  news_event.10.t:0 "[From.GetName] Abandons [From.GetProteccRegion]"
  news_event.10.d:0 "[From.From.GetName] has threatened [From.GetProteccRegion] by attacking one of its member states. Despite this, [From.GetName] has failed to fulfil its obligations to protect [From.GetProteccRegion], instead allowing this invasion to continue. [From.GetAdjective] authority has weakened within [From.GetProteccRegion], shedding doubt on its viability as a union."
  news_event.10.a:0 "Shame on them!"
+ news_event.11.t:0 "Renaissance in [From.GetName]!"
+ news_event.11.d:0 ""
+ news_event.11.a:0 "Nice."
+ #INSTITUTION EVENTS#
+ institutions_event.1.t:0 "Birth of the Renaissance!"
+ institutions_event.1.d:0 ""
+ institutions_event.1.a:0 "Excellent, relay this news!"
  #POL EVENTS#
  POL_event.1.t:0 "Successor of Wladyslaw III"
  POL_event.1.d:0 "The death of the childless King Wladyslaw III on the battlefield of Varna split the union between Poland and Hungary and left Poland in an interregnum. His brother Kazimierz, the Grand Duke of Lithuania, was asked by the Polish nobility to assume the throne but found their conditions unacceptable. In 1447, after three years of negotiations, Kazimierz was finally crowned King of Poland on his own terms and ruled both countries as a union."

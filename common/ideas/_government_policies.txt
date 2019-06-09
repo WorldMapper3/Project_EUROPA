@@ -1,0 +1,420 @@
+ideas = {
+
+	colonisation_laws = { 
+		law = yes
+		native_coexistence_policy = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				always = no
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+		}
+		native_trading_policy = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				always = no
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+		}
+		native_repression_policy = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				always = no
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	institutions = { 
+		law = yes
+		tribalism = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+				NOT = {
+					OR = {
+						has_idea = feudalism
+						has_idea = renaissance
+						has_idea = colonialism
+					}
+				}
+			}
+			
+			modifier = {
+				research_speed_factor = -0.5
+			}
+			
+			cancel_if_invalid = no
+		}
+		feudalism = {
+			
+			removal_cost = -1
+			
+			cost = 250
+
+			available = {
+				any_country = {
+					AND = {
+						is_neighbor_of = ROOT
+						has_idea = feudalism
+					}
+				}
+				has_idea = tribalism
+			}
+			
+			modifier = {
+				military_leader_cost_factor = -0.2
+			}
+			
+			cancel_if_invalid = no
+		}
+		renaissance = {
+			
+			removal_cost = -1
+			
+			cost = 500
+
+			available = {
+				any_country = {
+					AND = {
+						is_neighbor_of = ROOT
+						has_idea = renaissance
+					}
+				}
+				has_idea = feudalism
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.125
+			}
+			
+			cancel_if_invalid = no
+		}
+		colonialism = {
+			
+			removal_cost = -1
+			
+			cost = 750
+
+			available = {
+				any_country = {
+					AND = {
+						is_neighbor_of = ROOT
+						has_idea = colonialism
+					}
+				}
+				has_idea = renaissance
+			}
+			
+			modifier = {
+				local_resources_factor = 0.1
+				research_speed_factor = 0.25
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	land_policy = { 
+		law = yes
+		pike_and_shot = {
+		
+			removal_cost = -1
+			
+			cost = 100
+
+			available = {
+				has_idea = renaissance
+			}
+			
+			visible = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+			
+			on_add = {
+				hidden_effect = { country_event = { id = generic_event.1 } }
+			}
+			
+			cancel_if_invalid = no
+		}
+		hit_and_run = {
+			
+			removal_cost = -1
+			
+			cost = 100
+
+			available = {
+				has_idea = khanate
+			}
+			
+			modifier = {
+			
+			}
+			
+			on_add = {
+				hidden_effect = { country_event = { id = generic_event.1 } }
+			}
+			
+			cancel_if_invalid = no
+		}
+		pike_square = {
+			
+			removal_cost = -1
+			
+			cost = 100
+
+			available = {
+				has_tech = pike_weapons0
+			}
+			
+			visible = {
+				always = yes
+			}
+			
+			modifier = {
+			
+			}
+			
+			on_add = {
+				hidden_effect = { country_event = { id = generic_event.1 } }
+			}
+			
+			cancel_if_invalid = no
+		}
+		sengoku_jidai = {
+			
+			removal_cost = -1
+			
+			cost = 100
+
+			available = {
+				OR = {
+					has_idea = daimyo
+					has_idea = shogunate
+				}
+			}
+			
+			modifier = {
+			
+			}
+			
+			on_add = {
+				hidden_effect = { country_event = { id = generic_event.1 } }
+			}
+			
+			cancel_if_invalid = no
+		}
+		chivalry = {
+			
+			removal_cost = -1
+			
+			cost = 50
+
+			available = {
+				NOT = { has_idea = tribalism }
+			}
+			
+			visible = {
+				always = yes
+			}
+			
+			modifier = {
+			
+			}
+			
+			on_add = {
+				hidden_effect = { country_event = { id = generic_event.1 } }
+			}
+			
+			cancel_if_invalid = no
+		}
+		markmanship = {
+			
+			removal_cost = -1
+			
+			cost = 100
+
+			available = {
+			}
+			
+			visible = {
+				always = yes
+			}
+			
+			modifier = {
+			
+			}
+			
+			on_add = {
+				hidden_effect = { country_event = { id = generic_event.1 } }
+			}
+			
+			cancel_if_invalid = no
+		}
+		antiquity = {
+			
+			removal_cost = -1
+			
+			cost = 0
+
+			available = {
+			}
+			
+			visible = {
+				always = yes
+			}
+			
+			modifier = {
+			
+			}
+			
+			on_add = {
+				hidden_effect = { country_event = { id = generic_event.1 } }
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	naval_policy = { 
+		law = yes
+		fleet_being = {
+			
+			removal_cost = -1
+			
+			cost = 100
+
+			available = {
+				any_owned_state = {
+					is_coastal = yes
+				}
+			}
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+		free_oarsmen = {
+			
+			removal_cost = -1
+			
+			cost = 100
+
+			available = {
+				any_owned_state = {
+					is_coastal = yes
+				}
+			}
+			
+			modifier = {
+				navy_screen_attack_factor = 0.15
+				navy_screen_defence_factor = 0.15
+				naval_speed_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+		merchant_navy = {
+			
+			removal_cost = -1
+			
+			cost = 100
+
+			available = {
+				any_owned_state = {
+					is_coastal = yes
+				}
+			}
+			
+			modifier = {
+				convoy_escort_efficiency = 0.25
+				navy_max_range_factor = 0.2
+			}
+			
+			cancel_if_invalid = no
+		}
+		ship_raiding = {
+			
+			removal_cost = -1
+			
+			cost = 100
+
+			available = {
+				any_owned_state = {
+					is_coastal = yes
+				}
+			}
+			
+			modifier = {
+				convoy_raiding_efficiency_factor = 0.5
+				experience_gain_navy_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+		wooden_wall = {
+			
+			removal_cost = -1
+			
+			cost = 100
+
+			available = {
+				any_owned_state = {
+					is_coastal = yes
+				}
+			}
+			
+			modifier = {
+				ships_at_battle_start = 0.25
+				spotting_chance = 0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

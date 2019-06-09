@@ -22,6 +22,7 @@ sub_units = {
 			category_pikemen
 			category_front_line
 			category_light_infantry
+			category_melee_inf
 			category_all_infantry
 			category_army
 		}
