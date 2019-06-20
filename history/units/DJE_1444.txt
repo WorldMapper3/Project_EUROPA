@@ -1,0 +1,43 @@
+﻿division_template = {
+	name = "Infantry Regiment"
+	division_names_group = ARB_INF_01
+
+	regiments = {
+		swordsmen = { x = 0 y = 0 }
+		pikemen = { x = 0 y = 1 }
+		arbalests = { x = 1 y = 0 }
+		pikemen = { x = 1 y = 1 }
+	}
+	support = {
+		arbalests_support = { x = 0 y = 0 }
+		arbalests_support = { x = 0 y = 1 } 
+	}
+}
+division_template = {
+	name = "Cavalry Regiment"
+	division_names_group = ARB_CAV_01
+
+	regiments = {
+		spear_cav = { x = 0 y = 0 }
+		cav_archers = { x = 0 y = 1 }
+		spear_cav = { x = 1 y = 0 }
+		cav_archers = { x = 1 y = 1 }
+	}
+}
+units = {
+	#DJE#
+	division= {	
+		location = 13782
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		location = 13782
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+}

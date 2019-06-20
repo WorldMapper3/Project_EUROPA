@@ -1,0 +1,32 @@
+state={
+	id=1161
+	name="STATE_1161"
+	manpower=111650
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=3
+		aluminium=8
+	}
+
+	history={
+		owner=TLM
+		add_core_of=TLM
+		victory_points={
+			7132 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			7132={
+				naval_base=2
+			}
+		}
+	}
+
+	provinces={
+		7132 13832 13834 
+	}
+}

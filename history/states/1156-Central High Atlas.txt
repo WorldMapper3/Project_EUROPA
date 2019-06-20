@@ -1,0 +1,18 @@
+state={
+	id=1156
+	name="STATE_1156"
+	manpower=9280
+	buildings_max_level_factor=1
+	state_category=wasteland
+
+	history={
+		owner=MOR
+		add_core_of=MOR
+		buildings={
+			infrastructure=0
+		}
+	}
+	provinces={
+		1152 1207 13758 13776 
+	}
+}

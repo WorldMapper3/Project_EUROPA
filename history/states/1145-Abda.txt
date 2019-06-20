@@ -1,0 +1,32 @@
+state={
+	id=1145
+	name="STATE_1145"
+	manpower=36975
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		oil=1
+	}
+
+	history={
+		owner=MRK
+		add_core_of=MRK
+		add_core_of=MOR
+		victory_points={
+			13764 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			13764={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		13755 13764 13765 
+	}
+}

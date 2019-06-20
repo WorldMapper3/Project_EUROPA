@@ -1,33 +1,28 @@
 state={
 	id=826
 	name="STATE_826"
+	manpower=129050
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		oil=4
+		oil=2
 	}
 
 	history={
-		owner = MOR
-		add_core_of = MOR
-		add_core_of = TFL
-		victory_points = {
-			4933 20 
+		owner=TFL
+		add_core_of=TFL
+		add_core_of=MOR
+		victory_points={
+			13751 3
 		}
-		victory_points = {
-			1989 10 
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
 		}
-		buildings = {
-			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 2
-
-		}
-
 	}
 
 	provinces={
-		1152 1989 4933 7908 8046 8088 
+		4933 8046 13744 13751 13752 
 	}
-	manpower=546512
-	buildings_max_level_factor=1.000
-	state_category=city
 }

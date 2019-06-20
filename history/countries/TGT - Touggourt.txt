@@ -1,0 +1,77 @@
+﻿capital = 955
+
+oob = "TGT_1444"
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+}
+set_technology = {
+	pike_weapons = 1
+	infantry_sword_weapons = 1
+	padded_armour_tech = 1
+	plate_armour_tech = 1
+	arbalest_weapons = 1
+	arquebus_weapons = 1
+	war_horse_tech = 1
+	spear_cav_tech = 1
+	lance_cavalry_tech = 1
+	cav_archers_tech = 1
+	cog_tech = 1
+	barque_tech = 1
+	galley_tech = 1
+	carrack_tech = 1
+}
+
+
+set_convoys = 10
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1420.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    neutrality = 0
+    protestant = 0
+    reformed = 0
+    orthodox = 0
+    coptic = 0
+    anglican = 0
+    fascism = 100
+    shia = 0
+    ibadi = 0
+    theravada = 0
+    vajrayana = 0
+    mahayana = 0
+    confucian = 0
+    shinto = 0
+    hindu = 0
+    sikh = 0
+    communism = 0
+    fetishist = 0
+    totemist = 0
+    inti = 0
+    nahuatl = 0
+    mayan = 0
+    tengri = 0
+    norse = 0
+    democratic = 0
+    zoroastrian = 0
+}
+
+
+
+create_country_leader = {
+	name = "Malik Mubarak Djellab"
+	desc = ""
+	picture = ""
+	expire = "9999.1.1"
+	ideology = sun
+	traits = {
+		#
+	}
+}

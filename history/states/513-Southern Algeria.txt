@@ -2,50 +2,32 @@
 state={
 	id=513
 	name="STATE_513"
+	manpower=115710
+	buildings_max_level_factor=1
+	state_category=town
 	resources={
-		oil=11
-		aluminium=55
+		oil=3
+		aluminium=8
 	}
 
 	history={
-		owner = TLM
-		add_core_of = TLM
-		victory_points = {
-			989 20 
+		owner=TLM
+		add_core_of=TLM
+		victory_points={
+			989 5
 		}
-		victory_points = {
-			7132 5 
-		}
-		victory_points = {
-			1013 5 
-		}
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 1
-			7132 = {
-				naval_base = 1
-
-			}
-			989 = {
-				naval_base = 3
-
-			}
-			12100 = {
-				naval_base = 1
-
-			}
-			1013 = {
-				naval_base = 2
-
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			dockyard=0
+			989={
+				naval_base=2
 			}
 		}
 	}
 
 	provinces={
-		989 1013 1111 4116 4150 7132 9964 11923 12100 12760 
+		989 4116 12100 
 	}
-	manpower=390365
-	buildings_max_level_factor=1.000
-	state_category=large_town
 }

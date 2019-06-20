@@ -1,36 +1,28 @@
+
 state={
 	id=462
 	name="STATE_462"
+	manpower=170520
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		oil=1
 	}
 
 	history={
-		owner = MOR
-		add_core_of = MOR
-		victory_points = {
-			4139 20 
+		owner=MRK
+		add_core_of=MOR
+		add_core_of=MRK
+		victory_points={
+			13757 5
 		}
-		victory_points = {
-			4108 10 
-		}
-		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 1
-			11943 = {
-				naval_base = 1
-			}
-			1102 = {
-				naval_base = 1
-			}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
 		}
 	}
 
 	provinces={
-		1102 1207 4108 4139 10107 11943 
+		4139 13754 13757 13762 
 	}
-	manpower=390365
-	buildings_max_level_factor=1.000
-	state_category=large_town
 }

@@ -1,0 +1,28 @@
+state={
+	id=1159
+	name="STATE_1159"
+	manpower=89320
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		oil=1
+		aluminium=6
+	}
+
+	history={
+		owner=TLM
+		add_core_of=TLM
+		victory_points={
+			13810 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		1111 13810 13814 
+	}
+}

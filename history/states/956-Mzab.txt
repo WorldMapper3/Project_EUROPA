@@ -1,25 +1,26 @@
 state={
 	id=956
 	name="STATE_956"
-	
+	manpower=26535
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
+	}
+
 	history={
-		owner = NAT
+		owner=MZA
+		add_core_of=MZA
 		victory_points={
-			5035 3
+			13759 1
 		}
-		victory_points={
-			1967 1
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
 		}
-		buildings = {
-			infrastructure = 2
-		}
-		#add_core_of = MZA
 	}
-	
+
 	provinces={
-		1126 1967 2049 5035 7149 
+		2049 5035 13759 13770 13777 
 	}
-	manpower=117110
-	state_category=rural
-	buildings_max_level_factor=1.000
 }

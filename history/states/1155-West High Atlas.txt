@@ -1,0 +1,18 @@
+state={
+	id=1155
+	name="STATE_1155"
+	manpower=11165
+	buildings_max_level_factor=1
+	state_category=wasteland
+
+	history={
+		owner=MRK
+		add_core_of=MRK
+		buildings={
+			infrastructure=0
+		}
+	}
+	provinces={
+		4108 13743 13748 
+	}
+}

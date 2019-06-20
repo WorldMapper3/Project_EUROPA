@@ -1,0 +1,28 @@
+state={
+	id=1150
+	name="STATE_1150"
+	manpower=150800
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=4
+	}
+
+	history={
+		owner=TFL
+		add_core_of=TFL
+		add_core_of=MOR
+		victory_points={
+			13731 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		8088 13727 13729 13731 13734 
+	}
+}

@@ -1,0 +1,27 @@
+state={
+	id=1152
+	name="STATE_1152"
+	manpower=33495
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
+	}
+
+	history={
+		owner=TFL
+		add_core_of=TFL
+		add_core_of=MOR
+		victory_points={
+			13741 1
+		}
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		7908 13730 13732 13741 13747 
+	}
+}

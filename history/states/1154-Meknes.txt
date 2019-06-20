@@ -1,0 +1,28 @@
+state={
+	id=1154
+	name="STATE_1154"
+	manpower=133400
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		aluminium=9
+	}
+
+	history={
+		owner=MOR
+		add_core_of=MOR
+		add_core_of=FEZ
+		victory_points={
+			13798 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		4084 7100 12042 13790 13798 13801 
+	}
+}

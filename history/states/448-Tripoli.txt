@@ -2,47 +2,32 @@
 state={
 	id=448
 	name="STATE_448"
+	manpower=71050
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		aluminium=15
+		aluminium=5
 	}
 
 	history={
-		owner = TUN
-		victory_points = {
-			9980 1 
+		owner=TUN
+		add_core_of=TUN
+		add_core_of=LBA
+		victory_points={
+			4194 3
 		}
-		victory_points = {
-			1149 3 
-		}
-		victory_points = {
-			12039 1 
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			9980 = {
-				naval_base = 1
-
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			4194={
+				naval_base=1
 			}
-			1149 = {
-				naval_base = 1
-
-			}
-			12039 = {
-				naval_base = 1
-
-			}
-
 		}
-		add_core_of = TUN
-		add_core_of = TRP
-
 	}
 
 	provinces={
-		1118 1149 1189 4194 7066 7209 9980 10067 12009 12039 
+		1149 4194 13768 13769 
 	}
-	manpower=214701
-	buildings_max_level_factor=1.000
-	state_category=town
 }

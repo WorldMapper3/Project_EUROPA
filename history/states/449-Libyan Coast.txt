@@ -1,25 +1,32 @@
+
 state={
 	id=449
 	name="STATE_449"
+	manpower=26970
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
+	}
 
 	history={
-		owner = FZA
-		victory_points = {
-			10117 1 
+		owner=FZA
+		add_core_of=FZA
+		add_core_of=LBA
+		victory_points={
+			13736 1
 		}
-		buildings = {
-			infrastructure = 1
-			4057 = {
-				naval_base = 1
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			4057={
+				naval_base=1
 			}
 		}
-		add_core_of = FZA
 	}
 
 	provinces={
-		1041 4047 4057 7136 7194 10046 10117 12088 13073 
+		4047 4057 10046 10117 12088 13736 
 	}
-	manpower=58555
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

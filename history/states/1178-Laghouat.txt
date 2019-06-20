@@ -1,0 +1,26 @@
+state={
+	id=1178
+	name="STATE_1178"
+	manpower=33060
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
+	}
+
+	history={
+		owner=MZA
+		add_core_of=MZA
+		victory_points={
+			13793 1
+		}
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		1126 1967 7149 13783 13793 
+	}
+}

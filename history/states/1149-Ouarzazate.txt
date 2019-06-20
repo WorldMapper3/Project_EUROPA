@@ -1,0 +1,26 @@
+state={
+	id=1149
+	name="STATE_1149"
+	manpower=66700
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		oil=1
+	}
+
+	history={
+		owner=SUS
+		victory_points={
+			13737 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		1989 13737 13738 
+	}
+}

@@ -1,0 +1,18 @@
+state={
+	id=1157
+	name="STATE_1157"
+	manpower=10585
+	buildings_max_level_factor=1
+	state_category=wasteland
+
+	history={
+		owner=TLM
+		add_core_of=TLM
+		buildings={
+			infrastructure=0
+		}
+	}
+	provinces={
+		7116 13791 13794 
+	}
+}

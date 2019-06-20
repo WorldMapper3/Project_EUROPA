@@ -1,0 +1,32 @@
+state={
+	id=1141
+	name="STATE_1141"
+	manpower=99760
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		oil=2
+	}
+
+	history={
+		owner=MOR
+		add_core_of=MOR
+		add_core_of=TET
+		victory_points={
+			13826 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+			dockyard=0
+			13826={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		13820 13822 13826 
+	}
+}

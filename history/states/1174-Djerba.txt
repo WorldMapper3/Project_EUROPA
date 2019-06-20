@@ -1,0 +1,31 @@
+state={
+	id=1174
+	name="STATE_1174"
+	manpower=26100
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
+	}
+
+	history={
+		owner=TUN
+		add_core_of=TUN
+		add_core_of=LBA
+		victory_points={
+			13808 1
+		}
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			13808={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		13808 
+	}
+}

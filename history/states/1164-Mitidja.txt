@@ -1,0 +1,33 @@
+state={
+	id=1164
+	name="STATE_1164"
+	manpower=196040
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=5
+	}
+
+	history={
+		owner=TUN
+		add_core_of=TUN
+		add_core_of=ALG
+		victory_points={
+			13840 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
+			dockyard=1
+			13840={
+				naval_base=2
+			}
+		}
+	}
+
+	provinces={
+		1145 4146 13840 
+	}
+}

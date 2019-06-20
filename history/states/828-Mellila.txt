@@ -1,26 +1,32 @@
 state={
 	id=828
 	name="STATE_828"
-	
+	manpower=88305
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		oil=1
+	}
+
 	history={
-		owner = MOR
-		victory_points = {
-			7215 5 
+		owner=MOR
+		add_core_of=MOR
+		add_core_of=FEZ
+		victory_points={
+			7215 3
 		}
-		buildings = {
-			infrastructure = 2
-			7215 = {
-				naval_base = 1
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			7215={
+				naval_base=1
 			}
 		}
-		add_core_of = MOR
-		add_core_of = FEZ
 	}
-	
+
 	provinces={
-		4199 7215 
+		4199 7215 13818 13821 
 	}
-	manpower=136628
-	state_category=rural
-	buildings_max_level_factor=1.000
 }

@@ -203,4 +203,24 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13514;3675;impassable;-1;-1;-1;-1;-1;;Austrian Alps
 13514;13517;impassable;-1;-1;-1;-1;-1;;Austrian Alps
 11584;3604;sea;5786;-1;-1;-1;-1;;Venetia-Treviso
+13825;11935;impassable;-1;-1;-1;-1;-1;;Aures Mountains
+13825;9943;impassable;-1;-1;-1;-1;-1;;Aures Mountains
+13825;1141;impassable;-1;-1;-1;-1;-1;;Aures Mountains
+13827;1141;impassable;-1;-1;-1;-1;-1;;Aures Mountains
+13827;12034;impassable;-1;-1;-1;-1;-1;;Aures Mountains
+13829;12034;impassable;-1;-1;-1;-1;-1;;Aures Mountains
+13829;10059;impassable;-1;-1;-1;-1;-1;;Aures Mountains
+7116;7173;impassable;-1;-1;-1;-1;-1;;East High Atlas
+13791;7173;impassable;-1;-1;-1;-1;-1;;East High Atlas
+13758;13751;impassable;-1;-1;-1;-1;-1;;Central High Atlas
+13758;4933;impassable;-1;-1;-1;-1;-1;;Central High Atlas
+1152;4933;impassable;-1;-1;-1;-1;-1;;Central High Atlas
+1152;4154;impassable;-1;-1;-1;-1;-1;;Central High Atlas
+1152;13785;impassable;-1;-1;-1;-1;-1;;Central High Atlas
+4108;13739;impassable;-1;-1;-1;-1;-1;;West High Atlas
+13743;13739;impassable;-1;-1;-1;-1;-1;;West High Atlas
+13743;13733;impassable;-1;-1;-1;-1;-1;;West High Atlas
+13743;13737;impassable;-1;-1;-1;-1;-1;;West High Atlas
+13748;13737;impassable;-1;-1;-1;-1;-1;;West High Atlas
+13808;11957;sea;5631;-1;-1;-1;-1;;Djerba
 -1;-1;;-1;-1;-1;-1;-1;-1

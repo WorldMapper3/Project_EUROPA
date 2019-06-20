@@ -2,52 +2,33 @@
 state={
 	id=458
 	name="STATE_458"
+	manpower=207060
+	buildings_max_level_factor=1
+	state_category=town
 	resources={
-		oil=15
-		aluminium=45
+		oil=6
+		aluminium=14
 	}
 
 	history={
-		owner = TUN
-		add_core_of = TUN
-		victory_points = {
-			10091 15 
+		owner=TUN
+		add_core_of=TUN
+		victory_points={
+			10091 5
 		}
-		victory_points = {
-			9994 5 
-		}
-		victory_points = {
-			4061 3 
-		}
-		victory_points = {
-			11921 10 
-		}
-		buildings = {
-			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 3
-			dockyard = 1
-			10091 = {
-				naval_base = 3
-
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
+			dockyard=1
+			10091={
+				naval_base=2
 			}
-			9994 = {
-				naval_base = 2
-
-			}
-			11921 = {
-				naval_base = 2
-
-			}
-
 		}
-
 	}
 
 	provinces={
-		1037 1046 4061 4129 4163 7077 7162 7180 9994 10091 11921 11969 
+		7180 10091 11969 13838 
 	}
-	manpower=780731
-	buildings_max_level_factor=1.000
-	state_category=metropolis
 }

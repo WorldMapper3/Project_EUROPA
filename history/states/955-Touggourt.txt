@@ -1,27 +1,26 @@
 state={
 	id=955
 	name="STATE_955"
+	manpower=28275
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
+	}
 
 	history={
-		owner = NAT
-		victory_points = {
-			4970 3 
+		owner=TGT
+		add_core_of=TGT
+		victory_points={
+			13781 1
 		}
-		victory_points = {
-			4903 1 
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
 		}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-
-		}
-
 	}
 
 	provinces={
-		4903 4970 5053 8077 
+		4970 13781 13787 13795 
 	}
-	manpower=177358
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

@@ -1,29 +1,33 @@
 state={
 	id=916
 	name="STATE_916"
+	manpower=96425
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		oil=1
+	}
 
 	history={
-		owner = POR
-		victory_points = {
-			12087 5 
+		owner=POR
+		add_core_of=POR
+		add_core_of=GRA
+		add_core_of=MOR
+		victory_points={
+			12087 3
 		}
-		buildings = {
-			infrastructure = 2
-			12087 = {
-				naval_base = 1
-
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
+			dockyard=1
+			12087={
+				naval_base=1
 			}
-
 		}
-		add_core_of = MOR
-		add_core_of = POR
-
 	}
 
 	provinces={
-		10013 12087 
+		12087 13823 
 	}
-	manpower=136628
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

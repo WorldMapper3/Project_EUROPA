@@ -55,8 +55,8 @@ units = {
 
 	}
 	navy = {
-		base = 11957
-		location = 11957
+		base = 10091
+		location = 10091
 		#Barques
 		ship = { name = "Barque 1" definition = barque equipment = { barque_1 = {amount = 1 owner = TUN } } }
 		ship = { name = "Barque 2" definition = barque equipment = { barque_1 = {amount = 1 owner = TUN } } }

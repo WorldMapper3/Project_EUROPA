@@ -69,8 +69,8 @@ units = {
 
 	}
 	navy = {
-		base = 10113
-		location = 10113
+		base = 9945
+		location = 9945
 		#Carracks
 		ship = { name = "Early Carrack 1" definition = carrack equipment = { carrack_1 = {amount = 1 owner = MOR } } }
 		ship = { name = "Early Carrack 2" definition = carrack equipment = { carrack_1 = {amount = 1 owner = MOR } } }

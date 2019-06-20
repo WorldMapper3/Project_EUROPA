@@ -2,24 +2,26 @@
 state={
 	id=662
 	name="STATE_662"
+	manpower=33930
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
+	}
 
 	history={
-		owner = FZA
-		victory_points = {
-			12082 1 
+		owner=FZA
+		add_core_of=FZA
+		victory_points={
+			13723 1
 		}
-		buildings = {
-			infrastructure = 1
-
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
 		}
-		add_core_of = FZA
-
 	}
 
 	provinces={
-		4962 10884 12082 12866 
+		1041 12082 13722 13723 13724 
 	}
-	manpower=58555
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

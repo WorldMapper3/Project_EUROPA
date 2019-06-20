@@ -1,0 +1,28 @@
+state={
+	id=1170
+	name="STATE_1170"
+	manpower=60900
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		oil=1
+		aluminium=4
+	}
+
+	history={
+		owner=TUN
+		add_core_of=TUN
+		victory_points={
+			4061 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		4061 13817 13830 13835 
+	}
+}

@@ -1380,3 +1380,43 @@ XSM = {
 	color = rgb { 105 90 132 }
 	color_ui = rgb { 105 90 132 }
 }
+DJE = {
+	color = rgb { 255 133 15 }
+	color_ui = rgb { 255 133 15 }
+}
+TGT = {
+	color = rgb { 90 140 190 }
+	color_ui = rgb { 90 140 190 }
+}
+MZA = {
+	color = rgb { 185 172 208 }
+	color_ui = rgb { 185 172 208 }
+}
+KBA = {
+	color = rgb { 60  140  70 }
+	color_ui = rgb { 60  140  70 }
+}
+TFL = {
+	color = rgb { 140 45 100 }
+	color_ui = rgb { 140 45 100 }
+}
+SUS = {
+	color = rgb { 255  255  240 }
+	color_ui = rgb { 255  255  240 }
+}
+MRK = {
+	color = rgb { 84  242  223 }
+	color_ui = rgb { 84  242  223 }
+}
+TET = {
+	color = rgb { 63  82  1 }
+	color_ui = rgb { 63  82  1 }
+}
+FEZ = {
+	color = rgb { 224  146  113 }
+	color_ui = rgb { 224  146  113 }
+}
+SLE = {
+	color = rgb { 246  103  94 }
+	color_ui = rgb { 246  103  94 }
+}

@@ -27,29 +27,29 @@ division_template = {
 units = {
 	#TLEMCEN#
 	division= {	
-		location = 989
+		location = 13816
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 989
+		location = 13816
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 989
+		location = 13816
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	navy = {
-		base = 1013
-		location = 1013
+		base = 989
+		location = 989
 		#Barques
 		ship = { name = "Barque 1" definition = barque equipment = { barque_1 = {amount = 1 owner = TLM } } }
 		#Galleys
