@@ -1,0 +1,29 @@
+state={
+	id=1190
+	name="STATE_1190"
+	resources={
+		oil=6.000
+	}
+
+	history={
+		owner = SWE
+		add_core_of = SWE
+		victory_points = {
+			295 5 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 0
+
+		}
+
+	}
+
+	provinces={
+		295 3286 3375 13095 13854 13858 
+	}
+	manpower=46077
+	buildings_max_level_factor=1.000
+	state_category=town
+}

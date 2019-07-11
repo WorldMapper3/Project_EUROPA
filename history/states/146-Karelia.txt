@@ -1,25 +1,29 @@
+
 state={
 	id=146
 	name="STATE_146"
+	manpower=13587
+	buildings_max_level_factor=1
+	state_category=settlement
 	resources={
-		chromium=5
+		chromium=6
 	}
 
 	history={
-		owner = NOV
-		add_core_of = NOV
-		buildings = {
-			infrastructure = 1
+		owner=NOV
+		add_core_of=NOV
+		add_core_of=KRL
+		victory_points={
+			13891 1
 		}
-		victory_points = {
-			3185 1 
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
 		}
 	}
 
 	provinces={
-		193 3030 3068 3185 6210 9061 9169 9181 13114 13115 
+		193 3030 3068 3185 6146 6210 9061 9169 13114 13115 13891 13892 13896 
 	}
-	manpower=27201
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

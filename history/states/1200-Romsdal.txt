@@ -1,0 +1,27 @@
+state={
+	id=1200
+	name="STATE_1200"
+	manpower=14375
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
+		oil=1
+	}
+
+	history={
+		owner=NOR
+		add_core_of=NOR
+		victory_points={
+			11100 1
+		}
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		188 3096 9127 9216 11100 13886 
+	}
+}

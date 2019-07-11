@@ -2,39 +2,31 @@
 state={
 	id=38
 	name="STATE_38"
+	manpower=26583
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		tungsten=270
-		chromium=20
+		chromium=12
 	}
 
 	history={
-		owner = SWE
-		victory_points = {
-			3039 1 
+		owner=SWE
+		add_core_of=SWE
+		victory_points={
+			9151 3
 		}
-		victory_points = {
-			9151 3 
-		}
-		victory_points = {
-			9173 3 
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			9151 = {
-				naval_base = 1
-
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			9151={
+				naval_base=1
 			}
-
 		}
-		add_core_of = SWE
-
 	}
 
 	provinces={
-		49 77 125 156 205 3005 3045 3070 3148 6023 6093 6147 9035 9051 9117 9151 9173 9182 9193 11040 11053 11091 11123 11147 11209 13099 
+		49 125 130 182 205 3045 6023 6063 6127 9035 9051 9088 9117 9151 11040 11091 11123 11129 11147 11185 11209 13880 13888 13898 
 	}
-	manpower=100000
-	buildings_max_level_factor=1.000
-	state_category=town
 }

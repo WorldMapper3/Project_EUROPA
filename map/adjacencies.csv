@@ -3,7 +3,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7413;1419;sea;5294;-1;-1;-1;-1;;Moluccas
 10141;1419;sea;5267;-1;-1;-1;-1;;Moluccas
 480;9431;sea;8621;-1;-1;-1;-1;;Netherlands outlier
-299;211;sea;2282;-1;-1;-1;-1;;Småland-Öland
 3260;3325;;2408;-1;-1;-1;-1;;Sjaelland-Fyn
 3277;13631;;2408;-1;-1;-1;-1;;Fyn-Jylland
 83;185;sea;1885;-1;-1;-1;-1;;Estonia-Ösel
@@ -95,13 +94,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4450;13084;sea;2887;-1;-1;-1;-1;;Montserrat-Anguilla
 13084;4155;sea;5507;-1;-1;-1;-1;;Anguilla-Virgin Islands
 1440;4155;sea;5507;-1;-1;-1;-1;;Puerto Rico-Virgin Islands
-10203;9805;sea;5864;-1;-1;-1;-1;;Corfu-Epirus
-1106;12001;sea;5913;-1;-1;-1;-1;;Lefkada-Epirus
 3401;7127;sea;6801;-1;-1;-1;-1;;Cyclades-Greece
 8435;6864;sea;7452;-1;-1;-1;-1;;Lesbos-Turkey
 6550;4112;sea;7226;-1;-1;-1;-1;;Chios-Turkey
 7003;9941;sea;7226;-1;-1;-1;-1;;Kos-Bodrum
-10007;10122;sea;7226;-1;-1;-1;-1;;Rhodes-Turkey
 9833;11829;sea;5412;-1;-1;-1;-1;;Bosphorus
 9680;6741;sea;8282;-1;-1;-1;-1;;Kerch Strait
 9859;3962;sea;5946;-1;-1;-1;-1;;Tsugaru Strait
@@ -127,12 +123,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4985;10752;sea;2800;-1;-1;-1;-1;;Aden
 4135;12087;sea;5407;-1;-1;-1;-1;;Gibraltar
 6322;185;sea;1885;-1;-1;-1;-1;;Orel
-11278;9228;sea;1211;-1;-1;-1;-1;;Aaland1
-6066;9228;sea;990;-1;-1;-1;-1;;Aaland2
 374;3368;sea;2729;-1;-1;-1;-1;;Verden
 6350;3379;sea;8340;-1;-1;-1;-1;;Ayyrshire
-1205;7211;sea;5913;-1;-1;-1;-1;;Sparta
-4109;3401;sea;6801;-1;-1;-1;-1;;Athens-Naxos
 3305;3374;sea;2408;-1;-1;-1;-1;;Lolland-Sjaelland
 10201;7265;sea;7479;-1;-1;-1;-1;;Ceylon-Madurai
 4424;1277;sea;5960;-1;-1;-1;-1;;Johor-Pasai
@@ -151,7 +143,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13627;3305;sea;2408;-1;-1;-1;-1;;Nykobing
 13629;13628;sea;2408;-1;-1;-1;-1;;Schleswig
 13629;3374;sea;2408;-1;-1;-1;-1;;Schleswig-Odense
-6345;13637;sea;2382;-1;-1;-1;-1;;Kobenhaven-Lund
 13709;9388;sea;2358;-1;-1;-1;-1;;Stralsund
 12698;7810;sea;2935;-1;-1;-1;-1;;Newfoundland-Quebec
 3917;865;sea;8492;-1;-1;-1;-1;;Delaware-Chesapeake
@@ -223,4 +214,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13743;13737;impassable;-1;-1;-1;-1;-1;;West High Atlas
 13748;13737;impassable;-1;-1;-1;-1;-1;;West High Atlas
 13808;11957;sea;5631;-1;-1;-1;-1;;Djerba
+6345;13637;sea;2431;-1;-1;-1;-1;;Lund
+299;211;sea;2282;-1;-1;-1;-1;;Kalmar
+6209;9228;sea;1211;-1;-1;-1;-1;;Stockholm-Aland
+9228;13870;sea;990;-1;-1;-1;-1;;Aland-Aland
+13870;6066;sea;990;-1;-1;-1;-1;;Aland-Abo
 -1;-1;;-1;-1;-1;-1;-1;-1

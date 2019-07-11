@@ -1,11 +1,10 @@
+
 state={
 	id=216
 	name="STATE_216"
 	resources={
-		chromium=15
+		chromium=15.000
 	}
-	
-	state_category = rural
 
 	history={
 		owner = NOV
@@ -15,8 +14,10 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
 		add_core_of = NOV
+
 	}
 
 	provinces={
@@ -24,4 +25,5 @@ state={
 	}
 	manpower=72535
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

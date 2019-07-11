@@ -1,8 +1,9 @@
+
 state={
 	id=244
 	name="STATE_244"
 	resources={
-		chromium=20
+		chromium=20.000
 	}
 
 	history={
@@ -13,12 +14,14 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		add_core_of = NOV
+
 	}
 
 	provinces={
-		70 3072 3110 6035 6086 6095 9164 9197 11174 
+		70 2332 3072 3110 6035 6086 6095 9164 9197 11174 
 	}
 	manpower=90668
 	buildings_max_level_factor=1.000

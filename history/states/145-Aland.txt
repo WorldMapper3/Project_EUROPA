@@ -1,26 +1,31 @@
+
 state={
 	id=145
 	name="STATE_145"
-	manpower = 20455
-	
-	state_category = small_island
-	
+	manpower=12602
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
+	}
+
 	history={
-		owner = SWE
-		victory_points = {
-			9228 1 
+		owner=SWE
+		add_core_of=SWE
+		victory_points={
+			13870 1
 		}
-		buildings = {
-			infrastructure = 1
-			9228 = {
-				naval_base = 1
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			9228={
+				naval_base=1
 			}
 		}
-		add_core_of = FIN
-		add_core_of = SWE
 	}
-	
+
 	provinces={
-		9228
+		9228 13870 
 	}
 }

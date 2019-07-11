@@ -1,0 +1,31 @@
+state={
+	id=1183
+	name="STATE_1183"
+	manpower=49031
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		chromium=18
+	}
+
+	history={
+		owner=DEN
+		add_core_of=DEN
+		victory_points={
+			6120 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+			dockyard=1
+			13845={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		6120 9300 11160 13845 
+	}
+}

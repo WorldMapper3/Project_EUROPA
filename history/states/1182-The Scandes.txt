@@ -1,0 +1,18 @@
+state={
+	id=1182
+	name="STATE_1182"
+	manpower=4988
+	buildings_max_level_factor=1
+	state_category=wasteland
+
+	history={
+		owner=NOR
+		buildings={
+			infrastructure=1
+		}
+	}
+
+	provinces={
+		58 190 6055 6152 6155 6208 9083 9095 9134 9175 9178 11058 13918 
+	}
+}

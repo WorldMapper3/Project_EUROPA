@@ -1,29 +1,33 @@
+
 state={
 	id=149
-	name="STATE_149" # Pohjanmaa
-	manpower = 20455
+	name="STATE_149"
+	manpower=12996
+	buildings_max_level_factor=1
+	state_category=settlement
 	resources={
-		chromium=5
+		chromium=6
 	}
-	
-	state_category = pastoral
-	
+
 	history={
-		owner = SWE
-		victory_points = {
-			3122 1 
+		owner=SWE
+		add_core_of=SWE
+		add_core_of=FIN
+		victory_points={
+			3122 1
 		}
-		buildings = {
-			infrastructure = 1
-			11126 = {
-				naval_base = 1
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			11126={
+				naval_base=1
 			}
 		}
-		add_core_of = FIN
-		add_core_of = SWE
 	}
 
 	provinces={
-		63 66 82 120 132 158 195 3119 3122 3172 6013 6081 6138 6141 6198 6212 9038 9156 9166 9219 11033 11041 11065 11081 11121 11126 11132 11144 13113 
+		63 66 120 132 158 195 3122 3172 6013 6081 6138 6198 6212 9038 9106 9156 9166 11065 11121 11126 11132 13899 
 	}
 }

@@ -1,0 +1,31 @@
+state={
+	id=1191
+	name="STATE_1191"
+	manpower=24942
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		oil=4
+	}
+
+	history={
+		owner=SWE
+		add_core_of=SWE
+		victory_points={
+			383 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			383={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		383 3386 6331 6406 13850 13853 
+	}
+}

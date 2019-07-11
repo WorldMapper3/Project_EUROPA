@@ -1,33 +1,29 @@
+
 state={
 	id=148
 	name="STATE_148"
+	manpower=14768
+	buildings_max_level_factor=1
+	state_category=settlement
 	resources={
-		chromium=10
+		chromium=7
 	}
 
 	history={
-		owner = SWE
-		victory_points = {
-			6087 1 
+		owner=SWE
+		add_core_of=SWE
+		add_core_of=SPM
+		victory_points={
+			3107 1
 		}
-		victory_points = {
-			3107 1 
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
 		}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			11164 = {
-				naval_base = 1
-			}
-		}
-		add_core_of = FIN
-		add_core_of = SWE
 	}
 
 	provinces={
-		30 103 124 162 167 203 2992 3026 3055 3069 3097 3107 3153 3156 3158 3193 6045 6061 6076 6087 6128 6137 6142 6179 9112 9189 9223 11030 11115 11125 11130 11164 11167 11204 
+		103 167 203 2992 3069 3097 3107 3158 6061 6076 6128 6142 9112 9189 11030 11115 11130 11167 11204 13912 13913 13914 13915 13920 
 	}
-	manpower=61364
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

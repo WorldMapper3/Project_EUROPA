@@ -1289,6 +1289,18 @@ MLT = {
 	color = rgb { 80 200 120 }
 	color_ui = rgb { 80 200 120 }
 }
+SPM = {
+	color = rgb { 252  209  22 }
+	color_ui = rgb { 252  209  22 }
+}
+GOT = {
+	color = rgb { 191  113  133 }
+	color_ui = rgb { 191  113  133 }
+}
+KRL = {
+	color = rgb { 244  38  38 }
+	color_ui = rgb { 244  38  38 }
+}
 ###ARG-ETH####
 ARG = {
 	color = rgb { 101  102  163 }

@@ -1,0 +1,32 @@
+state={
+	id=1210
+	name="STATE_1210"
+	manpower=15359
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
+		chromium=7
+	}
+
+	history={
+		owner=NOV
+		add_core_of=NOV
+		add_core_of=KRL
+		victory_points={
+			9195 1
+		}
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			3189={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		36 80 94 134 155 157 170 176 197 2998 3067 3071 3189 6021 6096 6098 6175 9074 9119 9123 9158 9195 9198 11045 11054 11085 11096 11146 11175 11181 13130 
+	}
+}

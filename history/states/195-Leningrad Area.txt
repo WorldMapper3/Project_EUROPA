@@ -1,8 +1,9 @@
+
 state={
 	id=195
 	name="STATE_195"
 	resources={
-		oil=6
+		oil=6.000
 	}
 
 	history={
@@ -14,13 +15,16 @@ state={
 			infrastructure = 2
 			9097 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_core_of = NOV
+
 	}
 
 	provinces={
-		79 149 3151 6174 9097 11068 
+		79 149 3151 6174 9097 9150 11068 
 	}
 	manpower=63468
 	buildings_max_level_factor=1.000

@@ -1,0 +1,28 @@
+state={
+	id=1194
+	name="STATE_1194"
+	manpower=31178
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		tungsten=90
+		chromium=14
+	}
+
+	history={
+		owner=SWE
+		add_core_of=SWE
+		victory_points={
+			156 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		77 156 3005 3070 3128 6093 6147 9173 9182 11053 13099 13876 
+	}
+}

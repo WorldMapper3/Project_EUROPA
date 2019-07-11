@@ -1,26 +1,27 @@
 state={
 	id=967
 	name="STATE_967"
+	manpower=12602
+	buildings_max_level_factor=1
+	state_category=settlement
 	resources={
-		steel=42
+		chromium=6
 	}
 
 	history={
-		owner = NOR
-		victory_points = {
-			3039 1 
+		owner=NOR
+		add_core_of=NOR
+		victory_points={
+			3039 1
 		}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
 		}
-		add_core_of = NOR
 	}
-	
+
 	provinces={
-		46 113 168 202 3039 3108 3111 3162 3191 6010 6123 6126 6129 6185 6207 9066 9068 9148 9154 9171 9229 11049 11052 11116 11148 11187 13117 
+		1106 46 113 168 202 3039 3108 3111 3162 3191 6010 6123 6126 6129 6185 6207 9066 9068 9148 9154 9171 9229 11049 11052 11116 11148 11187 13117 13897 
 	}
-	manpower=69432
-	state_category=rural
-	buildings_max_level_factor=1.000
 }

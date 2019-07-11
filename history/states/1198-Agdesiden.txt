@@ -1,0 +1,32 @@
+state={
+	id=1198
+	name="STATE_1198"
+	manpower=20741
+	buildings_max_level_factor=1
+	state_category=settlement
+	resources={
+		steel=12
+		chromium=6
+	}
+
+	history={
+		owner=NOR
+		add_core_of=NOR
+		victory_points={
+			11176 1
+		}
+		buildings={
+			infrastructure=2
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			11176={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		3049 3129 9196 9296 11176 11367 13857 
+	}
+}
