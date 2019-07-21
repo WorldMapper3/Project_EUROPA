@@ -27,35 +27,35 @@ division_template = {
 units = {
 	#EDIRNE#
 	division= {	
-		location = 11842
+		location = 11905
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 11842
+		location = 11905
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 11842
+		location = 11905
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 11842
+		location = 11905
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 11842
+		location = 11905
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

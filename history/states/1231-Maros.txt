@@ -1,0 +1,28 @@
+state={
+	id=1231
+	name="STATE_1231"
+	manpower=128177
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		aluminium=7
+	}
+
+	history={
+		owner=HUN
+		add_core_of=HUN
+		add_core_of=TRA
+		victory_points={
+			3696 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		711 3689 3696 9668 9670 9685 
+	}
+}

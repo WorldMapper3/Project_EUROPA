@@ -95,7 +95,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13084;4155;sea;5507;-1;-1;-1;-1;;Anguilla-Virgin Islands
 1440;4155;sea;5507;-1;-1;-1;-1;;Puerto Rico-Virgin Islands
 3401;7127;sea;6801;-1;-1;-1;-1;;Cyclades-Greece
-8435;6864;sea;7452;-1;-1;-1;-1;;Lesbos-Turkey
 6550;4112;sea;7226;-1;-1;-1;-1;;Chios-Turkey
 7003;9941;sea;7226;-1;-1;-1;-1;;Kos-Bodrum
 9833;11829;sea;5412;-1;-1;-1;-1;;Bosphorus
@@ -111,7 +110,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 44;11050;sea;5792;-1;-1;-1;-1;;Northern-Straits
 22;3016;sea;5792;-1;-1;-1;-1;;Northern-Straits
 6062;6205;sea;3590;-1;-1;-1;-1;;West Scottish-Strait
-8435;6550;sea;7452;-1;-1;-1;-1;;Aegan Isle-Strait
 7304;4360;sea;8614;-1;-1;-1;-1;;New Foundland-Strait
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
@@ -219,4 +217,39 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6209;9228;sea;1211;-1;-1;-1;-1;;Stockholm-Aland
 9228;13870;sea;990;-1;-1;-1;-1;;Aland-Aland
 13870;6066;sea;990;-1;-1;-1;-1;;Aland-Abo
+13927;3924;sea;5838;-1;-1;-1;-1;;Dalmatia
+13927;13928;sea;5838;-1;-1;-1;-1;;Dalmatia-Ragusa
+13931;11735;sea;5786;-1;-1;-1;-1;;Dalmatia-Istria
+3868;13928;sea;5838;-1;-1;-1;-1;;Ragusa
+914;10203;sea;5864;-1;-1;-1;-1;;Corfu
+13923;12001;sea;5913;-1;-1;-1;-1;;Corfu-Epirus
+13923;4193;sea;5913;-1;-1;-1;-1;;Corfu-Morea
+7211;1205;sea;5913;-1;-1;-1;-1;;Epirus-Morea
+3401;13921;sea;6801;-1;-1;-1;-1;;Naxos-Naxos
+10007;7003;sea;7226;-1;-1;-1;-1;;Rhodes-Rhodes
+6550;13940;sea;7226;-1;-1;-1;-1;;Scio-Scio
+13941;13940;sea;7452;-1;-1;-1;-1;;Scio-Scio
+13941;6864;sea;7452;-1;-1;-1;-1;;Scio-Bursa
+13940;4112;sea;7226;-1;-1;-1;-1;;Scio-Izmir
+8435;849;sea;7452;-1;-1;-1;-1;;Edirne-Edirne
+690;13945;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+690;660;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+690;11619;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+690;11652;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+690;9701;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+690;11655;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+11672;11655;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+11672;6747;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+11672;3741;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+11672;3728;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+11689;3728;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+11689;6761;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+11689;9548;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+11689;3743;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+9425;3743;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+9425;11411;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+6460;11411;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+6460;6483;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+6460;6431;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
+6460;3434;impassable;-1;-1;-1;-1;-1;;Carpathian Mountains
 -1;-1;;-1;-1;-1;-1;-1;-1

@@ -1392,6 +1392,7 @@ XSM = {
 	color = rgb { 105 90 132 }
 	color_ui = rgb { 105 90 132 }
 }
+#MAGHREB#
 DJE = {
 	color = rgb { 255 133 15 }
 	color_ui = rgb { 255 133 15 }
@@ -1431,4 +1432,41 @@ FEZ = {
 SLE = {
 	color = rgb { 246  103  94 }
 	color_ui = rgb { 246  103  94 }
+}
+#BALKANS#
+ACH = {
+	color = rgb { 255  213  51 }
+	color_ui = rgb { 255  213  51 }
+}
+MOE = {
+	color = rgb { 168  121  129 }
+	color_ui = rgb { 168  121  129 }
+}
+ATH = {
+	color = rgb { 113  112  96 }
+	color_ui = rgb { 113  112  96 }
+}
+EPI = {
+	color = rgb { 230  228  214 }
+	color_ui = rgb { 230  228  214 }
+}
+CRF = {
+	color = rgb { 211  172  185 }
+	color_ui = rgb { 211  172  185 }
+}
+CRT = {
+	color = rgb { 138  110  130 }
+	color_ui = rgb { 138  110  130 }
+}
+NAX = {
+	color = rgb { 24  50  123 }
+	color_ui = rgb { 24  50  123 }
+}
+TRA = {
+	color = rgb { 211  207  173 }
+	color_ui = rgb { 211  207  173 }
+}
+RAG = {
+	color = rgb { 160  82  128 }
+	color_ui = rgb { 160  82  128 }
 }

@@ -2,30 +2,29 @@
 state={
 	id=48
 	name="STATE_48"
+	manpower=184585
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		tungsten=40
-		chromium=16
+		tungsten=33
+		chromium=23
 	}
 
 	history={
-		owner = TUR
-		victory_points = {
-			949 10 
+		owner=TUR
+		add_core_of=TUR
+		add_core_of=BUL
+		victory_points={
+			3908 3
 		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
 		}
-		add_core_of = BUL
-		add_core_of = TUR
-
 	}
 
 	provinces={
-		793 935 949 965 3908 3971 6857 9818 11754 
+		935 949 965 3865 3908 6857 9818 
 	}
-	manpower=232804
-	buildings_max_level_factor=1.000
-	state_category=town
 }

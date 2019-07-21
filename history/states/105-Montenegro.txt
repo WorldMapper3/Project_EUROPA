@@ -2,33 +2,32 @@
 state={
 	id=105
 	name="STATE_105"
+	manpower=85854
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		
 	}
 
 	history={
-		owner = SER
-		add_core_of = MNT
-		victory_points = {
-			11858 3 
+		owner=SER
+		add_core_of=SER
+		add_core_of=VNC
+		add_core_of=MNT
+		victory_points={
+			13929 3
 		}
-		buildings = {
-			infrastructure = 2
-			9809 = {
-				naval_base = 1
-
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			9809={
+				naval_base=1
 			}
-
 		}
-		add_core_of = SER
-		add_core_of = VNC
-
 	}
 
 	provinces={
-		9809 9821 
+		6913 9809 9821 13929 13930 
 	}
-	manpower=105820
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

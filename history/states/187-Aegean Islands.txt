@@ -1,28 +1,31 @@
+
 state={
 	id=187
 	name="STATE_187"
+	manpower=95610
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		
 	}
 
 	history={
-		owner = GEN
-		victory_points = {
-			6550 3 
+		owner=GEN
+		add_core_of=GEN
+		victory_points={
+			13940 3
 		}
-		buildings = {
-			infrastructure = 2
-			6550 = {
-				naval_base = 1
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+			dockyard=0
+			13940={
+				naval_base=1
 			}
 		}
-		add_core_of = GEN
 	}
 
 	provinces={
-		6550 8435 
+		6550 13940 13941 
 	}
-	manpower=105820
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

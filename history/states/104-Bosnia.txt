@@ -2,25 +2,27 @@
 state={
 	id=104
 	name="STATE_104"
+	manpower=118829
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		chromium=6
+		chromium=11
 	}
 
 	history={
-		owner = BOS
-		victory_points = {
-			11574 5 
+		owner=BOS
+		add_core_of=BOS
+		victory_points={
+			11574 3
 		}
-		buildings = {
-			infrastructure = 2
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
 		}
-		add_core_of = BOS
 	}
 
 	provinces={
-		606 6799 9588 9591 11572 11574 
+		606 6647 6799 9591 11572 11574 
 	}
-	manpower=123023
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

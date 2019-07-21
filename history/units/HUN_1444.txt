@@ -56,21 +56,21 @@ units = {
 	}
 	#NAGYBEC#
 	division= {	
-		location = 11787
+		location = 614
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 11787
+		location = 614
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
 	}
 	division= {	
-		location = 11787
+		location = 614
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

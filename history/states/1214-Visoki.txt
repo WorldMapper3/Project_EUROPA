@@ -1,0 +1,27 @@
+state={
+	id=1214
+	name="STATE_1214"
+	manpower=97561
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		chromium=9
+	}
+
+	history={
+		owner=BOS
+		add_core_of=BOS
+		victory_points={
+			13934 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
+		}
+	}
+
+	provinces={
+		982 11741 11899 13934 
+	}
+}

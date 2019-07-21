@@ -1,0 +1,27 @@
+state={
+	id=1223
+	name="STATE_1223"
+	manpower=206829
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=6
+	}
+
+	history={
+		owner=WAL
+		add_core_of=WAL
+		victory_points={
+			674 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		674 6677 6706 9651 9701 11619 11636 11652 
+	}
+}

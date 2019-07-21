@@ -1,31 +1,32 @@
 state={
 	id=341
 	name="STATE_341"
+	manpower=578927
+	buildings_max_level_factor=1
+	state_category=city
 	resources={
-		oil=23
+		oil=14
 	}
 
 	history={
-		owner = BYZ
-		victory_points = {
-			9833 25 
+		owner=BYZ
+		add_core_of=BYZ
+		victory_points={
+			9833 10
 		}
-		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-			dockyard = 1
-			arms_factory = 1
-			9833 = {
-				naval_base = 5
+		buildings={
+			infrastructure=5
+			arms_factory=1
+			industrial_complex=2
+			powder_mill=1
+			dockyard=2
+			9833={
+				naval_base=3
 			}
 		}
-		add_core_of = BYZ
 	}
 
 	provinces={
 		922 6895 9833 
 	}
-	manpower=486772
-	buildings_max_level_factor=1.000
-	state_category=city
 }

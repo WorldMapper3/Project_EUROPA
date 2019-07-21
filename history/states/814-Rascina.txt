@@ -1,25 +1,27 @@
 state={
 	id=814
 	name="STATE_814"
+	manpower=117463
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		chromium=12
+		chromium=14
 	}
-	
+
 	history={
-		owner = SER
-		victory_points = {
-			11857 5 
+		owner=SER
+		add_core_of=SER
+		victory_points={
+			9906 3
 		}
-		buildings = {
-			infrastructure = 2
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
 		}
-		add_core_of = SER
 	}
-	
+
 	provinces={
-		9890 9906 11857 11868 11887 
+		6998 9890 9906 11832 11857 11868 11887 
 	}
-	manpower=148148
-	state_category=rural
-	buildings_max_level_factor=1.000
 }

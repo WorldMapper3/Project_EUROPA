@@ -1,0 +1,32 @@
+state={
+	id=1218
+	name="STATE_1218"
+	manpower=168585
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		oil=2
+	}
+
+	history={
+		owner=BYZ
+		add_core_of=BYZ
+		add_core_of=MOE
+		victory_points={
+			13943 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+			dockyard=1
+			13943={
+				naval_base=1
+			}
+		}
+	}
+
+	provinces={
+		4178 11965 13943 13944 
+	}
+}

@@ -1,23 +1,28 @@
+
 state={
 	id=73
 	name="STATE_73"
-	manpower = 87873
-	
-	state_category = rural
-	
+	manpower=79190
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+	}
+
 	history={
-		owner = HUN
-		victory_points = {
-			11691 3 
+		owner=HUN
+		add_core_of=HUN
+		add_core_of=TRA
+		victory_points={
+			13957 3
 		}
-		buildings = {
-			infrastructure = 2
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=0
 		}
-		add_core_of = HUN
-		add_core_of = TRA
 	}
 
 	provinces={
-		3548 6571 9563 11536 11691 
+		727 6571 9563 13957 
 	}
 }

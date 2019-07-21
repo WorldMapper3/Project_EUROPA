@@ -1,0 +1,28 @@
+state={
+	id=1229
+	name="STATE_1229"
+	manpower=122284
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		oil=2
+	}
+
+	history={
+		owner=HUN
+		add_core_of=HUN
+		add_core_of=SLO
+		victory_points={
+			6561 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		6561 11522 11539 11679 
+	}
+}

@@ -2,28 +2,27 @@
 state={
 	id=108
 	name="STATE_108"
+	manpower=131122
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		
+		oil=1
 	}
 
 	history={
-		owner = SER
-		victory_points = {
-			9602 5 
+		owner=SER
+		add_core_of=SER
+		victory_points={
+			9602 3
 		}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-
+		buildings={
+			infrastructure=3
+			arms_factory=0
+			industrial_complex=1
 		}
-		add_core_of = SER
-
 	}
 
 	provinces={
-		3939 6953 6970 6998 9602 
+		6634 9602 13938 
 	}
-	manpower=169312
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

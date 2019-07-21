@@ -1,24 +1,31 @@
 state={
 	id=182
 	name="STATE_182"
-	manpower = 275132
-	
-	state_category = town
+	manpower=225756
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		oil=3
+	}
+
 	history={
-		owner = VNC
-		victory_points = {
-			9940 15 
+		owner=VNC
+		add_core_of=CRT
+		add_core_of=VNC
+		victory_points={
+			9940 3
 		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			9940 = {
-				naval_base = 3
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+			dockyard=1
+			9940={
+				naval_base=1
 			}
 		}
-		add_core_of = VNC
-		add_core_of = CRT
 	}
+
 	provinces={
 		1164 4170 9940 12058 	
 	}

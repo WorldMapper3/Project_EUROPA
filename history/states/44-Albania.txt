@@ -2,33 +2,33 @@
 state={
 	id=44
 	name="STATE_44"
+	manpower=103024
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		oil=4
-		aluminium=10
+		aluminium=5
 	}
 
 	history={
-		owner = ALB
-		victory_points = {
-			9780 3 
+		owner=ALB
+		add_core_of=ALB
+		add_core_of=VNC
+		add_core_of=TUR
+		victory_points={
+			9780 3
 		}
-		buildings = {
-			infrastructure = 2
-			9780 = {
-				naval_base = 1
-
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=0
+			dockyard=0
+			9780={
+				naval_base=1
 			}
-
 		}
-		add_core_of = ALB
-		add_core_of = TUR
-
 	}
 
 	provinces={
-		3884 3896 9780 9875 9914 11762 
+		3896 9780 9875 9914 11762 13926 
 	}
-	manpower=126984
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

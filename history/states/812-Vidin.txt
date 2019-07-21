@@ -1,28 +1,28 @@
 state={
 	id=812
 	name="STATE_812"
+	manpower=158439
+	buildings_max_level_factor=1
+	state_category=town
 	resources={
-		oil=6
+		oil=7
 	}
 
 	history={
-		owner = TUR
-		victory_points = {
-			9756 5 
+		owner=TUR
+		add_core_of=TUR
+		add_core_of=BUL
+		victory_points={
+			9771 5
 		}
-		buildings = {
-			infrastructure = 2
-
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=1
 		}
-		add_core_of = TUR
-		add_core_of = BUL
-
 	}
 
 	provinces={
-		630 9756 9771 
+		630 9756 9771 13939 
 	}
-	manpower=148148
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

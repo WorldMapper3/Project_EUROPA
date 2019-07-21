@@ -2,27 +2,29 @@
 state={
 	id=83
 	name="STATE_83"
-	manpower = 140598
+	manpower=132597
+	buildings_max_level_factor=1
+	state_category=large_settlement
 	resources={
-		oil=4
+		steel=24
+		chromium=13
 	}
-	
-	state_category = rural
 
 	history={
-		owner = HUN
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+		owner=HUN
+		add_core_of=HUN
+		add_core_of=TRA
+		victory_points={
+			3665 3
 		}
-		victory_points = {
-			9640 3 
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
 		}
-		add_core_of = HUN
-		add_core_of = TRA
 	}
 
 	provinces={
-		696 6682 6697 9640 
+		693 696 3665 9619 11622 13952 
 	}
 }

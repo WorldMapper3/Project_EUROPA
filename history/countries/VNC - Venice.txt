@@ -29,23 +29,23 @@ set_convoys = 12
 
 give_guarantee = KNI
 
-#if = {
-#	limit = {
-#		has_dlc = "Together for Victory"
-#	}
-#	set_autonomy = {
-#		target = CRF
-#		autonomous_state = autonomy_integrated_puppet
-#	}
-#	set_autonomy = {
-#		target = NAX
-#		autonomous_state = autonomy_integrated_puppet
-#	}
-#	else = {
-#		puppet = CRF
-#		puppet = NAX
-#	}
-#}
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = CRF
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = NAX
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = CRF
+		puppet = NAX
+	}
+}
 
 set_politics = {	
 	ruling_party = neutrality
@@ -92,6 +92,6 @@ create_country_leader = {
 	expire = "9999.1.1"
 	ideology = cat
 	traits = {
-		#
+		
 	}
 }

@@ -1,0 +1,33 @@
+state={
+	id=1220
+	name="STATE_1220"
+	manpower=297756
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=14
+	}
+
+	history={
+		owner=TUR
+		add_core_of=TUR
+		add_core_of=BYZ
+		victory_points={
+			3973 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
+			dockyard=1
+			3973={
+				naval_base=2
+			}
+		}
+	}
+
+	provinces={
+		863 3844 3973 9612 
+	}
+}

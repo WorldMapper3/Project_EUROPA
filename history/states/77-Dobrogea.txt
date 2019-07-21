@@ -2,33 +2,33 @@
 state={
 	id=77
 	name="STATE_77"
+	manpower=322341
+	buildings_max_level_factor=1
+	state_category=town
 	resources={
-		oil=10
+		oil=14
 	}
 
 	history={
-		owner = TUR
-		victory_points = {
-			657 15 
+		owner=TUR
+		add_core_of=TUR
+		add_core_of=BUL
+		victory_points={
+			657 5
 		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			657 = {
-				naval_base = 3
-
+		buildings={
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=1
+			powder_mill=1
+			dockyard=1
+			657={
+				naval_base=2
 			}
-
 		}
-		add_core_of = TUR
-		add_core_of = BUL
-
 	}
 
 	provinces={
-		657 9614 9635 11597 
+		649 657 3819 9614 9635 9783 11597 
 	}
-	manpower=296296
-	buildings_max_level_factor=1.000
-	state_category=town
 }

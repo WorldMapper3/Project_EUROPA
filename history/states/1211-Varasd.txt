@@ -1,0 +1,29 @@
+state={
+	id=1211
+	name="STATE_1211"
+	manpower=179006
+	buildings_max_level_factor=1
+	state_category=town
+	resources={
+		oil=5
+		aluminium=10
+	}
+
+	history={
+		owner=HUN
+		add_core_of=HUN
+		add_core_of=CRO
+		victory_points={
+			665 5
+		}
+		buildings={
+			infrastructure=4
+			arms_factory=0
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		665 3670 6672 9611 9646 
+	}
+}

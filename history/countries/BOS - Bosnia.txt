@@ -1,4 +1,4 @@
-﻿capital = 816
+﻿capital = 1214
 
 oob = "BOS_1444"
 
@@ -8,6 +8,7 @@ add_ideas = {
 	limited_conscription
 	kingdom_rank
 	feudal_monarchy
+	monarchy_type
 	adm0
 	dip0
 	mil2

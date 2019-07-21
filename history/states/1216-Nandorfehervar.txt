@@ -1,0 +1,29 @@
+state={
+	id=1216
+	name="STATE_1216"
+	manpower=171707
+	buildings_max_level_factor=1
+	state_category=large_settlement
+	resources={
+		aluminium=9
+		chromium=16
+	}
+
+	history={
+		owner=HUN
+		add_core_of=HUN
+		add_core_of=SER
+		victory_points={
+			13935 3
+		}
+		buildings={
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=1
+		}
+	}
+
+	provinces={
+		3609 11580 13935 13936 
+	}
+}
