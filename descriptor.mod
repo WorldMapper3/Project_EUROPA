@@ -1,6 +1,5 @@
 version="1.0"
 name="Project Europa"
-path="mod/Project_EUROPA/"
 supported_version="1.8.*"
 tags={
 	"Map"
